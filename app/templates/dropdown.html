@@ -1,0 +1,18 @@
+
+{% extends "index.html" %}
+
+{% block dropdown %}
+
+		<!--<label for = "my_shelter">Select a location:</label>-->
+
+		<select id = "my_shelter" name = "my_shelter" onchange= "window.location.href = '/' + {{ my_sort }} + '/forecast/loc_id=' + document.getElementById('my_shelter').value;">
+
+		    <option selected= "selected" disabled= "disabled">Select location...</option>
+
+			{% for o in shelter_list %}
+				<option value = "{{ o[2] }}" {{ o[3] }}>{{ o[1] }}</option>
+			{% endfor %}
+
+		</select>
+
+{% endblock %}

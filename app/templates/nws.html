@@ -1,0 +1,66 @@
+{% extends "index.html" %}
+{% block forecast %}
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><style>
+body {
+  font-family: Arial !important;
+}
+ul{
+    list-style-type: none;
+}
+.point-forecast-7-day{
+    
+}
+.warn{
+    color: #FF0000;
+    font-weight:bold;
+    text-decoration: underline;
+}
+li.forecast-tombstone + li {
+    margin-left: 12px;
+}
+li.forecast-tombstone,
+li.forecast-tombstone > div {
+    display: inline-block;
+}
+li.forecast-tombstone img {
+    margin: auto;
+    width: 55px;
+    height: 58px;
+}
+li.forecast-tombstone p {
+    text-align: center;
+    font-size: 12px !important;
+}
+.txt-ctr-caps {
+    font-weight: bold;
+}
+</style>
+<title>7-Day Forecast for Latitude 34.56&deg;N and Longitude 84.25&deg;W (Text-Only)</title></head><body leftmargin="0" topmargin="0" rightmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF" text="#000000"><div style="margin:25px 0px 0px 0px;"><table width="800" border="0" align="center" cellpadding="0" cellspacing="0"><tr valign ="top"><td width="80%" valign="top" align="left"><font size="3"><b>NWS Forecast for: 10 Miles NNE Tate GA</b></font><br>Issued by: National Weather Service Peachtree City, GA<br><a href="http://www.weather.gov/glossary/index.php?word=Last+update"><b>Last Update</b></a>: 2:30 pm EST Nov 17, 2015</td></tr><tr><td colspan="2" valign="top" align="center"><hr><br></td></tr>
+</table><table width="800" border="0" align="center" cellpadding="0" cellspacing="0"><tr valign ="top"><td colspan="2" valign="top" align="left"><br><div align="left"><a href="http://forecast.weather.gov/showsigwx.php?warnzone=GAZ014&warncounty=GAC085&firewxzone=GAZ014&local_place1=10+Miles+NNE+Tate+GA&product1=Wind+Advisory"><span class="warn">Wind Advisory</span></a><br><a href="http://forecast.weather.gov/showsigwx.php?warnzone=GAZ014&warncounty=GAC085&firewxzone=GAZ014&local_place1=10+Miles+NNE+Tate+GA&product1=Flood+Watch"><span class="warn">Flood Watch</span></a><br><a href="http://forecast.weather.gov/showsigwx.php?warnzone=GAZ014&warncounty=GAC085&firewxzone=GAZ014&local_place1=10+Miles+NNE+Tate+GA&product1=Hazardous+Weather+Outlook"><span class="warn">Hazardous Weather Outlook</span></a><br></div><br><b>This Afternoon: </b>Mostly cloudy, with a high near 62. East wind around 10 mph, with gusts as high as 15 mph. <br>
+<br>
+<b>Tonight: </b>A 40 percent chance of showers, mainly after 3am.  Cloudy, with a low around 53. East wind around 15 mph, with gusts as high as 30 mph.  New precipitation amounts between a tenth and quarter of an inch possible. <br>
+<br>
+<b>Wednesday: </b>A chance of showers and thunderstorms, then showers and possibly a thunderstorm after 7am.  High near 63. Southeast wind 10 to 15 mph, with gusts as high as 30 mph.  Chance of precipitation is 100%. New rainfall amounts between 2 and 3 inches possible. <br>
+<br>
+<b>Wednesday Night: </b>Showers likely and possibly a thunderstorm before 1am, then a slight chance of showers.  Mostly cloudy, with a low around 49. South wind 5 to 10 mph becoming west after midnight. Winds could gust as high as 15 mph.  Chance of precipitation is 60%.<br>
+<br>
+<b>Thursday: </b>Mostly sunny, with a high near 63. Northwest wind around 5 mph. <br>
+<br>
+<b>Thursday Night: </b>Mostly clear, with a low around 43.<br>
+<br>
+<b>Friday: </b>Sunny, with a high near 57.<br>
+<br>
+<b>Friday Night: </b>Mostly clear, with a low around 36.<br>
+<br>
+<b>Saturday: </b>Sunny, with a high near 54.<br>
+<br>
+<b>Saturday Night: </b>Mostly clear, with a low around 33.<br>
+<br>
+<b>Sunday: </b>Sunny, with a high near 49.<br>
+<br>
+<b>Sunday Night: </b>Mostly clear, with a low around 32.<br>
+<br>
+<b>Monday: </b>Sunny, with a high near 52.<br>
+<br>
+<hr><br></td></tr><tr><td colspan="2" align="left">10 Miles NNE Tate GA<br>&nbsp;34.56&deg;N 84.25&deg;W<br></td></tr><tr><td colspan="2" align="left"><br>Visit your local NWS office at: <a href="http://www.srh.noaa.gov/ffc">http://www.srh.noaa.gov/ffc</a></td></tr></table></div><br />
+{% endblock %}

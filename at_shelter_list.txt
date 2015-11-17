@@ -1,0 +1,284 @@
+1	GA - Amicalola Falls State Park	Amicalola Falls State Park	-84.2476	34.5627	http://forecast.weather.gov/MapClick.php?lon=-84.2476&lat=34.5627&unit=0&lg=english&FcstType=text&TextType=1
+2	GA - Max Epperson Shelter	Max Epperson Shelter	-84.193	34.6293	http://forecast.weather.gov/MapClick.php?lon=-84.193&lat=34.6293&unit=0&lg=english&FcstType=text&TextType=1
+3	GA - Black Gap Shelter (3300')	Black Gap Shelter	-84.1988	34.6176	http://forecast.weather.gov/MapClick.php?lon=-84.1988&lat=34.6176&unit=0&lg=english&FcstType=text&TextType=1
+4	GA - Springer Mountain	Springer Mountain	-84.1936	34.6267	http://forecast.weather.gov/MapClick.php?lon=-84.1936&lat=34.6267&unit=0&lg=english&FcstType=text&TextType=1
+5	GA - Springer Mountain Shelter (3730')	Springer Mountain Shelter	-84.1931	34.6292	http://forecast.weather.gov/MapClick.php?lon=-84.1931&lat=34.6292&unit=0&lg=english&FcstType=text&TextType=1
+6	GA - Stover Creek Shelter (2870')	Stover Creek Shelter	-84.1999	34.6495	http://forecast.weather.gov/MapClick.php?lon=-84.1999&lat=34.6495&unit=0&lg=english&FcstType=text&TextType=1
+7	GA - Hawk Mountain Shelter (3200')	Hawk Mountain Shelter	-84.1364	34.6658	http://forecast.weather.gov/MapClick.php?lon=-84.1364&lat=34.6658&unit=0&lg=english&FcstType=text&TextType=1
+8	GA - Gooch Mountain Shelter (3000')	Gooch Mountain Shelter	-84.0343	34.6532	http://forecast.weather.gov/MapClick.php?lon=-84.0343&lat=34.6532&unit=0&lg=english&FcstType=text&TextType=1
+9	GA - Woods Hole Shelter (3600')	Woods Hole Shelter	-83.955	34.7371	http://forecast.weather.gov/MapClick.php?lon=-83.955&lat=34.7371&unit=0&lg=english&FcstType=text&TextType=1
+10	GA - Blood Mountain Shelter (4450')	Blood Mountain Shelter	-83.9375	34.74	http://forecast.weather.gov/MapClick.php?lon=-83.9375&lat=34.74&unit=0&lg=english&FcstType=text&TextType=1
+11	GA - Whitley Gap Shelter (3370')	Whitley Gap Shelter	-83.8344	34.7124	http://forecast.weather.gov/MapClick.php?lon=-83.8344&lat=34.7124&unit=0&lg=english&FcstType=text&TextType=1
+12	GA - Low Gap Shelter (3050')	Low Gap Shelter	-83.8247	34.7762	http://forecast.weather.gov/MapClick.php?lon=-83.8247&lat=34.7762&unit=0&lg=english&FcstType=text&TextType=1
+13	GA - Blue Mountain Shelter (3900')	Blue Mountain Shelter	-83.7668	34.8171	http://forecast.weather.gov/MapClick.php?lon=-83.7668&lat=34.8171&unit=0&lg=english&FcstType=text&TextType=1
+14	GA - Tray Mountain Shelter (4200')	Tray Mountain Shelter	-83.6769	34.804	http://forecast.weather.gov/MapClick.php?lon=-83.6769&lat=34.804&unit=0&lg=english&FcstType=text&TextType=1
+15	GA - Deep Gap Shelter (3550')	Deep Gap Shelter	-83.6462	34.8824	http://forecast.weather.gov/MapClick.php?lon=-83.6462&lat=34.8824&unit=0&lg=english&FcstType=text&TextType=1
+16	GA - Plumorchard Gap Shelter (3050')	Plumorchard Gap Shelter	-83.5883	34.946	http://forecast.weather.gov/MapClick.php?lon=-83.5883&lat=34.946&unit=0&lg=english&FcstType=text&TextType=1
+17	NC - Muskrat Creek Shelter (4600')	Muskrat Creek Shelter	-83.5816	35.0205	http://forecast.weather.gov/MapClick.php?lon=-83.5816&lat=35.0205&unit=0&lg=english&FcstType=text&TextType=1
+18	NC - Standing Indian Shelter (4760')	Standing Indian Shelter	-83.5482	35.0418	http://forecast.weather.gov/MapClick.php?lon=-83.5482&lat=35.0418&unit=0&lg=english&FcstType=text&TextType=1
+19	NC - Carter Gap Shelter (4540')	Carter Gap Shelter	-83.4949	34.9999	http://forecast.weather.gov/MapClick.php?lon=-83.4949&lat=34.9999&unit=0&lg=english&FcstType=text&TextType=1
+20	NC - Long Branch Shelter (4437')	Long Branch Shelter	-83.4789	35.0589	http://forecast.weather.gov/MapClick.php?lon=-83.4789&lat=35.0589&unit=0&lg=english&FcstType=text&TextType=1
+21	NC - Rock Gap Shelter (3760')	Rock Gap Shelter	-83.5231	35.0914	http://forecast.weather.gov/MapClick.php?lon=-83.5231&lat=35.0914&unit=0&lg=english&FcstType=text&TextType=1
+22	NC - Siler Bald Shelter (4600')	Siler Bald Shelter	-83.5725	35.1441	http://forecast.weather.gov/MapClick.php?lon=-83.5725&lat=35.1441&unit=0&lg=english&FcstType=text&TextType=1
+23	NC - Wayah Bald Shelter (4759')	Wayah Bald Shelter	-83.5644	35.1895	http://forecast.weather.gov/MapClick.php?lon=-83.5644&lat=35.1895&unit=0&lg=english&FcstType=text&TextType=1
+24	NC - Cold Spring Shelter (4920')	Cold Spring Shelter	-83.5599	35.2309	http://forecast.weather.gov/MapClick.php?lon=-83.5599&lat=35.2309&unit=0&lg=english&FcstType=text&TextType=1
+25	NC - Wesser Bald Shelter (4115')	Wesser Bald Shelter	-83.5822	35.2824	http://forecast.weather.gov/MapClick.php?lon=-83.5822&lat=35.2824&unit=0&lg=english&FcstType=text&TextType=1
+26	NC - A. Rufus Morgan Shelter (2300')	A. Rufus Morgan Shelter	-83.5902	35.3242	http://forecast.weather.gov/MapClick.php?lon=-83.5902&lat=35.3242&unit=0&lg=english&FcstType=text&TextType=1
+27	NC - Sassafras Gap Shelter (4330')	Sassafras Gap Shelter	-83.667	35.3307	http://forecast.weather.gov/MapClick.php?lon=-83.667&lat=35.3307&unit=0&lg=english&FcstType=text&TextType=1
+28	NC - Brown Fork Gap Shelter (3800')	Brown Fork Gap Shelter	-83.7339	35.3742	http://forecast.weather.gov/MapClick.php?lon=-83.7339&lat=35.3742&unit=0&lg=english&FcstType=text&TextType=1
+29	NC - Cable Gap Shelter (2880')	Cable Gap Shelter	-83.7736	35.4152	http://forecast.weather.gov/MapClick.php?lon=-83.7736&lat=35.4152&unit=0&lg=english&FcstType=text&TextType=1
+30	NC - Fontana Dam Shelter (1775')	Fontana Dam Shelter	-83.7941	35.4483	http://forecast.weather.gov/MapClick.php?lon=-83.7941&lat=35.4483&unit=0&lg=english&FcstType=text&TextType=1
+31	TN - Mollies Ridge Shelter (4570')	Mollies Ridge Shelter	-83.7936	35.5458	http://forecast.weather.gov/MapClick.php?lon=-83.7936&lat=35.5458&unit=0&lg=english&FcstType=text&TextType=1
+32	TN - Russell Field Shelter (4360')	Russell Field Shelter	-83.7666	35.5617	http://forecast.weather.gov/MapClick.php?lon=-83.7666&lat=35.5617&unit=0&lg=english&FcstType=text&TextType=1
+33	NC - Spence Field Shelter (4915')	Spence Field Shelter	-83.7327	35.5618	http://forecast.weather.gov/MapClick.php?lon=-83.7327&lat=35.5618&unit=0&lg=english&FcstType=text&TextType=1
+34	TN - Derrick Knob Shelter (4880')	Derrick Knob Shelter	-83.6419	35.5663	http://forecast.weather.gov/MapClick.php?lon=-83.6419&lat=35.5663&unit=0&lg=english&FcstType=text&TextType=1
+35	NC - Silers Bald Shelter (5460')	Silers Bald Shelter	-83.5683	35.5642	http://forecast.weather.gov/MapClick.php?lon=-83.5683&lat=35.5642&unit=0&lg=english&FcstType=text&TextType=1
+36	NC - Double Spring Gap Shelter (5505')	Double Spring Gap Shelter	-83.5429	35.5652	http://forecast.weather.gov/MapClick.php?lon=-83.5429&lat=35.5652&unit=0&lg=english&FcstType=text&TextType=1
+37	TN - Mt. Collins Shelter (5870')	Mt. Collins Shelter	-83.4714	35.5937	http://forecast.weather.gov/MapClick.php?lon=-83.4714&lat=35.5937&unit=0&lg=english&FcstType=text&TextType=1
+38	NC - Icewater Spring Shelter (5920')	Icewater Spring Shelter	-83.3864	35.6297	http://forecast.weather.gov/MapClick.php?lon=-83.3864&lat=35.6297&unit=0&lg=english&FcstType=text&TextType=1
+39	NC - Pecks Corner Shelter (5280')	Pecks Corner Shelter	-83.3086	35.6507	http://forecast.weather.gov/MapClick.php?lon=-83.3086&lat=35.6507&unit=0&lg=english&FcstType=text&TextType=1
+40	NC - Tri-corner Knob Shelter (5920')	Tri-corner Knob Shelter	-83.2567	35.6937	http://forecast.weather.gov/MapClick.php?lon=-83.2567&lat=35.6937&unit=0&lg=english&FcstType=text&TextType=1
+41	NC - Cosby Knob Shelter (4740')	Cosby Knob Shelter	-83.1822	35.7271	http://forecast.weather.gov/MapClick.php?lon=-83.1822&lat=35.7271&unit=0&lg=english&FcstType=text&TextType=1
+42	TN - Davenport Gap Shelter (2600')	Davenport Gap Shelter	-83.1237	35.7692	http://forecast.weather.gov/MapClick.php?lon=-83.1237&lat=35.7692&unit=0&lg=english&FcstType=text&TextType=1
+43	NC - Groundhog Creek Shelter (2850')	Groundhog Creek Shelter	-83.0263	35.7817	http://forecast.weather.gov/MapClick.php?lon=-83.0263&lat=35.7817&unit=0&lg=english&FcstType=text&TextType=1
+44	NC - Roaring Fork Shelter (3590')	Roaring Fork Shelter	-82.9386	35.8223	http://forecast.weather.gov/MapClick.php?lon=-82.9386&lat=35.8223&unit=0&lg=english&FcstType=text&TextType=1
+45	TN - Walnut Mountain Shelter (4260')	Walnut Mountain Shelter	-82.9367	35.8365	http://forecast.weather.gov/MapClick.php?lon=-82.9367&lat=35.8365&unit=0&lg=english&FcstType=text&TextType=1
+46	NC - Deer Park Mountain Shelter (2330')	Deer Park Mountain Shelter	-82.8614	35.8758	http://forecast.weather.gov/MapClick.php?lon=-82.8614&lat=35.8758&unit=0&lg=english&FcstType=text&TextType=1
+47	TN - Spring Mountain Shelter (3300')	Spring Mountain Shelter	-82.7902	35.9515	http://forecast.weather.gov/MapClick.php?lon=-82.7902&lat=35.9515&unit=0&lg=english&FcstType=text&TextType=1
+48	NC - Little Laurel Shelter (3620')	Little Laurel Shelter	-82.7359	36.015	http://forecast.weather.gov/MapClick.php?lon=-82.7359&lat=36.015&unit=0&lg=english&FcstType=text&TextType=1
+49	NC - Jerry Cabin Shelter (4150')	Jerry Cabin Shelter	-82.6574	36.0565	http://forecast.weather.gov/MapClick.php?lon=-82.6574&lat=36.0565&unit=0&lg=english&FcstType=text&TextType=1
+50	NC - Flint Mountain Shelter (3570')	Flint Mountain Shelter	-82.5969	36.0348	http://forecast.weather.gov/MapClick.php?lon=-82.5969&lat=36.0348&unit=0&lg=english&FcstType=text&TextType=1
+51	NC - Hogback Ridge Shelter (4255')	Hogback Ridge Shelter	-82.5872	35.964	http://forecast.weather.gov/MapClick.php?lon=-82.5872&lat=35.964&unit=0&lg=english&FcstType=text&TextType=1
+52	TN - Bald Mountain Shelter (5100')	Bald Mountain Shelter	-82.4783	36	http://forecast.weather.gov/MapClick.php?lon=-82.4783&lat=36&unit=0&lg=english&FcstType=text&TextType=1
+53	TN - No Business Knob Shelter (3180')	No Business Knob Shelter	-82.4336	36.0668	http://forecast.weather.gov/MapClick.php?lon=-82.4336&lat=36.0668&unit=0&lg=english&FcstType=text&TextType=1
+54	TN - Curley Maple Gap Shelter (3070')	Curley Maple Gap Shelter	-82.397	36.1042	http://forecast.weather.gov/MapClick.php?lon=-82.397&lat=36.1042&unit=0&lg=english&FcstType=text&TextType=1
+55	TN - Cherry Gap Shelter (3900')	Cherry Gap Shelter	-82.2642	36.1292	http://forecast.weather.gov/MapClick.php?lon=-82.2642&lat=36.1292&unit=0&lg=english&FcstType=text&TextType=1
+56	TN - Clyde Smith Shelter (4400')	Clyde Smith Shelter	-82.1613	36.1484	http://forecast.weather.gov/MapClick.php?lon=-82.1613&lat=36.1484&unit=0&lg=english&FcstType=text&TextType=1
+57	TN - Roan High Knob Shelter (6275')	Roan High Knob Shelter	-82.1227	36.105	http://forecast.weather.gov/MapClick.php?lon=-82.1227&lat=36.105&unit=0&lg=english&FcstType=text&TextType=1
+58	NC - Stan Murray Shelter (5050')	Stan Murray Shelter	-82.0659	36.1123	http://forecast.weather.gov/MapClick.php?lon=-82.0659&lat=36.1123&unit=0&lg=english&FcstType=text&TextType=1
+59	NC - Overmountain Shelter (4550')	Overmountain Shelter	-82.0544	36.1235	http://forecast.weather.gov/MapClick.php?lon=-82.0544&lat=36.1235&unit=0&lg=english&FcstType=text&TextType=1
+60	TN - Mountaineer Shelter (3200')	Mountaineer Shelter	-81.9857	36.2022	http://forecast.weather.gov/MapClick.php?lon=-81.9857&lat=36.2022&unit=0&lg=english&FcstType=text&TextType=1
+61	TN - Moreland Gap Shelter (3815')	Moreland Gap Shelter	-82.0885	36.2201	http://forecast.weather.gov/MapClick.php?lon=-82.0885&lat=36.2201&unit=0&lg=english&FcstType=text&TextType=1
+62	TN - Laurel Fork Shelter (2450')	Laurel Fork Shelter	-82.1364	36.2786	http://forecast.weather.gov/MapClick.php?lon=-82.1364&lat=36.2786&unit=0&lg=english&FcstType=text&TextType=1
+63	TN - Watauga Lake Shelter (2130')	Watauga Lake Shelter	-82.1295	36.3139	http://forecast.weather.gov/MapClick.php?lon=-82.1295&lat=36.3139&unit=0&lg=english&FcstType=text&TextType=1
+64	TN - Vandeventer Shelter (3620')	Vandeventer Shelter	-82.059	36.3669	http://forecast.weather.gov/MapClick.php?lon=-82.059&lat=36.3669&unit=0&lg=english&FcstType=text&TextType=1
+65	TN - Iron Mountain Shelter (4125')	Iron Mountain Shelter	-81.991	36.4355	http://forecast.weather.gov/MapClick.php?lon=-81.991&lat=36.4355&unit=0&lg=english&FcstType=text&TextType=1
+66	TN - Double Springs Shelter (4060')	Double Springs Shelter	-81.9862	36.509	http://forecast.weather.gov/MapClick.php?lon=-81.9862&lat=36.509&unit=0&lg=english&FcstType=text&TextType=1
+67	TN - Abingdon Gap Shelter (3785')	Abingdon Gap Shelter	-81.9022	36.581	http://forecast.weather.gov/MapClick.php?lon=-81.9022&lat=36.581&unit=0&lg=english&FcstType=text&TextType=1
+68	VA - Saunders Shelter (3310')	Saunders Shelter	-81.7132	36.6377	http://forecast.weather.gov/MapClick.php?lon=-81.7132&lat=36.6377&unit=0&lg=english&FcstType=text&TextType=1
+69	VA - Lost Mountain Shelter (3360')	Lost Mountain Shelter	-81.6563	36.6441	http://forecast.weather.gov/MapClick.php?lon=-81.6563&lat=36.6441&unit=0&lg=english&FcstType=text&TextType=1
+70	VA - Thomas Knob Shelter (5400')	Thomas Knob Shelter	-81.5354	36.6566	http://forecast.weather.gov/MapClick.php?lon=-81.5354&lat=36.6566&unit=0&lg=english&FcstType=text&TextType=1
+71	VA - Wise Shelter (4460')	Wise Shelter	-81.4986	36.6539	http://forecast.weather.gov/MapClick.php?lon=-81.4986&lat=36.6539&unit=0&lg=english&FcstType=text&TextType=1
+72	VA - Old Orchard Shelter (4050')	Old Orchard Shelter	-81.5112	36.6832	http://forecast.weather.gov/MapClick.php?lon=-81.5112&lat=36.6832&unit=0&lg=english&FcstType=text&TextType=1
+73	VA - Hurricane Mountain Shelter (3850')	Hurricane Mountain Shelter	-81.5095	36.7154	http://forecast.weather.gov/MapClick.php?lon=-81.5095&lat=36.7154&unit=0&lg=english&FcstType=text&TextType=1
+74	VA - Trimpi Shelter (2900')	Trimpi Shelter	-81.4806	36.7492	http://forecast.weather.gov/MapClick.php?lon=-81.4806&lat=36.7492&unit=0&lg=english&FcstType=text&TextType=1
+75	VA - Partnership Shelter (3360')	Partnership Shelter	-81.4226	36.8094	http://forecast.weather.gov/MapClick.php?lon=-81.4226&lat=36.8094&unit=0&lg=english&FcstType=text&TextType=1
+76	VA - Chatfield Shelter (3150')	Chatfield Shelter	-81.3633	36.8499	http://forecast.weather.gov/MapClick.php?lon=-81.3633&lat=36.8499&unit=0&lg=english&FcstType=text&TextType=1
+77	VA - Davis Path Campsite (2840')	Davis Path Campsite	-81.3769	36.9144	http://forecast.weather.gov/MapClick.php?lon=-81.3769&lat=36.9144&unit=0&lg=english&FcstType=text&TextType=1
+78	VA - Knot Maul Branch Shelter (2880')	Knot Maul Branch Shelter	-81.4046	37.0007	http://forecast.weather.gov/MapClick.php?lon=-81.4046&lat=37.0007&unit=0&lg=english&FcstType=text&TextType=1
+79	VA - Chestnut Knob Shelter (4409')	Chestnut Knob Shelter	-81.3995	37.0577	http://forecast.weather.gov/MapClick.php?lon=-81.3995&lat=37.0577&unit=0&lg=english&FcstType=text&TextType=1
+80	VA - Jenkins Shelter (2500')	Jenkins Shelter	-81.2478	37.0934	http://forecast.weather.gov/MapClick.php?lon=-81.2478&lat=37.0934&unit=0&lg=english&FcstType=text&TextType=1
+81	VA - Helveys Mill Shelter (3090')	Helveys Mill Shelter	-81.1044	37.1326	http://forecast.weather.gov/MapClick.php?lon=-81.1044&lat=37.1326&unit=0&lg=english&FcstType=text&TextType=1
+82	VA - Jenny Knob Shelter (2800')	Jenny Knob Shelter	-80.9803	37.155	http://forecast.weather.gov/MapClick.php?lon=-80.9803&lat=37.155&unit=0&lg=english&FcstType=text&TextType=1
+83	VA - Wapiti Shelter (2640')	Wapiti Shelter	-80.8241	37.2239	http://forecast.weather.gov/MapClick.php?lon=-80.8241&lat=37.2239&unit=0&lg=english&FcstType=text&TextType=1
+84	VA - Docs Knob Shelter (3555')	Docs Knob Shelter	-80.8364	37.2702	http://forecast.weather.gov/MapClick.php?lon=-80.8364&lat=37.2702&unit=0&lg=english&FcstType=text&TextType=1
+85	VA - Rice Field Shelter (3375')	Rice Field Shelter	-80.7586	37.3748	http://forecast.weather.gov/MapClick.php?lon=-80.7586&lat=37.3748&unit=0&lg=english&FcstType=text&TextType=1
+86	VA - Pine Swamp Branch Shelter (2530')	Pine Swamp Branch Shelter	-80.6088	37.4221	http://forecast.weather.gov/MapClick.php?lon=-80.6088&lat=37.4221&unit=0&lg=english&FcstType=text&TextType=1
+87	VA - Bailey Gap Shelter (3525')	Bailey Gap Shelter	-80.5772	37.4009	http://forecast.weather.gov/MapClick.php?lon=-80.5772&lat=37.4009&unit=0&lg=english&FcstType=text&TextType=1
+88	VA - War Spur Shelter (2340')	War Spur Shelter	-80.474	37.3975	http://forecast.weather.gov/MapClick.php?lon=-80.474&lat=37.3975&unit=0&lg=english&FcstType=text&TextType=1
+89	VA - Laurel Creek Shelter (2720')	Laurel Creek Shelter	-80.4212	37.3589	http://forecast.weather.gov/MapClick.php?lon=-80.4212&lat=37.3589&unit=0&lg=english&FcstType=text&TextType=1
+90	VA - Sarver Hollow Shelter (3000')	Sarver Hollow Shelter	-80.3352	37.3555	http://forecast.weather.gov/MapClick.php?lon=-80.3352&lat=37.3555&unit=0&lg=english&FcstType=text&TextType=1
+91	VA - Niday Shelter (1800')	Niday Shelter	-80.2644	37.3875	http://forecast.weather.gov/MapClick.php?lon=-80.2644&lat=37.3875&unit=0&lg=english&FcstType=text&TextType=1
+92	VA - Pickle Branch Shelter (1845')	Pickle Branch Shelter	-80.1911	37.3881	http://forecast.weather.gov/MapClick.php?lon=-80.1911&lat=37.3881&unit=0&lg=english&FcstType=text&TextType=1
+93	VA - Johns Spring/Boy Scout Shelter (1980')	Johns Spring/Boy Scout Shelter	-80.0741	37.3853	http://forecast.weather.gov/MapClick.php?lon=-80.0741&lat=37.3853&unit=0&lg=english&FcstType=text&TextType=1
+94	VA - Catawba Mountain Shelter (2580')	Catawba Mountain Shelter	-80.0574	37.3882	http://forecast.weather.gov/MapClick.php?lon=-80.0574&lat=37.3882&unit=0&lg=english&FcstType=text&TextType=1
+95	VA - Campbell Shelter (2580')	Campbell Shelter	-80.0295	37.3908	http://forecast.weather.gov/MapClick.php?lon=-80.0295&lat=37.3908&unit=0&lg=english&FcstType=text&TextType=1
+96	VA - Lamberts Meadow Shelter (2080')	Lamberts Meadow Shelter	-79.9878	37.4346	http://forecast.weather.gov/MapClick.php?lon=-79.9878&lat=37.4346&unit=0&lg=english&FcstType=text&TextType=1
+97	VA - Fullhardt Knob Shelter (2670')	Fullhardt Knob Shelter	-79.8539	37.3985	http://forecast.weather.gov/MapClick.php?lon=-79.8539&lat=37.3985&unit=0&lg=english&FcstType=text&TextType=1
+98	VA - Wilson Creek Shelter (1830')	Wilson Creek Shelter	-79.7857	37.4193	http://forecast.weather.gov/MapClick.php?lon=-79.7857&lat=37.4193&unit=0&lg=english&FcstType=text&TextType=1
+99	VA - Bobblets Gap Shelter (1920')	Bobblets Gap Shelter	-79.7014	37.4672	http://forecast.weather.gov/MapClick.php?lon=-79.7014&lat=37.4672&unit=0&lg=english&FcstType=text&TextType=1
+100	VA - Cove Mountain Shelter (1925')	Cove Mountain Shelter	-79.6511	37.5117	http://forecast.weather.gov/MapClick.php?lon=-79.6511&lat=37.5117&unit=0&lg=english&FcstType=text&TextType=1
+101	VA - Bryant Ridge Shelter (1320')	Bryant Ridge Shelter	-79.5856	37.53	http://forecast.weather.gov/MapClick.php?lon=-79.5856&lat=37.53&unit=0&lg=english&FcstType=text&TextType=1
+102	VA - Cornelius Creek Shelter (3145')	Cornelius Creek Shelter	-79.5472	37.4939	http://forecast.weather.gov/MapClick.php?lon=-79.5472&lat=37.4939&unit=0&lg=english&FcstType=text&TextType=1
+103	VA - Thunder Hill Shelter (3960')	Thunder Hill Shelter	-79.5042	37.5274	http://forecast.weather.gov/MapClick.php?lon=-79.5042&lat=37.5274&unit=0&lg=english&FcstType=text&TextType=1
+104	VA - Matts Creek Shelter (835')	Matts Creek Shelter	-79.4135	37.5995	http://forecast.weather.gov/MapClick.php?lon=-79.4135&lat=37.5995&unit=0&lg=english&FcstType=text&TextType=1
+105	VA - Johns Hollow Shelter (1020')	Johns Hollow Shelter	-79.3921	37.613	http://forecast.weather.gov/MapClick.php?lon=-79.3921&lat=37.613&unit=0&lg=english&FcstType=text&TextType=1
+106	VA - Punchbowl Shelter (2500')	Punchbowl Shelter	-79.3388	37.6778	http://forecast.weather.gov/MapClick.php?lon=-79.3388&lat=37.6778&unit=0&lg=english&FcstType=text&TextType=1
+107	VA - Brown Mountain Creek Shelter (1395')	Brown Mountain Creek Shelter	-79.2682	37.7102	http://forecast.weather.gov/MapClick.php?lon=-79.2682&lat=37.7102&unit=0&lg=english&FcstType=text&TextType=1
+108	VA - Cow Camp Gap Shelter (3160')	Cow Camp Gap Shelter	-79.2133	37.7466	http://forecast.weather.gov/MapClick.php?lon=-79.2133&lat=37.7466&unit=0&lg=english&FcstType=text&TextType=1
+109	VA - Seeley-Woodworth Shelter (3770')	Seeley-Woodworth Shelter	-79.1551	37.8189	http://forecast.weather.gov/MapClick.php?lon=-79.1551&lat=37.8189&unit=0&lg=english&FcstType=text&TextType=1
+110	VA - The Priest Shelter (3840')	The Priest Shelter	-79.0706	37.8178	http://forecast.weather.gov/MapClick.php?lon=-79.0706&lat=37.8178&unit=0&lg=english&FcstType=text&TextType=1
+111	VA - Harpers Creek Shelter (1800')	Harpers Creek Shelter	-79.0012	37.8564	http://forecast.weather.gov/MapClick.php?lon=-79.0012&lat=37.8564&unit=0&lg=english&FcstType=text&TextType=1
+112	VA - Maupin Field Shelter (2720')	Maupin Field Shelter	-78.9939	37.8849	http://forecast.weather.gov/MapClick.php?lon=-78.9939&lat=37.8849&unit=0&lg=english&FcstType=text&TextType=1
+113	VA - Paul C. Wolfe Shelter (1700')	Paul C. Wolfe Shelter	-78.8839	37.9856	http://forecast.weather.gov/MapClick.php?lon=-78.8839&lat=37.9856&unit=0&lg=english&FcstType=text&TextType=1
+114	VA - Calf Mountain Shelter (2700')	Calf Mountain Shelter	-78.7868	38.0855	http://forecast.weather.gov/MapClick.php?lon=-78.7868&lat=38.0855&unit=0&lg=english&FcstType=text&TextType=1
+115	VA - Blackrock Hut (2645')	Blackrock Hut	-78.7427	38.2141	http://forecast.weather.gov/MapClick.php?lon=-78.7427&lat=38.2141&unit=0&lg=english&FcstType=text&TextType=1
+116	VA - Pinefield Hut (2430')	Pinefield Hut	-78.646	38.2906	http://forecast.weather.gov/MapClick.php?lon=-78.646&lat=38.2906&unit=0&lg=english&FcstType=text&TextType=1
+117	VA - Hightop Hut (3175')	Hightop Hut	-78.5586	38.333	http://forecast.weather.gov/MapClick.php?lon=-78.5586&lat=38.333&unit=0&lg=english&FcstType=text&TextType=1
+118	VA - Bearfence Mountain Hut (3110')	Bearfence Mountain Hut	-78.4707	38.4441	http://forecast.weather.gov/MapClick.php?lon=-78.4707&lat=38.4441&unit=0&lg=english&FcstType=text&TextType=1
+119	VA - Rock Spring Hut (3465')	Rock Spring Hut	-78.4086	38.5531	http://forecast.weather.gov/MapClick.php?lon=-78.4086&lat=38.5531&unit=0&lg=english&FcstType=text&TextType=1
+120	VA - Byrds Nest #3 Hut (3290')	Byrds Nest #3 Hut	-78.3238	38.6344	http://forecast.weather.gov/MapClick.php?lon=-78.3238&lat=38.6344&unit=0&lg=english&FcstType=text&TextType=1
+121	VA - Pass Mountain Hut (2690')	Pass Mountain Hut	-78.3192	38.6766	http://forecast.weather.gov/MapClick.php?lon=-78.3192&lat=38.6766&unit=0&lg=english&FcstType=text&TextType=1
+122	VA - Gravel Springs Hut (2480')	Gravel Springs Hut	-78.2345	38.7635	http://forecast.weather.gov/MapClick.php?lon=-78.2345&lat=38.7635&unit=0&lg=english&FcstType=text&TextType=1
+123	VA - Tom Floyd Wayside Shelter (1900')	Tom Floyd Wayside Shelter	-78.1639	38.8504	http://forecast.weather.gov/MapClick.php?lon=-78.1639&lat=38.8504&unit=0&lg=english&FcstType=text&TextType=1
+124	VA - Jim & Molly Denton Shelter (1310')	Jim & Molly Denton Shelter	-78.0833	38.89	http://forecast.weather.gov/MapClick.php?lon=-78.0833&lat=38.89&unit=0&lg=english&FcstType=text&TextType=1
+125	VA - Manassas Gap Shelter (1655')	Manassas Gap Shelter	-78.0331	38.9306	http://forecast.weather.gov/MapClick.php?lon=-78.0331&lat=38.9306&unit=0&lg=english&FcstType=text&TextType=1
+126	VA - Dicks Dome Shelter (1230')	Dicks Dome Shelter	-77.997	38.9699	http://forecast.weather.gov/MapClick.php?lon=-77.997&lat=38.9699&unit=0&lg=english&FcstType=text&TextType=1
+127	VA - Rod Hollow Shelter (840')	Rod Hollow Shelter	-77.9444	39.0478	http://forecast.weather.gov/MapClick.php?lon=-77.9444&lat=39.0478&unit=0&lg=english&FcstType=text&TextType=1
+128	VA - Sam Moore Shelter (990')	Sam Moore Shelter	-77.8866	39.0906	http://forecast.weather.gov/MapClick.php?lon=-77.8866&lat=39.0906&unit=0&lg=english&FcstType=text&TextType=1
+129	VA - Bears Den Hostel (1350')	Bears Den Hostel	-77.85409	39.11093	http://forecast.weather.gov/MapClick.php?lon=-77.85409&lat=39.11093&unit=0&lg=english&FcstType=text&TextType=2
+130	VA - Blackburn Trail Center (1400')	Blackburn Trail Center	-77.79803	39.18765	http://forecast.weather.gov/MapClick.php?lon=-77.79803&lat=39.18765&unit=0&lg=english&FcstType=text&TextType=3
+131	VA - David Lesser Memorial Shelter (1380')	David Lesser Memorial Shelter	-77.7795	39.2272	http://forecast.weather.gov/MapClick.php?lon=-77.7795&lat=39.2272&unit=0&lg=english&FcstType=text&TextType=1
+132	MD - Ed Garvey Shelter (1100')	Ed Garvey Shelter	-77.6643	39.3565	http://forecast.weather.gov/MapClick.php?lon=-77.6643&lat=39.3565&unit=0&lg=english&FcstType=text&TextType=1
+133	MD - Crampton Gap Shelter (1000')	Crampton Gap Shelter	-77.6376	39.4125	http://forecast.weather.gov/MapClick.php?lon=-77.6376&lat=39.4125&unit=0&lg=english&FcstType=text&TextType=1
+134	MD - Rocky Run Shelter (970')	Rocky Run Shelter	-77.6314	39.4608	http://forecast.weather.gov/MapClick.php?lon=-77.6314&lat=39.4608&unit=0&lg=english&FcstType=text&TextType=1
+135	MD - Dahlgren Backpack Campground (980')	Dahlgren Backpack Campground	-77.6015	39.492	http://forecast.weather.gov/MapClick.php?lon=-77.6015&lat=39.492&unit=0&lg=english&FcstType=text&TextType=1
+136	MD - Pine Knob Shelter (1360')	Pine Knob Shelter	-77.6024	39.5425	http://forecast.weather.gov/MapClick.php?lon=-77.6024&lat=39.5425&unit=0&lg=english&FcstType=text&TextType=1
+137	MD - Pogo Memorial Campsite (1500')	Pogo Memorial Campsite	-77.6015	39.5754	http://forecast.weather.gov/MapClick.php?lon=-77.6015&lat=39.5754&unit=0&lg=english&FcstType=text&TextType=1
+138	MD - Ensign Cowall Shelter (1430')	Ensign Cowall Shelter	-77.5576	39.6277	http://forecast.weather.gov/MapClick.php?lon=-77.5576&lat=39.6277&unit=0&lg=english&FcstType=text&TextType=1
+139	MD - Raven Rock Shelter (1480')	Raven Rock Shelter	-77.5246	39.672	http://forecast.weather.gov/MapClick.php?lon=-77.5246&lat=39.672&unit=0&lg=english&FcstType=text&TextType=1
+140	PA - Deer Lick Shelters (1420')	Deer Lick Shelters	-77.4852	39.7662	http://forecast.weather.gov/MapClick.php?lon=-77.4852&lat=39.7662&unit=0&lg=english&FcstType=text&TextType=1
+141	PA - Antietam Shelter (890')	Antietam Shelter	-77.483	39.7938	http://forecast.weather.gov/MapClick.php?lon=-77.483&lat=39.7938&unit=0&lg=english&FcstType=text&TextType=1
+142	PA - Tumbling Run Shelters (1120')	Tumbling Run Shelters	-77.4783	39.805	http://forecast.weather.gov/MapClick.php?lon=-77.4783&lat=39.805&unit=0&lg=english&FcstType=text&TextType=1
+143	PA - Rocky Mountain Shelters (1520')	Rocky Mountain Shelters	-77.5009	39.8686	http://forecast.weather.gov/MapClick.php?lon=-77.5009&lat=39.8686&unit=0&lg=english&FcstType=text&TextType=1
+144	PA - Quarry Gap Shelters (1455')	Quarry Gap Shelters	-77.4867	39.932	http://forecast.weather.gov/MapClick.php?lon=-77.4867&lat=39.932&unit=0&lg=english&FcstType=text&TextType=1
+145	PA - Birch Run Shelter (1795')	Birch Run Shelter	-77.4207	39.9846	http://forecast.weather.gov/MapClick.php?lon=-77.4207&lat=39.9846&unit=0&lg=english&FcstType=text&TextType=1
+146	PA - Toms Run Shelters (1300')	Toms Run Shelters	-77.3573	40.0343	http://forecast.weather.gov/MapClick.php?lon=-77.3573&lat=40.0343&unit=0&lg=english&FcstType=text&TextType=1
+147	PA - James Fryá(Tagg Run) Shelter (805')	James Fryá(Tagg Run) Shelter	-77.2064	40.063	http://forecast.weather.gov/MapClick.php?lon=-77.2064&lat=40.063&unit=0&lg=english&FcstType=text&TextType=1
+148	PA - Alec Kennedy Shelter (850')	Alec Kennedy Shelter	-77.1043	40.1119	http://forecast.weather.gov/MapClick.php?lon=-77.1043&lat=40.1119&unit=0&lg=english&FcstType=text&TextType=1
+149	PA - Darlington Shelter (1170')	Darlington Shelter	-77.0874	40.302	http://forecast.weather.gov/MapClick.php?lon=-77.0874&lat=40.302&unit=0&lg=english&FcstType=text&TextType=1
+150	PA - Cove Mountain Shelter (1120')	Cove Mountain Shelter	-77.0678	40.3635	http://forecast.weather.gov/MapClick.php?lon=-77.0678&lat=40.3635&unit=0&lg=english&FcstType=text&TextType=1
+151	PA - Clarks Ferry Shelter (1180')	Clarks Ferry Shelter	-76.994	40.3922	http://forecast.weather.gov/MapClick.php?lon=-76.994&lat=40.3922&unit=0&lg=english&FcstType=text&TextType=1
+152	PA - Peters Mountain Shelter (970')	Peters Mountain Shelter	-76.8797	40.4258	http://forecast.weather.gov/MapClick.php?lon=-76.8797&lat=40.4258&unit=0&lg=english&FcstType=text&TextType=1
+153	PA - Rausch Gap Shelter (970')	Rausch Gap Shelter	-76.6005	40.4985	http://forecast.weather.gov/MapClick.php?lon=-76.6005&lat=40.4985&unit=0&lg=english&FcstType=text&TextType=1
+154	PA - William Penn Shelter (1300')	William Penn Shelter	-76.4144	40.4956	http://forecast.weather.gov/MapClick.php?lon=-76.4144&lat=40.4956&unit=0&lg=english&FcstType=text&TextType=1
+155	PA - 501 Shelter (1460')	501 Shelter	-76.3469	40.5125	http://forecast.weather.gov/MapClick.php?lon=-76.3469&lat=40.5125&unit=0&lg=english&FcstType=text&TextType=1
+156	PA - Eagles Nest Shelter (1510')	Eagles Nest Shelter	-76.1527	40.5493	http://forecast.weather.gov/MapClick.php?lon=-76.1527&lat=40.5493&unit=0&lg=english&FcstType=text&TextType=1
+157	PA - Windsor Furnace Shelter (880')	Windsor Furnace Shelter	-75.9423	40.5903	http://forecast.weather.gov/MapClick.php?lon=-75.9423&lat=40.5903&unit=0&lg=english&FcstType=text&TextType=1
+158	PA - Eckville Shelter (535')	Eckville Shelter	-75.9588	40.6328	http://forecast.weather.gov/MapClick.php?lon=-75.9588&lat=40.6328&unit=0&lg=english&FcstType=text&TextType=1
+159	PA - Allentown Hiking Club Shelter (1350')	Allentown Hiking Club Shelter	-75.8744	40.6831	http://forecast.weather.gov/MapClick.php?lon=-75.8744&lat=40.6831&unit=0&lg=english&FcstType=text&TextType=1
+160	PA - Bake Oven Knob Shelter (1380')	Bake Oven Knob Shelter	-75.7274	40.7541	http://forecast.weather.gov/MapClick.php?lon=-75.7274&lat=40.7541&unit=0&lg=english&FcstType=text&TextType=1
+161	PA - George W. Outerbridge Shelter (1000')	George W. Outerbridge Shelter	-75.6183	40.7825	http://forecast.weather.gov/MapClick.php?lon=-75.6183&lat=40.7825&unit=0&lg=english&FcstType=text&TextType=1
+162	PA - Leroy A. Smith Shelter (1410')	Leroy A. Smith Shelter	-75.3598	40.8394	http://forecast.weather.gov/MapClick.php?lon=-75.3598&lat=40.8394&unit=0&lg=english&FcstType=text&TextType=1
+163	PA - Kirkridge Shelter (1480')	Kirkridge Shelter	-75.1869	40.9367	http://forecast.weather.gov/MapClick.php?lon=-75.1869&lat=40.9367&unit=0&lg=english&FcstType=text&TextType=1
+164	NJ - Backpacker Camp #2 (1287')	Backpacker Camp #2	-75.12	41.02	http://forecast.weather.gov/MapClick.php?lon=-75.12&lat=41.02&unit=0&lg=english&FcstType=text&TextType=1
+165	NJ - Brink Road Shelter (1110')	Brink Road Shelter	-74.8382	41.1532	http://forecast.weather.gov/MapClick.php?lon=-74.8382&lat=41.1532&unit=0&lg=english&FcstType=text&TextType=1
+166	NJ - Gren Anderson Shelter (1320')	Gren Anderson Shelter	-74.7531	41.1994	http://forecast.weather.gov/MapClick.php?lon=-74.7531&lat=41.1994&unit=0&lg=english&FcstType=text&TextType=1
+167	NJ - Mashipacong Shelter (1425')	Mashipacong Shelter	-74.6868	41.2521	http://forecast.weather.gov/MapClick.php?lon=-74.6868&lat=41.2521&unit=0&lg=english&FcstType=text&TextType=1
+168	NJ - Rutherford Shelter (1345')	Rutherford Shelter	-74.6785	41.2775	http://forecast.weather.gov/MapClick.php?lon=-74.6785&lat=41.2775&unit=0&lg=english&FcstType=text&TextType=1
+169	NJ - High Point Shelter (1280')	High Point Shelter	-74.6438	41.3278	http://forecast.weather.gov/MapClick.php?lon=-74.6438&lat=41.3278&unit=0&lg=english&FcstType=text&TextType=1
+170	NJ - Pochuck Mountain Shelter (840')	Pochuck Mountain Shelter	-74.5163	41.2717	http://forecast.weather.gov/MapClick.php?lon=-74.5163&lat=41.2717&unit=0&lg=english&FcstType=text&TextType=1
+171	NJ - Wawayanda Shelter (1200')	Wawayanda Shelter	-74.3985	41.2022	http://forecast.weather.gov/MapClick.php?lon=-74.3985&lat=41.2022&unit=0&lg=english&FcstType=text&TextType=1
+172	NY - Wildcat Shelter (1180')	Wildcat Shelter	-74.2683	41.2684	http://forecast.weather.gov/MapClick.php?lon=-74.2683&lat=41.2684&unit=0&lg=english&FcstType=text&TextType=1
+173	NY - Fingerboard Shelter (1300')	Fingerboard Shelter	-74.1044	41.2633	http://forecast.weather.gov/MapClick.php?lon=-74.1044&lat=41.2633&unit=0&lg=english&FcstType=text&TextType=1
+174	NY - William Brien Memorial Shelter (1070')	William Brien Memorial Shelter	-74.0599	41.2797	http://forecast.weather.gov/MapClick.php?lon=-74.0599&lat=41.2797&unit=0&lg=english&FcstType=text&TextType=1
+175	NY - West Mountain Shelter (1240')	West Mountain Shelter	-74.0111	41.2841	http://forecast.weather.gov/MapClick.php?lon=-74.0111&lat=41.2841&unit=0&lg=english&FcstType=text&TextType=1
+176	NY - RPH Shelter (360')	RPH Shelter	-73.7929	41.5144	http://forecast.weather.gov/MapClick.php?lon=-73.7929&lat=41.5144&unit=0&lg=english&FcstType=text&TextType=1
+177	NY - Morgan Stewart Memorial Shelter (1285')	Morgan Stewart Memorial Shelter	-73.6921	41.5646	http://forecast.weather.gov/MapClick.php?lon=-73.6921&lat=41.5646&unit=0&lg=english&FcstType=text&TextType=1
+178	NY - Telephone Pioneers Shelter (910')	Telephone Pioneers Shelter	-73.6193	41.6043	http://forecast.weather.gov/MapClick.php?lon=-73.6193&lat=41.6043&unit=0&lg=english&FcstType=text&TextType=1
+179	NY - Wiley Shelter (740')	Wiley Shelter	-73.5327	41.6378	http://forecast.weather.gov/MapClick.php?lon=-73.5327&lat=41.6378&unit=0&lg=english&FcstType=text&TextType=1
+180	CT - Ten Mile River Shelter (290')	Ten Mile River Shelter	-73.5099	41.6651	http://forecast.weather.gov/MapClick.php?lon=-73.5099&lat=41.6651&unit=0&lg=english&FcstType=text&TextType=1
+181	CT - Mt. Algo Shelter (655')	Mt. Algo Shelter	-73.4967	41.7317	http://forecast.weather.gov/MapClick.php?lon=-73.4967&lat=41.7317&unit=0&lg=english&FcstType=text&TextType=1
+182	CT - Stewart Hollow Brook Shelter (425')	Stewart Hollow Brook Shelter	-73.4198	41.7786	http://forecast.weather.gov/MapClick.php?lon=-73.4198&lat=41.7786&unit=0&lg=english&FcstType=text&TextType=1
+183	CT - Pine Swamp Brook Shelter (1075')	Pine Swamp Brook Shelter	-73.3921	41.8816	http://forecast.weather.gov/MapClick.php?lon=-73.3921&lat=41.8816&unit=0&lg=english&FcstType=text&TextType=1
+184	CT - Limestone Spring Shelter (980')	Limestone Spring Shelter	-73.3923	41.9751	http://forecast.weather.gov/MapClick.php?lon=-73.3923&lat=41.9751&unit=0&lg=english&FcstType=text&TextType=1
+185	CT - Riga Shelter (1610')	Riga Shelter	-73.4477	42.0146	http://forecast.weather.gov/MapClick.php?lon=-73.4477&lat=42.0146&unit=0&lg=english&FcstType=text&TextType=1
+186	CT - Brassie Brook Shelter (1705')	Brassie Brook Shelter	-73.4536	42.0283	http://forecast.weather.gov/MapClick.php?lon=-73.4536&lat=42.0283&unit=0&lg=english&FcstType=text&TextType=1
+187	MA - The Hemlocks Shelter (1880')	The Hemlocks Shelter	-73.429	42.1099	http://forecast.weather.gov/MapClick.php?lon=-73.429&lat=42.1099&unit=0&lg=english&FcstType=text&TextType=1
+188	MA - Glen Brook Shelter (1885')	Glen Brook Shelter	-73.4283	42.1111	http://forecast.weather.gov/MapClick.php?lon=-73.4283&lat=42.1111&unit=0&lg=english&FcstType=text&TextType=1
+189	MA - Tom Leonard Shelter (1540')	Tom Leonard Shelter	-73.3062	42.1648	http://forecast.weather.gov/MapClick.php?lon=-73.3062&lat=42.1648&unit=0&lg=english&FcstType=text&TextType=1
+190	MA - Mt. Wilcox South Shelters (1720')	Mt. Wilcox South Shelters	-73.2685	42.2078	http://forecast.weather.gov/MapClick.php?lon=-73.2685&lat=42.2078&unit=0&lg=english&FcstType=text&TextType=1
+191	MA - Mt. Wilcox North Shelter (1950')	Mt. Wilcox North Shelter	-73.2506	42.221	http://forecast.weather.gov/MapClick.php?lon=-73.2506&lat=42.221&unit=0&lg=english&FcstType=text&TextType=1
+192	MA - Upper Goose Pond Cabin (1483')	Upper Goose Pond Cabin	-73.1813	42.2887	http://forecast.weather.gov/MapClick.php?lon=-73.1813&lat=42.2887&unit=0&lg=english&FcstType=text&TextType=1
+193	MA - October Mountain Shelter (1930')	October Mountain Shelter	-73.1545	42.3549	http://forecast.weather.gov/MapClick.php?lon=-73.1545&lat=42.3549&unit=0&lg=english&FcstType=text&TextType=1
+194	MA - Kay Wood Shelter (1860')	Kay Wood Shelter	-73.1619	42.4525	http://forecast.weather.gov/MapClick.php?lon=-73.1619&lat=42.4525&unit=0&lg=english&FcstType=text&TextType=1
+195	MA - Mark Noepel Shelter (2750')	Mark Noepel Shelter	-73.1845	42.6086	http://forecast.weather.gov/MapClick.php?lon=-73.1845&lat=42.6086&unit=0&lg=english&FcstType=text&TextType=1
+196	MA - Wilbur Clearing Shelter (2300')	Wilbur Clearing Shelter	-73.1698	42.6685	http://forecast.weather.gov/MapClick.php?lon=-73.1698&lat=42.6685&unit=0&lg=english&FcstType=text&TextType=1
+197	VT - Seth Warner Shelter (2180')	Seth Warner Shelter	-73.1376	42.7718	http://forecast.weather.gov/MapClick.php?lon=-73.1376&lat=42.7718&unit=0&lg=english&FcstType=text&TextType=1
+198	VT - Congdon Shelter (2060')	Congdon Shelter	-73.1104	42.8481	http://forecast.weather.gov/MapClick.php?lon=-73.1104&lat=42.8481&unit=0&lg=english&FcstType=text&TextType=1
+199	VT - Melville Nauheim Shelter (2330')	Melville Nauheim Shelter	-73.0962	42.8878	http://forecast.weather.gov/MapClick.php?lon=-73.0962&lat=42.8878&unit=0&lg=english&FcstType=text&TextType=1
+200	VT - Goddard Shelter (3540')	Goddard Shelter	-73.0726	42.9741	http://forecast.weather.gov/MapClick.php?lon=-73.0726&lat=42.9741&unit=0&lg=english&FcstType=text&TextType=1
+201	VT - Kid Gore Shelter (2795')	Kid Gore Shelter	-73.0416	43.013	http://forecast.weather.gov/MapClick.php?lon=-73.0416&lat=43.013&unit=0&lg=english&FcstType=text&TextType=1
+202	VT - Story Spring Shelter (2810')	Story Spring Shelter	-73.013	43.0505	http://forecast.weather.gov/MapClick.php?lon=-73.013&lat=43.0505&unit=0&lg=english&FcstType=text&TextType=1
+203	VT - Stratton Pond Shelter (2565')	Stratton Pond Shelter	-72.9688	43.1014	http://forecast.weather.gov/MapClick.php?lon=-72.9688&lat=43.1014&unit=0&lg=english&FcstType=text&TextType=1
+204	VT - William B Douglas Shelter (2210')	William B Douglas Shelter	-72.9914	43.1445	http://forecast.weather.gov/MapClick.php?lon=-72.9914&lat=43.1445&unit=0&lg=english&FcstType=text&TextType=1
+205	VT - Spruce Peak Shelter (2180')	Spruce Peak Shelter	-72.9957	43.1786	http://forecast.weather.gov/MapClick.php?lon=-72.9957&lat=43.1786&unit=0&lg=english&FcstType=text&TextType=1
+206	VT - Bromley Shelter (2560')	Bromley Shelter	-72.9372	43.2395	http://forecast.weather.gov/MapClick.php?lon=-72.9372&lat=43.2395&unit=0&lg=english&FcstType=text&TextType=1
+207	VT - Peru Peak Shelter (2605')	Peru Peak Shelter	-72.9529	43.3013	http://forecast.weather.gov/MapClick.php?lon=-72.9529&lat=43.3013&unit=0&lg=english&FcstType=text&TextType=1
+208	VT - Lost Pond Shelter (2150')	Lost Pond Shelter	-72.9531	43.3454	http://forecast.weather.gov/MapClick.php?lon=-72.9531&lat=43.3454&unit=0&lg=english&FcstType=text&TextType=1
+209	VT - Old Job Shelter (1525')	Old Job Shelter	-72.9289	43.3541	http://forecast.weather.gov/MapClick.php?lon=-72.9289&lat=43.3541&unit=0&lg=english&FcstType=text&TextType=1
+210	VT - Big Branch Shelter (1460')	Big Branch Shelter	-72.9469	43.3641	http://forecast.weather.gov/MapClick.php?lon=-72.9469&lat=43.3641&unit=0&lg=english&FcstType=text&TextType=1
+211	VT - Little Rock Pond Shelter (1885')	Little Rock Pond Shelter	-72.9536	43.4042	http://forecast.weather.gov/MapClick.php?lon=-72.9536&lat=43.4042&unit=0&lg=english&FcstType=text&TextType=1
+212	VT - Greenwall Shelter (2025')	Greenwall Shelter	-72.9291	43.4404	http://forecast.weather.gov/MapClick.php?lon=-72.9291&lat=43.4404&unit=0&lg=english&FcstType=text&TextType=1
+213	VT - Minerva Hinchey Shelter (1605')	Minerva Hinchey Shelter	-72.925	43.4878	http://forecast.weather.gov/MapClick.php?lon=-72.925&lat=43.4878&unit=0&lg=english&FcstType=text&TextType=1
+214	VT - Clarendon Shelter (1190')	Clarendon Shelter	-72.9131	43.5235	http://forecast.weather.gov/MapClick.php?lon=-72.9131&lat=43.5235&unit=0&lg=english&FcstType=text&TextType=1
+215	VT - Governor Clement Shelter (1900')	Governor Clement Shelter	-72.8488	43.5646	http://forecast.weather.gov/MapClick.php?lon=-72.8488&lat=43.5646&unit=0&lg=english&FcstType=text&TextType=1
+216	VT - Cooper Lodge Shelter (3850')	Cooper Lodge Shelter	-72.8229	43.606	http://forecast.weather.gov/MapClick.php?lon=-72.8229&lat=43.606&unit=0&lg=english&FcstType=text&TextType=1
+217	VT - Pico Camp Shelter (3510')	Pico Camp Shelter	-72.831	43.639	http://forecast.weather.gov/MapClick.php?lon=-72.831&lat=43.639&unit=0&lg=english&FcstType=text&TextType=1
+218	VT - Churchill Scott Shelter (2560')	Churchill Scott Shelter	-72.8534	43.6449	http://forecast.weather.gov/MapClick.php?lon=-72.8534&lat=43.6449&unit=0&lg=english&FcstType=text&TextType=1
+219	VT - Tucker Johnson Shelter (2300')	Tucker Johnson Shelter	-72.8436	43.6792	http://forecast.weather.gov/MapClick.php?lon=-72.8436&lat=43.6792&unit=0&lg=english&FcstType=text&TextType=1
+220	VT - Gifford Woods State Park (1660')	Gifford Woods State Park	-72.8117	43.6761	http://forecast.weather.gov/MapClick.php?lon=-72.8117&lat=43.6761&unit=0&lg=english&FcstType=text&TextType=1
+221	VT - Stony Brook Shelter (1760')	Stony Brook Shelter	-72.7306	43.6918	http://forecast.weather.gov/MapClick.php?lon=-72.7306&lat=43.6918&unit=0&lg=english&FcstType=text&TextType=1
+222	VT - Wintturi Shelter (1910')	Wintturi Shelter	-72.6226	43.6622	http://forecast.weather.gov/MapClick.php?lon=-72.6226&lat=43.6622&unit=0&lg=english&FcstType=text&TextType=1
+223	VT - Cloudland Shelter (1480')	Cloudland Shelter	-72.4931	43.6921	http://forecast.weather.gov/MapClick.php?lon=-72.4931&lat=43.6921&unit=0&lg=english&FcstType=text&TextType=1
+224	VT - Thistle Hill Shelter (1680')	Thistle Hill Shelter	-72.4758	43.6952	http://forecast.weather.gov/MapClick.php?lon=-72.4758&lat=43.6952&unit=0&lg=english&FcstType=text&TextType=1
+225	VT - Happy Hill Shelter (1420')	Happy Hill Shelter	-72.3657	43.7239	http://forecast.weather.gov/MapClick.php?lon=-72.3657&lat=43.7239&unit=0&lg=english&FcstType=text&TextType=1
+226	NH - Velvet Rocks Shelter (1040')	Velvet Rocks Shelter	-72.2652	43.7025	http://forecast.weather.gov/MapClick.php?lon=-72.2652&lat=43.7025&unit=0&lg=english&FcstType=text&TextType=1
+227	NH - Moose Mountain Shelter (1850')	Moose Mountain Shelter	-72.1475	43.7278	http://forecast.weather.gov/MapClick.php?lon=-72.1475&lat=43.7278&unit=0&lg=english&FcstType=text&TextType=1
+228	NH - Trapper John Shelter (1345')	Trapper John Shelter	-72.112	43.783	http://forecast.weather.gov/MapClick.php?lon=-72.112&lat=43.783&unit=0&lg=english&FcstType=text&TextType=1
+229	NH - Smarts Mountain Cabin (3220')	Smarts Mountain Cabin	-72.0378	43.8253	http://forecast.weather.gov/MapClick.php?lon=-72.0378&lat=43.8253&unit=0&lg=english&FcstType=text&TextType=1
+230	NH - Hexacuba Shelter (1980')	Hexacuba Shelter	-72.029	43.874	http://forecast.weather.gov/MapClick.php?lon=-72.029&lat=43.874&unit=0&lg=english&FcstType=text&TextType=1
+231	NH - Jeffers Brook Shelter (1350')	Jeffers Brook Shelter	-71.8894	43.9966	http://forecast.weather.gov/MapClick.php?lon=-71.8894&lat=43.9966&unit=0&lg=english&FcstType=text&TextType=1
+232	NH - Beaver Brook Shelter (3650')	Beaver Brook Shelter	-71.8118	44.033	http://forecast.weather.gov/MapClick.php?lon=-71.8118&lat=44.033&unit=0&lg=english&FcstType=text&TextType=1
+233	NH - Eliza Brook Campsite Shelter (2500')	Eliza Brook Campsite Shelter	-71.7424	44.1008	http://forecast.weather.gov/MapClick.php?lon=-71.7424&lat=44.1008&unit=0&lg=english&FcstType=text&TextType=1
+234	NH - Kinsman Pond Campsite Shelter (3750')	Kinsman Pond Campsite Shelter	-71.7328	44.1369	http://forecast.weather.gov/MapClick.php?lon=-71.7328&lat=44.1369&unit=0&lg=english&FcstType=text&TextType=1
+235	NH - Lonesome Lake Hut (2760')	Lonesome Lake Hut	-71.7037	44.1385	http://forecast.weather.gov/MapClick.php?lon=-71.7037&lat=44.1385&unit=0&lg=english&FcstType=text&TextType=1
+236	NH - Greenleaf Hut (4200')	Greenleaf Hut	-71.6608	44.1603	http://forecast.weather.gov/MapClick.php?lon=-71.6608&lat=44.1603&unit=0&lg=english&FcstType=text&TextType=1
+237	NH - Garfield Ridge Campsite Shelter (3560')	Garfield Ridge Campsite Shelter	-71.6088	44.1906	http://forecast.weather.gov/MapClick.php?lon=-71.6088&lat=44.1906&unit=0&lg=english&FcstType=text&TextType=1
+238	NH - Galehead Hut (3800')	Galehead Hut	-71.5694	44.1878	http://forecast.weather.gov/MapClick.php?lon=-71.5694&lat=44.1878&unit=0&lg=english&FcstType=text&TextType=1
+239	NH - Guyot Campsite Shelter (4560')	Guyot Campsite Shelter	-71.5356	44.161	http://forecast.weather.gov/MapClick.php?lon=-71.5356&lat=44.161&unit=0&lg=english&FcstType=text&TextType=1
+240	NH - Zealand Falls Hut (2630')	Zealand Falls Hut	-71.4948	44.1957	http://forecast.weather.gov/MapClick.php?lon=-71.4948&lat=44.1957&unit=0&lg=english&FcstType=text&TextType=1
+241	NH - Ethan Pond Campsite Shelter (2950')	Ethan Pond Campsite Shelter	-71.4271	44.1772	http://forecast.weather.gov/MapClick.php?lon=-71.4271&lat=44.1772&unit=0&lg=english&FcstType=text&TextType=1
+242	NH - Mizpah Spring Hut (3800')	Mizpah Spring Hut	-71.3701	44.2193	http://forecast.weather.gov/MapClick.php?lon=-71.3701&lat=44.2193&unit=0&lg=english&FcstType=text&TextType=1
+243	NH - Lake of the Clouds Hut (5012')	Lake of the Clouds Hut	-71.3193	44.2589	http://forecast.weather.gov/MapClick.php?lon=-71.3193&lat=44.2589&unit=0&lg=english&FcstType=text&TextType=1
+244	NH - The RMS Perch Shelter (4313')	The RMS Perch Shelter	-71.311	44.3245	http://forecast.weather.gov/MapClick.php?lon=-71.311&lat=44.3245&unit=0&lg=english&FcstType=text&TextType=1
+245	NH - Madison Spring Hut (4800')	Madison Spring Hut	-71.2835	44.3278	http://forecast.weather.gov/MapClick.php?lon=-71.2835&lat=44.3278&unit=0&lg=english&FcstType=text&TextType=1
+246	NH - Osgood Tent Site (2554')	Osgood Tent Site	-71.2551	44.3086	http://forecast.weather.gov/MapClick.php?lon=-71.2551&lat=44.3086&unit=0&lg=english&FcstType=text&TextType=1
+247	NH - Carter Notch Hut (3350')	Carter Notch Hut	-71.1959	44.2593	http://forecast.weather.gov/MapClick.php?lon=-71.1959&lat=44.2593&unit=0&lg=english&FcstType=text&TextType=1
+248	NH - Imp Campsite Shelter (3250')	Imp Campsite Shelter	-71.1506	44.3289	http://forecast.weather.gov/MapClick.php?lon=-71.1506&lat=44.3289&unit=0&lg=english&FcstType=text&TextType=1
+249	NH - Rattle River Shelter (1260')	Rattle River Shelter	-71.108	44.3799	http://forecast.weather.gov/MapClick.php?lon=-71.108&lat=44.3799&unit=0&lg=english&FcstType=text&TextType=1
+250	NH - Gentian Pond Campsite Shelter (2166')	Gentian Pond Campsite Shelter	-71.0699	44.4518	http://forecast.weather.gov/MapClick.php?lon=-71.0699&lat=44.4518&unit=0&lg=english&FcstType=text&TextType=1
+251	ME - Carlo Col Shelter & Campsite (2945')	Carlo Col Shelter & Campsite	-71.0167	44.4886	http://forecast.weather.gov/MapClick.php?lon=-71.0167&lat=44.4886&unit=0&lg=english&FcstType=text&TextType=1
+252	ME - Full Goose Shelter (3030')	Full Goose Shelter	-70.9814	44.5251	http://forecast.weather.gov/MapClick.php?lon=-70.9814&lat=44.5251&unit=0&lg=english&FcstType=text&TextType=1
+253	ME - Speck Pond Shelter & Campsite (3500')	Speck Pond Shelter & Campsite	-70.9741	44.5646	http://forecast.weather.gov/MapClick.php?lon=-70.9741&lat=44.5646&unit=0&lg=english&FcstType=text&TextType=1
+254	ME - Baldpate Lean-to (2645')	Baldpate Lean-to	-70.9123	44.5984	http://forecast.weather.gov/MapClick.php?lon=-70.9123&lat=44.5984&unit=0&lg=english&FcstType=text&TextType=1
+255	ME - Frye Notch Lean-to (2280')	Frye Notch Lean-to	-70.9008	44.6277	http://forecast.weather.gov/MapClick.php?lon=-70.9008&lat=44.6277&unit=0&lg=english&FcstType=text&TextType=1
+256	ME - Hall Mountain Lean-to (2635')	Hall Mountain Lean-to	-70.8251	44.7008	http://forecast.weather.gov/MapClick.php?lon=-70.8251&lat=44.7008&unit=0&lg=english&FcstType=text&TextType=1
+257	ME - Bemis Mountain Lean-to (2790')	Bemis Mountain Lean-to	-70.7565	44.8103	http://forecast.weather.gov/MapClick.php?lon=-70.7565&lat=44.8103&unit=0&lg=english&FcstType=text&TextType=1
+258	ME - Sabbath Day Pond Lean-to (2390')	Sabbath Day Pond Lean-to	-70.6629	44.841	http://forecast.weather.gov/MapClick.php?lon=-70.6629&lat=44.841&unit=0&lg=english&FcstType=text&TextType=1
+259	ME - Piazza Rock Lean-to (2080')	Piazza Rock Lean-to	-70.5314	44.9041	http://forecast.weather.gov/MapClick.php?lon=-70.5314&lat=44.9041&unit=0&lg=english&FcstType=text&TextType=1
+260	ME - Poplar Ridge Lean-to (2920')	Poplar Ridge Lean-to	-70.4463	44.97	http://forecast.weather.gov/MapClick.php?lon=-70.4463&lat=44.97&unit=0&lg=english&FcstType=text&TextType=1
+261	ME - Spaulding Mountain Lean-to (3140')	Spaulding Mountain Lean-to	-70.3418	44.9958	http://forecast.weather.gov/MapClick.php?lon=-70.3418&lat=44.9958&unit=0&lg=english&FcstType=text&TextType=1
+262	ME - Horns Pond Lean-tos (3160')	Horns Pond Lean-tos	-70.3306	45.1442	http://forecast.weather.gov/MapClick.php?lon=-70.3306&lat=45.1442&unit=0&lg=english&FcstType=text&TextType=1
+263	ME - Little Bigelow Lean-to (1760')	Little Bigelow Lean-to	-70.1916	45.1391	http://forecast.weather.gov/MapClick.php?lon=-70.1916&lat=45.1391&unit=0&lg=english&FcstType=text&TextType=1
+264	ME - West Carry Pond Lean-to (1340')	West Carry Pond Lean-to	-70.0998	45.158	http://forecast.weather.gov/MapClick.php?lon=-70.0998&lat=45.158&unit=0&lg=english&FcstType=text&TextType=1
+265	ME - Pierce Pond Lean-to (1150')	Pierce Pond Lean-to	-70.056	45.2403	http://forecast.weather.gov/MapClick.php?lon=-70.056&lat=45.2403&unit=0&lg=english&FcstType=text&TextType=1
+266	ME - Pleasant Pond Lean-to (1320')	Pleasant Pond Lean-to	-69.9168	45.2706	http://forecast.weather.gov/MapClick.php?lon=-69.9168&lat=45.2706&unit=0&lg=english&FcstType=text&TextType=1
+267	ME - Bald Mountain Brook Lean-to (1280')	Bald Mountain Brook Lean-to	-69.7999	45.2585	http://forecast.weather.gov/MapClick.php?lon=-69.7999&lat=45.2585&unit=0&lg=english&FcstType=text&TextType=1
+268	ME - Moxie Bald Lean-to (1220')	Moxie Bald Lean-to	-69.7458	45.2706	http://forecast.weather.gov/MapClick.php?lon=-69.7458&lat=45.2706&unit=0&lg=english&FcstType=text&TextType=1
+269	ME - Horseshoe Canyon Lean-to (880')	Horseshoe Canyon Lean-to	-69.6281	45.2828	http://forecast.weather.gov/MapClick.php?lon=-69.6281&lat=45.2828&unit=0&lg=english&FcstType=text&TextType=1
+270	ME - Leeman Brook Lean-to (1070')	Leeman Brook Lean-to	-69.4993	45.3516	http://forecast.weather.gov/MapClick.php?lon=-69.4993&lat=45.3516&unit=0&lg=english&FcstType=text&TextType=1
+271	ME - Wilson Valley Lean-to (1000')	Wilson Valley Lean-to	-69.4601	45.398	http://forecast.weather.gov/MapClick.php?lon=-69.4601&lat=45.398&unit=0&lg=english&FcstType=text&TextType=1
+272	ME - Long Pond Stream Lean-to (930')	Long Pond Stream Lean-to	-69.4102	45.4219	http://forecast.weather.gov/MapClick.php?lon=-69.4102&lat=45.4219&unit=0&lg=english&FcstType=text&TextType=1
+273	ME - Cloud Pond Lean-to (2420')	Cloud Pond Lean-to	-69.3522	45.4189	http://forecast.weather.gov/MapClick.php?lon=-69.3522&lat=45.4189&unit=0&lg=english&FcstType=text&TextType=1
+274	ME - Chairback Gap Lean-to (2000')	Chairback Gap Lean-to	-69.2627	45.4529	http://forecast.weather.gov/MapClick.php?lon=-69.2627&lat=45.4529&unit=0&lg=english&FcstType=text&TextType=1
+275	ME - Carl A. Newhall Lean-to (1840')	Carl A. Newhall Lean-to	-69.3155	45.5305	http://forecast.weather.gov/MapClick.php?lon=-69.3155&lat=45.5305&unit=0&lg=english&FcstType=text&TextType=1
+276	ME - Logan Brook Lean-to (2530')	Logan Brook Lean-to	-69.2354	45.5611	http://forecast.weather.gov/MapClick.php?lon=-69.2354&lat=45.5611&unit=0&lg=english&FcstType=text&TextType=1
+277	ME - East Branch Lean-to (1240')	East Branch Lean-to	-69.1988	45.5968	http://forecast.weather.gov/MapClick.php?lon=-69.1988&lat=45.5968&unit=0&lg=english&FcstType=text&TextType=1
+278	ME - Cooper Brook Falls Lean-to (910')	Cooper Brook Falls Lean-to	-69.088	45.6405	http://forecast.weather.gov/MapClick.php?lon=-69.088&lat=45.6405&unit=0&lg=english&FcstType=text&TextType=1
+279	ME - Potaywadjo Spring Lean-to (620')	Potaywadjo Spring Lean-to	-69.0079	45.7066	http://forecast.weather.gov/MapClick.php?lon=-69.0079&lat=45.7066&unit=0&lg=english&FcstType=text&TextType=1
+280	ME - Wadleigh Stream Lean-to (685')	Wadleigh Stream Lean-to	-69.1452	45.7473	http://forecast.weather.gov/MapClick.php?lon=-69.1452&lat=45.7473&unit=0&lg=english&FcstType=text&TextType=1
+281	ME - Rainbow Stream Lean-to (1005')	Rainbow Stream Lean-to	-69.171	45.7991	http://forecast.weather.gov/MapClick.php?lon=-69.171&lat=45.7991&unit=0&lg=english&FcstType=text&TextType=1
+282	ME - Hurd Brook Lean-to (715')	Hurd Brook Lean-to	-69.019	45.8185	http://forecast.weather.gov/MapClick.php?lon=-69.019&lat=45.8185&unit=0&lg=english&FcstType=text&TextType=1
+283	ME - The Birches Lean-tos & Campsite (1080')	The Birches Lean-tos & Campsite	-68.9951	45.8816	http://forecast.weather.gov/MapClick.php?lon=-68.9951&lat=45.8816&unit=0&lg=english&FcstType=text&TextType=1
+284	ME - KATAHDIN (Baxter Peak) (5268')	KATAHDIN (Baxter Peak)	-68.9213	45.9044	http://forecast.weather.gov/MapClick.php?lon=-68.9213&lat=45.9044&unit=0&lg=english&FcstType=text&TextType=1
