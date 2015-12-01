@@ -2,7 +2,7 @@
 
 <html>
 
-<script>
+<!-- <script>
 
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -12,39 +12,51 @@
 	ga('create', 'UA-57389593-1', 'auto');
 	ga('send', 'pageview');
 
-</script>
+</script> -->
 
 <head>
-	<meta name = "description" content = "Location-specific weather forecasts for all 285 shelters and campsites along the Appalachian Trail." />
+	<meta name = "description" content = "Location-specific weather forecasts for all 285 shelters and camp sites along the Appalachian Trail." />
 	<meta name = "robots" content = "index,follow" />
 	<meta name=  "googlebot" content = "index,follow" />
 
 	<title>Appalachian Trail Weather</title>
 	<link rel = "stylesheet" type = "text/css" href = "/static/style.css"/>
 
-	<script src="jquery-1.11.2.js"></script>
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-	<script language="javascript">
+	<script>
+		
+		$(document).ready(function()
+			{ 
+				var allLocationsGlobal = $('#myShelterHidden option');
+				
+				<!-- localStorage.setItem("allLocationsGlobal", allLocationsGlobal); -->
+				<!-- sessionStorage.setItem('allLocationsGlobal', $('#myShelter option')); -->
+				
+				$(myState).change(function() 
+				{ 
+					var currState = document.getElementById("myState").value;					
+					
+					<!-- var allLocationsGlobal = sessionStorage.getItem('allLocationsGlobal'); -->
+					
+					var selectLabel = allLocationsGlobal.filter('.labelText');
+					var currStateLocations = allLocationsGlobal.filter('.' + currState);
+					
+					$('#myShelter option').remove();
 
-		function getSort(){
-
-			var s = document.getElementsByName('sort_by');
-
-			for (var i = 0, length = s.length; i < length; i++) {
-				if (s[i].checked){
-
-						var my_dir = s[i].value;
-
-						// only one radio can be logically checked, don't need to look at the rest
-						break;
-
-						}
-			}
-
-			return my_dir;
-		}
-
-    </script>
+					$.each(selectLabel, function (i, j) 
+					{
+						$(j).appendTo('#myShelter');
+					});
+					
+					$.each(currStateLocations, function (i, j) 
+					{
+						$(j).appendTo('#myShelter');
+					});
+					
+				}); 
+			});
+	</script>
 
 </head>
 
@@ -54,40 +66,81 @@
 
 	<div id = "header">
 		<h1>Appalachian Trail Weather</h1>
-	    <h3>Location-specific (latitude/longitude based) forecasts from the National Weather Service</h3>
-		<p>The purpose of this website is simple: to provide AT thru-hikers with a reliable and easy way to obtain weather for their location. The weather can vary significantly over short distances in the mountains, and the weather forecast associated with nearby towns may not be accurate for your shelter location at high elevation. Simply pick your location from the list and the National Weather Service forecast for that location will appear. Re-sorting the list by SOBO or alphabetically (NOBO is the default order) clears the page.</p>
+		
+		<a href = "https://www.appalachiantrail.org"><img src = "/static/at_logo_1.jpg" alt = "AT Logo" style = "width:60px;height:60px;"></a>
+		<a href = "https://www.lnt.org"><img src = "/static/lnt_logo.jpg" alt = "Leave No Trace Logo" style = "width:120px;height:60px;"></a>
+		
+		<br>
+		<br>
+		<br>
+		
+	    <h3>Location-specific forecasts from the National Weather Service (NOAA)</h3>
+		
+		<p>The purpose of this website is simple: to provide AT hikers with a reliable and easy way to obtain weather for their location. Simply pick your state and shelter location from the lists below and the National Weather Service forecast for that location will appear.</p>
+		
+		<p><span style = "color:red; font-weight:bold">New for 2016!</span> Please see <a href = "http://127.0.0.1:5000/precip_discussion">this discussion</a> relating to how forecasts should be interpreted.</p>
+		
 	</div>
-
-    <div id = "form_controls">
-
-	    <form method = "GET" >
-	    	{% for sort_choice in sort_options %}
-		    	<input type = "radio" id = "{{ sort_choice[0] }}" name = "sort_by" value = "{{ sort_choice[0] }}" onchange = "window.location.href = '/' + value;" {{ sort_choice[2] }} >{{ sort_choice[1] }}<br>
-		    {% endfor %}
-	    </form>
-
-		</br>
+		
+    <div id = "formControls">
 
 	    <form method = "GET">
+		
+		<div id = "stateList">
+			
+			<select id = "myState" name = "myState">
+			
+				<option selected = "selected">Select state...</option>
+				
+					<option value = "GA">Georgia</option>
+					<option value = "NC">North Carolina</option>
+					<option value = "TN">Tennessee</option>
+					<option value = "VA">Virginia</option>
+					<option value = "MD">Maryland</option>
+					<option value = "PA">Pennsylvania</option>
+					<option value = "NJ">New Jersey</option>
+					<option value = "NY">New York</option>
+					<option value = "CT">Connecticut</option>
+					<option value = "MA">Massachusetts</option>
+					<option value = "VT">Vermont</option>
+					<option value = "NH">New Hampshire</option>
+					<option value = "ME">Maine</option>
+					
+			</select>
 
-        <div id = "loc_list">
+		</div>
+		
+		<br>
+		
+        <div id = "shelterList">
 
-		    <select id = "my_shelter" name = "my_shelter" onchange="window.location.href = '/' + getSort() + '/forecast/loc_id=' + document.getElementById('my_shelter').value;">
+		    <select id = "myShelter" name = "myShelter" onchange = "window.location.href = '/forecast/loc_id=' + document.getElementById('myShelter').value;">
 
-		        <option selected="selected" disabled="disabled">Select location...</option>
+		        <option selected = "selected" disabled = "disabled" class = "labelText">Select location...</option>
 
 			    {% for o in shelter_list %}
-				    <option value = "{{ o[0] }}" {{ o[3] }}>{{ o[1] }}</option>
+				    <option value = "{{ o[0] }}" class = "{{ o[4]}}" {{ o[3] }}>{{ o[1] }}</option>
 			    {% endfor %}
 
 		    </select>
 
+		    <select hidden id = "myShelterHidden" name = "myShelterHidden">
+
+		        <option selected = "selected" disabled = "disabled" class = "labelText">Select location...</option>
+
+			    {% for o in shelter_list_full %}
+				    <option value = "{{ o[0] }}" class = "{{ o[4]}}" {{ o[3] }}>{{ o[1] }}</option>
+			    {% endfor %}
+
+		    </select>
+			
         </div>
 
 	    </form>
 
-    </div>
-
+    </div>	
+ 
+	{% block discuss_pops %}{% endblock %}
     {% block forecast %}{% endblock %}
 
     <br>
@@ -95,11 +148,11 @@
     <br>
     <br>
 
-    <div id = "footer_container">
+    <div id = "footerContainer">
 
 	    <div id = "footer">
-		    <footer>Powered by Flask 0.10.1 and Python 3.4. Questions? Comments? <a href = "mailto:patjones80@gmail.com">patjones80@gmail.com</a> ("Lefty" 2015)</footer>
-	    </div>
+		    <footer>Powered by Python 3.4 and Flask 0.10.1. Questions? Comments? <a href = "mailto:patjones80@gmail.com">patjones80@gmail.com</a> ("Zen" 2015)</footer>
+	    </div> 	
 
     </div>
 
