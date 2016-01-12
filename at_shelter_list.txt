@@ -144,13 +144,13 @@
 144	PA - Quarry Gap Shelters (1455')	Quarry Gap Shelters	-77.4867	39.932	http://forecast.weather.gov/MapClick.php?lon=-77.4867&lat=39.932&unit=0&lg=english&FcstType=text&TextType=1	PA
 145	PA - Birch Run Shelter (1795')	Birch Run Shelter	-77.4207	39.9846	http://forecast.weather.gov/MapClick.php?lon=-77.4207&lat=39.9846&unit=0&lg=english&FcstType=text&TextType=1	PA
 146	PA - Toms Run Shelters (1300')	Toms Run Shelters	-77.3573	40.0343	http://forecast.weather.gov/MapClick.php?lon=-77.3573&lat=40.0343&unit=0&lg=english&FcstType=text&TextType=1	PA
-147	PA - James Fryﬂ(Tagg Run) Shelter (805')	James Fryﬂ(Tagg Run) Shelter	-77.2064	40.063	http://forecast.weather.gov/MapClick.php?lon=-77.2064&lat=40.063&unit=0&lg=english&FcstType=text&TextType=1	PA
+147	PA - James Fry (Tagg Run) Shelter (805')	James Fry (Tagg Run) Shelter	-77.2064	40.063	http://forecast.weather.gov/MapClick.php?lon=-77.2064&lat=40.063&unit=0&lg=english&FcstType=text&TextType=1	PA
 148	PA - Alec Kennedy Shelter (850')	Alec Kennedy Shelter	-77.1043	40.1119	http://forecast.weather.gov/MapClick.php?lon=-77.1043&lat=40.1119&unit=0&lg=english&FcstType=text&TextType=1	PA
 149	PA - Darlington Shelter (1170')	Darlington Shelter	-77.0874	40.302	http://forecast.weather.gov/MapClick.php?lon=-77.0874&lat=40.302&unit=0&lg=english&FcstType=text&TextType=1	PA
 150	PA - Cove Mountain Shelter (1120')	Cove Mountain Shelter	-77.0678	40.3635	http://forecast.weather.gov/MapClick.php?lon=-77.0678&lat=40.3635&unit=0&lg=english&FcstType=text&TextType=1	PA
 151	PA - Clarks Ferry Shelter (1180')	Clarks Ferry Shelter	-76.994	40.3922	http://forecast.weather.gov/MapClick.php?lon=-76.994&lat=40.3922&unit=0&lg=english&FcstType=text&TextType=1	PA
 152	PA - Peters Mountain Shelter (970')	Peters Mountain Shelter	-76.8797	40.4258	http://forecast.weather.gov/MapClick.php?lon=-76.8797&lat=40.4258&unit=0&lg=english&FcstType=text&TextType=1	PA
-153	PA - Rausch Gap Shelter (970')	Rausch Gap Shelter	-76.6005	40.4985	http://forecast.weather.gov/MapClick.php?lon=-76.6005&lat=40.4985&unit=0&lg=english&FcstType=text&TextType=1	PA
+153	PA - Rausch Gap Shelter (970')	Rausch Gap Shelter	-76.6005	40.4985	http://forecast.weather.gov/MapClickerDick.php?lon=-76.6005&lat=40.4985&unit=0&lg=english&FcstType=text&TextType=1	PA
 154	PA - William Penn Shelter (1300')	William Penn Shelter	-76.4144	40.4956	http://forecast.weather.gov/MapClick.php?lon=-76.4144&lat=40.4956&unit=0&lg=english&FcstType=text&TextType=1	PA
 155	PA - 501 Shelter (1460')	501 Shelter	-76.3469	40.5125	http://forecast.weather.gov/MapClick.php?lon=-76.3469&lat=40.5125&unit=0&lg=english&FcstType=text&TextType=1	PA
 156	PA - Eagles Nest Shelter (1510')	Eagles Nest Shelter	-76.1527	40.5493	http://forecast.weather.gov/MapClick.php?lon=-76.1527&lat=40.5493&unit=0&lg=english&FcstType=text&TextType=1	PA
