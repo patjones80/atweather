@@ -282,3 +282,239 @@
 282	ME - Hurd Brook Lean-to (715')	Hurd Brook Lean-to	-69.019	45.8185	http://forecast.weather.gov/MapClick.php?lon=-69.019&lat=45.8185&unit=0&lg=english&FcstType=text&TextType=1	ME
 283	ME - The Birches Lean-tos & Campsite (1080')	The Birches Lean-tos & Campsite	-68.9951	45.8816	http://forecast.weather.gov/MapClick.php?lon=-68.9951&lat=45.8816&unit=0&lg=english&FcstType=text&TextType=1	ME
 284	ME - KATAHDIN (Baxter Peak) (5268')	KATAHDIN (Baxter Peak)	-68.9213	45.9044	http://forecast.weather.gov/MapClick.php?lon=-68.9213&lat=45.9044&unit=0&lg=english&FcstType=text&TextType=1	ME
+285	CA - Mexican Border, Southern Terminus of the PCT	Mexican Border, Southern Terminus of the PCT	-116.466988	32.58972	http://forecast.weather.gov/MapClick.php?lon=-116.466988&lat=32.589750&unit=0&lg=english&FcstType=text&TextType=1	CA
+286	CA - Campo Post Office 	Campo Post Office 	-116.470798	32.607373	http://forecast.weather.gov/MapClick.php?lon=-116.470798&lat=32.607373&unit=0&lg=english&FcstType=text&TextType=1	CA
+287	CA - Hauser Creek	Hauser Creek	-116.545505	32.661418	http://forecast.weather.gov/MapClick.php?lon=-116.545505&lat=32.661418&unit=0&lg=english&FcstType=text&TextType=1	CA
+288	CA - Boulder Oaks Campground	Boulder Oaks Campground	-116.483168	32.729016	http://forecast.weather.gov/MapClick.php?lon=-116.483168&lat=32.729016&unit=0&lg=english&FcstType=text&TextType=1	CA
+289	CA - Interstate Highway 8	Interstate Highway 8	-116.480025	32.734293	http://forecast.weather.gov/MapClick.php?lon=-116.480025&lat=32.734293&unit=0&lg=english&FcstType=text&TextType=1	CA
+290	CA - Long Canyon	Long Canyon	-116.422472	32.811006	http://forecast.weather.gov/MapClick.php?lon=-116.422472&lat=32.811006&unit=0&lg=english&FcstType=text&TextType=1	CA
+291	CA - Burnt Rancheria Campground	Burnt Rancheria Campground	-116.416588	32.85858	http://forecast.weather.gov/MapClick.php?lon=-116.416588&lat=32.858580&unit=0&lg=english&FcstType=text&TextType=1	CA
+292	CA - Sunrise Trailhead Junction	Sunrise Trailhead Junction	-116.522236	32.980363	http://forecast.weather.gov/MapClick.php?lon=-116.522236&lat=32.980363&unit=0&lg=english&FcstType=text&TextType=1	CA
+293	CA - Highway 78	Highway 78	-116.469501	33.099146	http://forecast.weather.gov/MapClick.php?lon=-116.469501&lat=33.099146&unit=0&lg=english&FcstType=text&TextType=1	CA
+294	CA - Eagle Rock	Eagle Rock	-116.611588	33.254761	http://forecast.weather.gov/MapClick.php?lon=-116.611588&lat=33.254761&unit=0&lg=english&FcstType=text&TextType=1	CA
+295	CA - Tule Canyon Creek	Tule Canyon Creek	-116.604818	33.45789	http://forecast.weather.gov/MapClick.php?lon=-116.604818&lat=33.457890&unit=0&lg=english&FcstType=text&TextType=1	CA
+296	CA - Laws Trail Junction	Laws Trail Junction	-116.652988	33.78725	http://forecast.weather.gov/MapClick.php?lon=-116.652988&lat=33.787250&unit=0&lg=english&FcstType=text&TextType=1	CA
+297	CA - Suicide Rock	Suicide Rock	-116.696749	33.769968	http://forecast.weather.gov/MapClick.php?lon=-116.696749&lat=33.769968&unit=0&lg=english&FcstType=text&TextType=1	CA
+298	CA - Interstate Highway 10	Interstate Highway 10	-116.694547	33.92424	http://forecast.weather.gov/MapClick.php?lon=-116.694547&lat=33.924240&unit=0&lg=english&FcstType=text&TextType=1	CA
+299	CA - Whitewater Creek	Whitewater Creek	-116.669843	34.013162	http://forecast.weather.gov/MapClick.php?lon=-116.669843&lat=34.013162&unit=0&lg=english&FcstType=text&TextType=1	CA
+300	CA - San Gorgonio Peak	San Gorgonio Peak	-116.824938	34.099252	http://forecast.weather.gov/MapClick.php?lon=-116.824938&lat=34.099252&unit=0&lg=english&FcstType=text&TextType=1	CA
+301	CA - Highway 18 - Big Bear	Highway 18 - Big Bear	-116.802749	34.290743	http://forecast.weather.gov/MapClick.php?lon=-116.802749&lat=34.290743&unit=0&lg=english&FcstType=text&TextType=1	CA
+302	CA - Mojave River Campground	Mojave River Campground	-117.263827	34.315855	http://forecast.weather.gov/MapClick.php?lon=-117.263827&lat=34.315855&unit=0&lg=english&FcstType=text&TextType=1	CA
+303	CA - Cleghorn Picnic Area	Cleghorn Picnic Area	-117.348119	34.287663	http://forecast.weather.gov/MapClick.php?lon=-117.348119&lat=34.287663&unit=0&lg=english&FcstType=text&TextType=1	CA
+304	CA - Interstate Highway 15	Interstate Highway 15	-117.4652	34.30464	http://forecast.weather.gov/MapClick.php?lon=-117.465200&lat=34.304640&unit=0&lg=english&FcstType=text&TextType=1	CA
+305	CA - Mount Baldy	Mount Baldy	-117.646406	34.289181	http://forecast.weather.gov/MapClick.php?lon=-117.646406&lat=34.289181&unit=0&lg=english&FcstType=text&TextType=1	CA
+306	CA - Grassy Hollow Visitor Center	Grassy Hollow Visitor Center	-117.722119	34.37636	http://forecast.weather.gov/MapClick.php?lon=-117.722119&lat=34.376360&unit=0&lg=english&FcstType=text&TextType=1	CA
+307	CA - Devils Punchbowl County Park	Devils Punchbowl County Park	-117.85844	34.413979	http://forecast.weather.gov/MapClick.php?lon=-117.858440&lat=34.413979&unit=0&lg=english&FcstType=text&TextType=1	CA
+308	CA - Eagles Roost Picnic Area	Eagles Roost Picnic Area	-117.878063	34.354294	http://forecast.weather.gov/MapClick.php?lon=-117.878063&lat=34.354294&unit=0&lg=english&FcstType=text&TextType=1	CA
+309	CA - Messenger Flats	Messenger Flats	-118.190017	34.381223	http://forecast.weather.gov/MapClick.php?lon=-118.190017&lat=34.381223&unit=0&lg=english&FcstType=text&TextType=1	CA
+310	CA - Vasquez Rocks Picnic Area	Vasquez Rocks Picnic Area	-118.311882	34.485096	http://forecast.weather.gov/MapClick.php?lon=-118.311882&lat=34.485096&unit=0&lg=english&FcstType=text&TextType=1	CA
+311	CA - Bouquet Canyon Road	Bouquet Canyon Road	-118.321236	34.58373	http://forecast.weather.gov/MapClick.php?lon=-118.321236&lat=34.583730&unit=0&lg=english&FcstType=text&TextType=1	CA
+312	CA - Maxwell Trail Camp	Maxwell Trail Camp	-118.521664	34.687892	http://forecast.weather.gov/MapClick.php?lon=-118.521664&lat=34.687892&unit=0&lg=english&FcstType=text&TextType=1	CA
+313	CA - Highway 138	Highway 138	-118.607181	34.775685	http://forecast.weather.gov/MapClick.php?lon=-118.607181&lat=34.775685&unit=0&lg=english&FcstType=text&TextType=1	CA
+314	CA - Tylerhorse Canyon	Tylerhorse Canyon	-118.468572	34.979435	http://forecast.weather.gov/MapClick.php?lon=-118.468572&lat=34.979435&unit=0&lg=english&FcstType=text&TextType=1	CA
+315	CA - Highway 58	Highway 58	-118.292893	35.099399	http://forecast.weather.gov/MapClick.php?lon=-118.292893&lat=35.099399&unit=0&lg=english&FcstType=text&TextType=1	CA
+316	CA - Hamp Williams Pass	Hamp Williams Pass	-118.285105	35.336589	http://forecast.weather.gov/MapClick.php?lon=-118.285105&lat=35.336589&unit=0&lg=english&FcstType=text&TextType=1	CA
+317	CA - Cottonwood Creek	Cottonwood Creek	-118.306815	35.405254	http://forecast.weather.gov/MapClick.php?lon=-118.306815&lat=35.405254&unit=0&lg=english&FcstType=text&TextType=1	CA
+318	CA - Highway 178 - Walker Pass	Highway 178 - Walker Pass	-118.02735	35.66309	http://forecast.weather.gov/MapClick.php?lon=-118.027350&lat=35.663090&unit=0&lg=english&FcstType=text&TextType=1	CA
+319	CA - Chimney Creek	Chimney Creek	-118.043791	35.834951	http://forecast.weather.gov/MapClick.php?lon=-118.043791&lat=35.834951&unit=0&lg=english&FcstType=text&TextType=1	CA
+320	CA - Kennedy Meadows Campground	Kennedy Meadows Campground	-118.130468	36.054498	http://forecast.weather.gov/MapClick.php?lon=-118.130468&lat=36.054498&unit=0&lg=english&FcstType=text&TextType=1	CA
+321	CA - Haiwee Trail Junction	Haiwee Trail Junction	-118.14002	36.139137	http://forecast.weather.gov/MapClick.php?lon=-118.140020&lat=36.139137&unit=0&lg=english&FcstType=text&TextType=1	CA
+322	CA - Cow Creek	Cow Creek	-118.135364	36.222656	http://forecast.weather.gov/MapClick.php?lon=-118.135364&lat=36.222656&unit=0&lg=english&FcstType=text&TextType=1	CA
+323	CA - Sequoia National Park (boundary)	Sequoia National Park (boundary)	-118.260188	36.473713	http://forecast.weather.gov/MapClick.php?lon=-118.260188&lat=36.473713&unit=0&lg=english&FcstType=text&TextType=1	CA
+324	CA - John Muir Trail (junction)	John Muir Trail (junction)	-118.361772	36.558887	http://forecast.weather.gov/MapClick.php?lon=-118.361772&lat=36.558887&unit=0&lg=english&FcstType=text&TextType=1	CA
+325	CA - Tyndall Creek	Tyndall Creek	-118.387513	36.642122	http://forecast.weather.gov/MapClick.php?lon=-118.387513&lat=36.642122&unit=0&lg=english&FcstType=text&TextType=1	CA
+326	CA - Forester Pass	Forester Pass	-118.373488	36.69452	http://forecast.weather.gov/MapClick.php?lon=-118.373488&lat=36.694520&unit=0&lg=english&FcstType=text&TextType=1	CA
+327	CA - Upper Vidette Meadow	Upper Vidette Meadow	-118.394279	36.752937	http://forecast.weather.gov/MapClick.php?lon=-118.394279&lat=36.752937&unit=0&lg=english&FcstType=text&TextType=1	CA
+328	CA - Charlotte Lake Trail	Charlotte Lake Trail	-118.416297	36.77061	http://forecast.weather.gov/MapClick.php?lon=-118.416297&lat=36.770610&unit=0&lg=english&FcstType=text&TextType=1	CA
+329	CA - Glen Pass	Glen Pass	-118.411768	36.789552	http://forecast.weather.gov/MapClick.php?lon=-118.411768&lat=36.789552&unit=0&lg=english&FcstType=text&TextType=1	CA
+330	CA - Rae Lakes Ranger	Rae Lakes Ranger	-118.400771	36.811347	http://forecast.weather.gov/MapClick.php?lon=-118.400771&lat=36.811347&unit=0&lg=english&FcstType=text&TextType=1	CA
+331	CA - Baxter Pass Trail	Baxter Pass Trail	-118.408192	36.834616	http://forecast.weather.gov/MapClick.php?lon=-118.408192&lat=36.834616&unit=0&lg=english&FcstType=text&TextType=1	CA
+332	CA - Pinchot Pass	Pinchot Pass	-118.412534	36.936104	http://forecast.weather.gov/MapClick.php?lon=-118.412534&lat=36.936104&unit=0&lg=english&FcstType=text&TextType=1	CA
+333	CA - Mather Pass	Mather Pass	-118.460103	37.031323	http://forecast.weather.gov/MapClick.php?lon=-118.460103&lat=37.031323&unit=0&lg=english&FcstType=text&TextType=1	CA
+334	CA - Lower Palisade Lake	Lower Palisade Lake	-118.48829	37.060189	http://forecast.weather.gov/MapClick.php?lon=-118.488290&lat=37.060189&unit=0&lg=english&FcstType=text&TextType=1	CA
+335	CA - Palisade Creek	Palisade Creek	-118.537455	37.053647	http://forecast.weather.gov/MapClick.php?lon=-118.537455&lat=37.053647&unit=0&lg=english&FcstType=text&TextType=1	CA
+336	CA - Grouse Meadow	Grouse Meadow	-118.589125	37.063508	http://forecast.weather.gov/MapClick.php?lon=-118.589125&lat=37.063508&unit=0&lg=english&FcstType=text&TextType=1	CA
+337	CA - Middle Fork Kings River	Middle Fork Kings River	-118.611313	37.11348	http://forecast.weather.gov/MapClick.php?lon=-118.611313&lat=37.113480&unit=0&lg=english&FcstType=text&TextType=1	CA
+338	CA - Muir Pass	Muir Pass	-118.670911	37.112048	http://forecast.weather.gov/MapClick.php?lon=-118.670911&lat=37.112048&unit=0&lg=english&FcstType=text&TextType=1	CA
+339	CA - Sapphire Lake	Sapphire Lake	-118.696656	37.148667	http://forecast.weather.gov/MapClick.php?lon=-118.696656&lat=37.148667&unit=0&lg=english&FcstType=text&TextType=1	CA
+340	CA - McClure Meadow	McClure Meadow	-118.741628	37.187815	http://forecast.weather.gov/MapClick.php?lon=-118.741628&lat=37.187815&unit=0&lg=english&FcstType=text&TextType=1	CA
+341	CA - Evolution Meadow	Evolution Meadow	-118.773483	37.195844	http://forecast.weather.gov/MapClick.php?lon=-118.773483&lat=37.195844&unit=0&lg=english&FcstType=text&TextType=1	CA
+342	CA - South Fork San Joaquin River	South Fork San Joaquin River	-118.800887	37.203186	http://forecast.weather.gov/MapClick.php?lon=-118.800887&lat=37.203186&unit=0&lg=english&FcstType=text&TextType=1	CA
+343	CA - Florence Lake Trail	Florence Lake Trail	-118.861256	37.225804	http://forecast.weather.gov/MapClick.php?lon=-118.861256&lat=37.225804&unit=0&lg=english&FcstType=text&TextType=1	CA
+344	CA - Senger Creek	Senger Creek	-118.864398	37.253533	http://forecast.weather.gov/MapClick.php?lon=-118.864398&lat=37.253533&unit=0&lg=english&FcstType=text&TextType=1	CA
+345	CA - Marie Lake	Marie Lake	-118.871527	37.298338	http://forecast.weather.gov/MapClick.php?lon=-118.871527&lat=37.298338&unit=0&lg=english&FcstType=text&TextType=1	CA
+346	CA - Bear Creek	Bear Creek	-118.879627	37.35613	http://forecast.weather.gov/MapClick.php?lon=-118.879627&lat=37.356130&unit=0&lg=english&FcstType=text&TextType=1	CA
+347	CA - Mono Creek	Mono Creek	-118.923792	37.412387	http://forecast.weather.gov/MapClick.php?lon=-118.923792&lat=37.412387&unit=0&lg=english&FcstType=text&TextType=1	CA
+348	CA - Silver Pass	Silver Pass	-118.923211	37.467771	http://forecast.weather.gov/MapClick.php?lon=-118.923211&lat=37.467771&unit=0&lg=english&FcstType=text&TextType=1	CA
+349	CA - Fish Creek	Fish Creek	-118.932843	37.492936	http://forecast.weather.gov/MapClick.php?lon=-118.932843&lat=37.492936&unit=0&lg=english&FcstType=text&TextType=1	CA
+350	CA - Purple Lake	Purple Lake	-118.950095	37.528977	http://forecast.weather.gov/MapClick.php?lon=-118.950095&lat=37.528977&unit=0&lg=english&FcstType=text&TextType=1	CA
+351	CA - Crater Creek	Crater Creek	-119.055078	37.587717	http://forecast.weather.gov/MapClick.php?lon=-119.055078&lat=37.587717&unit=0&lg=english&FcstType=text&TextType=1	CA
+352	CA - Middle Fork San Joaquin River	Middle Fork San Joaquin River	-119.083483	37.614569	http://forecast.weather.gov/MapClick.php?lon=-119.083483&lat=37.614569&unit=0&lg=english&FcstType=text&TextType=1	CA
+353	CA - Rosalie Lake	Rosalie Lake	-119.121032	37.68784	http://forecast.weather.gov/MapClick.php?lon=-119.121032&lat=37.687840&unit=0&lg=english&FcstType=text&TextType=1	CA
+354	CA - Soda Springs Campground	Soda Springs Campground	-119.078754	37.653447	http://forecast.weather.gov/MapClick.php?lon=-119.078754&lat=37.653447&unit=0&lg=english&FcstType=text&TextType=1	CA
+355	CA - Island Pass	Island Pass	-119.194337	37.736621	http://forecast.weather.gov/MapClick.php?lon=-119.194337&lat=37.736621&unit=0&lg=english&FcstType=text&TextType=1	CA
+356	CA - Donohue Pass	Donohue Pass	-119.248082	37.760877	http://forecast.weather.gov/MapClick.php?lon=-119.248082&lat=37.760877&unit=0&lg=english&FcstType=text&TextType=1	CA
+357	CA - Ireland Creek	Ireland Creek	-119.279659	37.825547	http://forecast.weather.gov/MapClick.php?lon=-119.279659&lat=37.825547&unit=0&lg=english&FcstType=text&TextType=1	CA
+358	CA - Highway 120	Highway 120	-119.353069	37.877018	http://forecast.weather.gov/MapClick.php?lon=-119.353069&lat=37.877018&unit=0&lg=english&FcstType=text&TextType=1	CA
+359	CA - Tuolumne River	Tuolumne River	-119.3662	37.877377	http://forecast.weather.gov/MapClick.php?lon=-119.366200&lat=37.877377&unit=0&lg=english&FcstType=text&TextType=1	CA
+360	CA - Glen Aulin Campground	Glen Aulin Campground	-119.41792	37.910149	http://forecast.weather.gov/MapClick.php?lon=-119.417920&lat=37.910149&unit=0&lg=english&FcstType=text&TextType=1	CA
+361	CA - Miller Lake	Miller Lake	-119.418793	37.993891	http://forecast.weather.gov/MapClick.php?lon=-119.418793&lat=37.993891&unit=0&lg=english&FcstType=text&TextType=1	CA
+362	CA - Benson Pass	Benson Pass	-119.46116	38.015117	http://forecast.weather.gov/MapClick.php?lon=-119.461160&lat=38.015117&unit=0&lg=english&FcstType=text&TextType=1	CA
+363	CA - Piute Creek	Piute Creek	-119.519657	38.022795	http://forecast.weather.gov/MapClick.php?lon=-119.519657&lat=38.022795&unit=0&lg=english&FcstType=text&TextType=1	CA
+364	CA - Wilma Lake (Wilmer Lake)	Wilma Lake (Wilmer Lake)	-119.639788	38.069012	http://forecast.weather.gov/MapClick.php?lon=-119.639788&lat=38.069012&unit=0&lg=english&FcstType=text&TextType=1	CA
+365	CA - Lake Harriet	Lake Harriet	-119.569827	38.187328	http://forecast.weather.gov/MapClick.php?lon=-119.569827&lat=38.187328&unit=0&lg=english&FcstType=text&TextType=1	CA
+366	CA - Walken Meadow	Walken Meadow	-119.580518	38.230871	http://forecast.weather.gov/MapClick.php?lon=-119.580518&lat=38.230871&unit=0&lg=english&FcstType=text&TextType=1	CA
+367	CA - Highway 108 - Sonora Pass	Highway 108 - Sonora Pass	-119.637183	38.327968	http://forecast.weather.gov/MapClick.php?lon=-119.637183&lat=38.327968&unit=0&lg=english&FcstType=text&TextType=1	CA
+368	CA - Carson-Iceberg Wilderness	Carson-Iceberg Wilderness	-119.623085	38.361432	http://forecast.weather.gov/MapClick.php?lon=-119.623085&lat=38.361432&unit=0&lg=english&FcstType=text&TextType=1	CA
+369	CA - Wolf Creek	Wolf Creek	-119.754636	38.485321	http://forecast.weather.gov/MapClick.php?lon=-119.754636&lat=38.485321&unit=0&lg=english&FcstType=text&TextType=1	CA
+370	CA - Highway 4 - Ebbetts Pass	Highway 4 - Ebbetts Pass	-119.811263	38.545741	http://forecast.weather.gov/MapClick.php?lon=-119.811263&lat=38.545741&unit=0&lg=english&FcstType=text&TextType=1	CA
+371	CA - Pennsylvania Creek	Pennsylvania Creek	-119.821656	38.596669	http://forecast.weather.gov/MapClick.php?lon=-119.821656&lat=38.596669&unit=0&lg=english&FcstType=text&TextType=1	CA
+372	CA - Lilly Pad Lake	Lilly Pad Lake	-119.886211	38.605948	http://forecast.weather.gov/MapClick.php?lon=-119.886211&lat=38.605948&unit=0&lg=english&FcstType=text&TextType=1	CA
+373	CA - Highway 88 - Carson Pass	Highway 88 - Carson Pass	-119.989674	38.695867	http://forecast.weather.gov/MapClick.php?lon=-119.989674&lat=38.695867&unit=0&lg=english&FcstType=text&TextType=1	CA
+374	CA - Highway 50	Highway 50	-120.039859	38.822959	http://forecast.weather.gov/MapClick.php?lon=-120.039859&lat=38.822959&unit=0&lg=english&FcstType=text&TextType=1	CA
+375	CA - Heather Lake	Heather Lake	-120.138632	38.878287	http://forecast.weather.gov/MapClick.php?lon=-120.138632&lat=38.878287&unit=0&lg=english&FcstType=text&TextType=1	CA
+376	CA - Middle Velma Lake	Middle Velma Lake	-120.154752	38.93599	http://forecast.weather.gov/MapClick.php?lon=-120.154752&lat=38.935990&unit=0&lg=english&FcstType=text&TextType=1	CA
+377	CA - Richardson Lake	Richardson Lake	-120.212352	39.024597	http://forecast.weather.gov/MapClick.php?lon=-120.212352&lat=39.024597&unit=0&lg=english&FcstType=text&TextType=1	CA
+378	CA - North Fork Blackwood Creek	North Fork Blackwood Creek	-120.243263	39.091946	http://forecast.weather.gov/MapClick.php?lon=-120.243263&lat=39.091946&unit=0&lg=english&FcstType=text&TextType=1	CA
+379	CA - Squaw Creek	Squaw Creek	-120.280957	39.199602	http://forecast.weather.gov/MapClick.php?lon=-120.280957&lat=39.199602&unit=0&lg=english&FcstType=text&TextType=1	CA
+380	CA - Highway 40 - Donner Pass	Highway 40 - Donner Pass	-120.326044	39.316788	http://forecast.weather.gov/MapClick.php?lon=-120.326044&lat=39.316788&unit=0&lg=english&FcstType=text&TextType=1	CA
+381	CA - Interstate Highway 80	Interstate Highway 80	-120.336213	39.34345	http://forecast.weather.gov/MapClick.php?lon=-120.336213&lat=39.343450&unit=0&lg=english&FcstType=text&TextType=1	CA
+382	CA - Castle Pass	Castle Pass	-120.364943	39.358707	http://forecast.weather.gov/MapClick.php?lon=-120.364943&lat=39.358707&unit=0&lg=english&FcstType=text&TextType=1	CA
+383	CA - Paradise Lake Trail	Paradise Lake Trail	-120.377347	39.401084	http://forecast.weather.gov/MapClick.php?lon=-120.377347&lat=39.401084&unit=0&lg=english&FcstType=text&TextType=1	CA
+384	CA - Mule Ears Creek	Mule Ears Creek	-120.493718	39.470173	http://forecast.weather.gov/MapClick.php?lon=-120.493718&lat=39.470173&unit=0&lg=english&FcstType=text&TextType=1	CA
+385	CA - Milton Creek	Milton Creek	-120.572586	39.543565	http://forecast.weather.gov/MapClick.php?lon=-120.572586&lat=39.543565&unit=0&lg=english&FcstType=text&TextType=1	CA
+386	CA - Highway 49	Highway 49	-120.612561	39.576553	http://forecast.weather.gov/MapClick.php?lon=-120.612561&lat=39.576553&unit=0&lg=english&FcstType=text&TextType=1	CA
+387	CA - Sierra Buttes Spring	Sierra Buttes Spring	-120.662251	39.592202	http://forecast.weather.gov/MapClick.php?lon=-120.662251&lat=39.592202&unit=0&lg=english&FcstType=text&TextType=1	CA
+388	CA - Silver Lake Trail	Silver Lake Trail	-120.701004	39.690814	http://forecast.weather.gov/MapClick.php?lon=-120.701004&lat=39.690814&unit=0&lg=english&FcstType=text&TextType=1	CA
+389	CA - Quincy-LaPorte Road	Quincy-LaPorte Road	-120.891617	39.782399	http://forecast.weather.gov/MapClick.php?lon=-120.891617&lat=39.782399&unit=0&lg=english&FcstType=text&TextType=1	CA
+390	CA - Middle Fork Feather River	Middle Fork Feather River	-121.045186	39.808315	http://forecast.weather.gov/MapClick.php?lon=-121.045186&lat=39.808315&unit=0&lg=english&FcstType=text&TextType=1	CA
+391	CA - Big Creek Road	Big Creek Road	-121.131391	39.858565	http://forecast.weather.gov/MapClick.php?lon=-121.131391&lat=39.858565&unit=0&lg=english&FcstType=text&TextType=1	CA
+392	CA - Clear Creek Springs	Clear Creek Springs	-121.179562	39.961689	http://forecast.weather.gov/MapClick.php?lon=-121.179562&lat=39.961689&unit=0&lg=english&FcstType=text&TextType=1	CA
+393	CA - Highway 70 - Belden	Highway 70 - Belden	-121.24947	40.006965	http://forecast.weather.gov/MapClick.php?lon=-121.249470&lat=40.006965&unit=0&lg=english&FcstType=text&TextType=1	CA
+394	CA - Lassen National Forest (south end)	Lassen National Forest (south end)	-121.299427	40.028374	http://forecast.weather.gov/MapClick.php?lon=-121.299427&lat=40.028374&unit=0&lg=english&FcstType=text&TextType=1	CA
+395	CA - Myrtle Flat	Myrtle Flat	-121.326774	40.02996	http://forecast.weather.gov/MapClick.php?lon=-121.326774&lat=40.029960&unit=0&lg=english&FcstType=text&TextType=1	CA
+396	CA - Frog Spring	Frog Spring	-121.382313	40.054633	http://forecast.weather.gov/MapClick.php?lon=-121.382313&lat=40.054633&unit=0&lg=english&FcstType=text&TextType=1	CA
+397	CA - Humboldt Peak Trail	Humboldt Peak Trail	-121.423757	40.156044	http://forecast.weather.gov/MapClick.php?lon=-121.423757&lat=40.156044&unit=0&lg=english&FcstType=text&TextType=1	CA
+398	CA - PCT Midpoint	PCT Midpoint	-121.3559	40.210019	http://forecast.weather.gov/MapClick.php?lon=-121.355900&lat=40.210019&unit=0&lg=english&FcstType=text&TextType=1	CA
+399	CA - Highway 36	Highway 36	-121.338872	40.261505	http://forecast.weather.gov/MapClick.php?lon=-121.338872&lat=40.261505&unit=0&lg=english&FcstType=text&TextType=1	CA
+400	CA - Stover Spring	Stover Spring	-121.341972	40.299287	http://forecast.weather.gov/MapClick.php?lon=-121.341972&lat=40.299287&unit=0&lg=english&FcstType=text&TextType=1	CA
+401	CA - North Fork Feather River	North Fork Feather River	-121.351262	40.352093	http://forecast.weather.gov/MapClick.php?lon=-121.351262&lat=40.352093&unit=0&lg=english&FcstType=text&TextType=1	CA
+402	CA - Drakesbad Guest Ranch	Drakesbad Guest Ranch	-121.403903	40.444169	http://forecast.weather.gov/MapClick.php?lon=-121.403903&lat=40.444169&unit=0&lg=english&FcstType=text&TextType=1	CA
+403	CA - Lower Twin Lake	Lower Twin Lake	-121.36284	40.505102	http://forecast.weather.gov/MapClick.php?lon=-121.362840&lat=40.505102&unit=0&lg=english&FcstType=text&TextType=1	CA
+404	CA - Lassen National Park (north end)	Lassen National Park (north end)	-121.443099	40.563179	http://forecast.weather.gov/MapClick.php?lon=-121.443099&lat=40.563179&unit=0&lg=english&FcstType=text&TextType=1	CA
+405	CA - Old Station	Old Station	-121.45996	40.651251	http://forecast.weather.gov/MapClick.php?lon=-121.459960&lat=40.651251&unit=0&lg=english&FcstType=text&TextType=1	CA
+406	CA - Highway 44	Highway 44	-121.420274	40.679876	http://forecast.weather.gov/MapClick.php?lon=-121.420274&lat=40.679876&unit=0&lg=english&FcstType=text&TextType=1	CA
+407	CA - Hat Creek Rim Lookout Site	Hat Creek Rim Lookout Site	-121.414621	40.808628	http://forecast.weather.gov/MapClick.php?lon=-121.414621&lat=40.808628&unit=0&lg=english&FcstType=text&TextType=1	CA
+408	CA - Cassel Fall River Road	Cassel Fall River Road	-121.497226	40.922214	http://forecast.weather.gov/MapClick.php?lon=-121.497226&lat=40.922214&unit=0&lg=english&FcstType=text&TextType=1	CA
+409	CA - Crystal Lake Fish Hatchery	Crystal Lake Fish Hatchery	-121.543827	40.932054	http://forecast.weather.gov/MapClick.php?lon=-121.543827&lat=40.932054&unit=0&lg=english&FcstType=text&TextType=1	CA
+410	CA - Highway 299	Highway 299	-121.577208	40.963529	http://forecast.weather.gov/MapClick.php?lon=-121.577208&lat=40.963529&unit=0&lg=english&FcstType=text&TextType=1	CA
+411	CA - Highway 89	Highway 89	-121.642309	41.008421	http://forecast.weather.gov/MapClick.php?lon=-121.642309&lat=41.008421&unit=0&lg=english&FcstType=text&TextType=1	CA
+412	CA - Burney Falls State Park	Burney Falls State Park	-121.650383	41.012642	http://forecast.weather.gov/MapClick.php?lon=-121.650383&lat=41.012642&unit=0&lg=english&FcstType=text&TextType=1	CA
+413	CA - Rock Creek	Rock Creek	-121.713634	41.025079	http://forecast.weather.gov/MapClick.php?lon=-121.713634&lat=41.025079&unit=0&lg=english&FcstType=text&TextType=1	CA
+414	CA - Deadman Creek	Deadman Creek	-121.774476	41.118882	http://forecast.weather.gov/MapClick.php?lon=-121.774476&lat=41.118882&unit=0&lg=english&FcstType=text&TextType=1	CA
+415	CA - Moosehead Creek	Moosehead Creek	-121.831842	41.177123	http://forecast.weather.gov/MapClick.php?lon=-121.831842&lat=41.177123&unit=0&lg=english&FcstType=text&TextType=1	CA
+416	CA - Deer Creek	Deer Creek	-121.98741	41.128277	http://forecast.weather.gov/MapClick.php?lon=-121.987410&lat=41.128277&unit=0&lg=english&FcstType=text&TextType=1	CA
+417	CA - Ash Camp Campground	Ash Camp Campground	-122.060625	41.117091	http://forecast.weather.gov/MapClick.php?lon=-122.060625&lat=41.117091&unit=0&lg=english&FcstType=text&TextType=1	CA
+418	CA - Squaw Valley Creek	Squaw Valley Creek	-122.169568	41.141103	http://forecast.weather.gov/MapClick.php?lon=-122.169568&lat=41.141103&unit=0&lg=english&FcstType=text&TextType=1	CA
+419	CA - Castle Crag State Park	Castle Crag State Park	-122.28883	41.160542	http://forecast.weather.gov/MapClick.php?lon=-122.288830&lat=41.160542&unit=0&lg=english&FcstType=text&TextType=1	CA
+420	CA - Interstate Highway 5	Interstate Highway 5	-122.297251	41.162611	http://forecast.weather.gov/MapClick.php?lon=-122.297251&lat=41.162611&unit=0&lg=english&FcstType=text&TextType=1	CA
+421	CA - East Fork Sulphur Creek	East Fork Sulphur Creek	-122.35856	41.164535	http://forecast.weather.gov/MapClick.php?lon=-122.358560&lat=41.164535&unit=0&lg=english&FcstType=text&TextType=1	CA
+422	CA - Gully Spring	Gully Spring	-122.392887	41.213822	http://forecast.weather.gov/MapClick.php?lon=-122.392887&lat=41.213822&unit=0&lg=english&FcstType=text&TextType=1	CA
+423	CA - Seven Lakes Trail	Seven Lakes Trail	-122.497331	41.187464	http://forecast.weather.gov/MapClick.php?lon=-122.497331&lat=41.187464&unit=0&lg=english&FcstType=text&TextType=1	CA
+424	CA - Red Rock Spring	Red Rock Spring	-122.507865	41.306786	http://forecast.weather.gov/MapClick.php?lon=-122.507865&lat=41.306786&unit=0&lg=english&FcstType=text&TextType=1	CA
+425	CA - Highway 3 - Scott Mountain	Highway 3 - Scott Mountain	-122.697606	41.275582	http://forecast.weather.gov/MapClick.php?lon=-122.697606&lat=41.275582&unit=0&lg=english&FcstType=text&TextType=1	CA
+426	CA - Scott Mountain Summit Trail	Scott Mountain Summit Trail	-122.789797	41.212612	http://forecast.weather.gov/MapClick.php?lon=-122.789797&lat=41.212612&unit=0&lg=english&FcstType=text&TextType=1	CA
+427	CA - Highway 93 - Carter Meadows Summit	Highway 93 - Carter Meadows Summit	-122.899205	41.22039	http://forecast.weather.gov/MapClick.php?lon=-122.899205&lat=41.220390&unit=0&lg=english&FcstType=text&TextType=1	CA
+428	CA - Paynes Lake	Paynes Lake	-122.959452	41.343508	http://forecast.weather.gov/MapClick.php?lon=-122.959452&lat=41.343508&unit=0&lg=english&FcstType=text&TextType=1	CA
+429	CA - Marble Mountain Wilderness	Marble Mountain Wilderness	-123.020262	41.406953	http://forecast.weather.gov/MapClick.php?lon=-123.020262&lat=41.406953&unit=0&lg=english&FcstType=text&TextType=1	CA
+430	CA - Marten Lake	Marten Lake	-123.109431	41.497649	http://forecast.weather.gov/MapClick.php?lon=-123.109431&lat=41.497649&unit=0&lg=english&FcstType=text&TextType=1	CA
+431	CA - Paradise Lake	Paradise Lake	-123.209529	41.612465	http://forecast.weather.gov/MapClick.php?lon=-123.209529&lat=41.612465&unit=0&lg=english&FcstType=text&TextType=1	CA
+432	CA - Bark Shanty Creek	Bark Shanty Creek	-123.22321	41.766224	http://forecast.weather.gov/MapClick.php?lon=-123.223210&lat=41.766224&unit=0&lg=english&FcstType=text&TextType=1	CA
+433	CA - Highway 96	Highway 96	-123.21004	41.844399	http://forecast.weather.gov/MapClick.php?lon=-123.210040&lat=41.844399&unit=0&lg=english&FcstType=text&TextType=1	CA
+434	CA - Tin Cup Trail	Tin Cup Trail	-123.078823	41.953718	http://forecast.weather.gov/MapClick.php?lon=-123.078823&lat=41.953718&unit=0&lg=english&FcstType=text&TextType=1	CA
+435	OR - Oregon/California Border	Oregon/California Border	-122.909063	42.003588	http://forecast.weather.gov/MapClick.php?lon=-122.909063&lat=42.003588&unit=0&lg=english&FcstType=text&TextType=1	OR
+436	OR - Sheep Camp Spring	Sheep Camp Spring	-122.873455	42.032814	http://forecast.weather.gov/MapClick.php?lon=-122.873455&lat=42.032814&unit=0&lg=english&FcstType=text&TextType=1	OR
+437	OR - Mount Ashland Road	Mount Ashland Road	-122.697104	42.073524	http://forecast.weather.gov/MapClick.php?lon=-122.697104&lat=42.073524&unit=0&lg=english&FcstType=text&TextType=1	OR
+438	OR - Interstate Highway 5	Interstate Highway 5	-122.602595	42.063879	http://forecast.weather.gov/MapClick.php?lon=-122.602595&lat=42.063879&unit=0&lg=english&FcstType=text&TextType=1	OR
+439	OR - Soda Mountain Wilderness	Soda Mountain Wilderness	-122.524625	42.042603	http://forecast.weather.gov/MapClick.php?lon=-122.524625&lat=42.042603&unit=0&lg=english&FcstType=text&TextType=1	OR
+440	OR - Highway 66 - Green Springs Mountain Summit	Highway 66 - Green Springs Mountain Summit	-122.482737	42.130085	http://forecast.weather.gov/MapClick.php?lon=-122.482737&lat=42.130085&unit=0&lg=english&FcstType=text&TextType=1	OR
+441	OR - Hyatt Lake Campground	Hyatt Lake Campground	-122.463245	42.168684	http://forecast.weather.gov/MapClick.php?lon=-122.463245&lat=42.168684&unit=0&lg=english&FcstType=text&TextType=1	OR
+442	OR - Klum Landing Park	Klum Landing Park	-122.374904	42.208734	http://forecast.weather.gov/MapClick.php?lon=-122.374904&lat=42.208734&unit=0&lg=english&FcstType=text&TextType=1	OR
+443	OR - Vulture Rock Trail	Vulture Rock Trail	-122.298346	42.242051	http://forecast.weather.gov/MapClick.php?lon=-122.298346&lat=42.242051&unit=0&lg=english&FcstType=text&TextType=1	OR
+444	OR - Highway 140	Highway 140	-122.291469	42.395858	http://forecast.weather.gov/MapClick.php?lon=-122.291469&lat=42.395858&unit=0&lg=english&FcstType=text&TextType=1	OR
+445	OR - Sky Lakes Trail #3762	Sky Lakes Trail #3762	-122.218396	42.558278	http://forecast.weather.gov/MapClick.php?lon=-122.218396&lat=42.558278&unit=0&lg=english&FcstType=text&TextType=1	OR
+446	OR - Seven Mile Trail	Seven Mile Trail	-122.172109	42.683254	http://forecast.weather.gov/MapClick.php?lon=-122.172109&lat=42.683254&unit=0&lg=english&FcstType=text&TextType=1	OR
+447	OR - Crater Lake National Park (south end)	Crater Lake National Park (south end)	-122.175759	42.801102	http://forecast.weather.gov/MapClick.php?lon=-122.175759&lat=42.801102&unit=0&lg=english&FcstType=text&TextType=1	OR
+448	OR - Grouse Hill Camp Trail	Grouse Hill Camp Trail	-122.130836	42.991014	http://forecast.weather.gov/MapClick.php?lon=-122.130836&lat=42.991014&unit=0&lg=english&FcstType=text&TextType=1	OR
+449	OR - Highway 138 - Crater Lake National Park (north end)	Highway 138 - Crater Lake National Park (north end)	-122.091799	43.089042	http://forecast.weather.gov/MapClick.php?lon=-122.091799&lat=43.089042&unit=0&lg=english&FcstType=text&TextType=1	OR
+450	OR - Oregon/Washington High Point	Oregon/Washington High Point	-122.037855	43.211881	http://forecast.weather.gov/MapClick.php?lon=-122.037855&lat=43.211881&unit=0&lg=english&FcstType=text&TextType=1	OR
+451	OR - Crescent Lake Campground	Crescent Lake Campground	-122.0244	43.460083	http://forecast.weather.gov/MapClick.php?lon=-122.024400&lat=43.460083&unit=0&lg=english&FcstType=text&TextType=1	OR
+452	OR - Summit Lake	Summit Lake	-122.132741	43.446604	http://forecast.weather.gov/MapClick.php?lon=-122.132741&lat=43.446604&unit=0&lg=english&FcstType=text&TextType=1	OR
+453	OR - Hidden Lake	Hidden Lake	-122.101854	43.567023	http://forecast.weather.gov/MapClick.php?lon=-122.101854&lat=43.567023&unit=0&lg=english&FcstType=text&TextType=1	OR
+454	OR - Willamette Pass Ski Area	Willamette Pass Ski Area	-122.036715	43.599753	http://forecast.weather.gov/MapClick.php?lon=-122.036715&lat=43.599753&unit=0&lg=english&FcstType=text&TextType=1	OR
+455	OR - Charlton Lake	Charlton Lake	-121.977973	43.743987	http://forecast.weather.gov/MapClick.php?lon=-121.977973&lat=43.743987&unit=0&lg=english&FcstType=text&TextType=1	OR
+456	OR - Three Sisters Wilderness	Three Sisters Wilderness	-121.963318	43.809173	http://forecast.weather.gov/MapClick.php?lon=-121.963318&lat=43.809173&unit=0&lg=english&FcstType=text&TextType=1	OR
+457	OR - Desane Lake	Desane Lake	-121.91593	43.913578	http://forecast.weather.gov/MapClick.php?lon=-121.915930&lat=43.913578&unit=0&lg=english&FcstType=text&TextType=1	OR
+458	OR - Dumbbell Lake	Dumbbell Lake	-121.881755	43.957185	http://forecast.weather.gov/MapClick.php?lon=-121.881755&lat=43.957185&unit=0&lg=english&FcstType=text&TextType=1	OR
+459	OR - Sisters Mirror Lake	Sisters Mirror Lake	-121.826581	44.040561	http://forecast.weather.gov/MapClick.php?lon=-121.826581&lat=44.040561&unit=0&lg=english&FcstType=text&TextType=1	OR
+460	OR - Obsidian Creek	Obsidian Creek	-121.816898	44.16855	http://forecast.weather.gov/MapClick.php?lon=-121.816898&lat=44.168550&unit=0&lg=english&FcstType=text&TextType=1	OR
+461	OR - South Matthieu Lake	South Matthieu Lake	-121.773174	44.231617	http://forecast.weather.gov/MapClick.php?lon=-121.773174&lat=44.231617&unit=0&lg=english&FcstType=text&TextType=1	OR
+462	OR - Highway 242 - McKenzie Pass	Highway 242 - McKenzie Pass	-121.805197	44.259832	http://forecast.weather.gov/MapClick.php?lon=-121.805197&lat=44.259832&unit=0&lg=english&FcstType=text&TextType=1	OR
+463	OR - Highway 20 - Santiam Pass	Highway 20 - Santiam Pass	-121.849713	44.423784	http://forecast.weather.gov/MapClick.php?lon=-121.849713&lat=44.423784&unit=0&lg=english&FcstType=text&TextType=1	OR
+464	OR - Whitewater Creek Trail #3429 	Whitewater Creek Trail #3429 	-121.825775	44.703285	http://forecast.weather.gov/MapClick.php?lon=-121.825775&lat=44.703285&unit=0&lg=english&FcstType=text&TextType=1	OR
+465	OR - Cigar Lake	Cigar Lake	-121.81171	44.802402	http://forecast.weather.gov/MapClick.php?lon=-121.811710&lat=44.802402&unit=0&lg=english&FcstType=text&TextType=1	OR
+466	OR - Pinhead Saddle	Pinhead Saddle	-121.75538	44.944053	http://forecast.weather.gov/MapClick.php?lon=-121.755380&lat=44.944053&unit=0&lg=english&FcstType=text&TextType=1	OR
+467	OR - Mount Hood National Forest	Mount Hood National Forest	-121.731835	45.08814	http://forecast.weather.gov/MapClick.php?lon=-121.731835&lat=45.088140&unit=0&lg=english&FcstType=text&TextType=1	OR
+468	OR - Highway 26 - Wapinitia Pass	Highway 26 - Wapinitia Pass	-121.700688	45.22914	http://forecast.weather.gov/MapClick.php?lon=-121.700688&lat=45.229140&unit=0&lg=english&FcstType=text&TextType=1	OR
+469	OR - Timberline Lodge	Timberline Lodge	-121.71053	45.330539	http://forecast.weather.gov/MapClick.php?lon=-121.710530&lat=45.330539&unit=0&lg=english&FcstType=text&TextType=1	OR
+470	OR - Zigzag River	Zigzag River	-121.746637	45.343329	http://forecast.weather.gov/MapClick.php?lon=-121.746637&lat=45.343329&unit=0&lg=english&FcstType=text&TextType=1	OR
+471	OR - Ramona Falls	Ramona Falls	-121.77614	45.379957	http://forecast.weather.gov/MapClick.php?lon=-121.776140&lat=45.379957&unit=0&lg=english&FcstType=text&TextType=1	OR
+472	OR - Lolo Pass Road	Lolo Pass Road	-121.796808	45.427104	http://forecast.weather.gov/MapClick.php?lon=-121.796808&lat=45.427104&unit=0&lg=english&FcstType=text&TextType=1	OR
+473	OR - Indian Springs Campground	Indian Springs Campground	-121.826756	45.556829	http://forecast.weather.gov/MapClick.php?lon=-121.826756&lat=45.556829&unit=0&lg=english&FcstType=text&TextType=1	OR
+474	OR - Benson Way Trail	Benson Way Trail	-121.841252	45.647687	http://forecast.weather.gov/MapClick.php?lon=-121.841252&lat=45.647687&unit=0&lg=english&FcstType=text&TextType=1	OR
+475	WA - Bridge of the Gods - Oregon/Washington Border	Bridge of the Gods - Oregon/Washington Border	-121.897533	45.661792	http://forecast.weather.gov/MapClick.php?lon=-121.897533&lat=45.661792&unit=0&lg=english&FcstType=text&TextType=1	WA
+476	WA - Gillette Lake	Gillette Lake	-121.945424	45.668607	http://forecast.weather.gov/MapClick.php?lon=-121.945424&lat=45.668607&unit=0&lg=english&FcstType=text&TextType=1	WA
+477	WA - Table Mountain National Resource Conservation Area	Table Mountain National Resource Conservation Area	-121.97859	45.678662	http://forecast.weather.gov/MapClick.php?lon=-121.978590&lat=45.678662&unit=0&lg=english&FcstType=text&TextType=1	WA
+478	WA - Trout Creek	Trout Creek	-121.956697	45.811242	http://forecast.weather.gov/MapClick.php?lon=-121.956697&lat=45.811242&unit=0&lg=english&FcstType=text&TextType=1	WA
+479	WA - Wind River Road	Wind River Road	-121.913053	45.820838	http://forecast.weather.gov/MapClick.php?lon=-121.913053&lat=45.820838&unit=0&lg=english&FcstType=text&TextType=1	WA
+480	WA - Grassy Knoll Trail #149	Grassy Knoll Trail #149	-121.78689	45.846734	http://forecast.weather.gov/MapClick.php?lon=-121.786890&lat=45.846734&unit=0&lg=english&FcstType=text&TextType=1	WA
+481	WA - Blue Lake	Blue Lake	-121.795536	45.983725	http://forecast.weather.gov/MapClick.php?lon=-121.795536&lat=45.983725&unit=0&lg=english&FcstType=text&TextType=1	WA
+482	WA - Trout Lake Creek	Trout Lake Creek	-121.684393	46.133327	http://forecast.weather.gov/MapClick.php?lon=-121.684393&lat=46.133327&unit=0&lg=english&FcstType=text&TextType=1	WA
+483	WA - Mount Adams Wilderness (boundary)	Mount Adams Wilderness (boundary)	-121.626972	46.176279	http://forecast.weather.gov/MapClick.php?lon=-121.626972&lat=46.176279&unit=0&lg=english&FcstType=text&TextType=1	WA
+484	WA - Lewis River	Lewis River	-121.548387	46.237419	http://forecast.weather.gov/MapClick.php?lon=-121.548387&lat=46.237419&unit=0&lg=english&FcstType=text&TextType=1	WA
+485	WA - Lava Spring	Lava Spring	-121.517936	46.30507	http://forecast.weather.gov/MapClick.php?lon=-121.517936&lat=46.305070&unit=0&lg=english&FcstType=text&TextType=1	WA
+486	WA - Sheep Lake	Sheep Lake	-121.43012	46.452411	http://forecast.weather.gov/MapClick.php?lon=-121.430120&lat=46.452411&unit=0&lg=english&FcstType=text&TextType=1	WA
+487	WA - Snowgrass Trail #96	Snowgrass Trail #96	-121.464075	46.498638	http://forecast.weather.gov/MapClick.php?lon=-121.464075&lat=46.498638&unit=0&lg=english&FcstType=text&TextType=1	WA
+488	WA - Lutz Lake	Lutz Lake	-121.418196	46.544343	http://forecast.weather.gov/MapClick.php?lon=-121.418196&lat=46.544343&unit=0&lg=english&FcstType=text&TextType=1	WA
+489	WA - Highway 12 - White Pass	Highway 12 - White Pass	-121.379292	46.643654	http://forecast.weather.gov/MapClick.php?lon=-121.379292&lat=46.643654&unit=0&lg=english&FcstType=text&TextType=1	WA
+490	WA - Buesch Lake	Buesch Lake	-121.397177	46.695453	http://forecast.weather.gov/MapClick.php?lon=-121.397177&lat=46.695453&unit=0&lg=english&FcstType=text&TextType=1	WA
+491	WA - Mount Rainier National Park	Mount Rainier National Park	-121.448316	46.792387	http://forecast.weather.gov/MapClick.php?lon=-121.448316&lat=46.792387&unit=0&lg=english&FcstType=text&TextType=1	WA
+492	WA - Highway 410 - Chinook Pass	Highway 410 - Chinook Pass	-121.515681	46.871879	http://forecast.weather.gov/MapClick.php?lon=-121.515681&lat=46.871879&unit=0&lg=english&FcstType=text&TextType=1	WA
+493	WA - Urich Cabin	Urich Cabin	-121.395969	47.089577	http://forecast.weather.gov/MapClick.php?lon=-121.395969&lat=47.089577&unit=0&lg=english&FcstType=text&TextType=1	WA
+494	WA - Forest Road 52 - Tacoma Pass	Forest Road 52 - Tacoma Pass	-121.310175	47.20508	http://forecast.weather.gov/MapClick.php?lon=-121.310175&lat=47.205080&unit=0&lg=english&FcstType=text&TextType=1	WA
+495	WA - Meadow Creek Trail #1338	Meadow Creek Trail #1338	-121.41551	47.299923	http://forecast.weather.gov/MapClick.php?lon=-121.415510&lat=47.299923&unit=0&lg=english&FcstType=text&TextType=1	WA
+496	WA - Yakima Pass - Twilight Lake	Yakima Pass - Twilight Lake	-121.434881	47.335616	http://forecast.weather.gov/MapClick.php?lon=-121.434881&lat=47.335616&unit=0&lg=english&FcstType=text&TextType=1	WA
+497	WA - Ollalie Meadow 	Ollalie Meadow 	-121.446145	47.380148	http://forecast.weather.gov/MapClick.php?lon=-121.446145&lat=47.380148&unit=0&lg=english&FcstType=text&TextType=1	WA
+498	WA - Interstate Highway 90 - Snoqualmie Pass	Interstate Highway 90 - Snoqualmie Pass	-121.415488	47.426634	http://forecast.weather.gov/MapClick.php?lon=-121.415488&lat=47.426634&unit=0&lg=english&FcstType=text&TextType=1	WA
+499	WA - Snoqualmie Pass PCT Trailhead	Snoqualmie Pass PCT Trailhead	-121.413374	47.427507	http://forecast.weather.gov/MapClick.php?lon=-121.413374&lat=47.427507&unit=0&lg=english&FcstType=text&TextType=1	WA
+500	WA - Ridge Lake	Ridge Lake	-121.367477	47.4623	http://forecast.weather.gov/MapClick.php?lon=-121.367477&lat=47.462300&unit=0&lg=english&FcstType=text&TextType=1	WA
+501	WA - Delate Creek	Delate Creek	-121.271606	47.459716	http://forecast.weather.gov/MapClick.php?lon=-121.271606&lat=47.459716&unit=0&lg=english&FcstType=text&TextType=1	WA
+502	WA - Waptus River	Waptus River	-121.208731	47.516922	http://forecast.weather.gov/MapClick.php?lon=-121.208731&lat=47.516922&unit=0&lg=english&FcstType=text&TextType=1	WA
+503	WA - Cathedral Pass Trail #1345	Cathedral Pass Trail #1345	-121.12947	47.55052	http://forecast.weather.gov/MapClick.php?lon=-121.129470&lat=47.550520&unit=0&lg=english&FcstType=text&TextType=1	WA
+504	WA - Marmot Lake Trail #1066	Marmot Lake Trail #1066	-121.140683	47.593915	http://forecast.weather.gov/MapClick.php?lon=-121.140683&lat=47.593915&unit=0&lg=english&FcstType=text&TextType=1	WA
+505	WA - Surprise Lake Trail #1060A	Surprise Lake Trail #1060A	-121.133356	47.672134	http://forecast.weather.gov/MapClick.php?lon=-121.133356&lat=47.672134&unit=0&lg=english&FcstType=text&TextType=1	WA
+506	WA - Stevens Pass	Stevens Pass	-121.088505	47.746224	http://forecast.weather.gov/MapClick.php?lon=-121.088505&lat=47.746224&unit=0&lg=english&FcstType=text&TextType=1	WA
+507	WA - Pear Lake	Pear Lake	-121.168341	47.879507	http://forecast.weather.gov/MapClick.php?lon=-121.168341&lat=47.879507&unit=0&lg=english&FcstType=text&TextType=1	WA
+508	WA - White River Trail #1507	White River Trail #1507	-121.128613	48.014759	http://forecast.weather.gov/MapClick.php?lon=-121.128613&lat=48.014759&unit=0&lg=english&FcstType=text&TextType=1	WA
+509	WA - White Chuck River	White Chuck River	-121.156221	48.075321	http://forecast.weather.gov/MapClick.php?lon=-121.156221&lat=48.075321&unit=0&lg=english&FcstType=text&TextType=1	WA
+510	WA - Mica Lake	Mica Lake	-121.157617	48.166395	http://forecast.weather.gov/MapClick.php?lon=-121.157617&lat=48.166395&unit=0&lg=english&FcstType=text&TextType=1	WA
+511	WA - Suiattle Trail #784	Suiattle Trail #784	-121.081214	48.210517	http://forecast.weather.gov/MapClick.php?lon=-121.081214&lat=48.210517&unit=0&lg=english&FcstType=text&TextType=1	WA
+512	WA - Cloudy Pass Hiker Trail	Cloudy Pass Hiker Trail	-120.941838	48.19866	http://forecast.weather.gov/MapClick.php?lon=-120.941838&lat=48.198660&unit=0&lg=english&FcstType=text&TextType=1	WA
+513	WA - South Fork Agnes Creek	South Fork Agnes Creek	-120.928089	48.257065	http://forecast.weather.gov/MapClick.php?lon=-120.928089&lat=48.257065&unit=0&lg=english&FcstType=text&TextType=1	WA
+514	WA - High Bridge Ranger Station	High Bridge Ranger Station	-120.83797	48.379979	http://forecast.weather.gov/MapClick.php?lon=-120.837970&lat=48.379979&unit=0&lg=english&FcstType=text&TextType=1	WA
+515	WA - Bridge Creek Camp	Bridge Creek Camp	-120.868353	48.429472	http://forecast.weather.gov/MapClick.php?lon=-120.868353&lat=48.429472&unit=0&lg=english&FcstType=text&TextType=1	WA
+516	WA - Highway 20 - Rainy Pass	Highway 20 - Rainy Pass	-120.733883	48.514797	http://forecast.weather.gov/MapClick.php?lon=-120.733883&lat=48.514797&unit=0&lg=english&FcstType=text&TextType=1	WA
+517	WA - Methow Pass	Methow Pass	-120.73292	48.582192	http://forecast.weather.gov/MapClick.php?lon=-120.732920&lat=48.582192&unit=0&lg=english&FcstType=text&TextType=1	WA
+518	WA - Windy Pass	Windy Pass	-120.711885	48.771311	http://forecast.weather.gov/MapClick.php?lon=-120.711885&lat=48.771311&unit=0&lg=english&FcstType=text&TextType=1	WA
+519	WA - Holman Pass	Holman Pass	-120.737337	48.840291	http://forecast.weather.gov/MapClick.php?lon=-120.737337&lat=48.840291&unit=0&lg=english&FcstType=text&TextType=1	WA
+520	WA - Monument 78 - Canadian Border	Monument 78 - Canadian Border	-120.802121	49.000289	http://forecast.weather.gov/MapClick.php?lon=-120.802121&lat=49.000245&unit=0&lg=english&FcstType=text&TextType=1	WA

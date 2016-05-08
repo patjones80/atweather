@@ -1,11 +1,11 @@
 
-body { margin: 0; padding: 0; font-size: 1em;}
+body   { margin: 0; padding: 0; font-size: 1em;}
 h1, h3 { margin: 0; padding-top: 0.3cm; }
 
 img { float: right; padding-top: 0.3cm; }
-h1 { float: left; }
+h1  { float: left; }
 
-body { background-color:rgba(239,242,157,1.0); font-family: "Trebuchet MS", Helvetica, sans-serif; }
+body  { background-color:rgba(239,242,157,1.0); font-family: "Trebuchet MS", Helvetica, sans-serif; }
 label { padding-left:0.2cm; }
 
 #body_div { max-width: 960px; margin:0 auto; padding: 20px; background-color: rgba(239,242,157,1.0); }
@@ -17,12 +17,12 @@ p { text-align: justify; font-size: 1em; }
 table { width: 100%; }
 
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { #header {height: auto; font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 20px;}}*/
-
 /*@media only screen and (min-width : 1224px) { #header {height: auto; padding-left:0.4cm; font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 20px;}}*/
 
 #formControls { height: auto; margin:20px 0 20px 0; }
 
-#stateList select { font-size:1.2em; }
+#trailList select { font-size:1.2em; width:5.5cm;}
+#stateList select { font-size:1.2em; width:5.5cm;}
 #shelterList select { font-size:1.2em; }
 
 /*#forecast_text { margin-bottom:10cm; left:0; height:17cm; overflow:auto; }*/

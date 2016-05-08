@@ -2,7 +2,7 @@
 
 <html>
 
-<script>
+<!-- <script>
 
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -12,7 +12,7 @@
 	ga('create', 'UA-57389593-1', 'auto');
 	ga('send', 'pageview');
 
-</script>
+</script> -->
 
 <head>
 	<meta name = "description" content = "Location-specific weather forecasts for all 285 shelters and camp sites along the Appalachian Trail." />
@@ -28,32 +28,72 @@
 	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 	<script>
-
+	
 		$(document).ready(function()
 			{ 
+				
+				var allStatesGlobal = $('#myStateHidden option');
 				var allLocationsGlobal = $('#myShelterHidden option');
 				
-				$(myState).change(function() 
-				{ 
-					var currState = document.getElementById("myState").value;					
+				$(myTrail).change(function()
+				{
+					<!-- a selection was made from the trail list -->
+					
+					var currTrail = document.getElementById("myTrail").value;
 
-					var selectLabel = allLocationsGlobal.filter('.labelText');
-					var currStateLocations = allLocationsGlobal.filter('.' + currState);
+					if (currTrail == 'AT') {
+						<!-- define the state list for the AT -->
+						var currTrailStates = allStatesGlobal.filter('.labelText,.GA,.NC,.TN,.VA,.MD,.PA,.NJ,.NY,.CT,.MA,.VT,.NH,.ME');
+						var currStateLocations = allLocationsGlobal.filter('.labelText,.GA,.NC,.TN,.VA,.MD,.PA,.NJ,.NY,.CT,.MA,.VT,.NH,.ME');
+					}	
+					else {
+						<!-- define the state list for the PCT -->
+						var currTrailStates = allStatesGlobal.filter('.labelText,.CA,.OR,.WA');
+						var currStateLocations = allLocationsGlobal.filter('.labelText,.CA,.OR,.WA');						
+					};						
 
-					$('#myShelter option').remove();
-
-					$.each(selectLabel, function (i, j) 
+					<!-- remove everything from the state list and repopulate only with the filtered list -->
+					$('#myState option').remove();
+					
+					$.each(currTrailStates, function (i, j) 
 					{
-						$(j).appendTo('#myShelter');
+						$(j).appendTo('#myState');
 					});
+
+					document.getElementById('myState').selectedIndex = "0";
+					
+					<!-- remove everything from the shelter list and repopulate only with the filtered list -->
+					$('#myShelter option').remove();
 
 					$.each(currStateLocations, function (i, j) 
 					{
 						$(j).appendTo('#myShelter');
 					});
 
+					document.getElementById('myShelter').selectedIndex = "0";
+					
+				});
+
+				$(myState).change(function() 
+				{ 
+				
+					<!-- a selection was made from the state list -->
+					
+					var currState = document.getElementById("myState").value;										
+					var currStateLocations = allLocationsGlobal.filter('.labelText,.' + currState);
+
+					<!-- remove everything from the shelter list and repopulate only with the filtered list -->
+					$('#myShelter option').remove();
+
+					$.each(currStateLocations, function (i, j) 
+					{
+						$(j).appendTo('#myShelter');
+					});
+				
 				}); 
+				
 			});
+			
 	</script>
 
 </head>
@@ -74,9 +114,11 @@
 
 	    <h3>Location-specific forecasts from the National Weather Service (NOAA)</h3>
 
-		<p>The purpose of this website is simple: to provide AT hikers with a reliable and easy way to obtain weather for their location. Simply pick your state and shelter location from the lists below and the National Weather Service forecast for that location will appear.</p>
+		<p>The purpose of this website is simple: to provide AT and PCT hikers with a reliable and easy way to obtain weather for their location. Simply pick your state and shelter location from the lists below and the National Weather Service forecast for that location will appear.</p>
 
-		<p><span style = "color:red; font-weight:bold">New for 2016!</span> Please see <a href = "http://127.0.0.1:5000/precip_discussion">this discussion</a> relating to how forecasts should be interpreted.</p>
+		<p>Please see <a href = "http://127.0.0.1:5000/precip_discussion">this discussion</a> relating to how forecasts should be interpreted.</p>
+
+		<p><span style = "color:red; font-weight:bold">New!</span> AT Weather welcomes the Pacific Crest Trail! Use the new drop down box below to filter for the PCT. Many thanks to PCT hiker, volunteer and map-maker "<a href = "https://www.pctmap.net/">Halfmile</a>" for providing a comprehensive GPS file of the PCT, necessary in making this enhancement a reality.</p>
 
 	</div>
 
@@ -84,26 +126,31 @@
 
 	    <form action = "/forecast" method = "GET">
 
+			<div id = "trailList">
+			
+				<select id = "myTrail" name = "myTrail">
+				
+					<option selected = "selected" value = "">Select trail...</option>
+					
+						{% for o in trail_list %}
+							<option value = "{{ o[0] }}" {{ o[2] }}>{{ o[1] }}</option>
+						{% endfor %}
+						
+				</select>
+			</div>
+			
+			<br>
+			
 			<div id = "stateList">
 
 				<select id = "myState" name = "myState">
 
-					<option selected = "selected" value = "">Select state...</option>
+					<option selected = "selected" value = "" class = "labelText">Select state...</option>
+
+					{% for o in state_list %}
+						<option value = "{{ o[0] }}" class = "{{ o[0] }}" {{ o[2] }}>{{ o[1] }}</option>
+					{% endfor %}
 					
-						<option value = "GA">Georgia</option>
-						<option value = "NC">North Carolina</option>
-						<option value = "TN">Tennessee</option>
-						<option value = "VA">Virginia</option>
-						<option value = "MD">Maryland</option>
-						<option value = "PA">Pennsylvania</option>
-						<option value = "NJ">New Jersey</option>
-						<option value = "NY">New York</option>
-						<option value = "CT">Connecticut</option>
-						<option value = "MA">Massachusetts</option>
-						<option value = "VT">Vermont</option>
-						<option value = "NH">New Hampshire</option>
-						<option value = "ME">Maine</option>
-						
 				</select>
 
 			</div>
@@ -114,7 +161,7 @@
 
 				<select id = "myShelter" name = "myShelter" onchange = "this.form.submit()">
 
-					<option selected = "selected" class = "labelText">Select location...</option>
+					<option selected = "selected" value = "" class = "labelText">Select location...</option>
 
 					{% for o in shelter_list %}
 						<option value = "{{ o[0] }}" class = "{{ o[3] }}" {{ o[4] }}>{{ o[1] }}</option>
@@ -126,16 +173,26 @@
 
 	    </form>
 
+		<select hidden id = "myStateHidden" name = "myStateHidden">
+
+			<option selected = "selected" value = "" class = "labelText">Select state...</option>
+
+			{% for o in state_list_full %}
+				<option value = "{{ o[0] }}" class = "{{ o[0] }}" {{ o[2] }}>{{ o[1] }}</option>
+			{% endfor %}
+					
+		</select>
+		
 		<select hidden id = "myShelterHidden" name = "myShelterHidden">
 
-			<option selected = "selected" class = "labelText">Select location...</option>
+			<option selected = "selected" value = "" class = "labelText">Select location...</option>
 
 			{% for o in shelter_list_full %}
 				<option value = "{{ o[0] }}" class = "{{ o[3] }}" {{ o[4] }}>{{ o[1] }}</option>
 			{% endfor %}
 
 		</select>
-
+		
     </div>	
  
 	{% block discuss_pops %}{% endblock %}
