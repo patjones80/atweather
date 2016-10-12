@@ -16,7 +16,7 @@
 
 <head>
 	<meta name = "description" content = "Location-specific weather forecasts for all 285 shelters and camp sites along the Appalachian Trail." />
-	<meta name = "robots" content = "index,follow" />
+	<meta name = "robots"    content = "index,follow" />
 	<meta name = "googlebot" content = "index,follow" />
 
 	<title>Appalachian Trail Weather</title>
@@ -45,13 +45,20 @@
 						<!-- define the state list for the AT -->
 						var currTrailStates = allStatesGlobal.filter('.labelText,.GA,.NC,.TN,.VA,.MD,.PA,.NJ,.NY,.CT,.MA,.VT,.NH,.ME');
 						var currStateLocations = allLocationsGlobal.filter('.labelText,.GA,.NC,.TN,.VA,.MD,.PA,.NJ,.NY,.CT,.MA,.VT,.NH,.ME');
-					}	
-					else {
+					};
+
+					if (currTrail == 'PCT'){					
 						<!-- define the state list for the PCT -->
 						var currTrailStates = allStatesGlobal.filter('.labelText,.CA,.OR,.WA');
 						var currStateLocations = allLocationsGlobal.filter('.labelText,.CA,.OR,.WA');						
 					};						
 
+					if (currTrail == 'NP'){
+						<!-- define the list for national and state parks -->
+						var currTrailStates = allStatesGlobal.filter('.labelText,.GE,.ADK');
+						var currStateLocations = allLocationsGlobal.filter('.labelText,.GE,.ADK');
+					};											
+						
 					<!-- remove everything from the state list and repopulate only with the filtered list -->
 					$('#myState option').remove();
 					
@@ -89,6 +96,8 @@
 					{
 						$(j).appendTo('#myShelter');
 					});
+					
+					document.getElementById('myShelter').selectedIndex = "0";
 				
 				}); 
 				
@@ -114,15 +123,31 @@
 
 	    <h3>Location-specific forecasts from the National Weather Service (NOAA)</h3>
 
-		<p>The purpose of this website is simple: to provide AT and PCT hikers with a reliable and easy way to obtain weather for their location. Simply pick your state and shelter location from the lists below and the National Weather Service forecast for that location will appear.</p>
+		<p>The purpose of this website is simple: to provide hikers with a reliable and easy way to obtain weather for their location. Simply pick your state and location from the lists below and the National Weather Service forecast for that location will appear.</p>
 
-		<p>Please see <a href = "http://127.0.0.1:5000/precip_discussion">this discussion</a> relating to how forecasts should be interpreted.</p>
+		<ul style = "list-style-type: disc;">
+			
+			<li>Please see <a href = "http://127.0.0.1:5000/precip_discussion">this discussion</a> relating to how forecasts should be interpreted.</li>
 
-		<p><span style = "color:red; font-weight:bold">New!</span> AT Weather welcomes the Pacific Crest Trail! Use the new drop down box below to filter for the PCT. Many thanks to PCT hiker, volunteer and map-maker "<a href = "https://www.pctmap.net/">Halfmile</a>" for providing a comprehensive GPS file of the PCT, necessary in making this enhancement a reality.</p>
+			<li>AT Weather welcomes the Pacific Crest Trail! Use the drop down box below to filter for the PCT.</li>
 
+			<li>AT Weather has started adding national and state park locations. Feel free to email with suggestions for locations!</li>
+
+			<li>A <b><a href = "http://127.0.0.1:5000/developer_message_2016">message</a></b> from your website developer.</li>
+			
+		</ul>
+
+<!-- 		<p>Please see <a href = "http://127.0.0.1:5000/precip_discussion">this discussion</a> relating to how forecasts should be interpreted.</p>
+
+		<p>AT Weather welcomes the Pacific Crest Trail! Use the new drop down box below to filter for the PCT. Many thanks to PCT hiker, volunteer and map-maker "<a href = "https://www.pctmap.net/">Halfmile</a>" for providing a comprehensive GPS file of the PCT, necessary in making this enhancement a reality.</p>
+
+		<p><span style = "color:red; font-weight:bold">New!</span> Over the coming months, AT Weather will start adding National Park locations, starting with Grand Escalante National Monument in Utah. Feel free to email with suggestions for National Park locations!</p>
+
+		<p><span style = "color:red; font-weight:bold">New!</span> A <b><a href = "http://127.0.0.1:5000/developer_message_2016">message</a></b> from your website developer.</p>
+ -->		
 	</div>
 
-    <div id = "formControls">
+    <div id  =  "formControls">
 
 	    <form action = "/forecast" method = "GET">
 
@@ -130,7 +155,7 @@
 			
 				<select id = "myTrail" name = "myTrail">
 				
-					<option selected = "selected" value = "">Select trail...</option>
+					<option selected = "selected" value = "">Select trail or park area...</option>
 					
 						{% for o in trail_list %}
 							<option value = "{{ o[0] }}" {{ o[2] }}>{{ o[1] }}</option>
@@ -164,7 +189,7 @@
 					<option selected = "selected" value = "" class = "labelText">Select location...</option>
 
 					{% for o in shelter_list %}
-						<option value = "{{ o[0] }}" class = "{{ o[3] }}" {{ o[4] }}>{{ o[1] }}</option>
+						<option value = "{{ o[0] }}" class = "{{ o[4] }}" {{ o[5] }}>{{ o[1] }}</option>
 					{% endfor %}
 
 				</select>
@@ -188,15 +213,16 @@
 			<option selected = "selected" value = "" class = "labelText">Select location...</option>
 
 			{% for o in shelter_list_full %}
-				<option value = "{{ o[0] }}" class = "{{ o[3] }}" {{ o[4] }}>{{ o[1] }}</option>
+				<option value = "{{ o[0] }}" class = "{{ o[4] }}" {{ o[5] }}>{{ o[1] }}</option>
 			{% endfor %}
 
 		</select>
 		
     </div>	
  
-	{% block discuss_pops %}{% endblock %}
-	{% block handle_error %}{% endblock %}
+	{% block discuss_pops %}  {% endblock %}
+	{% block handle_error %}  {% endblock %}
+	{% block donate_message %}{% endblock %}
 	
 	<div id = "forecast">
 		{{ forecast_text }}

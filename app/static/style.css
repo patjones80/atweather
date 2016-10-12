@@ -16,14 +16,17 @@ p { text-align: justify; font-size: 1em; }
 
 table { width: 100%; }
 
+ul { list-style-type: disc; }
+li { margin: 15px 0; }
+
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { #header {height: auto; font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 20px;}}*/
 /*@media only screen and (min-width : 1224px) { #header {height: auto; padding-left:0.4cm; font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 20px;}}*/
 
 #formControls { height: auto; margin:20px 0 20px 0; }
 
-#trailList select { font-size:1.2em; width:5.5cm;}
-#stateList select { font-size:1.2em; width:5.5cm;}
-#shelterList select { font-size:1.2em; }
+#trailList select     { font-size:1.2em; width:7.0cm;}
+#stateList select     { font-size:1.2em; width:13.5cm;}
+#shelterList select { font-size:1.2em; width:13.5cm;}
 
 /*#forecast_text { margin-bottom:10cm; left:0; height:17cm; overflow:auto; }*/
 

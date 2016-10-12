@@ -1,520 +1,573 @@
-1	GA - Amicalola Falls State Park	Amicalola Falls State Park	-84.2476	34.5627	http://forecast.weather.gov/MapClick.php?lon=-84.2476&lat=34.5627&unit=0&lg=english&FcstType=text&TextType=1	GA
-2	GA - Max Epperson Shelter	Max Epperson Shelter	-84.193	34.6293	http://forecast.weather.gov/MapClick.php?lon=-84.193&lat=34.6293&unit=0&lg=english&FcstType=text&TextType=1	GA
-3	GA - Black Gap Shelter (3300')	Black Gap Shelter	-84.1988	34.6176	http://forecast.weather.gov/MapClick.php?lon=-84.1988&lat=34.6176&unit=0&lg=english&FcstType=text&TextType=1	GA
-4	GA - Springer Mountain	Springer Mountain	-84.1936	34.6267	http://forecast.weather.gov/MapClick.php?lon=-84.1936&lat=34.6267&unit=0&lg=english&FcstType=text&TextType=1	GA
-5	GA - Springer Mountain Shelter (3730')	Springer Mountain Shelter	-84.1931	34.6292	http://forecast.weather.gov/MapClick.php?lon=-84.1931&lat=34.6292&unit=0&lg=english&FcstType=text&TextType=1	GA
-6	GA - Stover Creek Shelter (2870')	Stover Creek Shelter	-84.1999	34.6495	http://forecast.weather.gov/MapClick.php?lon=-84.1999&lat=34.6495&unit=0&lg=english&FcstType=text&TextType=1	GA
-7	GA - Hawk Mountain Shelter (3200')	Hawk Mountain Shelter	-84.1364	34.6658	http://forecast.weather.gov/MapClick.php?lon=-84.1364&lat=34.6658&unit=0&lg=english&FcstType=text&TextType=1	GA
-8	GA - Gooch Mountain Shelter (3000')	Gooch Mountain Shelter	-84.0343	34.6532	http://forecast.weather.gov/MapClick.php?lon=-84.0343&lat=34.6532&unit=0&lg=english&FcstType=text&TextType=1	GA
-9	GA - Woods Hole Shelter (3600')	Woods Hole Shelter	-83.955	34.7371	http://forecast.weather.gov/MapClick.php?lon=-83.955&lat=34.7371&unit=0&lg=english&FcstType=text&TextType=1	GA
-10	GA - Blood Mountain Shelter (4450')	Blood Mountain Shelter	-83.9375	34.74	http://forecast.weather.gov/MapClick.php?lon=-83.9375&lat=34.74&unit=0&lg=english&FcstType=text&TextType=1	GA
-11	GA - Whitley Gap Shelter (3370')	Whitley Gap Shelter	-83.8344	34.7124	http://forecast.weather.gov/MapClick.php?lon=-83.8344&lat=34.7124&unit=0&lg=english&FcstType=text&TextType=1	GA
-12	GA - Low Gap Shelter (3050')	Low Gap Shelter	-83.8247	34.7762	http://forecast.weather.gov/MapClick.php?lon=-83.8247&lat=34.7762&unit=0&lg=english&FcstType=text&TextType=1	GA
-13	GA - Blue Mountain Shelter (3900')	Blue Mountain Shelter	-83.7668	34.8171	http://forecast.weather.gov/MapClick.php?lon=-83.7668&lat=34.8171&unit=0&lg=english&FcstType=text&TextType=1	GA
-14	GA - Tray Mountain Shelter (4200')	Tray Mountain Shelter	-83.6769	34.804	http://forecast.weather.gov/MapClick.php?lon=-83.6769&lat=34.804&unit=0&lg=english&FcstType=text&TextType=1	GA
-15	GA - Deep Gap Shelter (3550')	Deep Gap Shelter	-83.6462	34.8824	http://forecast.weather.gov/MapClick.php?lon=-83.6462&lat=34.8824&unit=0&lg=english&FcstType=text&TextType=1	GA
-16	GA - Plumorchard Gap Shelter (3050')	Plumorchard Gap Shelter	-83.5883	34.946	http://forecast.weather.gov/MapClick.php?lon=-83.5883&lat=34.946&unit=0&lg=english&FcstType=text&TextType=1	GA
-17	NC - Muskrat Creek Shelter (4600')	Muskrat Creek Shelter	-83.5816	35.0205	http://forecast.weather.gov/MapClick.php?lon=-83.5816&lat=35.0205&unit=0&lg=english&FcstType=text&TextType=1	NC
-18	NC - Standing Indian Shelter (4760')	Standing Indian Shelter	-83.5482	35.0418	http://forecast.weather.gov/MapClick.php?lon=-83.5482&lat=35.0418&unit=0&lg=english&FcstType=text&TextType=1	NC
-19	NC - Carter Gap Shelter (4540')	Carter Gap Shelter	-83.4949	34.9999	http://forecast.weather.gov/MapClick.php?lon=-83.4949&lat=34.9999&unit=0&lg=english&FcstType=text&TextType=1	NC
-20	NC - Long Branch Shelter (4437')	Long Branch Shelter	-83.4789	35.0589	http://forecast.weather.gov/MapClick.php?lon=-83.4789&lat=35.0589&unit=0&lg=english&FcstType=text&TextType=1	NC
-21	NC - Rock Gap Shelter (3760')	Rock Gap Shelter	-83.5231	35.0914	http://forecast.weather.gov/MapClick.php?lon=-83.5231&lat=35.0914&unit=0&lg=english&FcstType=text&TextType=1	NC
-22	NC - Siler Bald Shelter (4600')	Siler Bald Shelter	-83.5725	35.1441	http://forecast.weather.gov/MapClick.php?lon=-83.5725&lat=35.1441&unit=0&lg=english&FcstType=text&TextType=1	NC
-23	NC - Wayah Bald Shelter (4759')	Wayah Bald Shelter	-83.5644	35.1895	http://forecast.weather.gov/MapClick.php?lon=-83.5644&lat=35.1895&unit=0&lg=english&FcstType=text&TextType=1	NC
-24	NC - Cold Spring Shelter (4920')	Cold Spring Shelter	-83.5599	35.2309	http://forecast.weather.gov/MapClick.php?lon=-83.5599&lat=35.2309&unit=0&lg=english&FcstType=text&TextType=1	NC
-25	NC - Wesser Bald Shelter (4115')	Wesser Bald Shelter	-83.5822	35.2824	http://forecast.weather.gov/MapClick.php?lon=-83.5822&lat=35.2824&unit=0&lg=english&FcstType=text&TextType=1	NC
-26	NC - A. Rufus Morgan Shelter (2300')	A. Rufus Morgan Shelter	-83.5902	35.3242	http://forecast.weather.gov/MapClick.php?lon=-83.5902&lat=35.3242&unit=0&lg=english&FcstType=text&TextType=1	NC
-27	NC - Sassafras Gap Shelter (4330')	Sassafras Gap Shelter	-83.667	35.3307	http://forecast.weather.gov/MapClick.php?lon=-83.667&lat=35.3307&unit=0&lg=english&FcstType=text&TextType=1	NC
-28	NC - Brown Fork Gap Shelter (3800')	Brown Fork Gap Shelter	-83.7339	35.3742	http://forecast.weather.gov/MapClick.php?lon=-83.7339&lat=35.3742&unit=0&lg=english&FcstType=text&TextType=1	NC
-29	NC - Cable Gap Shelter (2880')	Cable Gap Shelter	-83.7736	35.4152	http://forecast.weather.gov/MapClick.php?lon=-83.7736&lat=35.4152&unit=0&lg=english&FcstType=text&TextType=1	NC
-30	NC - Fontana Dam Shelter (1775')	Fontana Dam Shelter	-83.7941	35.4483	http://forecast.weather.gov/MapClick.php?lon=-83.7941&lat=35.4483&unit=0&lg=english&FcstType=text&TextType=1	NC
-31	TN - Mollies Ridge Shelter (4570')	Mollies Ridge Shelter	-83.7936	35.5458	http://forecast.weather.gov/MapClick.php?lon=-83.7936&lat=35.5458&unit=0&lg=english&FcstType=text&TextType=1	TN
-32	TN - Russell Field Shelter (4360')	Russell Field Shelter	-83.7666	35.5617	http://forecast.weather.gov/MapClick.php?lon=-83.7666&lat=35.5617&unit=0&lg=english&FcstType=text&TextType=1	TN
-33	NC - Spence Field Shelter (4915')	Spence Field Shelter	-83.7327	35.5618	http://forecast.weather.gov/MapClick.php?lon=-83.7327&lat=35.5618&unit=0&lg=english&FcstType=text&TextType=1	NC
-34	TN - Derrick Knob Shelter (4880')	Derrick Knob Shelter	-83.6419	35.5663	http://forecast.weather.gov/MapClick.php?lon=-83.6419&lat=35.5663&unit=0&lg=english&FcstType=text&TextType=1	TN
-35	NC - Silers Bald Shelter (5460')	Silers Bald Shelter	-83.5683	35.5642	http://forecast.weather.gov/MapClick.php?lon=-83.5683&lat=35.5642&unit=0&lg=english&FcstType=text&TextType=1	NC
-36	NC - Double Spring Gap Shelter (5505')	Double Spring Gap Shelter	-83.5429	35.5652	http://forecast.weather.gov/MapClick.php?lon=-83.5429&lat=35.5652&unit=0&lg=english&FcstType=text&TextType=1	NC
-37	TN - Mt. Collins Shelter (5870')	Mt. Collins Shelter	-83.4714	35.5937	http://forecast.weather.gov/MapClick.php?lon=-83.4714&lat=35.5937&unit=0&lg=english&FcstType=text&TextType=1	TN
-38	NC - Icewater Spring Shelter (5920')	Icewater Spring Shelter	-83.3864	35.6297	http://forecast.weather.gov/MapClick.php?lon=-83.3864&lat=35.6297&unit=0&lg=english&FcstType=text&TextType=1	NC
-39	NC - Pecks Corner Shelter (5280')	Pecks Corner Shelter	-83.3086	35.6507	http://forecast.weather.gov/MapClick.php?lon=-83.3086&lat=35.6507&unit=0&lg=english&FcstType=text&TextType=1	NC
-40	NC - Tri-corner Knob Shelter (5920')	Tri-corner Knob Shelter	-83.2567	35.6937	http://forecast.weather.gov/MapClick.php?lon=-83.2567&lat=35.6937&unit=0&lg=english&FcstType=text&TextType=1	NC
-41	NC - Cosby Knob Shelter (4740')	Cosby Knob Shelter	-83.1822	35.7271	http://forecast.weather.gov/MapClick.php?lon=-83.1822&lat=35.7271&unit=0&lg=english&FcstType=text&TextType=1	NC
-42	TN - Davenport Gap Shelter (2600')	Davenport Gap Shelter	-83.1237	35.7692	http://forecast.weather.gov/MapClick.php?lon=-83.1237&lat=35.7692&unit=0&lg=english&FcstType=text&TextType=1	TN
-43	NC - Groundhog Creek Shelter (2850')	Groundhog Creek Shelter	-83.0263	35.7817	http://forecast.weather.gov/MapClick.php?lon=-83.0263&lat=35.7817&unit=0&lg=english&FcstType=text&TextType=1	NC
-44	NC - Roaring Fork Shelter (3590')	Roaring Fork Shelter	-82.9386	35.8223	http://forecast.weather.gov/MapClick.php?lon=-82.9386&lat=35.8223&unit=0&lg=english&FcstType=text&TextType=1	NC
-45	TN - Walnut Mountain Shelter (4260')	Walnut Mountain Shelter	-82.9367	35.8365	http://forecast.weather.gov/MapClick.php?lon=-82.9367&lat=35.8365&unit=0&lg=english&FcstType=text&TextType=1	TN
-46	NC - Deer Park Mountain Shelter (2330')	Deer Park Mountain Shelter	-82.8614	35.8758	http://forecast.weather.gov/MapClick.php?lon=-82.8614&lat=35.8758&unit=0&lg=english&FcstType=text&TextType=1	NC
-47	TN - Spring Mountain Shelter (3300')	Spring Mountain Shelter	-82.7902	35.9515	http://forecast.weather.gov/MapClick.php?lon=-82.7902&lat=35.9515&unit=0&lg=english&FcstType=text&TextType=1	TN
-48	NC - Little Laurel Shelter (3620')	Little Laurel Shelter	-82.7359	36.015	http://forecast.weather.gov/MapClick.php?lon=-82.7359&lat=36.015&unit=0&lg=english&FcstType=text&TextType=1	NC
-49	NC - Jerry Cabin Shelter (4150')	Jerry Cabin Shelter	-82.6574	36.0565	http://forecast.weather.gov/MapClick.php?lon=-82.6574&lat=36.0565&unit=0&lg=english&FcstType=text&TextType=1	NC
-50	NC - Flint Mountain Shelter (3570')	Flint Mountain Shelter	-82.5969	36.0348	http://forecast.weather.gov/MapClick.php?lon=-82.5969&lat=36.0348&unit=0&lg=english&FcstType=text&TextType=1	NC
-51	NC - Hogback Ridge Shelter (4255')	Hogback Ridge Shelter	-82.5872	35.964	http://forecast.weather.gov/MapClick.php?lon=-82.5872&lat=35.964&unit=0&lg=english&FcstType=text&TextType=1	NC
-52	TN - Bald Mountain Shelter (5100')	Bald Mountain Shelter	-82.4783	36	http://forecast.weather.gov/MapClick.php?lon=-82.4783&lat=36&unit=0&lg=english&FcstType=text&TextType=1	TN
-53	TN - No Business Knob Shelter (3180')	No Business Knob Shelter	-82.4336	36.0668	http://forecast.weather.gov/MapClick.php?lon=-82.4336&lat=36.0668&unit=0&lg=english&FcstType=text&TextType=1	TN
-54	TN - Curley Maple Gap Shelter (3070')	Curley Maple Gap Shelter	-82.397	36.1042	http://forecast.weather.gov/MapClick.php?lon=-82.397&lat=36.1042&unit=0&lg=english&FcstType=text&TextType=1	TN
-55	TN - Cherry Gap Shelter (3900')	Cherry Gap Shelter	-82.2642	36.1292	http://forecast.weather.gov/MapClick.php?lon=-82.2642&lat=36.1292&unit=0&lg=english&FcstType=text&TextType=1	TN
-56	TN - Clyde Smith Shelter (4400')	Clyde Smith Shelter	-82.1613	36.1484	http://forecast.weather.gov/MapClick.php?lon=-82.1613&lat=36.1484&unit=0&lg=english&FcstType=text&TextType=1	TN
-57	TN - Roan High Knob Shelter (6275')	Roan High Knob Shelter	-82.1227	36.105	http://forecast.weather.gov/MapClick.php?lon=-82.1227&lat=36.105&unit=0&lg=english&FcstType=text&TextType=1	TN
-58	NC - Stan Murray Shelter (5050')	Stan Murray Shelter	-82.0659	36.1123	http://forecast.weather.gov/MapClick.php?lon=-82.0659&lat=36.1123&unit=0&lg=english&FcstType=text&TextType=1	NC
-59	NC - Overmountain Shelter (4550')	Overmountain Shelter	-82.0544	36.1235	http://forecast.weather.gov/MapClick.php?lon=-82.0544&lat=36.1235&unit=0&lg=english&FcstType=text&TextType=1	NC
-60	TN - Mountaineer Shelter (3200')	Mountaineer Shelter	-81.9857	36.2022	http://forecast.weather.gov/MapClick.php?lon=-81.9857&lat=36.2022&unit=0&lg=english&FcstType=text&TextType=1	TN
-61	TN - Moreland Gap Shelter (3815')	Moreland Gap Shelter	-82.0885	36.2201	http://forecast.weather.gov/MapClick.php?lon=-82.0885&lat=36.2201&unit=0&lg=english&FcstType=text&TextType=1	TN
-62	TN - Laurel Fork Shelter (2450')	Laurel Fork Shelter	-82.1364	36.2786	http://forecast.weather.gov/MapClick.php?lon=-82.1364&lat=36.2786&unit=0&lg=english&FcstType=text&TextType=1	TN
-63	TN - Watauga Lake Shelter (2130')	Watauga Lake Shelter	-82.1295	36.3139	http://forecast.weather.gov/MapClick.php?lon=-82.1295&lat=36.3139&unit=0&lg=english&FcstType=text&TextType=1	TN
-64	TN - Vandeventer Shelter (3620')	Vandeventer Shelter	-82.059	36.3669	http://forecast.weather.gov/MapClick.php?lon=-82.059&lat=36.3669&unit=0&lg=english&FcstType=text&TextType=1	TN
-65	TN - Iron Mountain Shelter (4125')	Iron Mountain Shelter	-81.991	36.4355	http://forecast.weather.gov/MapClick.php?lon=-81.991&lat=36.4355&unit=0&lg=english&FcstType=text&TextType=1	TN
-66	TN - Double Springs Shelter (4060')	Double Springs Shelter	-81.9862	36.509	http://forecast.weather.gov/MapClick.php?lon=-81.9862&lat=36.509&unit=0&lg=english&FcstType=text&TextType=1	TN
-67	TN - Abingdon Gap Shelter (3785')	Abingdon Gap Shelter	-81.9022	36.581	http://forecast.weather.gov/MapClick.php?lon=-81.9022&lat=36.581&unit=0&lg=english&FcstType=text&TextType=1	TN
-68	VA - Saunders Shelter (3310')	Saunders Shelter	-81.7132	36.6377	http://forecast.weather.gov/MapClick.php?lon=-81.7132&lat=36.6377&unit=0&lg=english&FcstType=text&TextType=1	VA
-69	VA - Lost Mountain Shelter (3360')	Lost Mountain Shelter	-81.6563	36.6441	http://forecast.weather.gov/MapClick.php?lon=-81.6563&lat=36.6441&unit=0&lg=english&FcstType=text&TextType=1	VA
-70	VA - Thomas Knob Shelter (5400')	Thomas Knob Shelter	-81.5354	36.6566	http://forecast.weather.gov/MapClick.php?lon=-81.5354&lat=36.6566&unit=0&lg=english&FcstType=text&TextType=1	VA
-71	VA - Wise Shelter (4460')	Wise Shelter	-81.4986	36.6539	http://forecast.weather.gov/MapClick.php?lon=-81.4986&lat=36.6539&unit=0&lg=english&FcstType=text&TextType=1	VA
-72	VA - Old Orchard Shelter (4050')	Old Orchard Shelter	-81.5112	36.6832	http://forecast.weather.gov/MapClick.php?lon=-81.5112&lat=36.6832&unit=0&lg=english&FcstType=text&TextType=1	VA
-73	VA - Hurricane Mountain Shelter (3850')	Hurricane Mountain Shelter	-81.5095	36.7154	http://forecast.weather.gov/MapClick.php?lon=-81.5095&lat=36.7154&unit=0&lg=english&FcstType=text&TextType=1	VA
-74	VA - Trimpi Shelter (2900')	Trimpi Shelter	-81.4806	36.7492	http://forecast.weather.gov/MapClick.php?lon=-81.4806&lat=36.7492&unit=0&lg=english&FcstType=text&TextType=1	VA
-75	VA - Partnership Shelter (3360')	Partnership Shelter	-81.4226	36.8094	http://forecast.weather.gov/MapClick.php?lon=-81.4226&lat=36.8094&unit=0&lg=english&FcstType=text&TextType=1	VA
-76	VA - Chatfield Shelter (3150')	Chatfield Shelter	-81.3633	36.8499	http://forecast.weather.gov/MapClick.php?lon=-81.3633&lat=36.8499&unit=0&lg=english&FcstType=text&TextType=1	VA
-77	VA - Davis Path Campsite (2840')	Davis Path Campsite	-81.3769	36.9144	http://forecast.weather.gov/MapClick.php?lon=-81.3769&lat=36.9144&unit=0&lg=english&FcstType=text&TextType=1	VA
-78	VA - Knot Maul Branch Shelter (2880')	Knot Maul Branch Shelter	-81.4046	37.0007	http://forecast.weather.gov/MapClick.php?lon=-81.4046&lat=37.0007&unit=0&lg=english&FcstType=text&TextType=1	VA
-79	VA - Chestnut Knob Shelter (4409')	Chestnut Knob Shelter	-81.3995	37.0577	http://forecast.weather.gov/MapClick.php?lon=-81.3995&lat=37.0577&unit=0&lg=english&FcstType=text&TextType=1	VA
-80	VA - Jenkins Shelter (2500')	Jenkins Shelter	-81.2478	37.0934	http://forecast.weather.gov/MapClick.php?lon=-81.2478&lat=37.0934&unit=0&lg=english&FcstType=text&TextType=1	VA
-81	VA - Helveys Mill Shelter (3090')	Helveys Mill Shelter	-81.1044	37.1326	http://forecast.weather.gov/MapClick.php?lon=-81.1044&lat=37.1326&unit=0&lg=english&FcstType=text&TextType=1	VA
-82	VA - Jenny Knob Shelter (2800')	Jenny Knob Shelter	-80.9803	37.155	http://forecast.weather.gov/MapClick.php?lon=-80.9803&lat=37.155&unit=0&lg=english&FcstType=text&TextType=1	VA
-83	VA - Wapiti Shelter (2640')	Wapiti Shelter	-80.8241	37.2239	http://forecast.weather.gov/MapClick.php?lon=-80.8241&lat=37.2239&unit=0&lg=english&FcstType=text&TextType=1	VA
-84	VA - Docs Knob Shelter (3555')	Docs Knob Shelter	-80.8364	37.2702	http://forecast.weather.gov/MapClick.php?lon=-80.8364&lat=37.2702&unit=0&lg=english&FcstType=text&TextType=1	VA
-85	VA - Rice Field Shelter (3375')	Rice Field Shelter	-80.7586	37.3748	http://forecast.weather.gov/MapClick.php?lon=-80.7586&lat=37.3748&unit=0&lg=english&FcstType=text&TextType=1	VA
-86	VA - Pine Swamp Branch Shelter (2530')	Pine Swamp Branch Shelter	-80.6088	37.4221	http://forecast.weather.gov/MapClick.php?lon=-80.6088&lat=37.4221&unit=0&lg=english&FcstType=text&TextType=1	VA
-87	VA - Bailey Gap Shelter (3525')	Bailey Gap Shelter	-80.5772	37.4009	http://forecast.weather.gov/MapClick.php?lon=-80.5772&lat=37.4009&unit=0&lg=english&FcstType=text&TextType=1	VA
-88	VA - War Spur Shelter (2340')	War Spur Shelter	-80.474	37.3975	http://forecast.weather.gov/MapClick.php?lon=-80.474&lat=37.3975&unit=0&lg=english&FcstType=text&TextType=1	VA
-89	VA - Laurel Creek Shelter (2720')	Laurel Creek Shelter	-80.4212	37.3589	http://forecast.weather.gov/MapClick.php?lon=-80.4212&lat=37.3589&unit=0&lg=english&FcstType=text&TextType=1	VA
-90	VA - Sarver Hollow Shelter (3000')	Sarver Hollow Shelter	-80.3352	37.3555	http://forecast.weather.gov/MapClick.php?lon=-80.3352&lat=37.3555&unit=0&lg=english&FcstType=text&TextType=1	VA
-91	VA - Niday Shelter (1800')	Niday Shelter	-80.2644	37.3875	http://forecast.weather.gov/MapClick.php?lon=-80.2644&lat=37.3875&unit=0&lg=english&FcstType=text&TextType=1	VA
-92	VA - Pickle Branch Shelter (1845')	Pickle Branch Shelter	-80.1911	37.3881	http://forecast.weather.gov/MapClick.php?lon=-80.1911&lat=37.3881&unit=0&lg=english&FcstType=text&TextType=1	VA
-93	VA - Johns Spring/Boy Scout Shelter (1980')	Johns Spring/Boy Scout Shelter	-80.0741	37.3853	http://forecast.weather.gov/MapClick.php?lon=-80.0741&lat=37.3853&unit=0&lg=english&FcstType=text&TextType=1	VA
-94	VA - Catawba Mountain Shelter (2580')	Catawba Mountain Shelter	-80.0574	37.3882	http://forecast.weather.gov/MapClick.php?lon=-80.0574&lat=37.3882&unit=0&lg=english&FcstType=text&TextType=1	VA
-95	VA - Campbell Shelter (2580')	Campbell Shelter	-80.0295	37.3908	http://forecast.weather.gov/MapClick.php?lon=-80.0295&lat=37.3908&unit=0&lg=english&FcstType=text&TextType=1	VA
-96	VA - Lamberts Meadow Shelter (2080')	Lamberts Meadow Shelter	-79.9878	37.4346	http://forecast.weather.gov/MapClick.php?lon=-79.9878&lat=37.4346&unit=0&lg=english&FcstType=text&TextType=1	VA
-97	VA - Fullhardt Knob Shelter (2670')	Fullhardt Knob Shelter	-79.8539	37.3985	http://forecast.weather.gov/MapClick.php?lon=-79.8539&lat=37.3985&unit=0&lg=english&FcstType=text&TextType=1	VA
-98	VA - Wilson Creek Shelter (1830')	Wilson Creek Shelter	-79.7857	37.4193	http://forecast.weather.gov/MapClick.php?lon=-79.7857&lat=37.4193&unit=0&lg=english&FcstType=text&TextType=1	VA
-99	VA - Bobblets Gap Shelter (1920')	Bobblets Gap Shelter	-79.7014	37.4672	http://forecast.weather.gov/MapClick.php?lon=-79.7014&lat=37.4672&unit=0&lg=english&FcstType=text&TextType=1	VA
-100	VA - Cove Mountain Shelter (1925')	Cove Mountain Shelter	-79.6511	37.5117	http://forecast.weather.gov/MapClick.php?lon=-79.6511&lat=37.5117&unit=0&lg=english&FcstType=text&TextType=1	VA
-101	VA - Bryant Ridge Shelter (1320')	Bryant Ridge Shelter	-79.5856	37.53	http://forecast.weather.gov/MapClick.php?lon=-79.5856&lat=37.53&unit=0&lg=english&FcstType=text&TextType=1	VA
-102	VA - Cornelius Creek Shelter (3145')	Cornelius Creek Shelter	-79.5472	37.4939	http://forecast.weather.gov/MapClick.php?lon=-79.5472&lat=37.4939&unit=0&lg=english&FcstType=text&TextType=1	VA
-103	VA - Thunder Hill Shelter (3960')	Thunder Hill Shelter	-79.5042	37.5274	http://forecast.weather.gov/MapClick.php?lon=-79.5042&lat=37.5274&unit=0&lg=english&FcstType=text&TextType=1	VA
-104	VA - Matts Creek Shelter (835')	Matts Creek Shelter	-79.4135	37.5995	http://forecast.weather.gov/MapClick.php?lon=-79.4135&lat=37.5995&unit=0&lg=english&FcstType=text&TextType=1	VA
-105	VA - Johns Hollow Shelter (1020')	Johns Hollow Shelter	-79.3921	37.613	http://forecast.weather.gov/MapClick.php?lon=-79.3921&lat=37.613&unit=0&lg=english&FcstType=text&TextType=1	VA
-106	VA - Punchbowl Shelter (2500')	Punchbowl Shelter	-79.3388	37.6778	http://forecast.weather.gov/MapClick.php?lon=-79.3388&lat=37.6778&unit=0&lg=english&FcstType=text&TextType=1	VA
-107	VA - Brown Mountain Creek Shelter (1395')	Brown Mountain Creek Shelter	-79.2682	37.7102	http://forecast.weather.gov/MapClick.php?lon=-79.2682&lat=37.7102&unit=0&lg=english&FcstType=text&TextType=1	VA
-108	VA - Cow Camp Gap Shelter (3160')	Cow Camp Gap Shelter	-79.2133	37.7466	http://forecast.weather.gov/MapClick.php?lon=-79.2133&lat=37.7466&unit=0&lg=english&FcstType=text&TextType=1	VA
-109	VA - Seeley-Woodworth Shelter (3770')	Seeley-Woodworth Shelter	-79.1551	37.8189	http://forecast.weather.gov/MapClick.php?lon=-79.1551&lat=37.8189&unit=0&lg=english&FcstType=text&TextType=1	VA
-110	VA - The Priest Shelter (3840')	The Priest Shelter	-79.0706	37.8178	http://forecast.weather.gov/MapClick.php?lon=-79.0706&lat=37.8178&unit=0&lg=english&FcstType=text&TextType=1	VA
-111	VA - Harpers Creek Shelter (1800')	Harpers Creek Shelter	-79.0012	37.8564	http://forecast.weather.gov/MapClick.php?lon=-79.0012&lat=37.8564&unit=0&lg=english&FcstType=text&TextType=1	VA
-112	VA - Maupin Field Shelter (2720')	Maupin Field Shelter	-78.9939	37.8849	http://forecast.weather.gov/MapClick.php?lon=-78.9939&lat=37.8849&unit=0&lg=english&FcstType=text&TextType=1	VA
-113	VA - Paul C. Wolfe Shelter (1700')	Paul C. Wolfe Shelter	-78.8839	37.9856	http://forecast.weather.gov/MapClick.php?lon=-78.8839&lat=37.9856&unit=0&lg=english&FcstType=text&TextType=1	VA
-114	VA - Calf Mountain Shelter (2700')	Calf Mountain Shelter	-78.7868	38.0855	http://forecast.weather.gov/MapClick.php?lon=-78.7868&lat=38.0855&unit=0&lg=english&FcstType=text&TextType=1	VA
-115	VA - Blackrock Hut (2645')	Blackrock Hut	-78.7427	38.2141	http://forecast.weather.gov/MapClick.php?lon=-78.7427&lat=38.2141&unit=0&lg=english&FcstType=text&TextType=1	VA
-116	VA - Pinefield Hut (2430')	Pinefield Hut	-78.646	38.2906	http://forecast.weather.gov/MapClick.php?lon=-78.646&lat=38.2906&unit=0&lg=english&FcstType=text&TextType=1	VA
-117	VA - Hightop Hut (3175')	Hightop Hut	-78.5586	38.333	http://forecast.weather.gov/MapClick.php?lon=-78.5586&lat=38.333&unit=0&lg=english&FcstType=text&TextType=1	VA
-118	VA - Bearfence Mountain Hut (3110')	Bearfence Mountain Hut	-78.4707	38.4441	http://forecast.weather.gov/MapClick.php?lon=-78.4707&lat=38.4441&unit=0&lg=english&FcstType=text&TextType=1	VA
-119	VA - Rock Spring Hut (3465')	Rock Spring Hut	-78.4086	38.5531	http://forecast.weather.gov/MapClick.php?lon=-78.4086&lat=38.5531&unit=0&lg=english&FcstType=text&TextType=1	VA
-120	VA - Byrds Nest #3 Hut (3290')	Byrds Nest #3 Hut	-78.3238	38.6344	http://forecast.weather.gov/MapClick.php?lon=-78.3238&lat=38.6344&unit=0&lg=english&FcstType=text&TextType=1	VA
-121	VA - Pass Mountain Hut (2690')	Pass Mountain Hut	-78.3192	38.6766	http://forecast.weather.gov/MapClick.php?lon=-78.3192&lat=38.6766&unit=0&lg=english&FcstType=text&TextType=1	VA
-122	VA - Gravel Springs Hut (2480')	Gravel Springs Hut	-78.2345	38.7635	http://forecast.weather.gov/MapClick.php?lon=-78.2345&lat=38.7635&unit=0&lg=english&FcstType=text&TextType=1	VA
-123	VA - Tom Floyd Wayside Shelter (1900')	Tom Floyd Wayside Shelter	-78.1639	38.8504	http://forecast.weather.gov/MapClick.php?lon=-78.1639&lat=38.8504&unit=0&lg=english&FcstType=text&TextType=1	VA
-124	VA - Jim & Molly Denton Shelter (1310')	Jim & Molly Denton Shelter	-78.0833	38.89	http://forecast.weather.gov/MapClick.php?lon=-78.0833&lat=38.89&unit=0&lg=english&FcstType=text&TextType=1	VA
-125	VA - Manassas Gap Shelter (1655')	Manassas Gap Shelter	-78.0331	38.9306	http://forecast.weather.gov/MapClick.php?lon=-78.0331&lat=38.9306&unit=0&lg=english&FcstType=text&TextType=1	VA
-126	VA - Dicks Dome Shelter (1230')	Dicks Dome Shelter	-77.997	38.9699	http://forecast.weather.gov/MapClick.php?lon=-77.997&lat=38.9699&unit=0&lg=english&FcstType=text&TextType=1	VA
-127	VA - Rod Hollow Shelter (840')	Rod Hollow Shelter	-77.9444	39.0478	http://forecast.weather.gov/MapClick.php?lon=-77.9444&lat=39.0478&unit=0&lg=english&FcstType=text&TextType=1	VA
-128	VA - Sam Moore Shelter (990')	Sam Moore Shelter	-77.8866	39.0906	http://forecast.weather.gov/MapClick.php?lon=-77.8866&lat=39.0906&unit=0&lg=english&FcstType=text&TextType=1	VA
-129	VA - Bears Den Hostel (1350')	Bears Den Hostel	-77.85409	39.11093	http://forecast.weather.gov/MapClick.php?lon=-77.85409&lat=39.11093&unit=0&lg=english&FcstType=text&TextType=2	VA
-130	VA - Blackburn Trail Center (1400')	Blackburn Trail Center	-77.79803	39.18765	http://forecast.weather.gov/MapClick.php?lon=-77.79803&lat=39.18765&unit=0&lg=english&FcstType=text&TextType=3	VA
-131	VA - David Lesser Memorial Shelter (1380')	David Lesser Memorial Shelter	-77.7795	39.2272	http://forecast.weather.gov/MapClick.php?lon=-77.7795&lat=39.2272&unit=0&lg=english&FcstType=text&TextType=1	VA
-132	MD - Ed Garvey Shelter (1100')	Ed Garvey Shelter	-77.6643	39.3565	http://forecast.weather.gov/MapClick.php?lon=-77.6643&lat=39.3565&unit=0&lg=english&FcstType=text&TextType=1	MD
-133	MD - Crampton Gap Shelter (1000')	Crampton Gap Shelter	-77.6376	39.4125	http://forecast.weather.gov/MapClick.php?lon=-77.6376&lat=39.4125&unit=0&lg=english&FcstType=text&TextType=1	MD
-134	MD - Rocky Run Shelter (970')	Rocky Run Shelter	-77.6314	39.4608	http://forecast.weather.gov/MapClick.php?lon=-77.6314&lat=39.4608&unit=0&lg=english&FcstType=text&TextType=1	MD
-135	MD - Dahlgren Backpack Campground (980')	Dahlgren Backpack Campground	-77.6015	39.492	http://forecast.weather.gov/MapClick.php?lon=-77.6015&lat=39.492&unit=0&lg=english&FcstType=text&TextType=1	MD
-136	MD - Pine Knob Shelter (1360')	Pine Knob Shelter	-77.6024	39.5425	http://forecast.weather.gov/MapClick.php?lon=-77.6024&lat=39.5425&unit=0&lg=english&FcstType=text&TextType=1	MD
-137	MD - Pogo Memorial Campsite (1500')	Pogo Memorial Campsite	-77.6015	39.5754	http://forecast.weather.gov/MapClick.php?lon=-77.6015&lat=39.5754&unit=0&lg=english&FcstType=text&TextType=1	MD
-138	MD - Ensign Cowall Shelter (1430')	Ensign Cowall Shelter	-77.5576	39.6277	http://forecast.weather.gov/MapClick.php?lon=-77.5576&lat=39.6277&unit=0&lg=english&FcstType=text&TextType=1	MD
-139	MD - Raven Rock Shelter (1480')	Raven Rock Shelter	-77.5246	39.672	http://forecast.weather.gov/MapClick.php?lon=-77.5246&lat=39.672&unit=0&lg=english&FcstType=text&TextType=1	MD
-140	PA - Deer Lick Shelters (1420')	Deer Lick Shelters	-77.4852	39.7662	http://forecast.weather.gov/MapClick.php?lon=-77.4852&lat=39.7662&unit=0&lg=english&FcstType=text&TextType=1	PA
-141	PA - Antietam Shelter (890')	Antietam Shelter	-77.483	39.7938	http://forecast.weather.gov/MapClick.php?lon=-77.483&lat=39.7938&unit=0&lg=english&FcstType=text&TextType=1	PA
-142	PA - Tumbling Run Shelters (1120')	Tumbling Run Shelters	-77.4783	39.805	http://forecast.weather.gov/MapClick.php?lon=-77.4783&lat=39.805&unit=0&lg=english&FcstType=text&TextType=1	PA
-143	PA - Rocky Mountain Shelters (1520')	Rocky Mountain Shelters	-77.5009	39.8686	http://forecast.weather.gov/MapClick.php?lon=-77.5009&lat=39.8686&unit=0&lg=english&FcstType=text&TextType=1	PA
-144	PA - Quarry Gap Shelters (1455')	Quarry Gap Shelters	-77.4867	39.932	http://forecast.weather.gov/MapClick.php?lon=-77.4867&lat=39.932&unit=0&lg=english&FcstType=text&TextType=1	PA
-145	PA - Birch Run Shelter (1795')	Birch Run Shelter	-77.4207	39.9846	http://forecast.weather.gov/MapClick.php?lon=-77.4207&lat=39.9846&unit=0&lg=english&FcstType=text&TextType=1	PA
-146	PA - Toms Run Shelters (1300')	Toms Run Shelters	-77.3573	40.0343	http://forecast.weather.gov/MapClick.php?lon=-77.3573&lat=40.0343&unit=0&lg=english&FcstType=text&TextType=1	PA
-147	PA - James Fry (Tagg Run) Shelter (805')	James Fry (Tagg Run) Shelter	-77.2064	40.063	http://forecast.weather.gov/MapClick.php?lon=-77.2064&lat=40.063&unit=0&lg=english&FcstType=text&TextType=1	PA
-148	PA - Alec Kennedy Shelter (850')	Alec Kennedy Shelter	-77.1043	40.1119	http://forecast.weather.gov/MapClick.php?lon=-77.1043&lat=40.1119&unit=0&lg=english&FcstType=text&TextType=1	PA
-149	PA - Darlington Shelter (1170')	Darlington Shelter	-77.0874	40.302	http://forecast.weather.gov/MapClick.php?lon=-77.0874&lat=40.302&unit=0&lg=english&FcstType=text&TextType=1	PA
-150	PA - Cove Mountain Shelter (1120')	Cove Mountain Shelter	-77.0678	40.3635	http://forecast.weather.gov/MapClick.php?lon=-77.0678&lat=40.3635&unit=0&lg=english&FcstType=text&TextType=1	PA
-151	PA - Clarks Ferry Shelter (1180')	Clarks Ferry Shelter	-76.994	40.3922	http://forecast.weather.gov/MapClick.php?lon=-76.994&lat=40.3922&unit=0&lg=english&FcstType=text&TextType=1	PA
-152	PA - Peters Mountain Shelter (970')	Peters Mountain Shelter	-76.8797	40.4258	http://forecast.weather.gov/MapClick.php?lon=-76.8797&lat=40.4258&unit=0&lg=english&FcstType=text&TextType=1	PA
-153	PA - Rausch Gap Shelter (970')	Rausch Gap Shelter	-76.6005	40.4985	http://forecast.weather.gov/MapClickerDick.php?lon=-76.6005&lat=40.4985&unit=0&lg=english&FcstType=text&TextType=1	PA
-154	PA - William Penn Shelter (1300')	William Penn Shelter	-76.4144	40.4956	http://forecast.weather.gov/MapClick.php?lon=-76.4144&lat=40.4956&unit=0&lg=english&FcstType=text&TextType=1	PA
-155	PA - 501 Shelter (1460')	501 Shelter	-76.3469	40.5125	http://forecast.weather.gov/MapClick.php?lon=-76.3469&lat=40.5125&unit=0&lg=english&FcstType=text&TextType=1	PA
-156	PA - Eagles Nest Shelter (1510')	Eagles Nest Shelter	-76.1527	40.5493	http://forecast.weather.gov/MapClick.php?lon=-76.1527&lat=40.5493&unit=0&lg=english&FcstType=text&TextType=1	PA
-157	PA - Windsor Furnace Shelter (880')	Windsor Furnace Shelter	-75.9423	40.5903	http://forecast.weather.gov/MapClick.php?lon=-75.9423&lat=40.5903&unit=0&lg=english&FcstType=text&TextType=1	PA
-158	PA - Eckville Shelter (535')	Eckville Shelter	-75.9588	40.6328	http://forecast.weather.gov/MapClick.php?lon=-75.9588&lat=40.6328&unit=0&lg=english&FcstType=text&TextType=1	PA
-159	PA - Allentown Hiking Club Shelter (1350')	Allentown Hiking Club Shelter	-75.8744	40.6831	http://forecast.weather.gov/MapClick.php?lon=-75.8744&lat=40.6831&unit=0&lg=english&FcstType=text&TextType=1	PA
-160	PA - Bake Oven Knob Shelter (1380')	Bake Oven Knob Shelter	-75.7274	40.7541	http://forecast.weather.gov/MapClick.php?lon=-75.7274&lat=40.7541&unit=0&lg=english&FcstType=text&TextType=1	PA
-161	PA - George W. Outerbridge Shelter (1000')	George W. Outerbridge Shelter	-75.6183	40.7825	http://forecast.weather.gov/MapClick.php?lon=-75.6183&lat=40.7825&unit=0&lg=english&FcstType=text&TextType=1	PA
-162	PA - Leroy A. Smith Shelter (1410')	Leroy A. Smith Shelter	-75.3598	40.8394	http://forecast.weather.gov/MapClick.php?lon=-75.3598&lat=40.8394&unit=0&lg=english&FcstType=text&TextType=1	PA
-163	PA - Kirkridge Shelter (1480')	Kirkridge Shelter	-75.1869	40.9367	http://forecast.weather.gov/MapClick.php?lon=-75.1869&lat=40.9367&unit=0&lg=english&FcstType=text&TextType=1	PA
-164	NJ - Backpacker Camp #2 (1287')	Backpacker Camp #2	-75.12	41.02	http://forecast.weather.gov/MapClick.php?lon=-75.12&lat=41.02&unit=0&lg=english&FcstType=text&TextType=1	NJ
-165	NJ - Brink Road Shelter (1110')	Brink Road Shelter	-74.8382	41.1532	http://forecast.weather.gov/MapClick.php?lon=-74.8382&lat=41.1532&unit=0&lg=english&FcstType=text&TextType=1	NJ
-166	NJ - Gren Anderson Shelter (1320')	Gren Anderson Shelter	-74.7531	41.1994	http://forecast.weather.gov/MapClick.php?lon=-74.7531&lat=41.1994&unit=0&lg=english&FcstType=text&TextType=1	NJ
-167	NJ - Mashipacong Shelter (1425')	Mashipacong Shelter	-74.6868	41.2521	http://forecast.weather.gov/MapClick.php?lon=-74.6868&lat=41.2521&unit=0&lg=english&FcstType=text&TextType=1	NJ
-168	NJ - Rutherford Shelter (1345')	Rutherford Shelter	-74.6785	41.2775	http://forecast.weather.gov/MapClick.php?lon=-74.6785&lat=41.2775&unit=0&lg=english&FcstType=text&TextType=1	NJ
-169	NJ - High Point Shelter (1280')	High Point Shelter	-74.6438	41.3278	http://forecast.weather.gov/MapClick.php?lon=-74.6438&lat=41.3278&unit=0&lg=english&FcstType=text&TextType=1	NJ
-170	NJ - Pochuck Mountain Shelter (840')	Pochuck Mountain Shelter	-74.5163	41.2717	http://forecast.weather.gov/MapClick.php?lon=-74.5163&lat=41.2717&unit=0&lg=english&FcstType=text&TextType=1	NJ
-171	NJ - Wawayanda Shelter (1200')	Wawayanda Shelter	-74.3985	41.2022	http://forecast.weather.gov/MapClick.php?lon=-74.3985&lat=41.2022&unit=0&lg=english&FcstType=text&TextType=1	NJ
-172	NY - Wildcat Shelter (1180')	Wildcat Shelter	-74.2683	41.2684	http://forecast.weather.gov/MapClick.php?lon=-74.2683&lat=41.2684&unit=0&lg=english&FcstType=text&TextType=1	NY
-173	NY - Fingerboard Shelter (1300')	Fingerboard Shelter	-74.1044	41.2633	http://forecast.weather.gov/MapClick.php?lon=-74.1044&lat=41.2633&unit=0&lg=english&FcstType=text&TextType=1	NY
-174	NY - William Brien Memorial Shelter (1070')	William Brien Memorial Shelter	-74.0599	41.2797	http://forecast.weather.gov/MapClick.php?lon=-74.0599&lat=41.2797&unit=0&lg=english&FcstType=text&TextType=1	NY
-175	NY - West Mountain Shelter (1240')	West Mountain Shelter	-74.0111	41.2841	http://forecast.weather.gov/MapClick.php?lon=-74.0111&lat=41.2841&unit=0&lg=english&FcstType=text&TextType=1	NY
-176	NY - RPH Shelter (360')	RPH Shelter	-73.7929	41.5144	http://forecast.weather.gov/MapClick.php?lon=-73.7929&lat=41.5144&unit=0&lg=english&FcstType=text&TextType=1	NY
-177	NY - Morgan Stewart Memorial Shelter (1285')	Morgan Stewart Memorial Shelter	-73.6921	41.5646	http://forecast.weather.gov/MapClick.php?lon=-73.6921&lat=41.5646&unit=0&lg=english&FcstType=text&TextType=1	NY
-178	NY - Telephone Pioneers Shelter (910')	Telephone Pioneers Shelter	-73.6193	41.6043	http://forecast.weather.gov/MapClick.php?lon=-73.6193&lat=41.6043&unit=0&lg=english&FcstType=text&TextType=1	NY
-179	NY - Wiley Shelter (740')	Wiley Shelter	-73.5327	41.6378	http://forecast.weather.gov/MapClick.php?lon=-73.5327&lat=41.6378&unit=0&lg=english&FcstType=text&TextType=1	NY
-180	CT - Ten Mile River Shelter (290')	Ten Mile River Shelter	-73.5099	41.6651	http://forecast.weather.gov/MapClick.php?lon=-73.5099&lat=41.6651&unit=0&lg=english&FcstType=text&TextType=1	CT
-181	CT - Mt. Algo Shelter (655')	Mt. Algo Shelter	-73.4967	41.7317	http://forecast.weather.gov/MapClick.php?lon=-73.4967&lat=41.7317&unit=0&lg=english&FcstType=text&TextType=1	CT
-182	CT - Stewart Hollow Brook Shelter (425')	Stewart Hollow Brook Shelter	-73.4198	41.7786	http://forecast.weather.gov/MapClick.php?lon=-73.4198&lat=41.7786&unit=0&lg=english&FcstType=text&TextType=1	CT
-183	CT - Pine Swamp Brook Shelter (1075')	Pine Swamp Brook Shelter	-73.3921	41.8816	http://forecast.weather.gov/MapClick.php?lon=-73.3921&lat=41.8816&unit=0&lg=english&FcstType=text&TextType=1	CT
-184	CT - Limestone Spring Shelter (980')	Limestone Spring Shelter	-73.3923	41.9751	http://forecast.weather.gov/MapClick.php?lon=-73.3923&lat=41.9751&unit=0&lg=english&FcstType=text&TextType=1	CT
-185	CT - Riga Shelter (1610')	Riga Shelter	-73.4477	42.0146	http://forecast.weather.gov/MapClick.php?lon=-73.4477&lat=42.0146&unit=0&lg=english&FcstType=text&TextType=1	CT
-186	CT - Brassie Brook Shelter (1705')	Brassie Brook Shelter	-73.4536	42.0283	http://forecast.weather.gov/MapClick.php?lon=-73.4536&lat=42.0283&unit=0&lg=english&FcstType=text&TextType=1	CT
-187	MA - The Hemlocks Shelter (1880')	The Hemlocks Shelter	-73.429	42.1099	http://forecast.weather.gov/MapClick.php?lon=-73.429&lat=42.1099&unit=0&lg=english&FcstType=text&TextType=1	MA
-188	MA - Glen Brook Shelter (1885')	Glen Brook Shelter	-73.4283	42.1111	http://forecast.weather.gov/MapClick.php?lon=-73.4283&lat=42.1111&unit=0&lg=english&FcstType=text&TextType=1	MA
-189	MA - Tom Leonard Shelter (1540')	Tom Leonard Shelter	-73.3062	42.1648	http://forecast.weather.gov/MapClick.php?lon=-73.3062&lat=42.1648&unit=0&lg=english&FcstType=text&TextType=1	MA
-190	MA - Mt. Wilcox South Shelters (1720')	Mt. Wilcox South Shelters	-73.2685	42.2078	http://forecast.weather.gov/MapClick.php?lon=-73.2685&lat=42.2078&unit=0&lg=english&FcstType=text&TextType=1	MA
-191	MA - Mt. Wilcox North Shelter (1950')	Mt. Wilcox North Shelter	-73.2506	42.221	http://forecast.weather.gov/MapClick.php?lon=-73.2506&lat=42.221&unit=0&lg=english&FcstType=text&TextType=1	MA
-192	MA - Upper Goose Pond Cabin (1483')	Upper Goose Pond Cabin	-73.1813	42.2887	http://forecast.weather.gov/MapClick.php?lon=-73.1813&lat=42.2887&unit=0&lg=english&FcstType=text&TextType=1	MA
-193	MA - October Mountain Shelter (1930')	October Mountain Shelter	-73.1545	42.3549	http://forecast.weather.gov/MapClick.php?lon=-73.1545&lat=42.3549&unit=0&lg=english&FcstType=text&TextType=1	MA
-194	MA - Kay Wood Shelter (1860')	Kay Wood Shelter	-73.1619	42.4525	http://forecast.weather.gov/MapClick.php?lon=-73.1619&lat=42.4525&unit=0&lg=english&FcstType=text&TextType=1	MA
-195	MA - Mark Noepel Shelter (2750')	Mark Noepel Shelter	-73.1845	42.6086	http://forecast.weather.gov/MapClick.php?lon=-73.1845&lat=42.6086&unit=0&lg=english&FcstType=text&TextType=1	MA
-196	MA - Wilbur Clearing Shelter (2300')	Wilbur Clearing Shelter	-73.1698	42.6685	http://forecast.weather.gov/MapClick.php?lon=-73.1698&lat=42.6685&unit=0&lg=english&FcstType=text&TextType=1	MA
-197	VT - Seth Warner Shelter (2180')	Seth Warner Shelter	-73.1376	42.7718	http://forecast.weather.gov/MapClick.php?lon=-73.1376&lat=42.7718&unit=0&lg=english&FcstType=text&TextType=1	VT
-198	VT - Congdon Shelter (2060')	Congdon Shelter	-73.1104	42.8481	http://forecast.weather.gov/MapClick.php?lon=-73.1104&lat=42.8481&unit=0&lg=english&FcstType=text&TextType=1	VT
-199	VT - Melville Nauheim Shelter (2330')	Melville Nauheim Shelter	-73.0962	42.8878	http://forecast.weather.gov/MapClick.php?lon=-73.0962&lat=42.8878&unit=0&lg=english&FcstType=text&TextType=1	VT
-200	VT - Goddard Shelter (3540')	Goddard Shelter	-73.0726	42.9741	http://forecast.weather.gov/MapClick.php?lon=-73.0726&lat=42.9741&unit=0&lg=english&FcstType=text&TextType=1	VT
-201	VT - Kid Gore Shelter (2795')	Kid Gore Shelter	-73.0416	43.013	http://forecast.weather.gov/MapClick.php?lon=-73.0416&lat=43.013&unit=0&lg=english&FcstType=text&TextType=1	VT
-202	VT - Story Spring Shelter (2810')	Story Spring Shelter	-73.013	43.0505	http://forecast.weather.gov/MapClick.php?lon=-73.013&lat=43.0505&unit=0&lg=english&FcstType=text&TextType=1	VT
-203	VT - Stratton Pond Shelter (2565')	Stratton Pond Shelter	-72.9688	43.1014	http://forecast.weather.gov/MapClick.php?lon=-72.9688&lat=43.1014&unit=0&lg=english&FcstType=text&TextType=1	VT
-204	VT - William B Douglas Shelter (2210')	William B Douglas Shelter	-72.9914	43.1445	http://forecast.weather.gov/MapClick.php?lon=-72.9914&lat=43.1445&unit=0&lg=english&FcstType=text&TextType=1	VT
-205	VT - Spruce Peak Shelter (2180')	Spruce Peak Shelter	-72.9957	43.1786	http://forecast.weather.gov/MapClick.php?lon=-72.9957&lat=43.1786&unit=0&lg=english&FcstType=text&TextType=1	VT
-206	VT - Bromley Shelter (2560')	Bromley Shelter	-72.9372	43.2395	http://forecast.weather.gov/MapClick.php?lon=-72.9372&lat=43.2395&unit=0&lg=english&FcstType=text&TextType=1	VT
-207	VT - Peru Peak Shelter (2605')	Peru Peak Shelter	-72.9529	43.3013	http://forecast.weather.gov/MapClick.php?lon=-72.9529&lat=43.3013&unit=0&lg=english&FcstType=text&TextType=1	VT
-208	VT - Lost Pond Shelter (2150')	Lost Pond Shelter	-72.9531	43.3454	http://forecast.weather.gov/MapClick.php?lon=-72.9531&lat=43.3454&unit=0&lg=english&FcstType=text&TextType=1	VT
-209	VT - Old Job Shelter (1525')	Old Job Shelter	-72.9289	43.3541	http://forecast.weather.gov/MapClick.php?lon=-72.9289&lat=43.3541&unit=0&lg=english&FcstType=text&TextType=1	VT
-210	VT - Big Branch Shelter (1460')	Big Branch Shelter	-72.9469	43.3641	http://forecast.weather.gov/MapClick.php?lon=-72.9469&lat=43.3641&unit=0&lg=english&FcstType=text&TextType=1	VT
-211	VT - Little Rock Pond Shelter (1885')	Little Rock Pond Shelter	-72.9536	43.4042	http://forecast.weather.gov/MapClick.php?lon=-72.9536&lat=43.4042&unit=0&lg=english&FcstType=text&TextType=1	VT
-212	VT - Greenwall Shelter (2025')	Greenwall Shelter	-72.9291	43.4404	http://forecast.weather.gov/MapClick.php?lon=-72.9291&lat=43.4404&unit=0&lg=english&FcstType=text&TextType=1	VT
-213	VT - Minerva Hinchey Shelter (1605')	Minerva Hinchey Shelter	-72.925	43.4878	http://forecast.weather.gov/MapClick.php?lon=-72.925&lat=43.4878&unit=0&lg=english&FcstType=text&TextType=1	VT
-214	VT - Clarendon Shelter (1190')	Clarendon Shelter	-72.9131	43.5235	http://forecast.weather.gov/MapClick.php?lon=-72.9131&lat=43.5235&unit=0&lg=english&FcstType=text&TextType=1	VT
-215	VT - Governor Clement Shelter (1900')	Governor Clement Shelter	-72.8488	43.5646	http://forecast.weather.gov/MapClick.php?lon=-72.8488&lat=43.5646&unit=0&lg=english&FcstType=text&TextType=1	VT
-216	VT - Cooper Lodge Shelter (3850')	Cooper Lodge Shelter	-72.8229	43.606	http://forecast.weather.gov/MapClick.php?lon=-72.8229&lat=43.606&unit=0&lg=english&FcstType=text&TextType=1	VT
-217	VT - Pico Camp Shelter (3510')	Pico Camp Shelter	-72.831	43.639	http://forecast.weather.gov/MapClick.php?lon=-72.831&lat=43.639&unit=0&lg=english&FcstType=text&TextType=1	VT
-218	VT - Churchill Scott Shelter (2560')	Churchill Scott Shelter	-72.8534	43.6449	http://forecast.weather.gov/MapClick.php?lon=-72.8534&lat=43.6449&unit=0&lg=english&FcstType=text&TextType=1	VT
-219	VT - Tucker Johnson Shelter (2300')	Tucker Johnson Shelter	-72.8436	43.6792	http://forecast.weather.gov/MapClick.php?lon=-72.8436&lat=43.6792&unit=0&lg=english&FcstType=text&TextType=1	VT
-220	VT - Gifford Woods State Park (1660')	Gifford Woods State Park	-72.8117	43.6761	http://forecast.weather.gov/MapClick.php?lon=-72.8117&lat=43.6761&unit=0&lg=english&FcstType=text&TextType=1	VT
-221	VT - Stony Brook Shelter (1760')	Stony Brook Shelter	-72.7306	43.6918	http://forecast.weather.gov/MapClick.php?lon=-72.7306&lat=43.6918&unit=0&lg=english&FcstType=text&TextType=1	VT
-222	VT - Wintturi Shelter (1910')	Wintturi Shelter	-72.6226	43.6622	http://forecast.weather.gov/MapClick.php?lon=-72.6226&lat=43.6622&unit=0&lg=english&FcstType=text&TextType=1	VT
-223	VT - Cloudland Shelter (1480')	Cloudland Shelter	-72.4931	43.6921	http://forecast.weather.gov/MapClick.php?lon=-72.4931&lat=43.6921&unit=0&lg=english&FcstType=text&TextType=1	VT
-224	VT - Thistle Hill Shelter (1680')	Thistle Hill Shelter	-72.4758	43.6952	http://forecast.weather.gov/MapClick.php?lon=-72.4758&lat=43.6952&unit=0&lg=english&FcstType=text&TextType=1	VT
-225	VT - Happy Hill Shelter (1420')	Happy Hill Shelter	-72.3657	43.7239	http://forecast.weather.gov/MapClick.php?lon=-72.3657&lat=43.7239&unit=0&lg=english&FcstType=text&TextType=1	VT
-226	NH - Velvet Rocks Shelter (1040')	Velvet Rocks Shelter	-72.2652	43.7025	http://forecast.weather.gov/MapClick.php?lon=-72.2652&lat=43.7025&unit=0&lg=english&FcstType=text&TextType=1	NH
-227	NH - Moose Mountain Shelter (1850')	Moose Mountain Shelter	-72.1475	43.7278	http://forecast.weather.gov/MapClick.php?lon=-72.1475&lat=43.7278&unit=0&lg=english&FcstType=text&TextType=1	NH
-228	NH - Trapper John Shelter (1345')	Trapper John Shelter	-72.112	43.783	http://forecast.weather.gov/MapClick.php?lon=-72.112&lat=43.783&unit=0&lg=english&FcstType=text&TextType=1	NH
-229	NH - Smarts Mountain Cabin (3220')	Smarts Mountain Cabin	-72.0378	43.8253	http://forecast.weather.gov/MapClick.php?lon=-72.0378&lat=43.8253&unit=0&lg=english&FcstType=text&TextType=1	NH
-230	NH - Hexacuba Shelter (1980')	Hexacuba Shelter	-72.029	43.874	http://forecast.weather.gov/MapClick.php?lon=-72.029&lat=43.874&unit=0&lg=english&FcstType=text&TextType=1	NH
-231	NH - Jeffers Brook Shelter (1350')	Jeffers Brook Shelter	-71.8894	43.9966	http://forecast.weather.gov/MapClick.php?lon=-71.8894&lat=43.9966&unit=0&lg=english&FcstType=text&TextType=1	NH
-232	NH - Beaver Brook Shelter (3650')	Beaver Brook Shelter	-71.8118	44.033	http://forecast.weather.gov/MapClick.php?lon=-71.8118&lat=44.033&unit=0&lg=english&FcstType=text&TextType=1	NH
-233	NH - Eliza Brook Campsite Shelter (2500')	Eliza Brook Campsite Shelter	-71.7424	44.1008	http://forecast.weather.gov/MapClick.php?lon=-71.7424&lat=44.1008&unit=0&lg=english&FcstType=text&TextType=1	NH
-234	NH - Kinsman Pond Campsite Shelter (3750')	Kinsman Pond Campsite Shelter	-71.7328	44.1369	http://forecast.weather.gov/MapClick.php?lon=-71.7328&lat=44.1369&unit=0&lg=english&FcstType=text&TextType=1	NH
-235	NH - Lonesome Lake Hut (2760')	Lonesome Lake Hut	-71.7037	44.1385	http://forecast.weather.gov/MapClick.php?lon=-71.7037&lat=44.1385&unit=0&lg=english&FcstType=text&TextType=1	NH
-236	NH - Greenleaf Hut (4200')	Greenleaf Hut	-71.6608	44.1603	http://forecast.weather.gov/MapClick.php?lon=-71.6608&lat=44.1603&unit=0&lg=english&FcstType=text&TextType=1	NH
-237	NH - Garfield Ridge Campsite Shelter (3560')	Garfield Ridge Campsite Shelter	-71.6088	44.1906	http://forecast.weather.gov/MapClick.php?lon=-71.6088&lat=44.1906&unit=0&lg=english&FcstType=text&TextType=1	NH
-238	NH - Galehead Hut (3800')	Galehead Hut	-71.5694	44.1878	http://forecast.weather.gov/MapClick.php?lon=-71.5694&lat=44.1878&unit=0&lg=english&FcstType=text&TextType=1	NH
-239	NH - Guyot Campsite Shelter (4560')	Guyot Campsite Shelter	-71.5356	44.161	http://forecast.weather.gov/MapClick.php?lon=-71.5356&lat=44.161&unit=0&lg=english&FcstType=text&TextType=1	NH
-240	NH - Zealand Falls Hut (2630')	Zealand Falls Hut	-71.4948	44.1957	http://forecast.weather.gov/MapClick.php?lon=-71.4948&lat=44.1957&unit=0&lg=english&FcstType=text&TextType=1	NH
-241	NH - Ethan Pond Campsite Shelter (2950')	Ethan Pond Campsite Shelter	-71.4271	44.1772	http://forecast.weather.gov/MapClick.php?lon=-71.4271&lat=44.1772&unit=0&lg=english&FcstType=text&TextType=1	NH
-242	NH - Mizpah Spring Hut (3800')	Mizpah Spring Hut	-71.3701	44.2193	http://forecast.weather.gov/MapClick.php?lon=-71.3701&lat=44.2193&unit=0&lg=english&FcstType=text&TextType=1	NH
-243	NH - Lake of the Clouds Hut (5012')	Lake of the Clouds Hut	-71.3193	44.2589	http://forecast.weather.gov/MapClick.php?lon=-71.3193&lat=44.2589&unit=0&lg=english&FcstType=text&TextType=1	NH
-244	NH - The RMS Perch Shelter (4313')	The RMS Perch Shelter	-71.311	44.3245	http://forecast.weather.gov/MapClick.php?lon=-71.311&lat=44.3245&unit=0&lg=english&FcstType=text&TextType=1	NH
-245	NH - Madison Spring Hut (4800')	Madison Spring Hut	-71.2835	44.3278	http://forecast.weather.gov/MapClick.php?lon=-71.2835&lat=44.3278&unit=0&lg=english&FcstType=text&TextType=1	NH
-246	NH - Osgood Tent Site (2554')	Osgood Tent Site	-71.2551	44.3086	http://forecast.weather.gov/MapClick.php?lon=-71.2551&lat=44.3086&unit=0&lg=english&FcstType=text&TextType=1	NH
-247	NH - Carter Notch Hut (3350')	Carter Notch Hut	-71.1959	44.2593	http://forecast.weather.gov/MapClick.php?lon=-71.1959&lat=44.2593&unit=0&lg=english&FcstType=text&TextType=1	NH
-248	NH - Imp Campsite Shelter (3250')	Imp Campsite Shelter	-71.1506	44.3289	http://forecast.weather.gov/MapClick.php?lon=-71.1506&lat=44.3289&unit=0&lg=english&FcstType=text&TextType=1	NH
-249	NH - Rattle River Shelter (1260')	Rattle River Shelter	-71.108	44.3799	http://forecast.weather.gov/MapClick.php?lon=-71.108&lat=44.3799&unit=0&lg=english&FcstType=text&TextType=1	NH
-250	NH - Gentian Pond Campsite Shelter (2166')	Gentian Pond Campsite Shelter	-71.0699	44.4518	http://forecast.weather.gov/MapClick.php?lon=-71.0699&lat=44.4518&unit=0&lg=english&FcstType=text&TextType=1	NH
-251	ME - Carlo Col Shelter & Campsite (2945')	Carlo Col Shelter & Campsite	-71.0167	44.4886	http://forecast.weather.gov/MapClick.php?lon=-71.0167&lat=44.4886&unit=0&lg=english&FcstType=text&TextType=1	ME
-252	ME - Full Goose Shelter (3030')	Full Goose Shelter	-70.9814	44.5251	http://forecast.weather.gov/MapClick.php?lon=-70.9814&lat=44.5251&unit=0&lg=english&FcstType=text&TextType=1	ME
-253	ME - Speck Pond Shelter & Campsite (3500')	Speck Pond Shelter & Campsite	-70.9741	44.5646	http://forecast.weather.gov/MapClick.php?lon=-70.9741&lat=44.5646&unit=0&lg=english&FcstType=text&TextType=1	ME
-254	ME - Baldpate Lean-to (2645')	Baldpate Lean-to	-70.9123	44.5984	http://forecast.weather.gov/MapClick.php?lon=-70.9123&lat=44.5984&unit=0&lg=english&FcstType=text&TextType=1	ME
-255	ME - Frye Notch Lean-to (2280')	Frye Notch Lean-to	-70.9008	44.6277	http://forecast.weather.gov/MapClick.php?lon=-70.9008&lat=44.6277&unit=0&lg=english&FcstType=text&TextType=1	ME
-256	ME - Hall Mountain Lean-to (2635')	Hall Mountain Lean-to	-70.8251	44.7008	http://forecast.weather.gov/MapClick.php?lon=-70.8251&lat=44.7008&unit=0&lg=english&FcstType=text&TextType=1	ME
-257	ME - Bemis Mountain Lean-to (2790')	Bemis Mountain Lean-to	-70.7565	44.8103	http://forecast.weather.gov/MapClick.php?lon=-70.7565&lat=44.8103&unit=0&lg=english&FcstType=text&TextType=1	ME
-258	ME - Sabbath Day Pond Lean-to (2390')	Sabbath Day Pond Lean-to	-70.6629	44.841	http://forecast.weather.gov/MapClick.php?lon=-70.6629&lat=44.841&unit=0&lg=english&FcstType=text&TextType=1	ME
-259	ME - Piazza Rock Lean-to (2080')	Piazza Rock Lean-to	-70.5314	44.9041	http://forecast.weather.gov/MapClick.php?lon=-70.5314&lat=44.9041&unit=0&lg=english&FcstType=text&TextType=1	ME
-260	ME - Poplar Ridge Lean-to (2920')	Poplar Ridge Lean-to	-70.4463	44.97	http://forecast.weather.gov/MapClick.php?lon=-70.4463&lat=44.97&unit=0&lg=english&FcstType=text&TextType=1	ME
-261	ME - Spaulding Mountain Lean-to (3140')	Spaulding Mountain Lean-to	-70.3418	44.9958	http://forecast.weather.gov/MapClick.php?lon=-70.3418&lat=44.9958&unit=0&lg=english&FcstType=text&TextType=1	ME
-262	ME - Horns Pond Lean-tos (3160')	Horns Pond Lean-tos	-70.3306	45.1442	http://forecast.weather.gov/MapClick.php?lon=-70.3306&lat=45.1442&unit=0&lg=english&FcstType=text&TextType=1	ME
-263	ME - Little Bigelow Lean-to (1760')	Little Bigelow Lean-to	-70.1916	45.1391	http://forecast.weather.gov/MapClick.php?lon=-70.1916&lat=45.1391&unit=0&lg=english&FcstType=text&TextType=1	ME
-264	ME - West Carry Pond Lean-to (1340')	West Carry Pond Lean-to	-70.0998	45.158	http://forecast.weather.gov/MapClick.php?lon=-70.0998&lat=45.158&unit=0&lg=english&FcstType=text&TextType=1	ME
-265	ME - Pierce Pond Lean-to (1150')	Pierce Pond Lean-to	-70.056	45.2403	http://forecast.weather.gov/MapClick.php?lon=-70.056&lat=45.2403&unit=0&lg=english&FcstType=text&TextType=1	ME
-266	ME - Pleasant Pond Lean-to (1320')	Pleasant Pond Lean-to	-69.9168	45.2706	http://forecast.weather.gov/MapClick.php?lon=-69.9168&lat=45.2706&unit=0&lg=english&FcstType=text&TextType=1	ME
-267	ME - Bald Mountain Brook Lean-to (1280')	Bald Mountain Brook Lean-to	-69.7999	45.2585	http://forecast.weather.gov/MapClick.php?lon=-69.7999&lat=45.2585&unit=0&lg=english&FcstType=text&TextType=1	ME
-268	ME - Moxie Bald Lean-to (1220')	Moxie Bald Lean-to	-69.7458	45.2706	http://forecast.weather.gov/MapClick.php?lon=-69.7458&lat=45.2706&unit=0&lg=english&FcstType=text&TextType=1	ME
-269	ME - Horseshoe Canyon Lean-to (880')	Horseshoe Canyon Lean-to	-69.6281	45.2828	http://forecast.weather.gov/MapClick.php?lon=-69.6281&lat=45.2828&unit=0&lg=english&FcstType=text&TextType=1	ME
-270	ME - Leeman Brook Lean-to (1070')	Leeman Brook Lean-to	-69.4993	45.3516	http://forecast.weather.gov/MapClick.php?lon=-69.4993&lat=45.3516&unit=0&lg=english&FcstType=text&TextType=1	ME
-271	ME - Wilson Valley Lean-to (1000')	Wilson Valley Lean-to	-69.4601	45.398	http://forecast.weather.gov/MapClick.php?lon=-69.4601&lat=45.398&unit=0&lg=english&FcstType=text&TextType=1	ME
-272	ME - Long Pond Stream Lean-to (930')	Long Pond Stream Lean-to	-69.4102	45.4219	http://forecast.weather.gov/MapClick.php?lon=-69.4102&lat=45.4219&unit=0&lg=english&FcstType=text&TextType=1	ME
-273	ME - Cloud Pond Lean-to (2420')	Cloud Pond Lean-to	-69.3522	45.4189	http://forecast.weather.gov/MapClick.php?lon=-69.3522&lat=45.4189&unit=0&lg=english&FcstType=text&TextType=1	ME
-274	ME - Chairback Gap Lean-to (2000')	Chairback Gap Lean-to	-69.2627	45.4529	http://forecast.weather.gov/MapClick.php?lon=-69.2627&lat=45.4529&unit=0&lg=english&FcstType=text&TextType=1	ME
-275	ME - Carl A. Newhall Lean-to (1840')	Carl A. Newhall Lean-to	-69.3155	45.5305	http://forecast.weather.gov/MapClick.php?lon=-69.3155&lat=45.5305&unit=0&lg=english&FcstType=text&TextType=1	ME
-276	ME - Logan Brook Lean-to (2530')	Logan Brook Lean-to	-69.2354	45.5611	http://forecast.weather.gov/MapClick.php?lon=-69.2354&lat=45.5611&unit=0&lg=english&FcstType=text&TextType=1	ME
-277	ME - East Branch Lean-to (1240')	East Branch Lean-to	-69.1988	45.5968	http://forecast.weather.gov/MapClick.php?lon=-69.1988&lat=45.5968&unit=0&lg=english&FcstType=text&TextType=1	ME
-278	ME - Cooper Brook Falls Lean-to (910')	Cooper Brook Falls Lean-to	-69.088	45.6405	http://forecast.weather.gov/MapClick.php?lon=-69.088&lat=45.6405&unit=0&lg=english&FcstType=text&TextType=1	ME
-279	ME - Potaywadjo Spring Lean-to (620')	Potaywadjo Spring Lean-to	-69.0079	45.7066	http://forecast.weather.gov/MapClick.php?lon=-69.0079&lat=45.7066&unit=0&lg=english&FcstType=text&TextType=1	ME
-280	ME - Wadleigh Stream Lean-to (685')	Wadleigh Stream Lean-to	-69.1452	45.7473	http://forecast.weather.gov/MapClick.php?lon=-69.1452&lat=45.7473&unit=0&lg=english&FcstType=text&TextType=1	ME
-281	ME - Rainbow Stream Lean-to (1005')	Rainbow Stream Lean-to	-69.171	45.7991	http://forecast.weather.gov/MapClick.php?lon=-69.171&lat=45.7991&unit=0&lg=english&FcstType=text&TextType=1	ME
-282	ME - Hurd Brook Lean-to (715')	Hurd Brook Lean-to	-69.019	45.8185	http://forecast.weather.gov/MapClick.php?lon=-69.019&lat=45.8185&unit=0&lg=english&FcstType=text&TextType=1	ME
-283	ME - The Birches Lean-tos & Campsite (1080')	The Birches Lean-tos & Campsite	-68.9951	45.8816	http://forecast.weather.gov/MapClick.php?lon=-68.9951&lat=45.8816&unit=0&lg=english&FcstType=text&TextType=1	ME
-284	ME - KATAHDIN (Baxter Peak) (5268')	KATAHDIN (Baxter Peak)	-68.9213	45.9044	http://forecast.weather.gov/MapClick.php?lon=-68.9213&lat=45.9044&unit=0&lg=english&FcstType=text&TextType=1	ME
-285	CA - Mexican Border, Southern Terminus of the PCT	Mexican Border, Southern Terminus of the PCT	-116.466988	32.58972	http://forecast.weather.gov/MapClick.php?lon=-116.466988&lat=32.589750&unit=0&lg=english&FcstType=text&TextType=1	CA
-286	CA - Campo Post Office 	Campo Post Office 	-116.470798	32.607373	http://forecast.weather.gov/MapClick.php?lon=-116.470798&lat=32.607373&unit=0&lg=english&FcstType=text&TextType=1	CA
-287	CA - Hauser Creek	Hauser Creek	-116.545505	32.661418	http://forecast.weather.gov/MapClick.php?lon=-116.545505&lat=32.661418&unit=0&lg=english&FcstType=text&TextType=1	CA
-288	CA - Boulder Oaks Campground	Boulder Oaks Campground	-116.483168	32.729016	http://forecast.weather.gov/MapClick.php?lon=-116.483168&lat=32.729016&unit=0&lg=english&FcstType=text&TextType=1	CA
-289	CA - Interstate Highway 8	Interstate Highway 8	-116.480025	32.734293	http://forecast.weather.gov/MapClick.php?lon=-116.480025&lat=32.734293&unit=0&lg=english&FcstType=text&TextType=1	CA
-290	CA - Long Canyon	Long Canyon	-116.422472	32.811006	http://forecast.weather.gov/MapClick.php?lon=-116.422472&lat=32.811006&unit=0&lg=english&FcstType=text&TextType=1	CA
-291	CA - Burnt Rancheria Campground	Burnt Rancheria Campground	-116.416588	32.85858	http://forecast.weather.gov/MapClick.php?lon=-116.416588&lat=32.858580&unit=0&lg=english&FcstType=text&TextType=1	CA
-292	CA - Sunrise Trailhead Junction	Sunrise Trailhead Junction	-116.522236	32.980363	http://forecast.weather.gov/MapClick.php?lon=-116.522236&lat=32.980363&unit=0&lg=english&FcstType=text&TextType=1	CA
-293	CA - Highway 78	Highway 78	-116.469501	33.099146	http://forecast.weather.gov/MapClick.php?lon=-116.469501&lat=33.099146&unit=0&lg=english&FcstType=text&TextType=1	CA
-294	CA - Eagle Rock	Eagle Rock	-116.611588	33.254761	http://forecast.weather.gov/MapClick.php?lon=-116.611588&lat=33.254761&unit=0&lg=english&FcstType=text&TextType=1	CA
-295	CA - Tule Canyon Creek	Tule Canyon Creek	-116.604818	33.45789	http://forecast.weather.gov/MapClick.php?lon=-116.604818&lat=33.457890&unit=0&lg=english&FcstType=text&TextType=1	CA
-296	CA - Laws Trail Junction	Laws Trail Junction	-116.652988	33.78725	http://forecast.weather.gov/MapClick.php?lon=-116.652988&lat=33.787250&unit=0&lg=english&FcstType=text&TextType=1	CA
-297	CA - Suicide Rock	Suicide Rock	-116.696749	33.769968	http://forecast.weather.gov/MapClick.php?lon=-116.696749&lat=33.769968&unit=0&lg=english&FcstType=text&TextType=1	CA
-298	CA - Interstate Highway 10	Interstate Highway 10	-116.694547	33.92424	http://forecast.weather.gov/MapClick.php?lon=-116.694547&lat=33.924240&unit=0&lg=english&FcstType=text&TextType=1	CA
-299	CA - Whitewater Creek	Whitewater Creek	-116.669843	34.013162	http://forecast.weather.gov/MapClick.php?lon=-116.669843&lat=34.013162&unit=0&lg=english&FcstType=text&TextType=1	CA
-300	CA - San Gorgonio Peak	San Gorgonio Peak	-116.824938	34.099252	http://forecast.weather.gov/MapClick.php?lon=-116.824938&lat=34.099252&unit=0&lg=english&FcstType=text&TextType=1	CA
-301	CA - Highway 18 - Big Bear	Highway 18 - Big Bear	-116.802749	34.290743	http://forecast.weather.gov/MapClick.php?lon=-116.802749&lat=34.290743&unit=0&lg=english&FcstType=text&TextType=1	CA
-302	CA - Mojave River Campground	Mojave River Campground	-117.263827	34.315855	http://forecast.weather.gov/MapClick.php?lon=-117.263827&lat=34.315855&unit=0&lg=english&FcstType=text&TextType=1	CA
-303	CA - Cleghorn Picnic Area	Cleghorn Picnic Area	-117.348119	34.287663	http://forecast.weather.gov/MapClick.php?lon=-117.348119&lat=34.287663&unit=0&lg=english&FcstType=text&TextType=1	CA
-304	CA - Interstate Highway 15	Interstate Highway 15	-117.4652	34.30464	http://forecast.weather.gov/MapClick.php?lon=-117.465200&lat=34.304640&unit=0&lg=english&FcstType=text&TextType=1	CA
-305	CA - Mount Baldy	Mount Baldy	-117.646406	34.289181	http://forecast.weather.gov/MapClick.php?lon=-117.646406&lat=34.289181&unit=0&lg=english&FcstType=text&TextType=1	CA
-306	CA - Grassy Hollow Visitor Center	Grassy Hollow Visitor Center	-117.722119	34.37636	http://forecast.weather.gov/MapClick.php?lon=-117.722119&lat=34.376360&unit=0&lg=english&FcstType=text&TextType=1	CA
-307	CA - Devils Punchbowl County Park	Devils Punchbowl County Park	-117.85844	34.413979	http://forecast.weather.gov/MapClick.php?lon=-117.858440&lat=34.413979&unit=0&lg=english&FcstType=text&TextType=1	CA
-308	CA - Eagles Roost Picnic Area	Eagles Roost Picnic Area	-117.878063	34.354294	http://forecast.weather.gov/MapClick.php?lon=-117.878063&lat=34.354294&unit=0&lg=english&FcstType=text&TextType=1	CA
-309	CA - Messenger Flats	Messenger Flats	-118.190017	34.381223	http://forecast.weather.gov/MapClick.php?lon=-118.190017&lat=34.381223&unit=0&lg=english&FcstType=text&TextType=1	CA
-310	CA - Vasquez Rocks Picnic Area	Vasquez Rocks Picnic Area	-118.311882	34.485096	http://forecast.weather.gov/MapClick.php?lon=-118.311882&lat=34.485096&unit=0&lg=english&FcstType=text&TextType=1	CA
-311	CA - Bouquet Canyon Road	Bouquet Canyon Road	-118.321236	34.58373	http://forecast.weather.gov/MapClick.php?lon=-118.321236&lat=34.583730&unit=0&lg=english&FcstType=text&TextType=1	CA
-312	CA - Maxwell Trail Camp	Maxwell Trail Camp	-118.521664	34.687892	http://forecast.weather.gov/MapClick.php?lon=-118.521664&lat=34.687892&unit=0&lg=english&FcstType=text&TextType=1	CA
-313	CA - Highway 138	Highway 138	-118.607181	34.775685	http://forecast.weather.gov/MapClick.php?lon=-118.607181&lat=34.775685&unit=0&lg=english&FcstType=text&TextType=1	CA
-314	CA - Tylerhorse Canyon	Tylerhorse Canyon	-118.468572	34.979435	http://forecast.weather.gov/MapClick.php?lon=-118.468572&lat=34.979435&unit=0&lg=english&FcstType=text&TextType=1	CA
-315	CA - Highway 58	Highway 58	-118.292893	35.099399	http://forecast.weather.gov/MapClick.php?lon=-118.292893&lat=35.099399&unit=0&lg=english&FcstType=text&TextType=1	CA
-316	CA - Hamp Williams Pass	Hamp Williams Pass	-118.285105	35.336589	http://forecast.weather.gov/MapClick.php?lon=-118.285105&lat=35.336589&unit=0&lg=english&FcstType=text&TextType=1	CA
-317	CA - Cottonwood Creek	Cottonwood Creek	-118.306815	35.405254	http://forecast.weather.gov/MapClick.php?lon=-118.306815&lat=35.405254&unit=0&lg=english&FcstType=text&TextType=1	CA
-318	CA - Highway 178 - Walker Pass	Highway 178 - Walker Pass	-118.02735	35.66309	http://forecast.weather.gov/MapClick.php?lon=-118.027350&lat=35.663090&unit=0&lg=english&FcstType=text&TextType=1	CA
-319	CA - Chimney Creek	Chimney Creek	-118.043791	35.834951	http://forecast.weather.gov/MapClick.php?lon=-118.043791&lat=35.834951&unit=0&lg=english&FcstType=text&TextType=1	CA
-320	CA - Kennedy Meadows Campground	Kennedy Meadows Campground	-118.130468	36.054498	http://forecast.weather.gov/MapClick.php?lon=-118.130468&lat=36.054498&unit=0&lg=english&FcstType=text&TextType=1	CA
-321	CA - Haiwee Trail Junction	Haiwee Trail Junction	-118.14002	36.139137	http://forecast.weather.gov/MapClick.php?lon=-118.140020&lat=36.139137&unit=0&lg=english&FcstType=text&TextType=1	CA
-322	CA - Cow Creek	Cow Creek	-118.135364	36.222656	http://forecast.weather.gov/MapClick.php?lon=-118.135364&lat=36.222656&unit=0&lg=english&FcstType=text&TextType=1	CA
-323	CA - Sequoia National Park (boundary)	Sequoia National Park (boundary)	-118.260188	36.473713	http://forecast.weather.gov/MapClick.php?lon=-118.260188&lat=36.473713&unit=0&lg=english&FcstType=text&TextType=1	CA
-324	CA - John Muir Trail (junction)	John Muir Trail (junction)	-118.361772	36.558887	http://forecast.weather.gov/MapClick.php?lon=-118.361772&lat=36.558887&unit=0&lg=english&FcstType=text&TextType=1	CA
-325	CA - Tyndall Creek	Tyndall Creek	-118.387513	36.642122	http://forecast.weather.gov/MapClick.php?lon=-118.387513&lat=36.642122&unit=0&lg=english&FcstType=text&TextType=1	CA
-326	CA - Forester Pass	Forester Pass	-118.373488	36.69452	http://forecast.weather.gov/MapClick.php?lon=-118.373488&lat=36.694520&unit=0&lg=english&FcstType=text&TextType=1	CA
-327	CA - Upper Vidette Meadow	Upper Vidette Meadow	-118.394279	36.752937	http://forecast.weather.gov/MapClick.php?lon=-118.394279&lat=36.752937&unit=0&lg=english&FcstType=text&TextType=1	CA
-328	CA - Charlotte Lake Trail	Charlotte Lake Trail	-118.416297	36.77061	http://forecast.weather.gov/MapClick.php?lon=-118.416297&lat=36.770610&unit=0&lg=english&FcstType=text&TextType=1	CA
-329	CA - Glen Pass	Glen Pass	-118.411768	36.789552	http://forecast.weather.gov/MapClick.php?lon=-118.411768&lat=36.789552&unit=0&lg=english&FcstType=text&TextType=1	CA
-330	CA - Rae Lakes Ranger	Rae Lakes Ranger	-118.400771	36.811347	http://forecast.weather.gov/MapClick.php?lon=-118.400771&lat=36.811347&unit=0&lg=english&FcstType=text&TextType=1	CA
-331	CA - Baxter Pass Trail	Baxter Pass Trail	-118.408192	36.834616	http://forecast.weather.gov/MapClick.php?lon=-118.408192&lat=36.834616&unit=0&lg=english&FcstType=text&TextType=1	CA
-332	CA - Pinchot Pass	Pinchot Pass	-118.412534	36.936104	http://forecast.weather.gov/MapClick.php?lon=-118.412534&lat=36.936104&unit=0&lg=english&FcstType=text&TextType=1	CA
-333	CA - Mather Pass	Mather Pass	-118.460103	37.031323	http://forecast.weather.gov/MapClick.php?lon=-118.460103&lat=37.031323&unit=0&lg=english&FcstType=text&TextType=1	CA
-334	CA - Lower Palisade Lake	Lower Palisade Lake	-118.48829	37.060189	http://forecast.weather.gov/MapClick.php?lon=-118.488290&lat=37.060189&unit=0&lg=english&FcstType=text&TextType=1	CA
-335	CA - Palisade Creek	Palisade Creek	-118.537455	37.053647	http://forecast.weather.gov/MapClick.php?lon=-118.537455&lat=37.053647&unit=0&lg=english&FcstType=text&TextType=1	CA
-336	CA - Grouse Meadow	Grouse Meadow	-118.589125	37.063508	http://forecast.weather.gov/MapClick.php?lon=-118.589125&lat=37.063508&unit=0&lg=english&FcstType=text&TextType=1	CA
-337	CA - Middle Fork Kings River	Middle Fork Kings River	-118.611313	37.11348	http://forecast.weather.gov/MapClick.php?lon=-118.611313&lat=37.113480&unit=0&lg=english&FcstType=text&TextType=1	CA
-338	CA - Muir Pass	Muir Pass	-118.670911	37.112048	http://forecast.weather.gov/MapClick.php?lon=-118.670911&lat=37.112048&unit=0&lg=english&FcstType=text&TextType=1	CA
-339	CA - Sapphire Lake	Sapphire Lake	-118.696656	37.148667	http://forecast.weather.gov/MapClick.php?lon=-118.696656&lat=37.148667&unit=0&lg=english&FcstType=text&TextType=1	CA
-340	CA - McClure Meadow	McClure Meadow	-118.741628	37.187815	http://forecast.weather.gov/MapClick.php?lon=-118.741628&lat=37.187815&unit=0&lg=english&FcstType=text&TextType=1	CA
-341	CA - Evolution Meadow	Evolution Meadow	-118.773483	37.195844	http://forecast.weather.gov/MapClick.php?lon=-118.773483&lat=37.195844&unit=0&lg=english&FcstType=text&TextType=1	CA
-342	CA - South Fork San Joaquin River	South Fork San Joaquin River	-118.800887	37.203186	http://forecast.weather.gov/MapClick.php?lon=-118.800887&lat=37.203186&unit=0&lg=english&FcstType=text&TextType=1	CA
-343	CA - Florence Lake Trail	Florence Lake Trail	-118.861256	37.225804	http://forecast.weather.gov/MapClick.php?lon=-118.861256&lat=37.225804&unit=0&lg=english&FcstType=text&TextType=1	CA
-344	CA - Senger Creek	Senger Creek	-118.864398	37.253533	http://forecast.weather.gov/MapClick.php?lon=-118.864398&lat=37.253533&unit=0&lg=english&FcstType=text&TextType=1	CA
-345	CA - Marie Lake	Marie Lake	-118.871527	37.298338	http://forecast.weather.gov/MapClick.php?lon=-118.871527&lat=37.298338&unit=0&lg=english&FcstType=text&TextType=1	CA
-346	CA - Bear Creek	Bear Creek	-118.879627	37.35613	http://forecast.weather.gov/MapClick.php?lon=-118.879627&lat=37.356130&unit=0&lg=english&FcstType=text&TextType=1	CA
-347	CA - Mono Creek	Mono Creek	-118.923792	37.412387	http://forecast.weather.gov/MapClick.php?lon=-118.923792&lat=37.412387&unit=0&lg=english&FcstType=text&TextType=1	CA
-348	CA - Silver Pass	Silver Pass	-118.923211	37.467771	http://forecast.weather.gov/MapClick.php?lon=-118.923211&lat=37.467771&unit=0&lg=english&FcstType=text&TextType=1	CA
-349	CA - Fish Creek	Fish Creek	-118.932843	37.492936	http://forecast.weather.gov/MapClick.php?lon=-118.932843&lat=37.492936&unit=0&lg=english&FcstType=text&TextType=1	CA
-350	CA - Purple Lake	Purple Lake	-118.950095	37.528977	http://forecast.weather.gov/MapClick.php?lon=-118.950095&lat=37.528977&unit=0&lg=english&FcstType=text&TextType=1	CA
-351	CA - Crater Creek	Crater Creek	-119.055078	37.587717	http://forecast.weather.gov/MapClick.php?lon=-119.055078&lat=37.587717&unit=0&lg=english&FcstType=text&TextType=1	CA
-352	CA - Middle Fork San Joaquin River	Middle Fork San Joaquin River	-119.083483	37.614569	http://forecast.weather.gov/MapClick.php?lon=-119.083483&lat=37.614569&unit=0&lg=english&FcstType=text&TextType=1	CA
-353	CA - Rosalie Lake	Rosalie Lake	-119.121032	37.68784	http://forecast.weather.gov/MapClick.php?lon=-119.121032&lat=37.687840&unit=0&lg=english&FcstType=text&TextType=1	CA
-354	CA - Soda Springs Campground	Soda Springs Campground	-119.078754	37.653447	http://forecast.weather.gov/MapClick.php?lon=-119.078754&lat=37.653447&unit=0&lg=english&FcstType=text&TextType=1	CA
-355	CA - Island Pass	Island Pass	-119.194337	37.736621	http://forecast.weather.gov/MapClick.php?lon=-119.194337&lat=37.736621&unit=0&lg=english&FcstType=text&TextType=1	CA
-356	CA - Donohue Pass	Donohue Pass	-119.248082	37.760877	http://forecast.weather.gov/MapClick.php?lon=-119.248082&lat=37.760877&unit=0&lg=english&FcstType=text&TextType=1	CA
-357	CA - Ireland Creek	Ireland Creek	-119.279659	37.825547	http://forecast.weather.gov/MapClick.php?lon=-119.279659&lat=37.825547&unit=0&lg=english&FcstType=text&TextType=1	CA
-358	CA - Highway 120	Highway 120	-119.353069	37.877018	http://forecast.weather.gov/MapClick.php?lon=-119.353069&lat=37.877018&unit=0&lg=english&FcstType=text&TextType=1	CA
-359	CA - Tuolumne River	Tuolumne River	-119.3662	37.877377	http://forecast.weather.gov/MapClick.php?lon=-119.366200&lat=37.877377&unit=0&lg=english&FcstType=text&TextType=1	CA
-360	CA - Glen Aulin Campground	Glen Aulin Campground	-119.41792	37.910149	http://forecast.weather.gov/MapClick.php?lon=-119.417920&lat=37.910149&unit=0&lg=english&FcstType=text&TextType=1	CA
-361	CA - Miller Lake	Miller Lake	-119.418793	37.993891	http://forecast.weather.gov/MapClick.php?lon=-119.418793&lat=37.993891&unit=0&lg=english&FcstType=text&TextType=1	CA
-362	CA - Benson Pass	Benson Pass	-119.46116	38.015117	http://forecast.weather.gov/MapClick.php?lon=-119.461160&lat=38.015117&unit=0&lg=english&FcstType=text&TextType=1	CA
-363	CA - Piute Creek	Piute Creek	-119.519657	38.022795	http://forecast.weather.gov/MapClick.php?lon=-119.519657&lat=38.022795&unit=0&lg=english&FcstType=text&TextType=1	CA
-364	CA - Wilma Lake (Wilmer Lake)	Wilma Lake (Wilmer Lake)	-119.639788	38.069012	http://forecast.weather.gov/MapClick.php?lon=-119.639788&lat=38.069012&unit=0&lg=english&FcstType=text&TextType=1	CA
-365	CA - Lake Harriet	Lake Harriet	-119.569827	38.187328	http://forecast.weather.gov/MapClick.php?lon=-119.569827&lat=38.187328&unit=0&lg=english&FcstType=text&TextType=1	CA
-366	CA - Walken Meadow	Walken Meadow	-119.580518	38.230871	http://forecast.weather.gov/MapClick.php?lon=-119.580518&lat=38.230871&unit=0&lg=english&FcstType=text&TextType=1	CA
-367	CA - Highway 108 - Sonora Pass	Highway 108 - Sonora Pass	-119.637183	38.327968	http://forecast.weather.gov/MapClick.php?lon=-119.637183&lat=38.327968&unit=0&lg=english&FcstType=text&TextType=1	CA
-368	CA - Carson-Iceberg Wilderness	Carson-Iceberg Wilderness	-119.623085	38.361432	http://forecast.weather.gov/MapClick.php?lon=-119.623085&lat=38.361432&unit=0&lg=english&FcstType=text&TextType=1	CA
-369	CA - Wolf Creek	Wolf Creek	-119.754636	38.485321	http://forecast.weather.gov/MapClick.php?lon=-119.754636&lat=38.485321&unit=0&lg=english&FcstType=text&TextType=1	CA
-370	CA - Highway 4 - Ebbetts Pass	Highway 4 - Ebbetts Pass	-119.811263	38.545741	http://forecast.weather.gov/MapClick.php?lon=-119.811263&lat=38.545741&unit=0&lg=english&FcstType=text&TextType=1	CA
-371	CA - Pennsylvania Creek	Pennsylvania Creek	-119.821656	38.596669	http://forecast.weather.gov/MapClick.php?lon=-119.821656&lat=38.596669&unit=0&lg=english&FcstType=text&TextType=1	CA
-372	CA - Lilly Pad Lake	Lilly Pad Lake	-119.886211	38.605948	http://forecast.weather.gov/MapClick.php?lon=-119.886211&lat=38.605948&unit=0&lg=english&FcstType=text&TextType=1	CA
-373	CA - Highway 88 - Carson Pass	Highway 88 - Carson Pass	-119.989674	38.695867	http://forecast.weather.gov/MapClick.php?lon=-119.989674&lat=38.695867&unit=0&lg=english&FcstType=text&TextType=1	CA
-374	CA - Highway 50	Highway 50	-120.039859	38.822959	http://forecast.weather.gov/MapClick.php?lon=-120.039859&lat=38.822959&unit=0&lg=english&FcstType=text&TextType=1	CA
-375	CA - Heather Lake	Heather Lake	-120.138632	38.878287	http://forecast.weather.gov/MapClick.php?lon=-120.138632&lat=38.878287&unit=0&lg=english&FcstType=text&TextType=1	CA
-376	CA - Middle Velma Lake	Middle Velma Lake	-120.154752	38.93599	http://forecast.weather.gov/MapClick.php?lon=-120.154752&lat=38.935990&unit=0&lg=english&FcstType=text&TextType=1	CA
-377	CA - Richardson Lake	Richardson Lake	-120.212352	39.024597	http://forecast.weather.gov/MapClick.php?lon=-120.212352&lat=39.024597&unit=0&lg=english&FcstType=text&TextType=1	CA
-378	CA - North Fork Blackwood Creek	North Fork Blackwood Creek	-120.243263	39.091946	http://forecast.weather.gov/MapClick.php?lon=-120.243263&lat=39.091946&unit=0&lg=english&FcstType=text&TextType=1	CA
-379	CA - Squaw Creek	Squaw Creek	-120.280957	39.199602	http://forecast.weather.gov/MapClick.php?lon=-120.280957&lat=39.199602&unit=0&lg=english&FcstType=text&TextType=1	CA
-380	CA - Highway 40 - Donner Pass	Highway 40 - Donner Pass	-120.326044	39.316788	http://forecast.weather.gov/MapClick.php?lon=-120.326044&lat=39.316788&unit=0&lg=english&FcstType=text&TextType=1	CA
-381	CA - Interstate Highway 80	Interstate Highway 80	-120.336213	39.34345	http://forecast.weather.gov/MapClick.php?lon=-120.336213&lat=39.343450&unit=0&lg=english&FcstType=text&TextType=1	CA
-382	CA - Castle Pass	Castle Pass	-120.364943	39.358707	http://forecast.weather.gov/MapClick.php?lon=-120.364943&lat=39.358707&unit=0&lg=english&FcstType=text&TextType=1	CA
-383	CA - Paradise Lake Trail	Paradise Lake Trail	-120.377347	39.401084	http://forecast.weather.gov/MapClick.php?lon=-120.377347&lat=39.401084&unit=0&lg=english&FcstType=text&TextType=1	CA
-384	CA - Mule Ears Creek	Mule Ears Creek	-120.493718	39.470173	http://forecast.weather.gov/MapClick.php?lon=-120.493718&lat=39.470173&unit=0&lg=english&FcstType=text&TextType=1	CA
-385	CA - Milton Creek	Milton Creek	-120.572586	39.543565	http://forecast.weather.gov/MapClick.php?lon=-120.572586&lat=39.543565&unit=0&lg=english&FcstType=text&TextType=1	CA
-386	CA - Highway 49	Highway 49	-120.612561	39.576553	http://forecast.weather.gov/MapClick.php?lon=-120.612561&lat=39.576553&unit=0&lg=english&FcstType=text&TextType=1	CA
-387	CA - Sierra Buttes Spring	Sierra Buttes Spring	-120.662251	39.592202	http://forecast.weather.gov/MapClick.php?lon=-120.662251&lat=39.592202&unit=0&lg=english&FcstType=text&TextType=1	CA
-388	CA - Silver Lake Trail	Silver Lake Trail	-120.701004	39.690814	http://forecast.weather.gov/MapClick.php?lon=-120.701004&lat=39.690814&unit=0&lg=english&FcstType=text&TextType=1	CA
-389	CA - Quincy-LaPorte Road	Quincy-LaPorte Road	-120.891617	39.782399	http://forecast.weather.gov/MapClick.php?lon=-120.891617&lat=39.782399&unit=0&lg=english&FcstType=text&TextType=1	CA
-390	CA - Middle Fork Feather River	Middle Fork Feather River	-121.045186	39.808315	http://forecast.weather.gov/MapClick.php?lon=-121.045186&lat=39.808315&unit=0&lg=english&FcstType=text&TextType=1	CA
-391	CA - Big Creek Road	Big Creek Road	-121.131391	39.858565	http://forecast.weather.gov/MapClick.php?lon=-121.131391&lat=39.858565&unit=0&lg=english&FcstType=text&TextType=1	CA
-392	CA - Clear Creek Springs	Clear Creek Springs	-121.179562	39.961689	http://forecast.weather.gov/MapClick.php?lon=-121.179562&lat=39.961689&unit=0&lg=english&FcstType=text&TextType=1	CA
-393	CA - Highway 70 - Belden	Highway 70 - Belden	-121.24947	40.006965	http://forecast.weather.gov/MapClick.php?lon=-121.249470&lat=40.006965&unit=0&lg=english&FcstType=text&TextType=1	CA
-394	CA - Lassen National Forest (south end)	Lassen National Forest (south end)	-121.299427	40.028374	http://forecast.weather.gov/MapClick.php?lon=-121.299427&lat=40.028374&unit=0&lg=english&FcstType=text&TextType=1	CA
-395	CA - Myrtle Flat	Myrtle Flat	-121.326774	40.02996	http://forecast.weather.gov/MapClick.php?lon=-121.326774&lat=40.029960&unit=0&lg=english&FcstType=text&TextType=1	CA
-396	CA - Frog Spring	Frog Spring	-121.382313	40.054633	http://forecast.weather.gov/MapClick.php?lon=-121.382313&lat=40.054633&unit=0&lg=english&FcstType=text&TextType=1	CA
-397	CA - Humboldt Peak Trail	Humboldt Peak Trail	-121.423757	40.156044	http://forecast.weather.gov/MapClick.php?lon=-121.423757&lat=40.156044&unit=0&lg=english&FcstType=text&TextType=1	CA
-398	CA - PCT Midpoint	PCT Midpoint	-121.3559	40.210019	http://forecast.weather.gov/MapClick.php?lon=-121.355900&lat=40.210019&unit=0&lg=english&FcstType=text&TextType=1	CA
-399	CA - Highway 36	Highway 36	-121.338872	40.261505	http://forecast.weather.gov/MapClick.php?lon=-121.338872&lat=40.261505&unit=0&lg=english&FcstType=text&TextType=1	CA
-400	CA - Stover Spring	Stover Spring	-121.341972	40.299287	http://forecast.weather.gov/MapClick.php?lon=-121.341972&lat=40.299287&unit=0&lg=english&FcstType=text&TextType=1	CA
-401	CA - North Fork Feather River	North Fork Feather River	-121.351262	40.352093	http://forecast.weather.gov/MapClick.php?lon=-121.351262&lat=40.352093&unit=0&lg=english&FcstType=text&TextType=1	CA
-402	CA - Drakesbad Guest Ranch	Drakesbad Guest Ranch	-121.403903	40.444169	http://forecast.weather.gov/MapClick.php?lon=-121.403903&lat=40.444169&unit=0&lg=english&FcstType=text&TextType=1	CA
-403	CA - Lower Twin Lake	Lower Twin Lake	-121.36284	40.505102	http://forecast.weather.gov/MapClick.php?lon=-121.362840&lat=40.505102&unit=0&lg=english&FcstType=text&TextType=1	CA
-404	CA - Lassen National Park (north end)	Lassen National Park (north end)	-121.443099	40.563179	http://forecast.weather.gov/MapClick.php?lon=-121.443099&lat=40.563179&unit=0&lg=english&FcstType=text&TextType=1	CA
-405	CA - Old Station	Old Station	-121.45996	40.651251	http://forecast.weather.gov/MapClick.php?lon=-121.459960&lat=40.651251&unit=0&lg=english&FcstType=text&TextType=1	CA
-406	CA - Highway 44	Highway 44	-121.420274	40.679876	http://forecast.weather.gov/MapClick.php?lon=-121.420274&lat=40.679876&unit=0&lg=english&FcstType=text&TextType=1	CA
-407	CA - Hat Creek Rim Lookout Site	Hat Creek Rim Lookout Site	-121.414621	40.808628	http://forecast.weather.gov/MapClick.php?lon=-121.414621&lat=40.808628&unit=0&lg=english&FcstType=text&TextType=1	CA
-408	CA - Cassel Fall River Road	Cassel Fall River Road	-121.497226	40.922214	http://forecast.weather.gov/MapClick.php?lon=-121.497226&lat=40.922214&unit=0&lg=english&FcstType=text&TextType=1	CA
-409	CA - Crystal Lake Fish Hatchery	Crystal Lake Fish Hatchery	-121.543827	40.932054	http://forecast.weather.gov/MapClick.php?lon=-121.543827&lat=40.932054&unit=0&lg=english&FcstType=text&TextType=1	CA
-410	CA - Highway 299	Highway 299	-121.577208	40.963529	http://forecast.weather.gov/MapClick.php?lon=-121.577208&lat=40.963529&unit=0&lg=english&FcstType=text&TextType=1	CA
-411	CA - Highway 89	Highway 89	-121.642309	41.008421	http://forecast.weather.gov/MapClick.php?lon=-121.642309&lat=41.008421&unit=0&lg=english&FcstType=text&TextType=1	CA
-412	CA - Burney Falls State Park	Burney Falls State Park	-121.650383	41.012642	http://forecast.weather.gov/MapClick.php?lon=-121.650383&lat=41.012642&unit=0&lg=english&FcstType=text&TextType=1	CA
-413	CA - Rock Creek	Rock Creek	-121.713634	41.025079	http://forecast.weather.gov/MapClick.php?lon=-121.713634&lat=41.025079&unit=0&lg=english&FcstType=text&TextType=1	CA
-414	CA - Deadman Creek	Deadman Creek	-121.774476	41.118882	http://forecast.weather.gov/MapClick.php?lon=-121.774476&lat=41.118882&unit=0&lg=english&FcstType=text&TextType=1	CA
-415	CA - Moosehead Creek	Moosehead Creek	-121.831842	41.177123	http://forecast.weather.gov/MapClick.php?lon=-121.831842&lat=41.177123&unit=0&lg=english&FcstType=text&TextType=1	CA
-416	CA - Deer Creek	Deer Creek	-121.98741	41.128277	http://forecast.weather.gov/MapClick.php?lon=-121.987410&lat=41.128277&unit=0&lg=english&FcstType=text&TextType=1	CA
-417	CA - Ash Camp Campground	Ash Camp Campground	-122.060625	41.117091	http://forecast.weather.gov/MapClick.php?lon=-122.060625&lat=41.117091&unit=0&lg=english&FcstType=text&TextType=1	CA
-418	CA - Squaw Valley Creek	Squaw Valley Creek	-122.169568	41.141103	http://forecast.weather.gov/MapClick.php?lon=-122.169568&lat=41.141103&unit=0&lg=english&FcstType=text&TextType=1	CA
-419	CA - Castle Crag State Park	Castle Crag State Park	-122.28883	41.160542	http://forecast.weather.gov/MapClick.php?lon=-122.288830&lat=41.160542&unit=0&lg=english&FcstType=text&TextType=1	CA
-420	CA - Interstate Highway 5	Interstate Highway 5	-122.297251	41.162611	http://forecast.weather.gov/MapClick.php?lon=-122.297251&lat=41.162611&unit=0&lg=english&FcstType=text&TextType=1	CA
-421	CA - East Fork Sulphur Creek	East Fork Sulphur Creek	-122.35856	41.164535	http://forecast.weather.gov/MapClick.php?lon=-122.358560&lat=41.164535&unit=0&lg=english&FcstType=text&TextType=1	CA
-422	CA - Gully Spring	Gully Spring	-122.392887	41.213822	http://forecast.weather.gov/MapClick.php?lon=-122.392887&lat=41.213822&unit=0&lg=english&FcstType=text&TextType=1	CA
-423	CA - Seven Lakes Trail	Seven Lakes Trail	-122.497331	41.187464	http://forecast.weather.gov/MapClick.php?lon=-122.497331&lat=41.187464&unit=0&lg=english&FcstType=text&TextType=1	CA
-424	CA - Red Rock Spring	Red Rock Spring	-122.507865	41.306786	http://forecast.weather.gov/MapClick.php?lon=-122.507865&lat=41.306786&unit=0&lg=english&FcstType=text&TextType=1	CA
-425	CA - Highway 3 - Scott Mountain	Highway 3 - Scott Mountain	-122.697606	41.275582	http://forecast.weather.gov/MapClick.php?lon=-122.697606&lat=41.275582&unit=0&lg=english&FcstType=text&TextType=1	CA
-426	CA - Scott Mountain Summit Trail	Scott Mountain Summit Trail	-122.789797	41.212612	http://forecast.weather.gov/MapClick.php?lon=-122.789797&lat=41.212612&unit=0&lg=english&FcstType=text&TextType=1	CA
-427	CA - Highway 93 - Carter Meadows Summit	Highway 93 - Carter Meadows Summit	-122.899205	41.22039	http://forecast.weather.gov/MapClick.php?lon=-122.899205&lat=41.220390&unit=0&lg=english&FcstType=text&TextType=1	CA
-428	CA - Paynes Lake	Paynes Lake	-122.959452	41.343508	http://forecast.weather.gov/MapClick.php?lon=-122.959452&lat=41.343508&unit=0&lg=english&FcstType=text&TextType=1	CA
-429	CA - Marble Mountain Wilderness	Marble Mountain Wilderness	-123.020262	41.406953	http://forecast.weather.gov/MapClick.php?lon=-123.020262&lat=41.406953&unit=0&lg=english&FcstType=text&TextType=1	CA
-430	CA - Marten Lake	Marten Lake	-123.109431	41.497649	http://forecast.weather.gov/MapClick.php?lon=-123.109431&lat=41.497649&unit=0&lg=english&FcstType=text&TextType=1	CA
-431	CA - Paradise Lake	Paradise Lake	-123.209529	41.612465	http://forecast.weather.gov/MapClick.php?lon=-123.209529&lat=41.612465&unit=0&lg=english&FcstType=text&TextType=1	CA
-432	CA - Bark Shanty Creek	Bark Shanty Creek	-123.22321	41.766224	http://forecast.weather.gov/MapClick.php?lon=-123.223210&lat=41.766224&unit=0&lg=english&FcstType=text&TextType=1	CA
-433	CA - Highway 96	Highway 96	-123.21004	41.844399	http://forecast.weather.gov/MapClick.php?lon=-123.210040&lat=41.844399&unit=0&lg=english&FcstType=text&TextType=1	CA
-434	CA - Tin Cup Trail	Tin Cup Trail	-123.078823	41.953718	http://forecast.weather.gov/MapClick.php?lon=-123.078823&lat=41.953718&unit=0&lg=english&FcstType=text&TextType=1	CA
-435	OR - Oregon/California Border	Oregon/California Border	-122.909063	42.003588	http://forecast.weather.gov/MapClick.php?lon=-122.909063&lat=42.003588&unit=0&lg=english&FcstType=text&TextType=1	OR
-436	OR - Sheep Camp Spring	Sheep Camp Spring	-122.873455	42.032814	http://forecast.weather.gov/MapClick.php?lon=-122.873455&lat=42.032814&unit=0&lg=english&FcstType=text&TextType=1	OR
-437	OR - Mount Ashland Road	Mount Ashland Road	-122.697104	42.073524	http://forecast.weather.gov/MapClick.php?lon=-122.697104&lat=42.073524&unit=0&lg=english&FcstType=text&TextType=1	OR
-438	OR - Interstate Highway 5	Interstate Highway 5	-122.602595	42.063879	http://forecast.weather.gov/MapClick.php?lon=-122.602595&lat=42.063879&unit=0&lg=english&FcstType=text&TextType=1	OR
-439	OR - Soda Mountain Wilderness	Soda Mountain Wilderness	-122.524625	42.042603	http://forecast.weather.gov/MapClick.php?lon=-122.524625&lat=42.042603&unit=0&lg=english&FcstType=text&TextType=1	OR
-440	OR - Highway 66 - Green Springs Mountain Summit	Highway 66 - Green Springs Mountain Summit	-122.482737	42.130085	http://forecast.weather.gov/MapClick.php?lon=-122.482737&lat=42.130085&unit=0&lg=english&FcstType=text&TextType=1	OR
-441	OR - Hyatt Lake Campground	Hyatt Lake Campground	-122.463245	42.168684	http://forecast.weather.gov/MapClick.php?lon=-122.463245&lat=42.168684&unit=0&lg=english&FcstType=text&TextType=1	OR
-442	OR - Klum Landing Park	Klum Landing Park	-122.374904	42.208734	http://forecast.weather.gov/MapClick.php?lon=-122.374904&lat=42.208734&unit=0&lg=english&FcstType=text&TextType=1	OR
-443	OR - Vulture Rock Trail	Vulture Rock Trail	-122.298346	42.242051	http://forecast.weather.gov/MapClick.php?lon=-122.298346&lat=42.242051&unit=0&lg=english&FcstType=text&TextType=1	OR
-444	OR - Highway 140	Highway 140	-122.291469	42.395858	http://forecast.weather.gov/MapClick.php?lon=-122.291469&lat=42.395858&unit=0&lg=english&FcstType=text&TextType=1	OR
-445	OR - Sky Lakes Trail #3762	Sky Lakes Trail #3762	-122.218396	42.558278	http://forecast.weather.gov/MapClick.php?lon=-122.218396&lat=42.558278&unit=0&lg=english&FcstType=text&TextType=1	OR
-446	OR - Seven Mile Trail	Seven Mile Trail	-122.172109	42.683254	http://forecast.weather.gov/MapClick.php?lon=-122.172109&lat=42.683254&unit=0&lg=english&FcstType=text&TextType=1	OR
-447	OR - Crater Lake National Park (south end)	Crater Lake National Park (south end)	-122.175759	42.801102	http://forecast.weather.gov/MapClick.php?lon=-122.175759&lat=42.801102&unit=0&lg=english&FcstType=text&TextType=1	OR
-448	OR - Grouse Hill Camp Trail	Grouse Hill Camp Trail	-122.130836	42.991014	http://forecast.weather.gov/MapClick.php?lon=-122.130836&lat=42.991014&unit=0&lg=english&FcstType=text&TextType=1	OR
-449	OR - Highway 138 - Crater Lake National Park (north end)	Highway 138 - Crater Lake National Park (north end)	-122.091799	43.089042	http://forecast.weather.gov/MapClick.php?lon=-122.091799&lat=43.089042&unit=0&lg=english&FcstType=text&TextType=1	OR
-450	OR - Oregon/Washington High Point	Oregon/Washington High Point	-122.037855	43.211881	http://forecast.weather.gov/MapClick.php?lon=-122.037855&lat=43.211881&unit=0&lg=english&FcstType=text&TextType=1	OR
-451	OR - Crescent Lake Campground	Crescent Lake Campground	-122.0244	43.460083	http://forecast.weather.gov/MapClick.php?lon=-122.024400&lat=43.460083&unit=0&lg=english&FcstType=text&TextType=1	OR
-452	OR - Summit Lake	Summit Lake	-122.132741	43.446604	http://forecast.weather.gov/MapClick.php?lon=-122.132741&lat=43.446604&unit=0&lg=english&FcstType=text&TextType=1	OR
-453	OR - Hidden Lake	Hidden Lake	-122.101854	43.567023	http://forecast.weather.gov/MapClick.php?lon=-122.101854&lat=43.567023&unit=0&lg=english&FcstType=text&TextType=1	OR
-454	OR - Willamette Pass Ski Area	Willamette Pass Ski Area	-122.036715	43.599753	http://forecast.weather.gov/MapClick.php?lon=-122.036715&lat=43.599753&unit=0&lg=english&FcstType=text&TextType=1	OR
-455	OR - Charlton Lake	Charlton Lake	-121.977973	43.743987	http://forecast.weather.gov/MapClick.php?lon=-121.977973&lat=43.743987&unit=0&lg=english&FcstType=text&TextType=1	OR
-456	OR - Three Sisters Wilderness	Three Sisters Wilderness	-121.963318	43.809173	http://forecast.weather.gov/MapClick.php?lon=-121.963318&lat=43.809173&unit=0&lg=english&FcstType=text&TextType=1	OR
-457	OR - Desane Lake	Desane Lake	-121.91593	43.913578	http://forecast.weather.gov/MapClick.php?lon=-121.915930&lat=43.913578&unit=0&lg=english&FcstType=text&TextType=1	OR
-458	OR - Dumbbell Lake	Dumbbell Lake	-121.881755	43.957185	http://forecast.weather.gov/MapClick.php?lon=-121.881755&lat=43.957185&unit=0&lg=english&FcstType=text&TextType=1	OR
-459	OR - Sisters Mirror Lake	Sisters Mirror Lake	-121.826581	44.040561	http://forecast.weather.gov/MapClick.php?lon=-121.826581&lat=44.040561&unit=0&lg=english&FcstType=text&TextType=1	OR
-460	OR - Obsidian Creek	Obsidian Creek	-121.816898	44.16855	http://forecast.weather.gov/MapClick.php?lon=-121.816898&lat=44.168550&unit=0&lg=english&FcstType=text&TextType=1	OR
-461	OR - South Matthieu Lake	South Matthieu Lake	-121.773174	44.231617	http://forecast.weather.gov/MapClick.php?lon=-121.773174&lat=44.231617&unit=0&lg=english&FcstType=text&TextType=1	OR
-462	OR - Highway 242 - McKenzie Pass	Highway 242 - McKenzie Pass	-121.805197	44.259832	http://forecast.weather.gov/MapClick.php?lon=-121.805197&lat=44.259832&unit=0&lg=english&FcstType=text&TextType=1	OR
-463	OR - Highway 20 - Santiam Pass	Highway 20 - Santiam Pass	-121.849713	44.423784	http://forecast.weather.gov/MapClick.php?lon=-121.849713&lat=44.423784&unit=0&lg=english&FcstType=text&TextType=1	OR
-464	OR - Whitewater Creek Trail #3429 	Whitewater Creek Trail #3429 	-121.825775	44.703285	http://forecast.weather.gov/MapClick.php?lon=-121.825775&lat=44.703285&unit=0&lg=english&FcstType=text&TextType=1	OR
-465	OR - Cigar Lake	Cigar Lake	-121.81171	44.802402	http://forecast.weather.gov/MapClick.php?lon=-121.811710&lat=44.802402&unit=0&lg=english&FcstType=text&TextType=1	OR
-466	OR - Pinhead Saddle	Pinhead Saddle	-121.75538	44.944053	http://forecast.weather.gov/MapClick.php?lon=-121.755380&lat=44.944053&unit=0&lg=english&FcstType=text&TextType=1	OR
-467	OR - Mount Hood National Forest	Mount Hood National Forest	-121.731835	45.08814	http://forecast.weather.gov/MapClick.php?lon=-121.731835&lat=45.088140&unit=0&lg=english&FcstType=text&TextType=1	OR
-468	OR - Highway 26 - Wapinitia Pass	Highway 26 - Wapinitia Pass	-121.700688	45.22914	http://forecast.weather.gov/MapClick.php?lon=-121.700688&lat=45.229140&unit=0&lg=english&FcstType=text&TextType=1	OR
-469	OR - Timberline Lodge	Timberline Lodge	-121.71053	45.330539	http://forecast.weather.gov/MapClick.php?lon=-121.710530&lat=45.330539&unit=0&lg=english&FcstType=text&TextType=1	OR
-470	OR - Zigzag River	Zigzag River	-121.746637	45.343329	http://forecast.weather.gov/MapClick.php?lon=-121.746637&lat=45.343329&unit=0&lg=english&FcstType=text&TextType=1	OR
-471	OR - Ramona Falls	Ramona Falls	-121.77614	45.379957	http://forecast.weather.gov/MapClick.php?lon=-121.776140&lat=45.379957&unit=0&lg=english&FcstType=text&TextType=1	OR
-472	OR - Lolo Pass Road	Lolo Pass Road	-121.796808	45.427104	http://forecast.weather.gov/MapClick.php?lon=-121.796808&lat=45.427104&unit=0&lg=english&FcstType=text&TextType=1	OR
-473	OR - Indian Springs Campground	Indian Springs Campground	-121.826756	45.556829	http://forecast.weather.gov/MapClick.php?lon=-121.826756&lat=45.556829&unit=0&lg=english&FcstType=text&TextType=1	OR
-474	OR - Benson Way Trail	Benson Way Trail	-121.841252	45.647687	http://forecast.weather.gov/MapClick.php?lon=-121.841252&lat=45.647687&unit=0&lg=english&FcstType=text&TextType=1	OR
-475	WA - Bridge of the Gods - Oregon/Washington Border	Bridge of the Gods - Oregon/Washington Border	-121.897533	45.661792	http://forecast.weather.gov/MapClick.php?lon=-121.897533&lat=45.661792&unit=0&lg=english&FcstType=text&TextType=1	WA
-476	WA - Gillette Lake	Gillette Lake	-121.945424	45.668607	http://forecast.weather.gov/MapClick.php?lon=-121.945424&lat=45.668607&unit=0&lg=english&FcstType=text&TextType=1	WA
-477	WA - Table Mountain National Resource Conservation Area	Table Mountain National Resource Conservation Area	-121.97859	45.678662	http://forecast.weather.gov/MapClick.php?lon=-121.978590&lat=45.678662&unit=0&lg=english&FcstType=text&TextType=1	WA
-478	WA - Trout Creek	Trout Creek	-121.956697	45.811242	http://forecast.weather.gov/MapClick.php?lon=-121.956697&lat=45.811242&unit=0&lg=english&FcstType=text&TextType=1	WA
-479	WA - Wind River Road	Wind River Road	-121.913053	45.820838	http://forecast.weather.gov/MapClick.php?lon=-121.913053&lat=45.820838&unit=0&lg=english&FcstType=text&TextType=1	WA
-480	WA - Grassy Knoll Trail #149	Grassy Knoll Trail #149	-121.78689	45.846734	http://forecast.weather.gov/MapClick.php?lon=-121.786890&lat=45.846734&unit=0&lg=english&FcstType=text&TextType=1	WA
-481	WA - Blue Lake	Blue Lake	-121.795536	45.983725	http://forecast.weather.gov/MapClick.php?lon=-121.795536&lat=45.983725&unit=0&lg=english&FcstType=text&TextType=1	WA
-482	WA - Trout Lake Creek	Trout Lake Creek	-121.684393	46.133327	http://forecast.weather.gov/MapClick.php?lon=-121.684393&lat=46.133327&unit=0&lg=english&FcstType=text&TextType=1	WA
-483	WA - Mount Adams Wilderness (boundary)	Mount Adams Wilderness (boundary)	-121.626972	46.176279	http://forecast.weather.gov/MapClick.php?lon=-121.626972&lat=46.176279&unit=0&lg=english&FcstType=text&TextType=1	WA
-484	WA - Lewis River	Lewis River	-121.548387	46.237419	http://forecast.weather.gov/MapClick.php?lon=-121.548387&lat=46.237419&unit=0&lg=english&FcstType=text&TextType=1	WA
-485	WA - Lava Spring	Lava Spring	-121.517936	46.30507	http://forecast.weather.gov/MapClick.php?lon=-121.517936&lat=46.305070&unit=0&lg=english&FcstType=text&TextType=1	WA
-486	WA - Sheep Lake	Sheep Lake	-121.43012	46.452411	http://forecast.weather.gov/MapClick.php?lon=-121.430120&lat=46.452411&unit=0&lg=english&FcstType=text&TextType=1	WA
-487	WA - Snowgrass Trail #96	Snowgrass Trail #96	-121.464075	46.498638	http://forecast.weather.gov/MapClick.php?lon=-121.464075&lat=46.498638&unit=0&lg=english&FcstType=text&TextType=1	WA
-488	WA - Lutz Lake	Lutz Lake	-121.418196	46.544343	http://forecast.weather.gov/MapClick.php?lon=-121.418196&lat=46.544343&unit=0&lg=english&FcstType=text&TextType=1	WA
-489	WA - Highway 12 - White Pass	Highway 12 - White Pass	-121.379292	46.643654	http://forecast.weather.gov/MapClick.php?lon=-121.379292&lat=46.643654&unit=0&lg=english&FcstType=text&TextType=1	WA
-490	WA - Buesch Lake	Buesch Lake	-121.397177	46.695453	http://forecast.weather.gov/MapClick.php?lon=-121.397177&lat=46.695453&unit=0&lg=english&FcstType=text&TextType=1	WA
-491	WA - Mount Rainier National Park	Mount Rainier National Park	-121.448316	46.792387	http://forecast.weather.gov/MapClick.php?lon=-121.448316&lat=46.792387&unit=0&lg=english&FcstType=text&TextType=1	WA
-492	WA - Highway 410 - Chinook Pass	Highway 410 - Chinook Pass	-121.515681	46.871879	http://forecast.weather.gov/MapClick.php?lon=-121.515681&lat=46.871879&unit=0&lg=english&FcstType=text&TextType=1	WA
-493	WA - Urich Cabin	Urich Cabin	-121.395969	47.089577	http://forecast.weather.gov/MapClick.php?lon=-121.395969&lat=47.089577&unit=0&lg=english&FcstType=text&TextType=1	WA
-494	WA - Forest Road 52 - Tacoma Pass	Forest Road 52 - Tacoma Pass	-121.310175	47.20508	http://forecast.weather.gov/MapClick.php?lon=-121.310175&lat=47.205080&unit=0&lg=english&FcstType=text&TextType=1	WA
-495	WA - Meadow Creek Trail #1338	Meadow Creek Trail #1338	-121.41551	47.299923	http://forecast.weather.gov/MapClick.php?lon=-121.415510&lat=47.299923&unit=0&lg=english&FcstType=text&TextType=1	WA
-496	WA - Yakima Pass - Twilight Lake	Yakima Pass - Twilight Lake	-121.434881	47.335616	http://forecast.weather.gov/MapClick.php?lon=-121.434881&lat=47.335616&unit=0&lg=english&FcstType=text&TextType=1	WA
-497	WA - Ollalie Meadow 	Ollalie Meadow 	-121.446145	47.380148	http://forecast.weather.gov/MapClick.php?lon=-121.446145&lat=47.380148&unit=0&lg=english&FcstType=text&TextType=1	WA
-498	WA - Interstate Highway 90 - Snoqualmie Pass	Interstate Highway 90 - Snoqualmie Pass	-121.415488	47.426634	http://forecast.weather.gov/MapClick.php?lon=-121.415488&lat=47.426634&unit=0&lg=english&FcstType=text&TextType=1	WA
-499	WA - Snoqualmie Pass PCT Trailhead	Snoqualmie Pass PCT Trailhead	-121.413374	47.427507	http://forecast.weather.gov/MapClick.php?lon=-121.413374&lat=47.427507&unit=0&lg=english&FcstType=text&TextType=1	WA
-500	WA - Ridge Lake	Ridge Lake	-121.367477	47.4623	http://forecast.weather.gov/MapClick.php?lon=-121.367477&lat=47.462300&unit=0&lg=english&FcstType=text&TextType=1	WA
-501	WA - Delate Creek	Delate Creek	-121.271606	47.459716	http://forecast.weather.gov/MapClick.php?lon=-121.271606&lat=47.459716&unit=0&lg=english&FcstType=text&TextType=1	WA
-502	WA - Waptus River	Waptus River	-121.208731	47.516922	http://forecast.weather.gov/MapClick.php?lon=-121.208731&lat=47.516922&unit=0&lg=english&FcstType=text&TextType=1	WA
-503	WA - Cathedral Pass Trail #1345	Cathedral Pass Trail #1345	-121.12947	47.55052	http://forecast.weather.gov/MapClick.php?lon=-121.129470&lat=47.550520&unit=0&lg=english&FcstType=text&TextType=1	WA
-504	WA - Marmot Lake Trail #1066	Marmot Lake Trail #1066	-121.140683	47.593915	http://forecast.weather.gov/MapClick.php?lon=-121.140683&lat=47.593915&unit=0&lg=english&FcstType=text&TextType=1	WA
-505	WA - Surprise Lake Trail #1060A	Surprise Lake Trail #1060A	-121.133356	47.672134	http://forecast.weather.gov/MapClick.php?lon=-121.133356&lat=47.672134&unit=0&lg=english&FcstType=text&TextType=1	WA
-506	WA - Stevens Pass	Stevens Pass	-121.088505	47.746224	http://forecast.weather.gov/MapClick.php?lon=-121.088505&lat=47.746224&unit=0&lg=english&FcstType=text&TextType=1	WA
-507	WA - Pear Lake	Pear Lake	-121.168341	47.879507	http://forecast.weather.gov/MapClick.php?lon=-121.168341&lat=47.879507&unit=0&lg=english&FcstType=text&TextType=1	WA
-508	WA - White River Trail #1507	White River Trail #1507	-121.128613	48.014759	http://forecast.weather.gov/MapClick.php?lon=-121.128613&lat=48.014759&unit=0&lg=english&FcstType=text&TextType=1	WA
-509	WA - White Chuck River	White Chuck River	-121.156221	48.075321	http://forecast.weather.gov/MapClick.php?lon=-121.156221&lat=48.075321&unit=0&lg=english&FcstType=text&TextType=1	WA
-510	WA - Mica Lake	Mica Lake	-121.157617	48.166395	http://forecast.weather.gov/MapClick.php?lon=-121.157617&lat=48.166395&unit=0&lg=english&FcstType=text&TextType=1	WA
-511	WA - Suiattle Trail #784	Suiattle Trail #784	-121.081214	48.210517	http://forecast.weather.gov/MapClick.php?lon=-121.081214&lat=48.210517&unit=0&lg=english&FcstType=text&TextType=1	WA
-512	WA - Cloudy Pass Hiker Trail	Cloudy Pass Hiker Trail	-120.941838	48.19866	http://forecast.weather.gov/MapClick.php?lon=-120.941838&lat=48.198660&unit=0&lg=english&FcstType=text&TextType=1	WA
-513	WA - South Fork Agnes Creek	South Fork Agnes Creek	-120.928089	48.257065	http://forecast.weather.gov/MapClick.php?lon=-120.928089&lat=48.257065&unit=0&lg=english&FcstType=text&TextType=1	WA
-514	WA - High Bridge Ranger Station	High Bridge Ranger Station	-120.83797	48.379979	http://forecast.weather.gov/MapClick.php?lon=-120.837970&lat=48.379979&unit=0&lg=english&FcstType=text&TextType=1	WA
-515	WA - Bridge Creek Camp	Bridge Creek Camp	-120.868353	48.429472	http://forecast.weather.gov/MapClick.php?lon=-120.868353&lat=48.429472&unit=0&lg=english&FcstType=text&TextType=1	WA
-516	WA - Highway 20 - Rainy Pass	Highway 20 - Rainy Pass	-120.733883	48.514797	http://forecast.weather.gov/MapClick.php?lon=-120.733883&lat=48.514797&unit=0&lg=english&FcstType=text&TextType=1	WA
-517	WA - Methow Pass	Methow Pass	-120.73292	48.582192	http://forecast.weather.gov/MapClick.php?lon=-120.732920&lat=48.582192&unit=0&lg=english&FcstType=text&TextType=1	WA
-518	WA - Windy Pass	Windy Pass	-120.711885	48.771311	http://forecast.weather.gov/MapClick.php?lon=-120.711885&lat=48.771311&unit=0&lg=english&FcstType=text&TextType=1	WA
-519	WA - Holman Pass	Holman Pass	-120.737337	48.840291	http://forecast.weather.gov/MapClick.php?lon=-120.737337&lat=48.840291&unit=0&lg=english&FcstType=text&TextType=1	WA
-520	WA - Monument 78 - Canadian Border	Monument 78 - Canadian Border	-120.802121	49.000289	http://forecast.weather.gov/MapClick.php?lon=-120.802121&lat=49.000245&unit=0&lg=english&FcstType=text&TextType=1	WA
+1	GA - Amicalola Falls State Park	-84.2476	34.5627	GA
+2	GA - Max Epperson Shelter	-84.193	34.6293	GA
+3	GA - Black Gap Shelter (3300')	-84.1988	34.6176	GA
+4	GA - Springer Mountain	-84.1936	34.6267	GA
+5	GA - Springer Mountain Shelter (3730')	-84.1931	34.6292	GA
+6	GA - Stover Creek Shelter (2870')	-84.1999	34.6495	GA
+7	GA - Hawk Mountain Shelter (3200')	-84.1364	34.6658	GA
+8	GA - Gooch Mountain Shelter (3000')	-84.0343	34.6532	GA
+9	GA - Woods Hole Shelter (3600')	-83.955	34.7371	GA
+10	GA - Blood Mountain Shelter (4450')	-83.9375	34.74	GA
+11	GA - Whitley Gap Shelter (3370')	-83.8344	34.7124	GA
+12	GA - Low Gap Shelter (3050')	-83.8247	34.7762	GA
+13	GA - Blue Mountain Shelter (3900')	-83.7668	34.8171	GA
+14	GA - Tray Mountain Shelter (4200')	-83.6769	34.804	GA
+15	GA - Deep Gap Shelter (3550')	-83.6462	34.8824	GA
+16	GA - Plumorchard Gap Shelter (3050')	-83.5883	34.946	GA
+17	NC - Muskrat Creek Shelter (4600')	-83.5816	35.0205	NC
+18	NC - Standing Indian Shelter (4760')	-83.5482	35.0418	NC
+19	NC - Carter Gap Shelter (4540')	-83.4949	34.9999	NC
+20	NC - Long Branch Shelter (4437')	-83.4789	35.0589	NC
+21	NC - Rock Gap Shelter (3760')	-83.5231	35.0914	NC
+22	NC - Siler Bald Shelter (4600')	-83.5725	35.1441	NC
+23	NC - Wayah Bald Shelter (4759')	-83.5644	35.1895	NC
+24	NC - Cold Spring Shelter (4920')	-83.5599	35.2309	NC
+25	NC - Wesser Bald Shelter (4115')	-83.5822	35.2824	NC
+26	NC - A. Rufus Morgan Shelter (2300')	-83.5902	35.3242	NC
+27	NC - Sassafras Gap Shelter (4330')	-83.667	35.3307	NC
+28	NC - Brown Fork Gap Shelter (3800')	-83.7339	35.3742	NC
+29	NC - Cable Gap Shelter (2880')	-83.7736	35.4152	NC
+30	NC - Fontana Dam Shelter (1775')	-83.7941	35.4483	NC
+31	TN - Mollies Ridge Shelter (4570')	-83.7936	35.5458	TN
+32	TN - Russell Field Shelter (4360')	-83.7666	35.5617	TN
+33	NC - Spence Field Shelter (4915')	-83.7327	35.5618	NC
+34	TN - Derrick Knob Shelter (4880')	-83.6419	35.5663	TN
+35	NC - Silers Bald Shelter (5460')	-83.5683	35.5642	NC
+36	NC - Double Spring Gap Shelter (5505')	-83.5429	35.5652	NC
+37	TN - Mt. Collins Shelter (5870')	-83.4714	35.5937	TN
+38	NC - Icewater Spring Shelter (5920')	-83.3864	35.6297	NC
+39	NC - Pecks Corner Shelter (5280')	-83.3086	35.6507	NC
+40	NC - Tri-corner Knob Shelter (5920')	-83.2567	35.6937	NC
+41	NC - Cosby Knob Shelter (4740')	-83.1822	35.7271	NC
+42	TN - Davenport Gap Shelter (2600')	-83.1237	35.7692	TN
+43	NC - Groundhog Creek Shelter (2850')	-83.0263	35.7817	NC
+44	NC - Roaring Fork Shelter (3590')	-82.9386	35.8223	NC
+45	TN - Walnut Mountain Shelter (4260')	-82.9367	35.8365	TN
+46	NC - Deer Park Mountain Shelter (2330')	-82.8614	35.8758	NC
+47	TN - Spring Mountain Shelter (3300')	-82.7902	35.9515	TN
+48	NC - Little Laurel Shelter (3620')	-82.7359	36.015	NC
+49	NC - Jerry Cabin Shelter (4150')	-82.6574	36.0565	NC
+50	NC - Flint Mountain Shelter (3570')	-82.5969	36.0348	NC
+51	NC - Hogback Ridge Shelter (4255')	-82.5872	35.964	NC
+52	TN - Bald Mountain Shelter (5100')	-82.4783	36	TN
+53	TN - No Business Knob Shelter (3180')	-82.4336	36.0668	TN
+54	TN - Curley Maple Gap Shelter (3070')	-82.397	36.1042	TN
+55	TN - Cherry Gap Shelter (3900')	-82.2642	36.1292	TN
+56	TN - Clyde Smith Shelter (4400')	-82.1613	36.1484	TN
+57	TN - Roan High Knob Shelter (6275')	-82.1227	36.105	TN
+58	NC - Stan Murray Shelter (5050')	-82.0659	36.1123	NC
+59	NC - Overmountain Shelter (4550')	-82.0544	36.1235	NC
+60	TN - Mountaineer Shelter (3200')	-81.9857	36.2022	TN
+61	TN - Moreland Gap Shelter (3815')	-82.0885	36.2201	TN
+62	TN - Laurel Fork Shelter (2450')	-82.1364	36.2786	TN
+63	TN - Watauga Lake Shelter (2130')	-82.1295	36.3139	TN
+64	TN - Vandeventer Shelter (3620')	-82.059	36.3669	TN
+65	TN - Iron Mountain Shelter (4125')	-81.991	36.4355	TN
+66	TN - Double Springs Shelter (4060')	-81.9862	36.509	TN
+67	TN - Abingdon Gap Shelter (3785')	-81.9022	36.581	TN
+68	VA - Saunders Shelter (3310')	-81.7132	36.6377	VA
+69	VA - Lost Mountain Shelter (3360')	-81.6563	36.6441	VA
+70	VA - Thomas Knob Shelter (5400')	-81.5354	36.6566	VA
+71	VA - Wise Shelter (4460')	-81.4986	36.6539	VA
+72	VA - Old Orchard Shelter (4050')	-81.5112	36.6832	VA
+73	VA - Hurricane Mountain Shelter (3850')	-81.5095	36.7154	VA
+74	VA - Trimpi Shelter (2900')	-81.4806	36.7492	VA
+75	VA - Partnership Shelter (3360')	-81.4226	36.8094	VA
+76	VA - Chatfield Shelter (3150')	-81.3633	36.8499	VA
+77	VA - Davis Path Campsite (2840')	-81.3769	36.9144	VA
+78	VA - Knot Maul Branch Shelter (2880')	-81.4046	37.0007	VA
+79	VA - Chestnut Knob Shelter (4409')	-81.3995	37.0577	VA
+80	VA - Jenkins Shelter (2500')	-81.2478	37.0934	VA
+81	VA - Helveys Mill Shelter (3090')	-81.1044	37.1326	VA
+82	VA - Jenny Knob Shelter (2800')	-80.9803	37.155	VA
+83	VA - Wapiti Shelter (2640')	-80.8241	37.2239	VA
+84	VA - Docs Knob Shelter (3555')	-80.8364	37.2702	VA
+85	VA - Rice Field Shelter (3375')	-80.7586	37.3748	VA
+86	VA - Pine Swamp Branch Shelter (2530')	-80.6088	37.4221	VA
+87	VA - Bailey Gap Shelter (3525')	-80.5772	37.4009	VA
+88	VA - War Spur Shelter (2340')	-80.474	37.3975	VA
+89	VA - Laurel Creek Shelter (2720')	-80.4212	37.3589	VA
+90	VA - Sarver Hollow Shelter (3000')	-80.3352	37.3555	VA
+91	VA - Niday Shelter (1800')	-80.2644	37.3875	VA
+92	VA - Pickle Branch Shelter (1845')	-80.1911	37.3881	VA
+93	VA - Johns Spring/Boy Scout Shelter (1980')	-80.0741	37.3853	VA
+94	VA - Catawba Mountain Shelter (2580')	-80.0574	37.3882	VA
+95	VA - Campbell Shelter (2580')	-80.0295	37.3908	VA
+96	VA - Lamberts Meadow Shelter (2080')	-79.9878	37.4346	VA
+97	VA - Fullhardt Knob Shelter (2670')	-79.8539	37.3985	VA
+98	VA - Wilson Creek Shelter (1830')	-79.7857	37.4193	VA
+99	VA - Bobblets Gap Shelter (1920')	-79.7014	37.4672	VA
+100	VA - Cove Mountain Shelter (1925')	-79.6511	37.5117	VA
+101	VA - Bryant Ridge Shelter (1320')	-79.5856	37.53	VA
+102	VA - Cornelius Creek Shelter (3145')	-79.5472	37.4939	VA
+103	VA - Thunder Hill Shelter (3960')	-79.5042	37.5274	VA
+104	VA - Matts Creek Shelter (835')	-79.4135	37.5995	VA
+105	VA - Johns Hollow Shelter (1020')	-79.3921	37.613	VA
+106	VA - Punchbowl Shelter (2500')	-79.3388	37.6778	VA
+107	VA - Brown Mountain Creek Shelter (1395')	-79.2682	37.7102	VA
+108	VA - Cow Camp Gap Shelter (3160')	-79.2133	37.7466	VA
+109	VA - Seeley-Woodworth Shelter (3770')	-79.1551	37.8189	VA
+110	VA - The Priest Shelter (3840')	-79.0706	37.8178	VA
+111	VA - Harpers Creek Shelter (1800')	-79.0012	37.8564	VA
+112	VA - Maupin Field Shelter (2720')	-78.9939	37.8849	VA
+113	VA - Paul C. Wolfe Shelter (1700')	-78.8839	37.9856	VA
+114	VA - Calf Mountain Shelter (2700')	-78.7868	38.0855	VA
+115	VA - Blackrock Hut (2645')	-78.7427	38.2141	VA
+116	VA - Pinefield Hut (2430')	-78.646	38.2906	VA
+117	VA - Hightop Hut (3175')	-78.5586	38.333	VA
+118	VA - Bearfence Mountain Hut (3110')	-78.4707	38.4441	VA
+119	VA - Rock Spring Hut (3465')	-78.4086	38.5531	VA
+120	VA - Byrds Nest #3 Hut (3290')	-78.3238	38.6344	VA
+121	VA - Pass Mountain Hut (2690')	-78.3192	38.6766	VA
+122	VA - Gravel Springs Hut (2480')	-78.2345	38.7635	VA
+123	VA - Tom Floyd Wayside Shelter (1900')	-78.1639	38.8504	VA
+124	VA - Jim & Molly Denton Shelter (1310')	-78.0833	38.89	VA
+125	VA - Manassas Gap Shelter (1655')	-78.0331	38.9306	VA
+126	VA - Dicks Dome Shelter (1230')	-77.997	38.9699	VA
+127	VA - Rod Hollow Shelter (840')	-77.9444	39.0478	VA
+128	VA - Sam Moore Shelter (990')	-77.8866	39.0906	VA
+129	VA - Bears Den Hostel (1350')	-77.85409	39.11093	VA
+130	VA - Blackburn Trail Center (1400')	-77.79803	39.18765	VA
+131	VA - David Lesser Memorial Shelter (1380')	-77.7795	39.2272	VA
+132	MD - Ed Garvey Shelter (1100')	-77.6643	39.3565	MD
+133	MD - Crampton Gap Shelter (1000')	-77.6376	39.4125	MD
+134	MD - Rocky Run Shelter (970')	-77.6314	39.4608	MD
+135	MD - Dahlgren Backpack Campground (980')	-77.6015	39.492	MD
+136	MD - Pine Knob Shelter (1360')	-77.6024	39.5425	MD
+137	MD - Pogo Memorial Campsite (1500')	-77.6015	39.5754	MD
+138	MD - Ensign Cowall Shelter (1430')	-77.5576	39.6277	MD
+139	MD - Raven Rock Shelter (1480')	-77.5246	39.672	MD
+140	PA - Deer Lick Shelters (1420')	-77.4852	39.7662	PA
+141	PA - Antietam Shelter (890')	-77.483	39.7938	PA
+142	PA - Tumbling Run Shelters (1120')	-77.4783	39.805	PA
+143	PA - Rocky Mountain Shelters (1520')	-77.5009	39.8686	PA
+144	PA - Quarry Gap Shelters (1455')	-77.4867	39.932	PA
+145	PA - Birch Run Shelter (1795')	-77.4207	39.9846	PA
+146	PA - Toms Run Shelters (1300')	-77.3573	40.0343	PA
+147	PA - James Fry (Tagg Run) Shelter (805')	-77.2064	40.063	PA
+148	PA - Alec Kennedy Shelter (850')	-77.1043	40.1119	PA
+149	PA - Darlington Shelter (1170')	-77.0874	40.302	PA
+150	PA - Cove Mountain Shelter (1120')	-77.0678	40.3635	PA
+151	PA - Clarks Ferry Shelter (1180')	-76.994	40.3922	PA
+152	PA - Peters Mountain Shelter (970')	-76.8797	40.4258	PA
+153	PA - Rausch Gap Shelter (970')	-76.6005	40.4985	PA
+154	PA - William Penn Shelter (1300')	-76.4144	40.4956	PA
+155	PA - 501 Shelter (1460')	-76.3469	40.5125	PA
+156	PA - Eagles Nest Shelter (1510')	-76.1527	40.5493	PA
+157	PA - Windsor Furnace Shelter (880')	-75.9423	40.5903	PA
+158	PA - Eckville Shelter (535')	-75.9588	40.6328	PA
+159	PA - Allentown Hiking Club Shelter (1350')	-75.8744	40.6831	PA
+160	PA - Bake Oven Knob Shelter (1380')	-75.7274	40.7541	PA
+161	PA - George W. Outerbridge Shelter (1000')	-75.6183	40.7825	PA
+162	PA - Leroy A. Smith Shelter (1410')	-75.3598	40.8394	PA
+163	PA - Kirkridge Shelter (1480')	-75.1869	40.9367	PA
+164	NJ - Backpacker Camp #2 (1287')	-75.12	41.02	NJ
+165	NJ - Brink Road Shelter (1110')	-74.8382	41.1532	NJ
+166	NJ - Gren Anderson Shelter (1320')	-74.7531	41.1994	NJ
+167	NJ - Mashipacong Shelter (1425')	-74.6868	41.2521	NJ
+168	NJ - Rutherford Shelter (1345')	-74.6785	41.2775	NJ
+169	NJ - High Point Shelter (1280')	-74.6438	41.3278	NJ
+170	NJ - Pochuck Mountain Shelter (840')	-74.5163	41.2717	NJ
+171	NJ - Wawayanda Shelter (1200')	-74.3985	41.2022	NJ
+172	NY - Wildcat Shelter (1180')	-74.2683	41.2684	NY
+173	NY - Fingerboard Shelter (1300')	-74.1044	41.2633	NY
+174	NY - William Brien Memorial Shelter (1070')	-74.0599	41.2797	NY
+175	NY - West Mountain Shelter (1240')	-74.0111	41.2841	NY
+176	NY - RPH Shelter (360')	-73.7929	41.5144	NY
+177	NY - Morgan Stewart Memorial Shelter (1285')	-73.6921	41.5646	NY
+178	NY - Telephone Pioneers Shelter (910')	-73.6193	41.6043	NY
+179	NY - Wiley Shelter (740')	-73.5327	41.6378	NY
+180	CT - Ten Mile River Shelter (290')	-73.5099	41.6651	CT
+181	CT - Mt. Algo Shelter (655')	-73.4967	41.7317	CT
+182	CT - Stewart Hollow Brook Shelter (425')	-73.4198	41.7786	CT
+183	CT - Pine Swamp Brook Shelter (1075')	-73.3921	41.8816	CT
+184	CT - Limestone Spring Shelter (980')	-73.3923	41.9751	CT
+185	CT - Riga Shelter (1610')	-73.4477	42.0146	CT
+186	CT - Brassie Brook Shelter (1705')	-73.4536	42.0283	CT
+187	MA - The Hemlocks Shelter (1880')	-73.429	42.1099	MA
+188	MA - Glen Brook Shelter (1885')	-73.4283	42.1111	MA
+189	MA - Tom Leonard Shelter (1540')	-73.3062	42.1648	MA
+190	MA - Mt. Wilcox South Shelters (1720')	-73.2685	42.2078	MA
+191	MA - Mt. Wilcox North Shelter (1950')	-73.2506	42.221	MA
+192	MA - Upper Goose Pond Cabin (1483')	-73.1813	42.2887	MA
+193	MA - October Mountain Shelter (1930')	-73.1545	42.3549	MA
+194	MA - Kay Wood Shelter (1860')	-73.1619	42.4525	MA
+195	MA - Mark Noepel Shelter (2750')	-73.1845	42.6086	MA
+196	MA - Wilbur Clearing Shelter (2300')	-73.1698	42.6685	MA
+197	VT - Seth Warner Shelter (2180')	-73.1376	42.7718	VT
+198	VT - Congdon Shelter (2060')	-73.1104	42.8481	VT
+199	VT - Melville Nauheim Shelter (2330')	-73.0962	42.8878	VT
+200	VT - Goddard Shelter (3540')	-73.0726	42.9741	VT
+201	VT - Kid Gore Shelter (2795')	-73.0416	43.013	VT
+202	VT - Story Spring Shelter (2810')	-73.013	43.0505	VT
+203	VT - Stratton Pond Shelter (2565')	-72.9688	43.1014	VT
+204	VT - William B Douglas Shelter (2210')	-72.9914	43.1445	VT
+205	VT - Spruce Peak Shelter (2180')	-72.9957	43.1786	VT
+206	VT - Bromley Shelter (2560')	-72.9372	43.2395	VT
+207	VT - Peru Peak Shelter (2605')	-72.9529	43.3013	VT
+208	VT - Lost Pond Shelter (2150')	-72.9531	43.3454	VT
+209	VT - Old Job Shelter (1525')	-72.9289	43.3541	VT
+210	VT - Big Branch Shelter (1460')	-72.9469	43.3641	VT
+211	VT - Little Rock Pond Shelter (1885')	-72.9536	43.4042	VT
+212	VT - Greenwall Shelter (2025')	-72.9291	43.4404	VT
+213	VT - Minerva Hinchey Shelter (1605')	-72.925	43.4878	VT
+214	VT - Clarendon Shelter (1190')	-72.9131	43.5235	VT
+215	VT - Governor Clement Shelter (1900')	-72.8488	43.5646	VT
+216	VT - Cooper Lodge Shelter (3850')	-72.8229	43.606	VT
+217	VT - Pico Camp Shelter (3510')	-72.831	43.639	VT
+218	VT - Churchill Scott Shelter (2560')	-72.8534	43.6449	VT
+219	VT - Tucker Johnson Shelter (2300')	-72.8436	43.6792	VT
+220	VT - Gifford Woods State Park (1660')	-72.8117	43.6761	VT
+221	VT - Stony Brook Shelter (1760')	-72.7306	43.6918	VT
+222	VT - Wintturi Shelter (1910')	-72.6226	43.6622	VT
+223	VT - Cloudland Shelter (1480')	-72.4931	43.6921	VT
+224	VT - Thistle Hill Shelter (1680')	-72.4758	43.6952	VT
+225	VT - Happy Hill Shelter (1420')	-72.3657	43.7239	VT
+226	NH - Velvet Rocks Shelter (1040')	-72.2652	43.7025	NH
+227	NH - Moose Mountain Shelter (1850')	-72.1475	43.7278	NH
+228	NH - Trapper John Shelter (1345')	-72.112	43.783	NH
+229	NH - Smarts Mountain Cabin (3220')	-72.0378	43.8253	NH
+230	NH - Hexacuba Shelter (1980')	-72.029	43.874	NH
+231	NH - Jeffers Brook Shelter (1350')	-71.8894	43.9966	NH
+232	NH - Beaver Brook Shelter (3650')	-71.8118	44.033	NH
+233	NH - Eliza Brook Campsite Shelter (2500')	-71.7424	44.1008	NH
+234	NH - Kinsman Pond Campsite Shelter (3750')	-71.7328	44.1369	NH
+235	NH - Lonesome Lake Hut (2760')	-71.7037	44.1385	NH
+236	NH - Greenleaf Hut (4200')	-71.6608	44.1603	NH
+237	NH - Garfield Ridge Campsite Shelter (3560')	-71.6088	44.1906	NH
+238	NH - Galehead Hut (3800')	-71.5694	44.1878	NH
+239	NH - Guyot Campsite Shelter (4560')	-71.5356	44.161	NH
+240	NH - Zealand Falls Hut (2630')	-71.4948	44.1957	NH
+241	NH - Ethan Pond Campsite Shelter (2950')	-71.4271	44.1772	NH
+242	NH - Mizpah Spring Hut (3800')	-71.3701	44.2193	NH
+243	NH - Lake of the Clouds Hut (5012')	-71.3193	44.2589	NH
+244	NH - The RMS Perch Shelter (4313')	-71.311	44.3245	NH
+245	NH - Madison Spring Hut (4800')	-71.2835	44.3278	NH
+246	NH - Osgood Tent Site (2554')	-71.2551	44.3086	NH
+247	NH - Carter Notch Hut (3350')	-71.1959	44.2593	NH
+248	NH - Imp Campsite Shelter (3250')	-71.1506	44.3289	NH
+249	NH - Rattle River Shelter (1260')	-71.108	44.3799	NH
+250	NH - Gentian Pond Campsite Shelter (2166')	-71.0699	44.4518	NH
+251	ME - Carlo Col Shelter & Campsite (2945')	-71.0167	44.4886	ME
+252	ME - Full Goose Shelter (3030')	-70.9814	44.5251	ME
+253	ME - Speck Pond Shelter & Campsite (3500')	-70.9741	44.5646	ME
+254	ME - Baldpate Lean-to (2645')	-70.9123	44.5984	ME
+255	ME - Frye Notch Lean-to (2280')	-70.9008	44.6277	ME
+256	ME - Hall Mountain Lean-to (2635')	-70.8251	44.7008	ME
+257	ME - Bemis Mountain Lean-to (2790')	-70.7565	44.8103	ME
+258	ME - Sabbath Day Pond Lean-to (2390')	-70.6629	44.841	ME
+259	ME - Piazza Rock Lean-to (2080')	-70.5314	44.9041	ME
+260	ME - Poplar Ridge Lean-to (2920')	-70.4463	44.97	ME
+261	ME - Spaulding Mountain Lean-to (3140')	-70.3418	44.9958	ME
+262	ME - Horns Pond Lean-tos (3160')	-70.3306	45.1442	ME
+263	ME - Little Bigelow Lean-to (1760')	-70.1916	45.1391	ME
+264	ME - West Carry Pond Lean-to (1340')	-70.0998	45.158	ME
+265	ME - Pierce Pond Lean-to (1150')	-70.056	45.2403	ME
+266	ME - Pleasant Pond Lean-to (1320')	-69.9168	45.2706	ME
+267	ME - Bald Mountain Brook Lean-to (1280')	-69.7999	45.2585	ME
+268	ME - Moxie Bald Lean-to (1220')	-69.7458	45.2706	ME
+269	ME - Horseshoe Canyon Lean-to (880')	-69.6281	45.2828	ME
+270	ME - Leeman Brook Lean-to (1070')	-69.4993	45.3516	ME
+271	ME - Wilson Valley Lean-to (1000')	-69.4601	45.398	ME
+272	ME - Long Pond Stream Lean-to (930')	-69.4102	45.4219	ME
+273	ME - Cloud Pond Lean-to (2420')	-69.3522	45.4189	ME
+274	ME - Chairback Gap Lean-to (2000')	-69.2627	45.4529	ME
+275	ME - Carl A. Newhall Lean-to (1840')	-69.3155	45.5305	ME
+276	ME - Logan Brook Lean-to (2530')	-69.2354	45.5611	ME
+277	ME - East Branch Lean-to (1240')	-69.1988	45.5968	ME
+278	ME - Cooper Brook Falls Lean-to (910')	-69.088	45.6405	ME
+279	ME - Potaywadjo Spring Lean-to (620')	-69.0079	45.7066	ME
+280	ME - Wadleigh Stream Lean-to (685')	-69.1452	45.7473	ME
+281	ME - Rainbow Stream Lean-to (1005')	-69.171	45.7991	ME
+282	ME - Hurd Brook Lean-to (715')	-69.019	45.8185	ME
+283	ME - The Birches Lean-tos & Campsite (1080')	-68.9951	45.8816	ME
+284	ME - KATAHDIN (Baxter Peak) (5268')	-68.9213	45.9044	ME
+285	CA - Mexican Border, Southern Terminus of the PCT	-116.46699	32.58972	CA
+286	CA - Campo Post Office 	-116.4708	32.60737	CA
+287	CA - Hauser Creek	-116.54551	32.66142	CA
+288	CA - Boulder Oaks Campground	-116.48317	32.72902	CA
+289	CA - Interstate Highway 8	-116.48003	32.73429	CA
+290	CA - Long Canyon	-116.42247	32.81101	CA
+291	CA - Burnt Rancheria Campground	-116.41659	32.85858	CA
+292	CA - Sunrise Trailhead Junction	-116.52224	32.98036	CA
+293	CA - Highway 78	-116.4695	33.09915	CA
+294	CA - Eagle Rock	-116.61159	33.25476	CA
+295	CA - Tule Canyon Creek	-116.60482	33.45789	CA
+296	CA - Laws Trail Junction	-116.65299	33.78725	CA
+297	CA - Suicide Rock	-116.69675	33.76997	CA
+298	CA - Interstate Highway 10	-116.69455	33.92424	CA
+299	CA - Whitewater Creek	-116.66984	34.01316	CA
+300	CA - San Gorgonio Peak	-116.82494	34.09925	CA
+301	CA - Highway 18 - Big Bear	-116.80275	34.29074	CA
+302	CA - Mojave River Campground	-117.26383	34.31586	CA
+303	CA - Cleghorn Picnic Area	-117.34812	34.28766	CA
+304	CA - Interstate Highway 15	-117.4652	34.30464	CA
+305	CA - Mount Baldy	-117.64641	34.28918	CA
+306	CA - Grassy Hollow Visitor Center	-117.72212	34.37636	CA
+307	CA - Devils Punchbowl County Park	-117.85844	34.41398	CA
+308	CA - Eagles Roost Picnic Area	-117.87806	34.35429	CA
+309	CA - Messenger Flats	-118.19002	34.38122	CA
+310	CA - Vasquez Rocks Picnic Area	-118.31188	34.4851	CA
+311	CA - Bouquet Canyon Road	-118.32124	34.58373	CA
+312	CA - Maxwell Trail Camp	-118.52166	34.68789	CA
+313	CA - Highway 138	-118.60718	34.77569	CA
+314	CA - Tylerhorse Canyon	-118.46857	34.97944	CA
+315	CA - Highway 58	-118.29289	35.0994	CA
+316	CA - Hamp Williams Pass	-118.28511	35.33659	CA
+317	CA - Cottonwood Creek	-118.30682	35.40525	CA
+318	CA - Highway 178 - Walker Pass	-118.02735	35.66309	CA
+319	CA - Chimney Creek	-118.04379	35.83495	CA
+320	CA - Kennedy Meadows Campground	-118.13047	36.0545	CA
+321	CA - Haiwee Trail Junction	-118.14002	36.13914	CA
+322	CA - Cow Creek	-118.13536	36.22266	CA
+323	CA - Sequoia National Park (boundary)	-118.26019	36.47371	CA
+324	CA - John Muir Trail (junction)	-118.36177	36.55889	CA
+325	CA - Tyndall Creek	-118.38751	36.64212	CA
+326	CA - Forester Pass	-118.37349	36.69452	CA
+327	CA - Upper Vidette Meadow	-118.39428	36.75294	CA
+328	CA - Charlotte Lake Trail	-118.4163	36.77061	CA
+329	CA - Glen Pass	-118.41177	36.78955	CA
+330	CA - Rae Lakes Ranger	-118.40077	36.81135	CA
+331	CA - Baxter Pass Trail	-118.40819	36.83462	CA
+332	CA - Pinchot Pass	-118.41253	36.9361	CA
+333	CA - Mather Pass	-118.4601	37.03132	CA
+334	CA - Lower Palisade Lake	-118.48829	37.06019	CA
+335	CA - Palisade Creek	-118.53746	37.05365	CA
+336	CA - Grouse Meadow	-118.58913	37.06351	CA
+337	CA - Middle Fork Kings River	-118.61131	37.11348	CA
+338	CA - Muir Pass	-118.67091	37.11205	CA
+339	CA - Sapphire Lake	-118.69666	37.14867	CA
+340	CA - McClure Meadow	-118.74163	37.18782	CA
+341	CA - Evolution Meadow	-118.77348	37.19584	CA
+342	CA - South Fork San Joaquin River	-118.80089	37.20319	CA
+343	CA - Florence Lake Trail	-118.86126	37.2258	CA
+344	CA - Senger Creek	-118.8644	37.25353	CA
+345	CA - Marie Lake	-118.87153	37.29834	CA
+346	CA - Bear Creek	-118.87963	37.35613	CA
+347	CA - Mono Creek	-118.92379	37.41239	CA
+348	CA - Silver Pass	-118.92321	37.46777	CA
+349	CA - Fish Creek	-118.93284	37.49294	CA
+350	CA - Purple Lake	-118.9501	37.52898	CA
+351	CA - Crater Creek	-119.05508	37.58772	CA
+352	CA - Middle Fork San Joaquin River	-119.08348	37.61457	CA
+353	CA - Rosalie Lake	-119.12103	37.68784	CA
+354	CA - Soda Springs Campground	-119.07875	37.65345	CA
+355	CA - Island Pass	-119.19434	37.73662	CA
+356	CA - Donohue Pass	-119.24808	37.76088	CA
+357	CA - Ireland Creek	-119.27966	37.82555	CA
+358	CA - Highway 120	-119.35307	37.87702	CA
+359	CA - Tuolumne River	-119.3662	37.87738	CA
+360	CA - Glen Aulin Campground	-119.41792	37.91015	CA
+361	CA - Miller Lake	-119.41879	37.99389	CA
+362	CA - Benson Pass	-119.46116	38.01512	CA
+363	CA - Piute Creek	-119.51966	38.0228	CA
+364	CA - Wilma Lake (Wilmer Lake)	-119.63979	38.06901	CA
+365	CA - Lake Harriet	-119.56983	38.18733	CA
+366	CA - Walken Meadow	-119.58052	38.23087	CA
+367	CA - Highway 108 - Sonora Pass	-119.63718	38.32797	CA
+368	CA - Carson-Iceberg Wilderness	-119.62309	38.36143	CA
+369	CA - Wolf Creek	-119.75464	38.48532	CA
+370	CA - Highway 4 - Ebbetts Pass	-119.81126	38.54574	CA
+371	CA - Pennsylvania Creek	-119.82166	38.59667	CA
+372	CA - Lilly Pad Lake	-119.88621	38.60595	CA
+373	CA - Highway 88 - Carson Pass	-119.98967	38.69587	CA
+374	CA - Highway 50	-120.03986	38.82296	CA
+375	CA - Heather Lake	-120.13863	38.87829	CA
+376	CA - Middle Velma Lake	-120.15475	38.93599	CA
+377	CA - Richardson Lake	-120.21235	39.0246	CA
+378	CA - North Fork Blackwood Creek	-120.24326	39.09195	CA
+379	CA - Squaw Creek	-120.28096	39.1996	CA
+380	CA - Highway 40 - Donner Pass	-120.32604	39.31679	CA
+381	CA - Interstate Highway 80	-120.33621	39.34345	CA
+382	CA - Castle Pass	-120.36494	39.35871	CA
+383	CA - Paradise Lake Trail	-120.37735	39.40108	CA
+384	CA - Mule Ears Creek	-120.49372	39.47017	CA
+385	CA - Milton Creek	-120.57259	39.54357	CA
+386	CA - Highway 49	-120.61256	39.57655	CA
+387	CA - Sierra Buttes Spring	-120.66225	39.5922	CA
+388	CA - Silver Lake Trail	-120.701	39.69081	CA
+389	CA - Quincy-LaPorte Road	-120.89162	39.7824	CA
+390	CA - Middle Fork Feather River	-121.04519	39.80832	CA
+391	CA - Big Creek Road	-121.13139	39.85857	CA
+392	CA - Clear Creek Springs	-121.17956	39.96169	CA
+393	CA - Highway 70 - Belden	-121.24947	40.00697	CA
+394	CA - Lassen National Forest (south end)	-121.29943	40.02837	CA
+395	CA - Myrtle Flat	-121.32677	40.02996	CA
+396	CA - Frog Spring	-121.38231	40.05463	CA
+397	CA - Humboldt Peak Trail	-121.42376	40.15604	CA
+398	CA - PCT Midpoint	-121.3559	40.21002	CA
+399	CA - Highway 36	-121.33887	40.26151	CA
+400	CA - Stover Spring	-121.34197	40.29929	CA
+401	CA - North Fork Feather River	-121.35126	40.35209	CA
+402	CA - Drakesbad Guest Ranch	-121.4039	40.44417	CA
+403	CA - Lower Twin Lake	-121.36284	40.5051	CA
+404	CA - Lassen National Park (north end)	-121.4431	40.56318	CA
+405	CA - Old Station	-121.45996	40.65125	CA
+406	CA - Highway 44	-121.42027	40.67988	CA
+407	CA - Hat Creek Rim Lookout Site	-121.41462	40.80863	CA
+408	CA - Cassel Fall River Road	-121.49723	40.92221	CA
+409	CA - Crystal Lake Fish Hatchery	-121.54383	40.93205	CA
+410	CA - Highway 299	-121.57721	40.96353	CA
+411	CA - Highway 89	-121.64231	41.00842	CA
+412	CA - Burney Falls State Park	-121.65038	41.01264	CA
+413	CA - Rock Creek	-121.71363	41.02508	CA
+414	CA - Deadman Creek	-121.77448	41.11888	CA
+415	CA - Moosehead Creek	-121.83184	41.17712	CA
+416	CA - Deer Creek	-121.98741	41.12828	CA
+417	CA - Ash Camp Campground	-122.06063	41.11709	CA
+418	CA - Squaw Valley Creek	-122.16957	41.1411	CA
+419	CA - Castle Crag State Park	-122.28883	41.16054	CA
+420	CA - Interstate Highway 5	-122.29725	41.16261	CA
+421	CA - East Fork Sulphur Creek	-122.35856	41.16454	CA
+422	CA - Gully Spring	-122.39289	41.21382	CA
+423	CA - Seven Lakes Trail	-122.49733	41.18746	CA
+424	CA - Red Rock Spring	-122.50787	41.30679	CA
+425	CA - Highway 3 - Scott Mountain	-122.69761	41.27558	CA
+426	CA - Scott Mountain Summit Trail	-122.7898	41.21261	CA
+427	CA - Highway 93 - Carter Meadows Summit	-122.89921	41.22039	CA
+428	CA - Paynes Lake	-122.95945	41.34351	CA
+429	CA - Marble Mountain Wilderness	-123.02026	41.40695	CA
+430	CA - Marten Lake	-123.10943	41.49765	CA
+431	CA - Paradise Lake	-123.20953	41.61247	CA
+432	CA - Bark Shanty Creek	-123.22321	41.76622	CA
+433	CA - Highway 96	-123.21004	41.8444	CA
+434	CA - Tin Cup Trail	-123.07882	41.95372	CA
+435	OR - Oregon/California Border	-122.90906	42.00359	OR
+436	OR - Sheep Camp Spring	-122.87346	42.03281	OR
+437	OR - Mount Ashland Road	-122.6971	42.07352	OR
+438	OR - Interstate Highway 5	-122.6026	42.06388	OR
+439	OR - Soda Mountain Wilderness	-122.52463	42.0426	OR
+440	OR - Highway 66 - Green Springs Mountain Summit	-122.48274	42.13009	OR
+441	OR - Hyatt Lake Campground	-122.46325	42.16868	OR
+442	OR - Klum Landing Park	-122.3749	42.20873	OR
+443	OR - Vulture Rock Trail	-122.29835	42.24205	OR
+444	OR - Highway 140	-122.29147	42.39586	OR
+445	OR - Sky Lakes Trail #3762	-122.2184	42.55828	OR
+446	OR - Seven Mile Trail	-122.17211	42.68325	OR
+447	OR - Crater Lake National Park (south end)	-122.17576	42.8011	OR
+448	OR - Grouse Hill Camp Trail	-122.13084	42.99101	OR
+449	OR - Highway 138 - Crater Lake National Park (north end)	-122.0918	43.08904	OR
+450	OR - Oregon/Washington High Point	-122.03786	43.21188	OR
+451	OR - Crescent Lake Campground	-122.0244	43.46008	OR
+452	OR - Summit Lake	-122.13274	43.4466	OR
+453	OR - Hidden Lake	-122.10185	43.56702	OR
+454	OR - Willamette Pass Ski Area	-122.03672	43.59975	OR
+455	OR - Charlton Lake	-121.97797	43.74399	OR
+456	OR - Three Sisters Wilderness	-121.96332	43.80917	OR
+457	OR - Desane Lake	-121.91593	43.91358	OR
+458	OR - Dumbbell Lake	-121.88176	43.95719	OR
+459	OR - Sisters Mirror Lake	-121.82658	44.04056	OR
+460	OR - Obsidian Creek	-121.8169	44.16855	OR
+461	OR - South Matthieu Lake	-121.77317	44.23162	OR
+462	OR - Highway 242 - McKenzie Pass	-121.8052	44.25983	OR
+463	OR - Highway 20 - Santiam Pass	-121.84971	44.42378	OR
+464	OR - Whitewater Creek Trail #3429 	-121.82578	44.70329	OR
+465	OR - Cigar Lake	-121.81171	44.8024	OR
+466	OR - Pinhead Saddle	-121.75538	44.94405	OR
+467	OR - Mount Hood National Forest	-121.73184	45.08814	OR
+468	OR - Highway 26 - Wapinitia Pass	-121.70069	45.22914	OR
+469	OR - Timberline Lodge	-121.71053	45.33054	OR
+470	OR - Zigzag River	-121.74664	45.34333	OR
+471	OR - Ramona Falls	-121.77614	45.37996	OR
+472	OR - Lolo Pass Road	-121.79681	45.4271	OR
+473	OR - Indian Springs Campground	-121.82676	45.55683	OR
+474	OR - Benson Way Trail	-121.84125	45.64769	OR
+475	WA - Bridge of the Gods - Oregon/Washington Border	-121.89753	45.66179	WA
+476	WA - Gillette Lake	-121.94542	45.66861	WA
+477	WA - Table Mountain National Resource Conservation Area	-121.97859	45.67866	WA
+478	WA - Trout Creek	-121.9567	45.81124	WA
+479	WA - Wind River Road	-121.91305	45.82084	WA
+480	WA - Grassy Knoll Trail #149	-121.78689	45.84673	WA
+481	WA - Blue Lake	-121.79554	45.98373	WA
+482	WA - Trout Lake Creek	-121.68439	46.13333	WA
+483	WA - Mount Adams Wilderness (boundary)	-121.62697	46.17628	WA
+484	WA - Lewis River	-121.54839	46.23742	WA
+485	WA - Lava Spring	-121.51794	46.30507	WA
+486	WA - Sheep Lake	-121.43012	46.45241	WA
+487	WA - Snowgrass Trail #96	-121.46408	46.49864	WA
+488	WA - Lutz Lake	-121.4182	46.54434	WA
+489	WA - Highway 12 - White Pass	-121.37929	46.64365	WA
+490	WA - Buesch Lake	-121.39718	46.69545	WA
+491	WA - Mount Rainier National Park	-121.44832	46.79239	WA
+492	WA - Highway 410 - Chinook Pass	-121.51568	46.87188	WA
+493	WA - Urich Cabin	-121.39597	47.08958	WA
+494	WA - Forest Road 52 - Tacoma Pass	-121.31018	47.20508	WA
+495	WA - Meadow Creek Trail #1338	-121.41551	47.29992	WA
+496	WA - Yakima Pass - Twilight Lake	-121.43488	47.33562	WA
+497	WA - Ollalie Meadow 	-121.44615	47.38015	WA
+498	WA - Interstate Highway 90 - Snoqualmie Pass	-121.41549	47.42663	WA
+499	WA - Snoqualmie Pass PCT Trailhead	-121.41337	47.42751	WA
+500	WA - Ridge Lake	-121.36748	47.4623	WA
+501	WA - Delate Creek	-121.27161	47.45972	WA
+502	WA - Waptus River	-121.20873	47.51692	WA
+503	WA - Cathedral Pass Trail #1345	-121.12947	47.55052	WA
+504	WA - Marmot Lake Trail #1066	-121.14068	47.59392	WA
+505	WA - Surprise Lake Trail #1060A	-121.13336	47.67213	WA
+506	WA - Stevens Pass	-121.08851	47.74622	WA
+507	WA - Pear Lake	-121.16834	47.87951	WA
+508	WA - White River Trail #1507	-121.12861	48.01476	WA
+509	WA - White Chuck River	-121.15622	48.07532	WA
+510	WA - Mica Lake	-121.15762	48.1664	WA
+511	WA - Suiattle Trail #784	-121.08121	48.21052	WA
+512	WA - Cloudy Pass Hiker Trail	-120.94184	48.19866	WA
+513	WA - South Fork Agnes Creek	-120.92809	48.25707	WA
+514	WA - High Bridge Ranger Station	-120.83797	48.37998	WA
+515	WA - Bridge Creek Camp	-120.86835	48.42947	WA
+516	WA - Highway 20 - Rainy Pass	-120.73388	48.5148	WA
+517	WA - Methow Pass	-120.73292	48.58219	WA
+518	WA - Windy Pass	-120.71189	48.77131	WA
+519	WA - Holman Pass	-120.73734	48.84029	WA
+520	WA - Monument 78 - Canadian Border	-120.80212	49.00029	WA
+521	UT - Canaan Peak	-111.94116	37.60838	GE
+522	UT - Grosvenor Arch	-111.83355	37.45628	GE
+523	UT - Horse Mountain	-111.74072	37.49167	GE
+524	UT - Grand Staircase	-111.66826	37.44232	GE
+525	UT - Carcass Canyon Wilderness Study Area	-111.60011	37.5981	GE
+526	UT - Escalante River / Big Flat	-111.55109	37.7724	GE
+527	UT - Escalante River / Natural Bridge	-111.45691	37.76856	GE
+700	NY - Mount Marcy (5344')	-73.924	44.113	ADK
+701	NY - Algonquin Peak (5115')	-73.987	44.144	ADK
+702	NY - Mount Haystack (4961')	-73.901	44.106	ADK
+703	NY - Mount Skylight (4925')	-73.931	44.099	ADK
+704	NY - Whiteface Mountain (4865')	-73.903	44.366	ADK
+705	NY - Dix Mountain (4823')	-73.7867	44.0824	ADK
+706	NY - Gray Peak (4826')	-73.935	44.111	ADK
+707	NY - Iroquois Peak (4843')	-73.999	44.137	ADK
+708	NY - Basin Mountain (4826')	-73.887	44.121	ADK
+709	NY - Gothics Peak (4734')	-73.858	44.128	ADK
+710	NY - Mount Colden (4715')	-73.96	44.127	ADK
+711	NY - Giant Mountain (4626')	-73.7204	44.1613	ADK
+712	NY - Nippletop (4593')	-73.816	44.089	ADK
+713	NY - Santanoni Peak (4606')	-74.131	44.082	ADK
+714	NY - Mount Redfield (4606')	-73.95	44.095	ADK
+715	NY - Wright Peak (4587')	-73.981	44.152	ADK
+716	NY - Saddleback Mountain (4528')	-73.875	44.126	ADK
+717	NY - Panther Peak (4442')	-74.133	44.098	ADK
+718	NY - Tabletop Mountain (4413')	-73.9164	44.1406	ADK
+719	NY - Rocky Peak (4390')	-73.7055	44.1544	ADK
+720	NY - Macomb Mountain (4370')	-73.781	44.052	ADK
+721	NY - Armstrong Mountain (4429')	-73.8497	44.1346	ADK
+722	NY - Hough Peak (4409')	-73.778	44.069	ADK
+723	NY - Seward Mountain (4331')	-74.1993	44.1598	ADK
+724	NY - Mount Marshall (4364')	-74.0118	44.1276	ADK
+725	NY - Allen Mountain (4347')	-73.9399	44.0709	ADK
+726	NY - Big Slide (4199')	-73.8704	44.1823	ADK
+727	NY - Esther Mountain (4239')	-73.8899	44.3872	ADK
+728	NY - Upper Wolfjaw Mountain (4203')	-73.8453	44.1404	ADK
+729	NY - Lower Wolfjaw Mountain (4173')	-73.8326	44.1484	ADK
+730	NY - Street Mountain (4134')	-74.027	44.1794	ADK
+731	NY - Phelps Mountain (4160')	-73.921	44.157	ADK
+732	NY - Mount Donaldson (4108')	-74.2116	44.154	ADK
+733	NY - Seymour Mountain (4091')	-74.1726	44.158	ADK
+734	NY - Sawteeth (4134')	-73.8504	44.1139	ADK
+735	NY - Cascade Mountain (4098')	-73.8601	44.2187	ADK
+736	NY - South Dix (4068')	-73.7743	44.0601	ADK
+737	NY - Porter Mountain (4068')	-73.8538	44.2124	ADK
+738	NY - Mount Colvin (4035')	-73.8343	44.0939	ADK
+739	NY - Mount Emmons (4039')	-74.2143	44.1438	ADK
+740	NY - Dial Mountain (4003')	-73.796	44.1059	ADK
+741	NY - East Dix (4026')	-73.7574	44.0653	ADK
+742	NY - Blake Peak (3970')	-73.8445	44.0813	ADK
+743	NY - Cliff Mountain (3944')	-73.9751	44.1031	ADK
+744	NY - Nye Mountain (3839')	-74.0238	44.1872	ADK
+745	NY - Couchsachraga Peak (3793')	-74.1603	44.0955	ADK
