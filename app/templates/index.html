@@ -19,7 +19,7 @@
 	<meta name = "robots"    content = "index,follow" />
 	<meta name = "googlebot" content = "index,follow" />
 
-	<title>Appalachian Trail Weather</title>
+	<title>Appalachian and Pacific Crest Trail Weather</title>
 	<link rel = "stylesheet" type = "text/css" href = "/static/style.css"/>
 
 	<link rel = "shortcut icon" href = "/static/favicon.ico" type = "image/x-icon">
@@ -52,12 +52,6 @@
 						var currTrailStates = allStatesGlobal.filter('.labelText,.CA,.OR,.WA');
 						var currStateLocations = allLocationsGlobal.filter('.labelText,.CA,.OR,.WA');						
 					};						
-
-					if (currTrail == 'NP'){
-						<!-- define the list for national and state parks -->
-						var currTrailStates = allStatesGlobal.filter('.labelText,.GE,.ADK');
-						var currStateLocations = allLocationsGlobal.filter('.labelText,.GE,.ADK');
-					};											
 						
 					<!-- remove everything from the state list and repopulate only with the filtered list -->
 					$('#myState option').remove();
@@ -112,39 +106,33 @@
 <div id = body_div>
 
 	<div id = "header">
-		<h1>Appalachian Trail Weather</h1>
+		<h1>Appalachian and Pacific Crest Trail Weather</h1>
 
-		<a href = "https://www.appalachiantrail.org"><img src = "/static/at_logo_1.jpg" alt = "AT Logo" style = "width:60px;height:60px;"></a>
-		<a href = "https://www.lnt.org"><img src = "/static/lnt_logo.jpg" alt = "Leave No Trace Logo" style = "width:120px;height:60px;"></a>
-
+		<div id = "lnt_at_links">
+			<a href = "https://www.appalachiantrail.org"><img src = "/static/at_logo_2.jpg" alt = "AT Logo" style = "width:60px;height:60px;"></a>
+			<a href = "https://www.lnt.org"><img src = "/static/lnt_logo_3.jpg" alt = "Leave No Trace Logo" style = "width:120px;height:60px;"></a>
+		</div>
+			
 		<br>
 		<br>
 		<br>
 
 	    <h3>Location-specific forecasts from the National Weather Service (NOAA)</h3>
 
-		<p>The purpose of this website is simple: to provide hikers with a reliable and easy way to obtain weather for their location. Simply pick your state and location from the lists below and the National Weather Service forecast for that location will appear.</p>
+		<p>The purpose of this website is simple: to provide AT and PCT hikers with a reliable and easy way to obtain weather for their location. Simply pick your state and location from the lists below and the National Weather Service forecast for that location will appear.</p>
 
 		<ul style = "list-style-type: disc;">
 			
 			<li>Please see <a href = "http://127.0.0.1:5000/precip_discussion">this discussion</a> relating to how forecasts should be interpreted.</li>
+			
+			<li>Check out <a href = "http://127.0.01:5000/wind_chill">this discussion</a> of cold weather, including both Fahrenheit and Celsius wind chill charts.</li>
 
-			<li>AT Weather welcomes the Pacific Crest Trail! Use the drop down box below to filter for the PCT.</li>
-
-			<li>AT Weather has started adding national and state park locations. Feel free to email with suggestions for locations!</li>
-
-			<li>A <b><a href = "http://127.0.0.1:5000/developer_message_2016">message</a></b> from your website developer.</li>
+			<li>If AT Weather has been useful to you, <b>consider <a href = "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=patjones80%40gmail%2ecom&lc=US&item_name=Appalachian%20Trail%20Weather&item_number=atwx&amount=0%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted">supporting</a> it with a small donation!</b></li>
 			
 		</ul>
 
-<!-- 		<p>Please see <a href = "http://127.0.0.1:5000/precip_discussion">this discussion</a> relating to how forecasts should be interpreted.</p>
-
-		<p>AT Weather welcomes the Pacific Crest Trail! Use the new drop down box below to filter for the PCT. Many thanks to PCT hiker, volunteer and map-maker "<a href = "https://www.pctmap.net/">Halfmile</a>" for providing a comprehensive GPS file of the PCT, necessary in making this enhancement a reality.</p>
-
-		<p><span style = "color:red; font-weight:bold">New!</span> Over the coming months, AT Weather will start adding National Park locations, starting with Grand Escalante National Monument in Utah. Feel free to email with suggestions for National Park locations!</p>
-
-		<p><span style = "color:red; font-weight:bold">New!</span> A <b><a href = "http://127.0.0.1:5000/developer_message_2016">message</a></b> from your website developer.</p>
- -->		
+		<h3><a href = "http://127.0.01:5000/changes_discussion">Note on changes to AT Weather (January 2nd, 2017)</a></h3>
+		
 	</div>
 
     <div id  =  "formControls">
@@ -219,15 +207,43 @@
 		</select>
 		
     </div>	
- 
-	{% block discuss_pops %}  {% endblock %}
-	{% block handle_error %}  {% endblock %}
-	{% block donate_message %}{% endblock %}
 	
-	<div id = "forecast">
+	<p><span style = "font-weight:bold">{{ location_selected }}</span></p>
+	
+	<div id = "discussions">
+	
+		{% block discuss_pops %}  	 {% endblock %}
+		{% block wind_chill   %}  	 {% endblock %}	
+		{% block handle_error %}  	 {% endblock %}
+		{% block discuss_changes %}  {% endblock %}
+		
+		{{ forecast_text }}
+				
+	</div>
+		
+<!-- 	for use with new site when NWS API comes online
+
+	<b>{{ err_msg }}</b>
+	
+	{% if location_to_display %}
+		<h3>National Weather Service forecast for: {{ location_to_display }}</h3>
+	{% endif %}
+
+-->
+	
+<!-- 	soon to be deprecated -->
+<!-- 	<div id = "forecast">
 		{{ forecast_text }}
 	</div>
-	
+ -->
+<!-- 	for use with new NWS API -->
+
+<!-- 	<div id = "forecast">
+		{% for f in forecast %}
+			<p><b>{{ f.name }}</b>: {{ f.detailedForecast }}</p>
+		{% endfor %}
+	</div>
+ -->	
     <br>
     <br>
     <br>

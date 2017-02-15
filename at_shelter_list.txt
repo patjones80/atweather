@@ -1,573 +1,520 @@
-1	GA - Amicalola Falls State Park	-84.2476	34.5627	GA
-2	GA - Max Epperson Shelter	-84.193	34.6293	GA
-3	GA - Black Gap Shelter (3300')	-84.1988	34.6176	GA
-4	GA - Springer Mountain	-84.1936	34.6267	GA
-5	GA - Springer Mountain Shelter (3730')	-84.1931	34.6292	GA
-6	GA - Stover Creek Shelter (2870')	-84.1999	34.6495	GA
-7	GA - Hawk Mountain Shelter (3200')	-84.1364	34.6658	GA
-8	GA - Gooch Mountain Shelter (3000')	-84.0343	34.6532	GA
-9	GA - Woods Hole Shelter (3600')	-83.955	34.7371	GA
-10	GA - Blood Mountain Shelter (4450')	-83.9375	34.74	GA
-11	GA - Whitley Gap Shelter (3370')	-83.8344	34.7124	GA
-12	GA - Low Gap Shelter (3050')	-83.8247	34.7762	GA
-13	GA - Blue Mountain Shelter (3900')	-83.7668	34.8171	GA
-14	GA - Tray Mountain Shelter (4200')	-83.6769	34.804	GA
-15	GA - Deep Gap Shelter (3550')	-83.6462	34.8824	GA
-16	GA - Plumorchard Gap Shelter (3050')	-83.5883	34.946	GA
-17	NC - Muskrat Creek Shelter (4600')	-83.5816	35.0205	NC
-18	NC - Standing Indian Shelter (4760')	-83.5482	35.0418	NC
-19	NC - Carter Gap Shelter (4540')	-83.4949	34.9999	NC
-20	NC - Long Branch Shelter (4437')	-83.4789	35.0589	NC
-21	NC - Rock Gap Shelter (3760')	-83.5231	35.0914	NC
-22	NC - Siler Bald Shelter (4600')	-83.5725	35.1441	NC
-23	NC - Wayah Bald Shelter (4759')	-83.5644	35.1895	NC
-24	NC - Cold Spring Shelter (4920')	-83.5599	35.2309	NC
-25	NC - Wesser Bald Shelter (4115')	-83.5822	35.2824	NC
-26	NC - A. Rufus Morgan Shelter (2300')	-83.5902	35.3242	NC
-27	NC - Sassafras Gap Shelter (4330')	-83.667	35.3307	NC
-28	NC - Brown Fork Gap Shelter (3800')	-83.7339	35.3742	NC
-29	NC - Cable Gap Shelter (2880')	-83.7736	35.4152	NC
-30	NC - Fontana Dam Shelter (1775')	-83.7941	35.4483	NC
-31	TN - Mollies Ridge Shelter (4570')	-83.7936	35.5458	TN
-32	TN - Russell Field Shelter (4360')	-83.7666	35.5617	TN
-33	NC - Spence Field Shelter (4915')	-83.7327	35.5618	NC
-34	TN - Derrick Knob Shelter (4880')	-83.6419	35.5663	TN
-35	NC - Silers Bald Shelter (5460')	-83.5683	35.5642	NC
-36	NC - Double Spring Gap Shelter (5505')	-83.5429	35.5652	NC
-37	TN - Mt. Collins Shelter (5870')	-83.4714	35.5937	TN
-38	NC - Icewater Spring Shelter (5920')	-83.3864	35.6297	NC
-39	NC - Pecks Corner Shelter (5280')	-83.3086	35.6507	NC
-40	NC - Tri-corner Knob Shelter (5920')	-83.2567	35.6937	NC
-41	NC - Cosby Knob Shelter (4740')	-83.1822	35.7271	NC
-42	TN - Davenport Gap Shelter (2600')	-83.1237	35.7692	TN
-43	NC - Groundhog Creek Shelter (2850')	-83.0263	35.7817	NC
-44	NC - Roaring Fork Shelter (3590')	-82.9386	35.8223	NC
-45	TN - Walnut Mountain Shelter (4260')	-82.9367	35.8365	TN
-46	NC - Deer Park Mountain Shelter (2330')	-82.8614	35.8758	NC
-47	TN - Spring Mountain Shelter (3300')	-82.7902	35.9515	TN
-48	NC - Little Laurel Shelter (3620')	-82.7359	36.015	NC
-49	NC - Jerry Cabin Shelter (4150')	-82.6574	36.0565	NC
-50	NC - Flint Mountain Shelter (3570')	-82.5969	36.0348	NC
-51	NC - Hogback Ridge Shelter (4255')	-82.5872	35.964	NC
-52	TN - Bald Mountain Shelter (5100')	-82.4783	36	TN
-53	TN - No Business Knob Shelter (3180')	-82.4336	36.0668	TN
-54	TN - Curley Maple Gap Shelter (3070')	-82.397	36.1042	TN
-55	TN - Cherry Gap Shelter (3900')	-82.2642	36.1292	TN
-56	TN - Clyde Smith Shelter (4400')	-82.1613	36.1484	TN
-57	TN - Roan High Knob Shelter (6275')	-82.1227	36.105	TN
-58	NC - Stan Murray Shelter (5050')	-82.0659	36.1123	NC
-59	NC - Overmountain Shelter (4550')	-82.0544	36.1235	NC
-60	TN - Mountaineer Shelter (3200')	-81.9857	36.2022	TN
-61	TN - Moreland Gap Shelter (3815')	-82.0885	36.2201	TN
-62	TN - Laurel Fork Shelter (2450')	-82.1364	36.2786	TN
-63	TN - Watauga Lake Shelter (2130')	-82.1295	36.3139	TN
-64	TN - Vandeventer Shelter (3620')	-82.059	36.3669	TN
-65	TN - Iron Mountain Shelter (4125')	-81.991	36.4355	TN
-66	TN - Double Springs Shelter (4060')	-81.9862	36.509	TN
-67	TN - Abingdon Gap Shelter (3785')	-81.9022	36.581	TN
-68	VA - Saunders Shelter (3310')	-81.7132	36.6377	VA
-69	VA - Lost Mountain Shelter (3360')	-81.6563	36.6441	VA
-70	VA - Thomas Knob Shelter (5400')	-81.5354	36.6566	VA
-71	VA - Wise Shelter (4460')	-81.4986	36.6539	VA
-72	VA - Old Orchard Shelter (4050')	-81.5112	36.6832	VA
-73	VA - Hurricane Mountain Shelter (3850')	-81.5095	36.7154	VA
-74	VA - Trimpi Shelter (2900')	-81.4806	36.7492	VA
-75	VA - Partnership Shelter (3360')	-81.4226	36.8094	VA
-76	VA - Chatfield Shelter (3150')	-81.3633	36.8499	VA
-77	VA - Davis Path Campsite (2840')	-81.3769	36.9144	VA
-78	VA - Knot Maul Branch Shelter (2880')	-81.4046	37.0007	VA
-79	VA - Chestnut Knob Shelter (4409')	-81.3995	37.0577	VA
-80	VA - Jenkins Shelter (2500')	-81.2478	37.0934	VA
-81	VA - Helveys Mill Shelter (3090')	-81.1044	37.1326	VA
-82	VA - Jenny Knob Shelter (2800')	-80.9803	37.155	VA
-83	VA - Wapiti Shelter (2640')	-80.8241	37.2239	VA
-84	VA - Docs Knob Shelter (3555')	-80.8364	37.2702	VA
-85	VA - Rice Field Shelter (3375')	-80.7586	37.3748	VA
-86	VA - Pine Swamp Branch Shelter (2530')	-80.6088	37.4221	VA
-87	VA - Bailey Gap Shelter (3525')	-80.5772	37.4009	VA
-88	VA - War Spur Shelter (2340')	-80.474	37.3975	VA
-89	VA - Laurel Creek Shelter (2720')	-80.4212	37.3589	VA
-90	VA - Sarver Hollow Shelter (3000')	-80.3352	37.3555	VA
-91	VA - Niday Shelter (1800')	-80.2644	37.3875	VA
-92	VA - Pickle Branch Shelter (1845')	-80.1911	37.3881	VA
-93	VA - Johns Spring/Boy Scout Shelter (1980')	-80.0741	37.3853	VA
-94	VA - Catawba Mountain Shelter (2580')	-80.0574	37.3882	VA
-95	VA - Campbell Shelter (2580')	-80.0295	37.3908	VA
-96	VA - Lamberts Meadow Shelter (2080')	-79.9878	37.4346	VA
-97	VA - Fullhardt Knob Shelter (2670')	-79.8539	37.3985	VA
-98	VA - Wilson Creek Shelter (1830')	-79.7857	37.4193	VA
-99	VA - Bobblets Gap Shelter (1920')	-79.7014	37.4672	VA
-100	VA - Cove Mountain Shelter (1925')	-79.6511	37.5117	VA
-101	VA - Bryant Ridge Shelter (1320')	-79.5856	37.53	VA
-102	VA - Cornelius Creek Shelter (3145')	-79.5472	37.4939	VA
-103	VA - Thunder Hill Shelter (3960')	-79.5042	37.5274	VA
-104	VA - Matts Creek Shelter (835')	-79.4135	37.5995	VA
-105	VA - Johns Hollow Shelter (1020')	-79.3921	37.613	VA
-106	VA - Punchbowl Shelter (2500')	-79.3388	37.6778	VA
-107	VA - Brown Mountain Creek Shelter (1395')	-79.2682	37.7102	VA
-108	VA - Cow Camp Gap Shelter (3160')	-79.2133	37.7466	VA
-109	VA - Seeley-Woodworth Shelter (3770')	-79.1551	37.8189	VA
-110	VA - The Priest Shelter (3840')	-79.0706	37.8178	VA
-111	VA - Harpers Creek Shelter (1800')	-79.0012	37.8564	VA
-112	VA - Maupin Field Shelter (2720')	-78.9939	37.8849	VA
-113	VA - Paul C. Wolfe Shelter (1700')	-78.8839	37.9856	VA
-114	VA - Calf Mountain Shelter (2700')	-78.7868	38.0855	VA
-115	VA - Blackrock Hut (2645')	-78.7427	38.2141	VA
-116	VA - Pinefield Hut (2430')	-78.646	38.2906	VA
-117	VA - Hightop Hut (3175')	-78.5586	38.333	VA
-118	VA - Bearfence Mountain Hut (3110')	-78.4707	38.4441	VA
-119	VA - Rock Spring Hut (3465')	-78.4086	38.5531	VA
-120	VA - Byrds Nest #3 Hut (3290')	-78.3238	38.6344	VA
-121	VA - Pass Mountain Hut (2690')	-78.3192	38.6766	VA
-122	VA - Gravel Springs Hut (2480')	-78.2345	38.7635	VA
-123	VA - Tom Floyd Wayside Shelter (1900')	-78.1639	38.8504	VA
-124	VA - Jim & Molly Denton Shelter (1310')	-78.0833	38.89	VA
-125	VA - Manassas Gap Shelter (1655')	-78.0331	38.9306	VA
-126	VA - Dicks Dome Shelter (1230')	-77.997	38.9699	VA
-127	VA - Rod Hollow Shelter (840')	-77.9444	39.0478	VA
-128	VA - Sam Moore Shelter (990')	-77.8866	39.0906	VA
-129	VA - Bears Den Hostel (1350')	-77.85409	39.11093	VA
-130	VA - Blackburn Trail Center (1400')	-77.79803	39.18765	VA
-131	VA - David Lesser Memorial Shelter (1380')	-77.7795	39.2272	VA
-132	MD - Ed Garvey Shelter (1100')	-77.6643	39.3565	MD
-133	MD - Crampton Gap Shelter (1000')	-77.6376	39.4125	MD
-134	MD - Rocky Run Shelter (970')	-77.6314	39.4608	MD
-135	MD - Dahlgren Backpack Campground (980')	-77.6015	39.492	MD
-136	MD - Pine Knob Shelter (1360')	-77.6024	39.5425	MD
-137	MD - Pogo Memorial Campsite (1500')	-77.6015	39.5754	MD
-138	MD - Ensign Cowall Shelter (1430')	-77.5576	39.6277	MD
-139	MD - Raven Rock Shelter (1480')	-77.5246	39.672	MD
-140	PA - Deer Lick Shelters (1420')	-77.4852	39.7662	PA
-141	PA - Antietam Shelter (890')	-77.483	39.7938	PA
-142	PA - Tumbling Run Shelters (1120')	-77.4783	39.805	PA
-143	PA - Rocky Mountain Shelters (1520')	-77.5009	39.8686	PA
-144	PA - Quarry Gap Shelters (1455')	-77.4867	39.932	PA
-145	PA - Birch Run Shelter (1795')	-77.4207	39.9846	PA
-146	PA - Toms Run Shelters (1300')	-77.3573	40.0343	PA
-147	PA - James Fry (Tagg Run) Shelter (805')	-77.2064	40.063	PA
-148	PA - Alec Kennedy Shelter (850')	-77.1043	40.1119	PA
-149	PA - Darlington Shelter (1170')	-77.0874	40.302	PA
-150	PA - Cove Mountain Shelter (1120')	-77.0678	40.3635	PA
-151	PA - Clarks Ferry Shelter (1180')	-76.994	40.3922	PA
-152	PA - Peters Mountain Shelter (970')	-76.8797	40.4258	PA
-153	PA - Rausch Gap Shelter (970')	-76.6005	40.4985	PA
-154	PA - William Penn Shelter (1300')	-76.4144	40.4956	PA
-155	PA - 501 Shelter (1460')	-76.3469	40.5125	PA
-156	PA - Eagles Nest Shelter (1510')	-76.1527	40.5493	PA
-157	PA - Windsor Furnace Shelter (880')	-75.9423	40.5903	PA
-158	PA - Eckville Shelter (535')	-75.9588	40.6328	PA
-159	PA - Allentown Hiking Club Shelter (1350')	-75.8744	40.6831	PA
-160	PA - Bake Oven Knob Shelter (1380')	-75.7274	40.7541	PA
-161	PA - George W. Outerbridge Shelter (1000')	-75.6183	40.7825	PA
-162	PA - Leroy A. Smith Shelter (1410')	-75.3598	40.8394	PA
-163	PA - Kirkridge Shelter (1480')	-75.1869	40.9367	PA
+1	GA - Amicalola Falls State Park	-84.25	34.56	GA
+2	GA - Max Epperson Shelter	-84.19	34.63	GA
+3	GA - Black Gap Shelter (3300')	-84.2	34.62	GA
+4	GA - Springer Mountain	-84.19	34.63	GA
+5	GA - Springer Mountain Shelter (3730')	-84.19	34.63	GA
+6	GA - Stover Creek Shelter (2870')	-84.2	34.65	GA
+7	GA - Hawk Mountain Shelter (3200')	-84.14	34.67	GA
+8	GA - Gooch Mountain Shelter (3000')	-84.03	34.65	GA
+9	GA - Woods Hole Shelter (3600')	-83.96	34.74	GA
+10	GA - Blood Mountain Shelter (4450')	-83.94	34.74	GA
+11	GA - Whitley Gap Shelter (3370')	-83.83	34.71	GA
+12	GA - Low Gap Shelter (3050')	-83.82	34.78	GA
+13	GA - Blue Mountain Shelter (3900')	-83.77	34.82	GA
+14	GA - Tray Mountain Shelter (4200')	-83.68	34.8	GA
+15	GA - Deep Gap Shelter (3550')	-83.65	34.88	GA
+16	GA - Plumorchard Gap Shelter (3050')	-83.59	34.95	GA
+17	NC - Muskrat Creek Shelter (4600')	-83.58	35.02	NC
+18	NC - Standing Indian Shelter (4760')	-83.55	35.04	NC
+19	NC - Carter Gap Shelter (4540')	-83.49	35	NC
+20	NC - Long Branch Shelter (4437')	-83.48	35.06	NC
+21	NC - Rock Gap Shelter (3760')	-83.52	35.09	NC
+22	NC - Siler Bald Shelter (4600')	-83.57	35.14	NC
+23	NC - Wayah Bald Shelter (4759')	-83.56	35.19	NC
+24	NC - Cold Spring Shelter (4920')	-83.56	35.23	NC
+25	NC - Wesser Bald Shelter (4115')	-83.58	35.28	NC
+26	NC - A. Rufus Morgan Shelter (2300')	-83.59	35.32	NC
+27	NC - Sassafras Gap Shelter (4330')	-83.67	35.33	NC
+28	NC - Brown Fork Gap Shelter (3800')	-83.73	35.37	NC
+29	NC - Cable Gap Shelter (2880')	-83.77	35.42	NC
+30	NC - Fontana Dam Shelter (1775')	-83.79	35.45	NC
+31	TN - Mollies Ridge Shelter (4570')	-83.79	35.55	TN
+32	TN - Russell Field Shelter (4360')	-83.77	35.56	TN
+33	NC - Spence Field Shelter (4915')	-83.73	35.56	NC
+34	TN - Derrick Knob Shelter (4880')	-83.64	35.57	TN
+35	NC - Silers Bald Shelter (5460')	-83.57	35.56	NC
+36	NC - Double Spring Gap Shelter (5505')	-83.54	35.57	NC
+37	TN - Mt. Collins Shelter (5870')	-83.47	35.59	TN
+38	NC - Icewater Spring Shelter (5920')	-83.39	35.63	NC
+39	NC - Pecks Corner Shelter (5280')	-83.31	35.65	NC
+40	NC - Tri-corner Knob Shelter (5920')	-83.26	35.69	NC
+41	NC - Cosby Knob Shelter (4740')	-83.18	35.73	NC
+42	TN - Davenport Gap Shelter (2600')	-83.12	35.77	TN
+43	NC - Groundhog Creek Shelter (2850')	-83.03	35.78	NC
+44	NC - Roaring Fork Shelter (3590')	-82.94	35.82	NC
+45	TN - Walnut Mountain Shelter (4260')	-82.94	35.84	TN
+46	NC - Deer Park Mountain Shelter (2330')	-82.86	35.88	NC
+47	TN - Spring Mountain Shelter (3300')	-82.79	35.95	TN
+48	NC - Little Laurel Shelter (3620')	-82.74	36.02	NC
+49	NC - Jerry Cabin Shelter (4150')	-82.66	36.06	NC
+50	NC - Flint Mountain Shelter (3570')	-82.6	36.03	NC
+51	NC - Hogback Ridge Shelter (4255')	-82.59	35.96	NC
+52	TN - Bald Mountain Shelter (5100')	-82.48	36	TN
+53	TN - No Business Knob Shelter (3180')	-82.43	36.07	TN
+54	TN - Curley Maple Gap Shelter (3070')	-82.4	36.1	TN
+55	TN - Cherry Gap Shelter (3900')	-82.26	36.13	TN
+56	TN - Clyde Smith Shelter (4400')	-82.16	36.15	TN
+57	TN - Roan High Knob Shelter (6275')	-82.12	36.11	TN
+58	NC - Stan Murray Shelter (5050')	-82.07	36.11	NC
+59	NC - Overmountain Shelter (4550')	-82.05	36.12	NC
+60	TN - Mountaineer Shelter (3200')	-81.99	36.2	TN
+61	TN - Moreland Gap Shelter (3815')	-82.09	36.22	TN
+62	TN - Laurel Fork Shelter (2450')	-82.14	36.28	TN
+63	TN - Watauga Lake Shelter (2130')	-82.13	36.31	TN
+64	TN - Vandeventer Shelter (3620')	-82.06	36.37	TN
+65	TN - Iron Mountain Shelter (4125')	-81.99	36.44	TN
+66	TN - Double Springs Shelter (4060')	-81.99	36.51	TN
+67	TN - Abingdon Gap Shelter (3785')	-81.9	36.58	TN
+68	VA - Saunders Shelter (3310')	-81.71	36.64	VA
+69	VA - Lost Mountain Shelter (3360')	-81.66	36.64	VA
+70	VA - Thomas Knob Shelter (5400')	-81.54	36.66	VA
+71	VA - Wise Shelter (4460')	-81.5	36.65	VA
+72	VA - Old Orchard Shelter (4050')	-81.51	36.68	VA
+73	VA - Hurricane Mountain Shelter (3850')	-81.51	36.72	VA
+74	VA - Trimpi Shelter (2900')	-81.48	36.75	VA
+75	VA - Partnership Shelter (3360')	-81.42	36.81	VA
+76	VA - Chatfield Shelter (3150')	-81.36	36.85	VA
+77	VA - Davis Path Campsite (2840')	-81.38	36.91	VA
+78	VA - Knot Maul Branch Shelter (2880')	-81.4	37	VA
+79	VA - Chestnut Knob Shelter (4409')	-81.4	37.06	VA
+80	VA - Jenkins Shelter (2500')	-81.25	37.09	VA
+81	VA - Helveys Mill Shelter (3090')	-81.1	37.13	VA
+82	VA - Jenny Knob Shelter (2800')	-80.98	37.16	VA
+83	VA - Wapiti Shelter (2640')	-80.82	37.22	VA
+84	VA - Docs Knob Shelter (3555')	-80.84	37.27	VA
+85	VA - Rice Field Shelter (3375')	-80.76	37.37	VA
+86	VA - Pine Swamp Branch Shelter (2530')	-80.61	37.42	VA
+87	VA - Bailey Gap Shelter (3525')	-80.58	37.4	VA
+88	VA - War Spur Shelter (2340')	-80.47	37.4	VA
+89	VA - Laurel Creek Shelter (2720')	-80.42	37.36	VA
+90	VA - Sarver Hollow Shelter (3000')	-80.34	37.36	VA
+91	VA - Niday Shelter (1800')	-80.26	37.39	VA
+92	VA - Pickle Branch Shelter (1845')	-80.19	37.39	VA
+93	VA - Johns Spring/Boy Scout Shelter (1980')	-80.07	37.39	VA
+94	VA - Catawba Mountain Shelter (2580')	-80.06	37.39	VA
+95	VA - Campbell Shelter (2580')	-80.03	37.39	VA
+96	VA - Lamberts Meadow Shelter (2080')	-79.99	37.43	VA
+97	VA - Fullhardt Knob Shelter (2670')	-79.85	37.4	VA
+98	VA - Wilson Creek Shelter (1830')	-79.79	37.42	VA
+99	VA - Bobblets Gap Shelter (1920')	-79.7	37.47	VA
+100	VA - Cove Mountain Shelter (1925')	-79.65	37.51	VA
+101	VA - Bryant Ridge Shelter (1320')	-79.59	37.53	VA
+102	VA - Cornelius Creek Shelter (3145')	-79.55	37.49	VA
+103	VA - Thunder Hill Shelter (3960')	-79.5	37.53	VA
+104	VA - Matts Creek Shelter (835')	-79.41	37.6	VA
+105	VA - Johns Hollow Shelter (1020')	-79.39	37.61	VA
+106	VA - Punchbowl Shelter (2500')	-79.34	37.68	VA
+107	VA - Brown Mountain Creek Shelter (1395')	-79.27	37.71	VA
+108	VA - Cow Camp Gap Shelter (3160')	-79.21	37.75	VA
+109	VA - Seeley-Woodworth Shelter (3770')	-79.16	37.82	VA
+110	VA - The Priest Shelter (3840')	-79.07	37.82	VA
+111	VA - Harpers Creek Shelter (1800')	-79	37.86	VA
+112	VA - Maupin Field Shelter (2720')	-78.99	37.88	VA
+113	VA - Paul C. Wolfe Shelter (1700')	-78.88	37.99	VA
+114	VA - Calf Mountain Shelter (2700')	-78.79	38.09	VA
+115	VA - Blackrock Hut (2645')	-78.74	38.21	VA
+116	VA - Pinefield Hut (2430')	-78.65	38.29	VA
+117	VA - Hightop Hut (3175')	-78.56	38.33	VA
+118	VA - Bearfence Mountain Hut (3110')	-78.47	38.44	VA
+119	VA - Rock Spring Hut (3465')	-78.41	38.55	VA
+120	VA - Byrds Nest #3 Hut (3290')	-78.32	38.63	VA
+121	VA - Pass Mountain Hut (2690')	-78.32	38.68	VA
+122	VA - Gravel Springs Hut (2480')	-78.23	38.76	VA
+123	VA - Tom Floyd Wayside Shelter (1900')	-78.16	38.85	VA
+124	VA - Jim & Molly Denton Shelter (1310')	-78.08	38.89	VA
+125	VA - Manassas Gap Shelter (1655')	-78.03	38.93	VA
+126	VA - Dicks Dome Shelter (1230')	-78	38.97	VA
+127	VA - Rod Hollow Shelter (840')	-77.94	39.05	VA
+128	VA - Sam Moore Shelter (990')	-77.89	39.09	VA
+129	VA - Bears Den Hostel (1350')	-77.85	39.11	VA
+130	VA - Blackburn Trail Center (1400')	-77.8	39.19	VA
+131	VA - David Lesser Memorial Shelter (1380')	-77.78	39.23	VA
+132	MD - Ed Garvey Shelter (1100')	-77.66	39.36	MD
+133	MD - Crampton Gap Shelter (1000')	-77.64	39.41	MD
+134	MD - Rocky Run Shelter (970')	-77.63	39.46	MD
+135	MD - Dahlgren Backpack Campground (980')	-77.6	39.49	MD
+136	MD - Pine Knob Shelter (1360')	-77.6	39.54	MD
+137	MD - Pogo Memorial Campsite (1500')	-77.6	39.58	MD
+138	MD - Ensign Cowall Shelter (1430')	-77.56	39.63	MD
+139	MD - Raven Rock Shelter (1480')	-77.52	39.67	MD
+140	PA - Deer Lick Shelters (1420')	-77.49	39.77	PA
+141	PA - Antietam Shelter (890')	-77.48	39.79	PA
+142	PA - Tumbling Run Shelters (1120')	-77.48	39.81	PA
+143	PA - Rocky Mountain Shelters (1520')	-77.5	39.87	PA
+144	PA - Quarry Gap Shelters (1455')	-77.49	39.93	PA
+145	PA - Birch Run Shelter (1795')	-77.42	39.98	PA
+146	PA - Toms Run Shelters (1300')	-77.36	40.03	PA
+147	PA - James Fry (Tagg Run) Shelter (805')	-77.21	40.06	PA
+148	PA - Alec Kennedy Shelter (850')	-77.1	40.11	PA
+149	PA - Darlington Shelter (1170')	-77.09	40.3	PA
+150	PA - Cove Mountain Shelter (1120')	-77.07	40.36	PA
+151	PA - Clarks Ferry Shelter (1180')	-76.99	40.39	PA
+152	PA - Peters Mountain Shelter (970')	-76.88	40.43	PA
+153	PA - Rausch Gap Shelter (970')	-76.6	40.5	PA
+154	PA - William Penn Shelter (1300')	-76.41	40.5	PA
+155	PA - 501 Shelter (1460')	-76.35	40.51	PA
+156	PA - Eagles Nest Shelter (1510')	-76.15	40.55	PA
+157	PA - Windsor Furnace Shelter (880')	-75.94	40.59	PA
+158	PA - Eckville Shelter (535')	-75.96	40.63	PA
+159	PA - Allentown Hiking Club Shelter (1350')	-75.87	40.68	PA
+160	PA - Bake Oven Knob Shelter (1380')	-75.73	40.75	PA
+161	PA - George W. Outerbridge Shelter (1000')	-75.62	40.78	PA
+162	PA - Leroy A. Smith Shelter (1410')	-75.36	40.84	PA
+163	PA - Kirkridge Shelter (1480')	-75.19	40.94	PA
 164	NJ - Backpacker Camp #2 (1287')	-75.12	41.02	NJ
-165	NJ - Brink Road Shelter (1110')	-74.8382	41.1532	NJ
-166	NJ - Gren Anderson Shelter (1320')	-74.7531	41.1994	NJ
-167	NJ - Mashipacong Shelter (1425')	-74.6868	41.2521	NJ
-168	NJ - Rutherford Shelter (1345')	-74.6785	41.2775	NJ
-169	NJ - High Point Shelter (1280')	-74.6438	41.3278	NJ
-170	NJ - Pochuck Mountain Shelter (840')	-74.5163	41.2717	NJ
-171	NJ - Wawayanda Shelter (1200')	-74.3985	41.2022	NJ
-172	NY - Wildcat Shelter (1180')	-74.2683	41.2684	NY
-173	NY - Fingerboard Shelter (1300')	-74.1044	41.2633	NY
-174	NY - William Brien Memorial Shelter (1070')	-74.0599	41.2797	NY
-175	NY - West Mountain Shelter (1240')	-74.0111	41.2841	NY
-176	NY - RPH Shelter (360')	-73.7929	41.5144	NY
-177	NY - Morgan Stewart Memorial Shelter (1285')	-73.6921	41.5646	NY
-178	NY - Telephone Pioneers Shelter (910')	-73.6193	41.6043	NY
-179	NY - Wiley Shelter (740')	-73.5327	41.6378	NY
-180	CT - Ten Mile River Shelter (290')	-73.5099	41.6651	CT
-181	CT - Mt. Algo Shelter (655')	-73.4967	41.7317	CT
-182	CT - Stewart Hollow Brook Shelter (425')	-73.4198	41.7786	CT
-183	CT - Pine Swamp Brook Shelter (1075')	-73.3921	41.8816	CT
-184	CT - Limestone Spring Shelter (980')	-73.3923	41.9751	CT
-185	CT - Riga Shelter (1610')	-73.4477	42.0146	CT
-186	CT - Brassie Brook Shelter (1705')	-73.4536	42.0283	CT
-187	MA - The Hemlocks Shelter (1880')	-73.429	42.1099	MA
-188	MA - Glen Brook Shelter (1885')	-73.4283	42.1111	MA
-189	MA - Tom Leonard Shelter (1540')	-73.3062	42.1648	MA
-190	MA - Mt. Wilcox South Shelters (1720')	-73.2685	42.2078	MA
-191	MA - Mt. Wilcox North Shelter (1950')	-73.2506	42.221	MA
-192	MA - Upper Goose Pond Cabin (1483')	-73.1813	42.2887	MA
-193	MA - October Mountain Shelter (1930')	-73.1545	42.3549	MA
-194	MA - Kay Wood Shelter (1860')	-73.1619	42.4525	MA
-195	MA - Mark Noepel Shelter (2750')	-73.1845	42.6086	MA
-196	MA - Wilbur Clearing Shelter (2300')	-73.1698	42.6685	MA
-197	VT - Seth Warner Shelter (2180')	-73.1376	42.7718	VT
-198	VT - Congdon Shelter (2060')	-73.1104	42.8481	VT
-199	VT - Melville Nauheim Shelter (2330')	-73.0962	42.8878	VT
-200	VT - Goddard Shelter (3540')	-73.0726	42.9741	VT
-201	VT - Kid Gore Shelter (2795')	-73.0416	43.013	VT
-202	VT - Story Spring Shelter (2810')	-73.013	43.0505	VT
-203	VT - Stratton Pond Shelter (2565')	-72.9688	43.1014	VT
-204	VT - William B Douglas Shelter (2210')	-72.9914	43.1445	VT
-205	VT - Spruce Peak Shelter (2180')	-72.9957	43.1786	VT
-206	VT - Bromley Shelter (2560')	-72.9372	43.2395	VT
-207	VT - Peru Peak Shelter (2605')	-72.9529	43.3013	VT
-208	VT - Lost Pond Shelter (2150')	-72.9531	43.3454	VT
-209	VT - Old Job Shelter (1525')	-72.9289	43.3541	VT
-210	VT - Big Branch Shelter (1460')	-72.9469	43.3641	VT
-211	VT - Little Rock Pond Shelter (1885')	-72.9536	43.4042	VT
-212	VT - Greenwall Shelter (2025')	-72.9291	43.4404	VT
-213	VT - Minerva Hinchey Shelter (1605')	-72.925	43.4878	VT
-214	VT - Clarendon Shelter (1190')	-72.9131	43.5235	VT
-215	VT - Governor Clement Shelter (1900')	-72.8488	43.5646	VT
-216	VT - Cooper Lodge Shelter (3850')	-72.8229	43.606	VT
-217	VT - Pico Camp Shelter (3510')	-72.831	43.639	VT
-218	VT - Churchill Scott Shelter (2560')	-72.8534	43.6449	VT
-219	VT - Tucker Johnson Shelter (2300')	-72.8436	43.6792	VT
-220	VT - Gifford Woods State Park (1660')	-72.8117	43.6761	VT
-221	VT - Stony Brook Shelter (1760')	-72.7306	43.6918	VT
-222	VT - Wintturi Shelter (1910')	-72.6226	43.6622	VT
-223	VT - Cloudland Shelter (1480')	-72.4931	43.6921	VT
-224	VT - Thistle Hill Shelter (1680')	-72.4758	43.6952	VT
-225	VT - Happy Hill Shelter (1420')	-72.3657	43.7239	VT
-226	NH - Velvet Rocks Shelter (1040')	-72.2652	43.7025	NH
-227	NH - Moose Mountain Shelter (1850')	-72.1475	43.7278	NH
-228	NH - Trapper John Shelter (1345')	-72.112	43.783	NH
-229	NH - Smarts Mountain Cabin (3220')	-72.0378	43.8253	NH
-230	NH - Hexacuba Shelter (1980')	-72.029	43.874	NH
-231	NH - Jeffers Brook Shelter (1350')	-71.8894	43.9966	NH
-232	NH - Beaver Brook Shelter (3650')	-71.8118	44.033	NH
-233	NH - Eliza Brook Campsite Shelter (2500')	-71.7424	44.1008	NH
-234	NH - Kinsman Pond Campsite Shelter (3750')	-71.7328	44.1369	NH
-235	NH - Lonesome Lake Hut (2760')	-71.7037	44.1385	NH
-236	NH - Greenleaf Hut (4200')	-71.6608	44.1603	NH
-237	NH - Garfield Ridge Campsite Shelter (3560')	-71.6088	44.1906	NH
-238	NH - Galehead Hut (3800')	-71.5694	44.1878	NH
-239	NH - Guyot Campsite Shelter (4560')	-71.5356	44.161	NH
-240	NH - Zealand Falls Hut (2630')	-71.4948	44.1957	NH
-241	NH - Ethan Pond Campsite Shelter (2950')	-71.4271	44.1772	NH
-242	NH - Mizpah Spring Hut (3800')	-71.3701	44.2193	NH
-243	NH - Lake of the Clouds Hut (5012')	-71.3193	44.2589	NH
-244	NH - The RMS Perch Shelter (4313')	-71.311	44.3245	NH
-245	NH - Madison Spring Hut (4800')	-71.2835	44.3278	NH
-246	NH - Osgood Tent Site (2554')	-71.2551	44.3086	NH
-247	NH - Carter Notch Hut (3350')	-71.1959	44.2593	NH
-248	NH - Imp Campsite Shelter (3250')	-71.1506	44.3289	NH
-249	NH - Rattle River Shelter (1260')	-71.108	44.3799	NH
-250	NH - Gentian Pond Campsite Shelter (2166')	-71.0699	44.4518	NH
-251	ME - Carlo Col Shelter & Campsite (2945')	-71.0167	44.4886	ME
-252	ME - Full Goose Shelter (3030')	-70.9814	44.5251	ME
-253	ME - Speck Pond Shelter & Campsite (3500')	-70.9741	44.5646	ME
-254	ME - Baldpate Lean-to (2645')	-70.9123	44.5984	ME
-255	ME - Frye Notch Lean-to (2280')	-70.9008	44.6277	ME
-256	ME - Hall Mountain Lean-to (2635')	-70.8251	44.7008	ME
-257	ME - Bemis Mountain Lean-to (2790')	-70.7565	44.8103	ME
-258	ME - Sabbath Day Pond Lean-to (2390')	-70.6629	44.841	ME
-259	ME - Piazza Rock Lean-to (2080')	-70.5314	44.9041	ME
-260	ME - Poplar Ridge Lean-to (2920')	-70.4463	44.97	ME
-261	ME - Spaulding Mountain Lean-to (3140')	-70.3418	44.9958	ME
-262	ME - Horns Pond Lean-tos (3160')	-70.3306	45.1442	ME
-263	ME - Little Bigelow Lean-to (1760')	-70.1916	45.1391	ME
-264	ME - West Carry Pond Lean-to (1340')	-70.0998	45.158	ME
-265	ME - Pierce Pond Lean-to (1150')	-70.056	45.2403	ME
-266	ME - Pleasant Pond Lean-to (1320')	-69.9168	45.2706	ME
-267	ME - Bald Mountain Brook Lean-to (1280')	-69.7999	45.2585	ME
-268	ME - Moxie Bald Lean-to (1220')	-69.7458	45.2706	ME
-269	ME - Horseshoe Canyon Lean-to (880')	-69.6281	45.2828	ME
-270	ME - Leeman Brook Lean-to (1070')	-69.4993	45.3516	ME
-271	ME - Wilson Valley Lean-to (1000')	-69.4601	45.398	ME
-272	ME - Long Pond Stream Lean-to (930')	-69.4102	45.4219	ME
-273	ME - Cloud Pond Lean-to (2420')	-69.3522	45.4189	ME
-274	ME - Chairback Gap Lean-to (2000')	-69.2627	45.4529	ME
-275	ME - Carl A. Newhall Lean-to (1840')	-69.3155	45.5305	ME
-276	ME - Logan Brook Lean-to (2530')	-69.2354	45.5611	ME
-277	ME - East Branch Lean-to (1240')	-69.1988	45.5968	ME
-278	ME - Cooper Brook Falls Lean-to (910')	-69.088	45.6405	ME
-279	ME - Potaywadjo Spring Lean-to (620')	-69.0079	45.7066	ME
-280	ME - Wadleigh Stream Lean-to (685')	-69.1452	45.7473	ME
-281	ME - Rainbow Stream Lean-to (1005')	-69.171	45.7991	ME
-282	ME - Hurd Brook Lean-to (715')	-69.019	45.8185	ME
-283	ME - The Birches Lean-tos & Campsite (1080')	-68.9951	45.8816	ME
-284	ME - KATAHDIN (Baxter Peak) (5268')	-68.9213	45.9044	ME
-285	CA - Mexican Border, Southern Terminus of the PCT	-116.46699	32.58972	CA
-286	CA - Campo Post Office 	-116.4708	32.60737	CA
-287	CA - Hauser Creek	-116.54551	32.66142	CA
-288	CA - Boulder Oaks Campground	-116.48317	32.72902	CA
-289	CA - Interstate Highway 8	-116.48003	32.73429	CA
-290	CA - Long Canyon	-116.42247	32.81101	CA
-291	CA - Burnt Rancheria Campground	-116.41659	32.85858	CA
-292	CA - Sunrise Trailhead Junction	-116.52224	32.98036	CA
-293	CA - Highway 78	-116.4695	33.09915	CA
-294	CA - Eagle Rock	-116.61159	33.25476	CA
-295	CA - Tule Canyon Creek	-116.60482	33.45789	CA
-296	CA - Laws Trail Junction	-116.65299	33.78725	CA
-297	CA - Suicide Rock	-116.69675	33.76997	CA
-298	CA - Interstate Highway 10	-116.69455	33.92424	CA
-299	CA - Whitewater Creek	-116.66984	34.01316	CA
-300	CA - San Gorgonio Peak	-116.82494	34.09925	CA
-301	CA - Highway 18 - Big Bear	-116.80275	34.29074	CA
-302	CA - Mojave River Campground	-117.26383	34.31586	CA
-303	CA - Cleghorn Picnic Area	-117.34812	34.28766	CA
-304	CA - Interstate Highway 15	-117.4652	34.30464	CA
-305	CA - Mount Baldy	-117.64641	34.28918	CA
-306	CA - Grassy Hollow Visitor Center	-117.72212	34.37636	CA
-307	CA - Devils Punchbowl County Park	-117.85844	34.41398	CA
-308	CA - Eagles Roost Picnic Area	-117.87806	34.35429	CA
-309	CA - Messenger Flats	-118.19002	34.38122	CA
-310	CA - Vasquez Rocks Picnic Area	-118.31188	34.4851	CA
-311	CA - Bouquet Canyon Road	-118.32124	34.58373	CA
-312	CA - Maxwell Trail Camp	-118.52166	34.68789	CA
-313	CA - Highway 138	-118.60718	34.77569	CA
-314	CA - Tylerhorse Canyon	-118.46857	34.97944	CA
-315	CA - Highway 58	-118.29289	35.0994	CA
-316	CA - Hamp Williams Pass	-118.28511	35.33659	CA
-317	CA - Cottonwood Creek	-118.30682	35.40525	CA
-318	CA - Highway 178 - Walker Pass	-118.02735	35.66309	CA
-319	CA - Chimney Creek	-118.04379	35.83495	CA
-320	CA - Kennedy Meadows Campground	-118.13047	36.0545	CA
-321	CA - Haiwee Trail Junction	-118.14002	36.13914	CA
-322	CA - Cow Creek	-118.13536	36.22266	CA
-323	CA - Sequoia National Park (boundary)	-118.26019	36.47371	CA
-324	CA - John Muir Trail (junction)	-118.36177	36.55889	CA
-325	CA - Tyndall Creek	-118.38751	36.64212	CA
-326	CA - Forester Pass	-118.37349	36.69452	CA
-327	CA - Upper Vidette Meadow	-118.39428	36.75294	CA
-328	CA - Charlotte Lake Trail	-118.4163	36.77061	CA
-329	CA - Glen Pass	-118.41177	36.78955	CA
-330	CA - Rae Lakes Ranger	-118.40077	36.81135	CA
-331	CA - Baxter Pass Trail	-118.40819	36.83462	CA
-332	CA - Pinchot Pass	-118.41253	36.9361	CA
-333	CA - Mather Pass	-118.4601	37.03132	CA
-334	CA - Lower Palisade Lake	-118.48829	37.06019	CA
-335	CA - Palisade Creek	-118.53746	37.05365	CA
-336	CA - Grouse Meadow	-118.58913	37.06351	CA
-337	CA - Middle Fork Kings River	-118.61131	37.11348	CA
-338	CA - Muir Pass	-118.67091	37.11205	CA
-339	CA - Sapphire Lake	-118.69666	37.14867	CA
-340	CA - McClure Meadow	-118.74163	37.18782	CA
-341	CA - Evolution Meadow	-118.77348	37.19584	CA
-342	CA - South Fork San Joaquin River	-118.80089	37.20319	CA
-343	CA - Florence Lake Trail	-118.86126	37.2258	CA
-344	CA - Senger Creek	-118.8644	37.25353	CA
-345	CA - Marie Lake	-118.87153	37.29834	CA
-346	CA - Bear Creek	-118.87963	37.35613	CA
-347	CA - Mono Creek	-118.92379	37.41239	CA
-348	CA - Silver Pass	-118.92321	37.46777	CA
-349	CA - Fish Creek	-118.93284	37.49294	CA
-350	CA - Purple Lake	-118.9501	37.52898	CA
-351	CA - Crater Creek	-119.05508	37.58772	CA
-352	CA - Middle Fork San Joaquin River	-119.08348	37.61457	CA
-353	CA - Rosalie Lake	-119.12103	37.68784	CA
-354	CA - Soda Springs Campground	-119.07875	37.65345	CA
-355	CA - Island Pass	-119.19434	37.73662	CA
-356	CA - Donohue Pass	-119.24808	37.76088	CA
-357	CA - Ireland Creek	-119.27966	37.82555	CA
-358	CA - Highway 120	-119.35307	37.87702	CA
-359	CA - Tuolumne River	-119.3662	37.87738	CA
-360	CA - Glen Aulin Campground	-119.41792	37.91015	CA
-361	CA - Miller Lake	-119.41879	37.99389	CA
-362	CA - Benson Pass	-119.46116	38.01512	CA
-363	CA - Piute Creek	-119.51966	38.0228	CA
-364	CA - Wilma Lake (Wilmer Lake)	-119.63979	38.06901	CA
-365	CA - Lake Harriet	-119.56983	38.18733	CA
-366	CA - Walken Meadow	-119.58052	38.23087	CA
-367	CA - Highway 108 - Sonora Pass	-119.63718	38.32797	CA
-368	CA - Carson-Iceberg Wilderness	-119.62309	38.36143	CA
-369	CA - Wolf Creek	-119.75464	38.48532	CA
-370	CA - Highway 4 - Ebbetts Pass	-119.81126	38.54574	CA
-371	CA - Pennsylvania Creek	-119.82166	38.59667	CA
-372	CA - Lilly Pad Lake	-119.88621	38.60595	CA
-373	CA - Highway 88 - Carson Pass	-119.98967	38.69587	CA
-374	CA - Highway 50	-120.03986	38.82296	CA
-375	CA - Heather Lake	-120.13863	38.87829	CA
-376	CA - Middle Velma Lake	-120.15475	38.93599	CA
-377	CA - Richardson Lake	-120.21235	39.0246	CA
-378	CA - North Fork Blackwood Creek	-120.24326	39.09195	CA
-379	CA - Squaw Creek	-120.28096	39.1996	CA
-380	CA - Highway 40 - Donner Pass	-120.32604	39.31679	CA
-381	CA - Interstate Highway 80	-120.33621	39.34345	CA
-382	CA - Castle Pass	-120.36494	39.35871	CA
-383	CA - Paradise Lake Trail	-120.37735	39.40108	CA
-384	CA - Mule Ears Creek	-120.49372	39.47017	CA
-385	CA - Milton Creek	-120.57259	39.54357	CA
-386	CA - Highway 49	-120.61256	39.57655	CA
-387	CA - Sierra Buttes Spring	-120.66225	39.5922	CA
-388	CA - Silver Lake Trail	-120.701	39.69081	CA
-389	CA - Quincy-LaPorte Road	-120.89162	39.7824	CA
-390	CA - Middle Fork Feather River	-121.04519	39.80832	CA
-391	CA - Big Creek Road	-121.13139	39.85857	CA
-392	CA - Clear Creek Springs	-121.17956	39.96169	CA
-393	CA - Highway 70 - Belden	-121.24947	40.00697	CA
-394	CA - Lassen National Forest (south end)	-121.29943	40.02837	CA
-395	CA - Myrtle Flat	-121.32677	40.02996	CA
-396	CA - Frog Spring	-121.38231	40.05463	CA
-397	CA - Humboldt Peak Trail	-121.42376	40.15604	CA
-398	CA - PCT Midpoint	-121.3559	40.21002	CA
-399	CA - Highway 36	-121.33887	40.26151	CA
-400	CA - Stover Spring	-121.34197	40.29929	CA
-401	CA - North Fork Feather River	-121.35126	40.35209	CA
-402	CA - Drakesbad Guest Ranch	-121.4039	40.44417	CA
-403	CA - Lower Twin Lake	-121.36284	40.5051	CA
-404	CA - Lassen National Park (north end)	-121.4431	40.56318	CA
-405	CA - Old Station	-121.45996	40.65125	CA
-406	CA - Highway 44	-121.42027	40.67988	CA
-407	CA - Hat Creek Rim Lookout Site	-121.41462	40.80863	CA
-408	CA - Cassel Fall River Road	-121.49723	40.92221	CA
-409	CA - Crystal Lake Fish Hatchery	-121.54383	40.93205	CA
-410	CA - Highway 299	-121.57721	40.96353	CA
-411	CA - Highway 89	-121.64231	41.00842	CA
-412	CA - Burney Falls State Park	-121.65038	41.01264	CA
-413	CA - Rock Creek	-121.71363	41.02508	CA
-414	CA - Deadman Creek	-121.77448	41.11888	CA
-415	CA - Moosehead Creek	-121.83184	41.17712	CA
-416	CA - Deer Creek	-121.98741	41.12828	CA
-417	CA - Ash Camp Campground	-122.06063	41.11709	CA
-418	CA - Squaw Valley Creek	-122.16957	41.1411	CA
-419	CA - Castle Crag State Park	-122.28883	41.16054	CA
-420	CA - Interstate Highway 5	-122.29725	41.16261	CA
-421	CA - East Fork Sulphur Creek	-122.35856	41.16454	CA
-422	CA - Gully Spring	-122.39289	41.21382	CA
-423	CA - Seven Lakes Trail	-122.49733	41.18746	CA
-424	CA - Red Rock Spring	-122.50787	41.30679	CA
-425	CA - Highway 3 - Scott Mountain	-122.69761	41.27558	CA
-426	CA - Scott Mountain Summit Trail	-122.7898	41.21261	CA
-427	CA - Highway 93 - Carter Meadows Summit	-122.89921	41.22039	CA
-428	CA - Paynes Lake	-122.95945	41.34351	CA
-429	CA - Marble Mountain Wilderness	-123.02026	41.40695	CA
-430	CA - Marten Lake	-123.10943	41.49765	CA
-431	CA - Paradise Lake	-123.20953	41.61247	CA
-432	CA - Bark Shanty Creek	-123.22321	41.76622	CA
-433	CA - Highway 96	-123.21004	41.8444	CA
-434	CA - Tin Cup Trail	-123.07882	41.95372	CA
-435	OR - Oregon/California Border	-122.90906	42.00359	OR
-436	OR - Sheep Camp Spring	-122.87346	42.03281	OR
-437	OR - Mount Ashland Road	-122.6971	42.07352	OR
-438	OR - Interstate Highway 5	-122.6026	42.06388	OR
-439	OR - Soda Mountain Wilderness	-122.52463	42.0426	OR
-440	OR - Highway 66 - Green Springs Mountain Summit	-122.48274	42.13009	OR
-441	OR - Hyatt Lake Campground	-122.46325	42.16868	OR
-442	OR - Klum Landing Park	-122.3749	42.20873	OR
-443	OR - Vulture Rock Trail	-122.29835	42.24205	OR
-444	OR - Highway 140	-122.29147	42.39586	OR
-445	OR - Sky Lakes Trail #3762	-122.2184	42.55828	OR
-446	OR - Seven Mile Trail	-122.17211	42.68325	OR
-447	OR - Crater Lake National Park (south end)	-122.17576	42.8011	OR
-448	OR - Grouse Hill Camp Trail	-122.13084	42.99101	OR
-449	OR - Highway 138 - Crater Lake National Park (north end)	-122.0918	43.08904	OR
-450	OR - Oregon/Washington High Point	-122.03786	43.21188	OR
-451	OR - Crescent Lake Campground	-122.0244	43.46008	OR
-452	OR - Summit Lake	-122.13274	43.4466	OR
-453	OR - Hidden Lake	-122.10185	43.56702	OR
-454	OR - Willamette Pass Ski Area	-122.03672	43.59975	OR
-455	OR - Charlton Lake	-121.97797	43.74399	OR
-456	OR - Three Sisters Wilderness	-121.96332	43.80917	OR
-457	OR - Desane Lake	-121.91593	43.91358	OR
-458	OR - Dumbbell Lake	-121.88176	43.95719	OR
-459	OR - Sisters Mirror Lake	-121.82658	44.04056	OR
-460	OR - Obsidian Creek	-121.8169	44.16855	OR
-461	OR - South Matthieu Lake	-121.77317	44.23162	OR
-462	OR - Highway 242 - McKenzie Pass	-121.8052	44.25983	OR
-463	OR - Highway 20 - Santiam Pass	-121.84971	44.42378	OR
-464	OR - Whitewater Creek Trail #3429 	-121.82578	44.70329	OR
-465	OR - Cigar Lake	-121.81171	44.8024	OR
-466	OR - Pinhead Saddle	-121.75538	44.94405	OR
-467	OR - Mount Hood National Forest	-121.73184	45.08814	OR
-468	OR - Highway 26 - Wapinitia Pass	-121.70069	45.22914	OR
-469	OR - Timberline Lodge	-121.71053	45.33054	OR
-470	OR - Zigzag River	-121.74664	45.34333	OR
-471	OR - Ramona Falls	-121.77614	45.37996	OR
-472	OR - Lolo Pass Road	-121.79681	45.4271	OR
-473	OR - Indian Springs Campground	-121.82676	45.55683	OR
-474	OR - Benson Way Trail	-121.84125	45.64769	OR
-475	WA - Bridge of the Gods - Oregon/Washington Border	-121.89753	45.66179	WA
-476	WA - Gillette Lake	-121.94542	45.66861	WA
-477	WA - Table Mountain National Resource Conservation Area	-121.97859	45.67866	WA
-478	WA - Trout Creek	-121.9567	45.81124	WA
-479	WA - Wind River Road	-121.91305	45.82084	WA
-480	WA - Grassy Knoll Trail #149	-121.78689	45.84673	WA
-481	WA - Blue Lake	-121.79554	45.98373	WA
-482	WA - Trout Lake Creek	-121.68439	46.13333	WA
-483	WA - Mount Adams Wilderness (boundary)	-121.62697	46.17628	WA
-484	WA - Lewis River	-121.54839	46.23742	WA
-485	WA - Lava Spring	-121.51794	46.30507	WA
-486	WA - Sheep Lake	-121.43012	46.45241	WA
-487	WA - Snowgrass Trail #96	-121.46408	46.49864	WA
-488	WA - Lutz Lake	-121.4182	46.54434	WA
-489	WA - Highway 12 - White Pass	-121.37929	46.64365	WA
-490	WA - Buesch Lake	-121.39718	46.69545	WA
-491	WA - Mount Rainier National Park	-121.44832	46.79239	WA
-492	WA - Highway 410 - Chinook Pass	-121.51568	46.87188	WA
-493	WA - Urich Cabin	-121.39597	47.08958	WA
-494	WA - Forest Road 52 - Tacoma Pass	-121.31018	47.20508	WA
-495	WA - Meadow Creek Trail #1338	-121.41551	47.29992	WA
-496	WA - Yakima Pass - Twilight Lake	-121.43488	47.33562	WA
-497	WA - Ollalie Meadow 	-121.44615	47.38015	WA
-498	WA - Interstate Highway 90 - Snoqualmie Pass	-121.41549	47.42663	WA
-499	WA - Snoqualmie Pass PCT Trailhead	-121.41337	47.42751	WA
-500	WA - Ridge Lake	-121.36748	47.4623	WA
-501	WA - Delate Creek	-121.27161	47.45972	WA
-502	WA - Waptus River	-121.20873	47.51692	WA
-503	WA - Cathedral Pass Trail #1345	-121.12947	47.55052	WA
-504	WA - Marmot Lake Trail #1066	-121.14068	47.59392	WA
-505	WA - Surprise Lake Trail #1060A	-121.13336	47.67213	WA
-506	WA - Stevens Pass	-121.08851	47.74622	WA
-507	WA - Pear Lake	-121.16834	47.87951	WA
-508	WA - White River Trail #1507	-121.12861	48.01476	WA
-509	WA - White Chuck River	-121.15622	48.07532	WA
-510	WA - Mica Lake	-121.15762	48.1664	WA
-511	WA - Suiattle Trail #784	-121.08121	48.21052	WA
-512	WA - Cloudy Pass Hiker Trail	-120.94184	48.19866	WA
-513	WA - South Fork Agnes Creek	-120.92809	48.25707	WA
-514	WA - High Bridge Ranger Station	-120.83797	48.37998	WA
-515	WA - Bridge Creek Camp	-120.86835	48.42947	WA
-516	WA - Highway 20 - Rainy Pass	-120.73388	48.5148	WA
-517	WA - Methow Pass	-120.73292	48.58219	WA
-518	WA - Windy Pass	-120.71189	48.77131	WA
-519	WA - Holman Pass	-120.73734	48.84029	WA
-520	WA - Monument 78 - Canadian Border	-120.80212	49.00029	WA
-521	UT - Canaan Peak	-111.94116	37.60838	GE
-522	UT - Grosvenor Arch	-111.83355	37.45628	GE
-523	UT - Horse Mountain	-111.74072	37.49167	GE
-524	UT - Grand Staircase	-111.66826	37.44232	GE
-525	UT - Carcass Canyon Wilderness Study Area	-111.60011	37.5981	GE
-526	UT - Escalante River / Big Flat	-111.55109	37.7724	GE
-527	UT - Escalante River / Natural Bridge	-111.45691	37.76856	GE
-700	NY - Mount Marcy (5344')	-73.924	44.113	ADK
-701	NY - Algonquin Peak (5115')	-73.987	44.144	ADK
-702	NY - Mount Haystack (4961')	-73.901	44.106	ADK
-703	NY - Mount Skylight (4925')	-73.931	44.099	ADK
-704	NY - Whiteface Mountain (4865')	-73.903	44.366	ADK
-705	NY - Dix Mountain (4823')	-73.7867	44.0824	ADK
-706	NY - Gray Peak (4826')	-73.935	44.111	ADK
-707	NY - Iroquois Peak (4843')	-73.999	44.137	ADK
-708	NY - Basin Mountain (4826')	-73.887	44.121	ADK
-709	NY - Gothics Peak (4734')	-73.858	44.128	ADK
-710	NY - Mount Colden (4715')	-73.96	44.127	ADK
-711	NY - Giant Mountain (4626')	-73.7204	44.1613	ADK
-712	NY - Nippletop (4593')	-73.816	44.089	ADK
-713	NY - Santanoni Peak (4606')	-74.131	44.082	ADK
-714	NY - Mount Redfield (4606')	-73.95	44.095	ADK
-715	NY - Wright Peak (4587')	-73.981	44.152	ADK
-716	NY - Saddleback Mountain (4528')	-73.875	44.126	ADK
-717	NY - Panther Peak (4442')	-74.133	44.098	ADK
-718	NY - Tabletop Mountain (4413')	-73.9164	44.1406	ADK
-719	NY - Rocky Peak (4390')	-73.7055	44.1544	ADK
-720	NY - Macomb Mountain (4370')	-73.781	44.052	ADK
-721	NY - Armstrong Mountain (4429')	-73.8497	44.1346	ADK
-722	NY - Hough Peak (4409')	-73.778	44.069	ADK
-723	NY - Seward Mountain (4331')	-74.1993	44.1598	ADK
-724	NY - Mount Marshall (4364')	-74.0118	44.1276	ADK
-725	NY - Allen Mountain (4347')	-73.9399	44.0709	ADK
-726	NY - Big Slide (4199')	-73.8704	44.1823	ADK
-727	NY - Esther Mountain (4239')	-73.8899	44.3872	ADK
-728	NY - Upper Wolfjaw Mountain (4203')	-73.8453	44.1404	ADK
-729	NY - Lower Wolfjaw Mountain (4173')	-73.8326	44.1484	ADK
-730	NY - Street Mountain (4134')	-74.027	44.1794	ADK
-731	NY - Phelps Mountain (4160')	-73.921	44.157	ADK
-732	NY - Mount Donaldson (4108')	-74.2116	44.154	ADK
-733	NY - Seymour Mountain (4091')	-74.1726	44.158	ADK
-734	NY - Sawteeth (4134')	-73.8504	44.1139	ADK
-735	NY - Cascade Mountain (4098')	-73.8601	44.2187	ADK
-736	NY - South Dix (4068')	-73.7743	44.0601	ADK
-737	NY - Porter Mountain (4068')	-73.8538	44.2124	ADK
-738	NY - Mount Colvin (4035')	-73.8343	44.0939	ADK
-739	NY - Mount Emmons (4039')	-74.2143	44.1438	ADK
-740	NY - Dial Mountain (4003')	-73.796	44.1059	ADK
-741	NY - East Dix (4026')	-73.7574	44.0653	ADK
-742	NY - Blake Peak (3970')	-73.8445	44.0813	ADK
-743	NY - Cliff Mountain (3944')	-73.9751	44.1031	ADK
-744	NY - Nye Mountain (3839')	-74.0238	44.1872	ADK
-745	NY - Couchsachraga Peak (3793')	-74.1603	44.0955	ADK
+165	NJ - Brink Road Shelter (1110')	-74.84	41.15	NJ
+166	NJ - Gren Anderson Shelter (1320')	-74.75	41.2	NJ
+167	NJ - Mashipacong Shelter (1425')	-74.69	41.25	NJ
+168	NJ - Rutherford Shelter (1345')	-74.68	41.28	NJ
+169	NJ - High Point Shelter (1280')	-74.64	41.33	NJ
+170	NJ - Pochuck Mountain Shelter (840')	-74.52	41.27	NJ
+171	NJ - Wawayanda Shelter (1200')	-74.4	41.2	NJ
+172	NY - Wildcat Shelter (1180')	-74.27	41.27	NY
+173	NY - Fingerboard Shelter (1300')	-74.1	41.26	NY
+174	NY - William Brien Memorial Shelter (1070')	-74.06	41.28	NY
+175	NY - West Mountain Shelter (1240')	-74.01	41.28	NY
+176	NY - RPH Shelter (360')	-73.79	41.51	NY
+177	NY - Morgan Stewart Memorial Shelter (1285')	-73.69	41.56	NY
+178	NY - Telephone Pioneers Shelter (910')	-73.62	41.6	NY
+179	NY - Wiley Shelter (740')	-73.53	41.64	NY
+180	CT - Ten Mile River Shelter (290')	-73.51	41.67	CT
+181	CT - Mt. Algo Shelter (655')	-73.5	41.73	CT
+182	CT - Stewart Hollow Brook Shelter (425')	-73.42	41.78	CT
+183	CT - Pine Swamp Brook Shelter (1075')	-73.39	41.88	CT
+184	CT - Limestone Spring Shelter (980')	-73.39	41.98	CT
+185	CT - Riga Shelter (1610')	-73.45	42.01	CT
+186	CT - Brassie Brook Shelter (1705')	-73.45	42.03	CT
+187	MA - The Hemlocks Shelter (1880')	-73.43	42.11	MA
+188	MA - Glen Brook Shelter (1885')	-73.43	42.11	MA
+189	MA - Tom Leonard Shelter (1540')	-73.31	42.16	MA
+190	MA - Mt. Wilcox South Shelters (1720')	-73.27	42.21	MA
+191	MA - Mt. Wilcox North Shelter (1950')	-73.25	42.22	MA
+192	MA - Upper Goose Pond Cabin (1483')	-73.18	42.29	MA
+193	MA - October Mountain Shelter (1930')	-73.15	42.35	MA
+194	MA - Kay Wood Shelter (1860')	-73.16	42.45	MA
+195	MA - Mark Noepel Shelter (2750')	-73.18	42.61	MA
+196	MA - Wilbur Clearing Shelter (2300')	-73.17	42.67	MA
+197	VT - Seth Warner Shelter (2180')	-73.14	42.77	VT
+198	VT - Congdon Shelter (2060')	-73.11	42.85	VT
+199	VT - Melville Nauheim Shelter (2330')	-73.1	42.89	VT
+200	VT - Goddard Shelter (3540')	-73.07	42.97	VT
+201	VT - Kid Gore Shelter (2795')	-73.04	43.01	VT
+202	VT - Story Spring Shelter (2810')	-73.01	43.05	VT
+203	VT - Stratton Pond Shelter (2565')	-72.97	43.1	VT
+204	VT - William B Douglas Shelter (2210')	-72.99	43.14	VT
+205	VT - Spruce Peak Shelter (2180')	-73	43.18	VT
+206	VT - Bromley Shelter (2560')	-72.94	43.24	VT
+207	VT - Peru Peak Shelter (2605')	-72.95	43.3	VT
+208	VT - Lost Pond Shelter (2150')	-72.95	43.35	VT
+209	VT - Old Job Shelter (1525')	-72.93	43.35	VT
+210	VT - Big Branch Shelter (1460')	-72.95	43.36	VT
+211	VT - Little Rock Pond Shelter (1885')	-72.95	43.4	VT
+212	VT - Greenwall Shelter (2025')	-72.93	43.44	VT
+213	VT - Minerva Hinchey Shelter (1605')	-72.93	43.49	VT
+214	VT - Clarendon Shelter (1190')	-72.91	43.52	VT
+215	VT - Governor Clement Shelter (1900')	-72.85	43.56	VT
+216	VT - Cooper Lodge Shelter (3850')	-72.82	43.61	VT
+217	VT - Pico Camp Shelter (3510')	-72.83	43.64	VT
+218	VT - Churchill Scott Shelter (2560')	-72.85	43.64	VT
+219	VT - Tucker Johnson Shelter (2300')	-72.84	43.68	VT
+220	VT - Gifford Woods State Park (1660')	-72.81	43.68	VT
+221	VT - Stony Brook Shelter (1760')	-72.73	43.69	VT
+222	VT - Wintturi Shelter (1910')	-72.62	43.66	VT
+223	VT - Cloudland Shelter (1480')	-72.49	43.69	VT
+224	VT - Thistle Hill Shelter (1680')	-72.48	43.7	VT
+225	VT - Happy Hill Shelter (1420')	-72.37	43.72	VT
+226	NH - Velvet Rocks Shelter (1040')	-72.27	43.7	NH
+227	NH - Moose Mountain Shelter (1850')	-72.15	43.73	NH
+228	NH - Trapper John Shelter (1345')	-72.11	43.78	NH
+229	NH - Smarts Mountain Cabin (3220')	-72.04	43.83	NH
+230	NH - Hexacuba Shelter (1980')	-72.03	43.87	NH
+231	NH - Jeffers Brook Shelter (1350')	-71.89	44	NH
+232	NH - Beaver Brook Shelter (3650')	-71.81	44.03	NH
+233	NH - Eliza Brook Campsite Shelter (2500')	-71.74	44.1	NH
+234	NH - Kinsman Pond Campsite Shelter (3750')	-71.73	44.14	NH
+235	NH - Lonesome Lake Hut (2760')	-71.7	44.14	NH
+236	NH - Greenleaf Hut (4200')	-71.66	44.16	NH
+237	NH - Garfield Ridge Campsite Shelter (3560')	-71.61	44.19	NH
+238	NH - Galehead Hut (3800')	-71.57	44.19	NH
+239	NH - Guyot Campsite Shelter (4560')	-71.54	44.16	NH
+240	NH - Zealand Falls Hut (2630')	-71.49	44.2	NH
+241	NH - Ethan Pond Campsite Shelter (2950')	-71.43	44.18	NH
+242	NH - Mizpah Spring Hut (3800')	-71.37	44.22	NH
+243	NH - Lake of the Clouds Hut (5012')	-71.32	44.26	NH
+244	NH - The RMS Perch Shelter (4313')	-71.31	44.32	NH
+245	NH - Madison Spring Hut (4800')	-71.28	44.33	NH
+246	NH - Osgood Tent Site (2554')	-71.26	44.31	NH
+247	NH - Carter Notch Hut (3350')	-71.2	44.26	NH
+248	NH - Imp Campsite Shelter (3250')	-71.15	44.33	NH
+249	NH - Rattle River Shelter (1260')	-71.11	44.38	NH
+250	NH - Gentian Pond Campsite Shelter (2166')	-71.07	44.45	NH
+251	ME - Carlo Col Shelter & Campsite (2945')	-71.02	44.49	ME
+252	ME - Full Goose Shelter (3030')	-70.98	44.53	ME
+253	ME - Speck Pond Shelter & Campsite (3500')	-70.97	44.56	ME
+254	ME - Baldpate Lean-to (2645')	-70.91	44.6	ME
+255	ME - Frye Notch Lean-to (2280')	-70.9	44.63	ME
+256	ME - Hall Mountain Lean-to (2635')	-70.83	44.7	ME
+257	ME - Bemis Mountain Lean-to (2790')	-70.76	44.81	ME
+258	ME - Sabbath Day Pond Lean-to (2390')	-70.66	44.84	ME
+259	ME - Piazza Rock Lean-to (2080')	-70.53	44.9	ME
+260	ME - Poplar Ridge Lean-to (2920')	-70.45	44.97	ME
+261	ME - Spaulding Mountain Lean-to (3140')	-70.34	45	ME
+262	ME - Horns Pond Lean-tos (3160')	-70.33	45.14	ME
+263	ME - Little Bigelow Lean-to (1760')	-70.19	45.14	ME
+264	ME - West Carry Pond Lean-to (1340')	-70.1	45.16	ME
+265	ME - Pierce Pond Lean-to (1150')	-70.06	45.24	ME
+266	ME - Pleasant Pond Lean-to (1320')	-69.92	45.27	ME
+267	ME - Bald Mountain Brook Lean-to (1280')	-69.8	45.26	ME
+268	ME - Moxie Bald Lean-to (1220')	-69.75	45.27	ME
+269	ME - Horseshoe Canyon Lean-to (880')	-69.63	45.28	ME
+270	ME - Leeman Brook Lean-to (1070')	-69.5	45.35	ME
+271	ME - Wilson Valley Lean-to (1000')	-69.46	45.4	ME
+272	ME - Long Pond Stream Lean-to (930')	-69.41	45.42	ME
+273	ME - Cloud Pond Lean-to (2420')	-69.35	45.42	ME
+274	ME - Chairback Gap Lean-to (2000')	-69.26	45.45	ME
+275	ME - Carl A. Newhall Lean-to (1840')	-69.32	45.53	ME
+276	ME - Logan Brook Lean-to (2530')	-69.24	45.56	ME
+277	ME - East Branch Lean-to (1240')	-69.2	45.6	ME
+278	ME - Cooper Brook Falls Lean-to (910')	-69.09	45.64	ME
+279	ME - Potaywadjo Spring Lean-to (620')	-69.01	45.71	ME
+280	ME - Wadleigh Stream Lean-to (685')	-69.15	45.75	ME
+281	ME - Rainbow Stream Lean-to (1005')	-69.17	45.8	ME
+282	ME - Hurd Brook Lean-to (715')	-69.02	45.82	ME
+283	ME - The Birches Lean-tos & Campsite (1080')	-69	45.88	ME
+284	ME - KATAHDIN (Baxter Peak) (5268')	-68.92	45.9	ME
+285	"CA - Mexican Border, Southern Terminus of the PCT"	-116.47	32.59	CA
+286	CA - Campo Post Office 	-116.47	32.61	CA
+287	CA - Hauser Creek	-116.55	32.66	CA
+288	CA - Boulder Oaks Campground	-116.48	32.73	CA
+289	CA - Interstate Highway 8	-116.48	32.73	CA
+290	CA - Long Canyon	-116.42	32.81	CA
+291	CA - Burnt Rancheria Campground	-116.42	32.86	CA
+292	CA - Sunrise Trailhead Junction	-116.52	32.98	CA
+293	CA - Highway 78	-116.47	33.1	CA
+294	CA - Eagle Rock	-116.61	33.25	CA
+295	CA - Tule Canyon Creek	-116.6	33.46	CA
+296	CA - Laws Trail Junction	-116.65	33.79	CA
+297	CA - Suicide Rock	-116.7	33.77	CA
+298	CA - Interstate Highway 10	-116.69	33.92	CA
+299	CA - Whitewater Creek	-116.67	34.01	CA
+300	CA - San Gorgonio Peak	-116.82	34.1	CA
+301	CA - Highway 18 - Big Bear	-116.8	34.29	CA
+302	CA - Mojave River Campground	-117.26	34.32	CA
+303	CA - Cleghorn Picnic Area	-117.35	34.29	CA
+304	CA - Interstate Highway 15	-117.47	34.3	CA
+305	CA - Mount Baldy	-117.65	34.29	CA
+306	CA - Grassy Hollow Visitor Center	-117.72	34.38	CA
+307	CA - Devils Punchbowl County Park	-117.86	34.41	CA
+308	CA - Eagles Roost Picnic Area	-117.88	34.35	CA
+309	CA - Messenger Flats	-118.19	34.38	CA
+310	CA - Vasquez Rocks Picnic Area	-118.31	34.49	CA
+311	CA - Bouquet Canyon Road	-118.32	34.58	CA
+312	CA - Maxwell Trail Camp	-118.52	34.69	CA
+313	CA - Highway 138	-118.61	34.78	CA
+314	CA - Tylerhorse Canyon	-118.47	34.98	CA
+315	CA - Highway 58	-118.29	35.1	CA
+316	CA - Hamp Williams Pass	-118.29	35.34	CA
+317	CA - Cottonwood Creek	-118.31	35.41	CA
+318	CA - Highway 178 - Walker Pass	-118.03	35.66	CA
+319	CA - Chimney Creek	-118.04	35.83	CA
+320	CA - Kennedy Meadows Campground	-118.13	36.05	CA
+321	CA - Haiwee Trail Junction	-118.14	36.14	CA
+322	CA - Cow Creek	-118.14	36.22	CA
+323	CA - Sequoia National Park (boundary)	-118.26	36.47	CA
+324	CA - John Muir Trail (junction)	-118.36	36.56	CA
+325	CA - Tyndall Creek	-118.39	36.64	CA
+326	CA - Forester Pass	-118.37	36.69	CA
+327	CA - Upper Vidette Meadow	-118.39	36.75	CA
+328	CA - Charlotte Lake Trail	-118.42	36.77	CA
+329	CA - Glen Pass	-118.41	36.79	CA
+330	CA - Rae Lakes Ranger	-118.4	36.81	CA
+331	CA - Baxter Pass Trail	-118.41	36.83	CA
+332	CA - Pinchot Pass	-118.41	36.94	CA
+333	CA - Mather Pass	-118.46	37.03	CA
+334	CA - Lower Palisade Lake	-118.49	37.06	CA
+335	CA - Palisade Creek	-118.54	37.05	CA
+336	CA - Grouse Meadow	-118.59	37.06	CA
+337	CA - Middle Fork Kings River	-118.61	37.11	CA
+338	CA - Muir Pass	-118.67	37.11	CA
+339	CA - Sapphire Lake	-118.7	37.15	CA
+340	CA - McClure Meadow	-118.74	37.19	CA
+341	CA - Evolution Meadow	-118.77	37.2	CA
+342	CA - South Fork San Joaquin River	-118.8	37.2	CA
+343	CA - Florence Lake Trail	-118.86	37.23	CA
+344	CA - Senger Creek	-118.86	37.25	CA
+345	CA - Marie Lake	-118.87	37.3	CA
+346	CA - Bear Creek	-118.88	37.36	CA
+347	CA - Mono Creek	-118.92	37.41	CA
+348	CA - Silver Pass	-118.92	37.47	CA
+349	CA - Fish Creek	-118.93	37.49	CA
+350	CA - Purple Lake	-118.95	37.53	CA
+351	CA - Crater Creek	-119.06	37.59	CA
+352	CA - Middle Fork San Joaquin River	-119.08	37.61	CA
+353	CA - Rosalie Lake	-119.12	37.69	CA
+354	CA - Soda Springs Campground	-119.08	37.65	CA
+355	CA - Island Pass	-119.19	37.74	CA
+356	CA - Donohue Pass	-119.25	37.76	CA
+357	CA - Ireland Creek	-119.28	37.83	CA
+358	CA - Highway 120	-119.35	37.88	CA
+359	CA - Tuolumne River	-119.37	37.88	CA
+360	CA - Glen Aulin Campground	-119.42	37.91	CA
+361	CA - Miller Lake	-119.42	37.99	CA
+362	CA - Benson Pass	-119.46	38.02	CA
+363	CA - Piute Creek	-119.52	38.02	CA
+364	CA - Wilma Lake (Wilmer Lake)	-119.64	38.07	CA
+365	CA - Lake Harriet	-119.57	38.19	CA
+366	CA - Walken Meadow	-119.58	38.23	CA
+367	CA - Highway 108 - Sonora Pass	-119.64	38.33	CA
+368	CA - Carson-Iceberg Wilderness	-119.62	38.36	CA
+369	CA - Wolf Creek	-119.75	38.49	CA
+370	CA - Highway 4 - Ebbetts Pass	-119.81	38.55	CA
+371	CA - Pennsylvania Creek	-119.82	38.6	CA
+372	CA - Lilly Pad Lake	-119.89	38.61	CA
+373	CA - Highway 88 - Carson Pass	-119.99	38.7	CA
+374	CA - Highway 50	-120.04	38.82	CA
+375	CA - Heather Lake	-120.14	38.88	CA
+376	CA - Middle Velma Lake	-120.15	38.94	CA
+377	CA - Richardson Lake	-120.21	39.02	CA
+378	CA - North Fork Blackwood Creek	-120.24	39.09	CA
+379	CA - Squaw Creek	-120.28	39.2	CA
+380	CA - Highway 40 - Donner Pass	-120.33	39.32	CA
+381	CA - Interstate Highway 80	-120.34	39.34	CA
+382	CA - Castle Pass	-120.36	39.36	CA
+383	CA - Paradise Lake Trail	-120.38	39.4	CA
+384	CA - Mule Ears Creek	-120.49	39.47	CA
+385	CA - Milton Creek	-120.57	39.54	CA
+386	CA - Highway 49	-120.61	39.58	CA
+387	CA - Sierra Buttes Spring	-120.66	39.59	CA
+388	CA - Silver Lake Trail	-120.7	39.69	CA
+389	CA - Quincy-LaPorte Road	-120.89	39.78	CA
+390	CA - Middle Fork Feather River	-121.05	39.81	CA
+391	CA - Big Creek Road	-121.13	39.86	CA
+392	CA - Clear Creek Springs	-121.18	39.96	CA
+393	CA - Highway 70 - Belden	-121.25	40.01	CA
+394	CA - Lassen National Forest (south end)	-121.3	40.03	CA
+395	CA - Myrtle Flat	-121.33	40.03	CA
+396	CA - Frog Spring	-121.38	40.05	CA
+397	CA - Humboldt Peak Trail	-121.42	40.16	CA
+398	CA - PCT Midpoint	-121.36	40.21	CA
+399	CA - Highway 36	-121.34	40.26	CA
+400	CA - Stover Spring	-121.34	40.3	CA
+401	CA - North Fork Feather River	-121.35	40.35	CA
+402	CA - Drakesbad Guest Ranch	-121.4	40.44	CA
+403	CA - Lower Twin Lake	-121.36	40.51	CA
+404	CA - Lassen National Park (north end)	-121.44	40.56	CA
+405	CA - Old Station	-121.46	40.65	CA
+406	CA - Highway 44	-121.42	40.68	CA
+407	CA - Hat Creek Rim Lookout Site	-121.41	40.81	CA
+408	CA - Cassel Fall River Road	-121.5	40.92	CA
+409	CA - Crystal Lake Fish Hatchery	-121.54	40.93	CA
+410	CA - Highway 299	-121.58	40.96	CA
+411	CA - Highway 89	-121.64	41.01	CA
+412	CA - Burney Falls State Park	-121.65	41.01	CA
+413	CA - Rock Creek	-121.71	41.03	CA
+414	CA - Deadman Creek	-121.77	41.12	CA
+415	CA - Moosehead Creek	-121.83	41.18	CA
+416	CA - Deer Creek	-121.99	41.13	CA
+417	CA - Ash Camp Campground	-122.06	41.12	CA
+418	CA - Squaw Valley Creek	-122.17	41.14	CA
+419	CA - Castle Crag State Park	-122.29	41.16	CA
+420	CA - Interstate Highway 5	-122.3	41.16	CA
+421	CA - East Fork Sulphur Creek	-122.36	41.16	CA
+422	CA - Gully Spring	-122.39	41.21	CA
+423	CA - Seven Lakes Trail	-122.5	41.19	CA
+424	CA - Red Rock Spring	-122.51	41.31	CA
+425	CA - Highway 3 - Scott Mountain	-122.7	41.28	CA
+426	CA - Scott Mountain Summit Trail	-122.79	41.21	CA
+427	CA - Highway 93 - Carter Meadows Summit	-122.9	41.22	CA
+428	CA - Paynes Lake	-122.96	41.34	CA
+429	CA - Marble Mountain Wilderness	-123.02	41.41	CA
+430	CA - Marten Lake	-123.11	41.5	CA
+431	CA - Paradise Lake	-123.21	41.61	CA
+432	CA - Bark Shanty Creek	-123.22	41.77	CA
+433	CA - Highway 96	-123.21	41.84	CA
+434	CA - Tin Cup Trail	-123.08	41.95	CA
+435	OR - Oregon/California Border	-122.91	42	OR
+436	OR - Sheep Camp Spring	-122.87	42.03	OR
+437	OR - Mount Ashland Road	-122.7	42.07	OR
+438	OR - Interstate Highway 5	-122.6	42.06	OR
+439	OR - Soda Mountain Wilderness	-122.52	42.04	OR
+440	OR - Highway 66 - Green Springs Mountain Summit	-122.48	42.13	OR
+441	OR - Hyatt Lake Campground	-122.46	42.17	OR
+442	OR - Klum Landing Park	-122.37	42.21	OR
+443	OR - Vulture Rock Trail	-122.3	42.24	OR
+444	OR - Highway 140	-122.29	42.4	OR
+445	OR - Sky Lakes Trail #3762	-122.22	42.56	OR
+446	OR - Seven Mile Trail	-122.17	42.68	OR
+447	OR - Crater Lake National Park (south end)	-122.18	42.8	OR
+448	OR - Grouse Hill Camp Trail	-122.13	42.99	OR
+449	OR - Highway 138 - Crater Lake National Park (north end)	-122.09	43.09	OR
+450	OR - Oregon/Washington High Point	-122.04	43.21	OR
+451	OR - Crescent Lake Campground	-122.02	43.46	OR
+452	OR - Summit Lake	-122.13	43.45	OR
+453	OR - Hidden Lake	-122.1	43.57	OR
+454	OR - Willamette Pass Ski Area	-122.04	43.6	OR
+455	OR - Charlton Lake	-121.98	43.74	OR
+456	OR - Three Sisters Wilderness	-121.96	43.81	OR
+457	OR - Desane Lake	-121.92	43.91	OR
+458	OR - Dumbbell Lake	-121.88	43.96	OR
+459	OR - Sisters Mirror Lake	-121.83	44.04	OR
+460	OR - Obsidian Creek	-121.82	44.17	OR
+461	OR - South Matthieu Lake	-121.77	44.23	OR
+462	OR - Highway 242 - McKenzie Pass	-121.81	44.26	OR
+463	OR - Highway 20 - Santiam Pass	-121.85	44.42	OR
+464	OR - Whitewater Creek Trail #3429 	-121.83	44.7	OR
+465	OR - Cigar Lake	-121.81	44.8	OR
+466	OR - Pinhead Saddle	-121.76	44.94	OR
+467	OR - Mount Hood National Forest	-121.73	45.09	OR
+468	OR - Highway 26 - Wapinitia Pass	-121.7	45.23	OR
+469	OR - Timberline Lodge	-121.71	45.33	OR
+470	OR - Zigzag River	-121.75	45.34	OR
+471	OR - Ramona Falls	-121.78	45.38	OR
+472	OR - Lolo Pass Road	-121.8	45.43	OR
+473	OR - Indian Springs Campground	-121.83	45.56	OR
+474	OR - Benson Way Trail	-121.84	45.65	OR
+475	WA - Bridge of the Gods - Oregon/Washington Border	-121.9	45.66	WA
+476	WA - Gillette Lake	-121.95	45.67	WA
+477	WA - Table Mountain National Resource Conservation Area	-121.98	45.68	WA
+478	WA - Trout Creek	-121.96	45.81	WA
+479	WA - Wind River Road	-121.91	45.82	WA
+480	WA - Grassy Knoll Trail #149	-121.79	45.85	WA
+481	WA - Blue Lake	-121.8	45.98	WA
+482	WA - Trout Lake Creek	-121.68	46.13	WA
+483	WA - Mount Adams Wilderness (boundary)	-121.63	46.18	WA
+484	WA - Lewis River	-121.55	46.24	WA
+485	WA - Lava Spring	-121.52	46.31	WA
+486	WA - Sheep Lake	-121.43	46.45	WA
+487	WA - Snowgrass Trail #96	-121.46	46.5	WA
+488	WA - Lutz Lake	-121.42	46.54	WA
+489	WA - Highway 12 - White Pass	-121.38	46.64	WA
+490	WA - Buesch Lake	-121.4	46.7	WA
+491	WA - Mount Rainier National Park	-121.45	46.79	WA
+492	WA - Highway 410 - Chinook Pass	-121.52	46.87	WA
+493	WA - Urich Cabin	-121.4	47.09	WA
+494	WA - Forest Road 52 - Tacoma Pass	-121.31	47.21	WA
+495	WA - Meadow Creek Trail #1338	-121.42	47.3	WA
+496	WA - Yakima Pass - Twilight Lake	-121.43	47.34	WA
+497	WA - Ollalie Meadow 	-121.45	47.38	WA
+498	WA - Interstate Highway 90 - Snoqualmie Pass	-121.42	47.43	WA
+499	WA - Snoqualmie Pass PCT Trailhead	-121.41	47.43	WA
+500	WA - Ridge Lake	-121.37	47.46	WA
+501	WA - Delate Creek	-121.27	47.46	WA
+502	WA - Waptus River	-121.21	47.52	WA
+503	WA - Cathedral Pass Trail #1345	-121.13	47.55	WA
+504	WA - Marmot Lake Trail #1066	-121.14	47.59	WA
+505	WA - Surprise Lake Trail #1060A	-121.13	47.67	WA
+506	WA - Stevens Pass	-121.09	47.75	WA
+507	WA - Pear Lake	-121.17	47.88	WA
+508	WA - White River Trail #1507	-121.13	48.01	WA
+509	WA - White Chuck River	-121.16	48.08	WA
+510	WA - Mica Lake	-121.16	48.17	WA
+511	WA - Suiattle Trail #784	-121.08	48.21	WA
+512	WA - Cloudy Pass Hiker Trail	-120.94	48.2	WA
+513	WA - South Fork Agnes Creek	-120.93	48.26	WA
+514	WA - High Bridge Ranger Station	-120.84	48.38	WA
+515	WA - Bridge Creek Camp	-120.87	48.43	WA
+516	WA - Highway 20 - Rainy Pass	-120.73	48.51	WA
+517	WA - Methow Pass	-120.73	48.58	WA
+518	WA - Windy Pass	-120.71	48.77	WA
+519	WA - Holman Pass	-120.74	48.84	WA
+520	WA - Monument 78 - Canadian Border	-120.8	49	WA

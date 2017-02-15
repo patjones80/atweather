@@ -6,8 +6,7 @@ List definitions for dropdown boxes
 # main trail list #
 
 trails = [['AT' ,'Appalachian Trail',''],
-          ['PCT','Pacific Crest Trail',''],
-          ['NP' ,'National and State Parks','']]
+          ['PCT','Pacific Crest Trail','']]
 
 # AT #
 
@@ -31,11 +30,6 @@ states_pct = [['CA','PCT - California',  '','PCT'],
               ['OR','PCT - Oregon',      '','PCT'],
               ['WA','PCT - Washington',  '','PCT']]
 
-# Natl and State Parks #
-
-states_np  = [['GE' ,'NP - Utah - Grand Staircase - Escalante Nat\'l Monument','','NP'],
-              ['ADK','NP - New York - Adirondack High Peaks','','NP']]
-
 # Full #
 
-all_states = states_at + states_pct + states_np
+all_states = states_at + states_pct
