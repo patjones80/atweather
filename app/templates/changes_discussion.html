@@ -1,19 +1,18 @@
 {% extends "index.html" %}
+
 {% block discuss_changes %}
 
 <p>
-With the current version of AT Weather - a couple of changes are made that are visible. Most obvious is that the background color is different. Less obvious is that the dropdown boxes no longer retain a "memory" of what you picked. Please note that the boxes now reset themselves after a forecast has been selected. This is not an error, but rather a means of simplifying how the website works "under the hood". This feature may return if a simpler means can be found of implementing it.
+Starting today, <b>March 7th, 2017</b>, AT Weather is moving to an API for retrieving forecasts from the National Weather Service (NOAA). This will not result in any significant change to how the forecasts are displayed, but it will result in some changes to their content. Most importantly is that hazardous weather headlines (taking the form of links that say, for example, "Severe Thunderstorm Watch" or "Winter Storm Warning") will be missing from the forecast text. If you're used to clicking on those links (when present), and getting redirected to the National Weather Service website where you can read the full text of the headline, this feature will be missing temporarily. 
 </p>
 
 <p>
-Also of note is that starting <b>March 7th, 2017</b>, AT Weather will use a new method for retrieving forecasts from the National Weather Service. Called an "API", it will not result in any significant change to how the forecasts are displayed, but it will result in some changes to their content. Most importantly is that hazardous weather headlines (taking the form of links that say, for example, "Severe Thunderstorm Watch" or "Winter Storm Warning") will be missing from the forecast text. If you're used to clicking on those links (when present), and getting redirected to the National Weather Service website where you can read the full text of the headline, this feature will no longer be present. This is an issue that will hopefully be resolved.
+Additionally, it is possible that errant text may show up in the forecasts from time to time. For example, the text "<b>Heat index values as high as 0.</b>" is currently showing up in the forecasts for many locations. This is an anomaly that will hopefully get ironed out by the National Weather Service in due time. At this point there is no reason to believe that the other elements of the forecast (sky cover, precipitation, temperature, etc.) are incorrect. Major issues should be reported to me and I will look at them ASAP.
 </p>
 
 <p>
 Thanks so much for using AT Weather. As always, feel free to contact me with questions about the site or weather in general!
 </p>
-
-<a href = "/"><button type = "button">Home</button></a>
 
 {% endblock %}
 

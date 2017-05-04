@@ -282,7 +282,7 @@
 282	ME - Hurd Brook Lean-to (715')	-69.02	45.82	ME
 283	ME - The Birches Lean-tos & Campsite (1080')	-69	45.88	ME
 284	ME - KATAHDIN (Baxter Peak) (5268')	-68.92	45.9	ME
-285	"CA - Mexican Border, Southern Terminus of the PCT"	-116.47	32.59	CA
+285	CA - Mexican Border, Southern Terminus of the PCT	-116.47	32.59	CA
 286	CA - Campo Post Office 	-116.47	32.61	CA
 287	CA - Hauser Creek	-116.55	32.66	CA
 288	CA - Boulder Oaks Campground	-116.48	32.73	CA

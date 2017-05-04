@@ -105,7 +105,8 @@
 
 <div id = body_div>
 
-	<div id = "header">
+	<div id = "intro_text">
+	
 		<h1>Appalachian and Pacific Crest Trail Weather</h1>
 
 		<div id = "lnt_at_links">
@@ -130,8 +131,6 @@
 			<li>If AT Weather has been useful to you, <b>consider <a href = "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=patjones80%40gmail%2ecom&lc=US&item_name=Appalachian%20Trail%20Weather&item_number=atwx&amount=0%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted">supporting</a> it with a small donation!</b></li>
 			
 		</ul>
-
-		<h3><a href = "http://127.0.01:5000/changes_discussion">Note on changes to AT Weather (January 2nd, 2017)</a></h3>
 		
 	</div>
 
@@ -177,7 +176,7 @@
 					<option selected = "selected" value = "" class = "labelText">Select location...</option>
 
 					{% for o in shelter_list %}
-						<option value = "{{ o[0] }}" class = "{{ o[4] }}" {{ o[5] }}>{{ o[1] }}</option>
+						<option value = {{ o[0] }} class = "{{ o[2] }}">{{ o[1] }}</option>
 					{% endfor %}
 
 				</select>
@@ -201,58 +200,52 @@
 			<option selected = "selected" value = "" class = "labelText">Select location...</option>
 
 			{% for o in shelter_list_full %}
-				<option value = "{{ o[0] }}" class = "{{ o[4] }}" {{ o[5] }}>{{ o[1] }}</option>
+				<option value = {{ o[0] }} class = "{{ o[2] }}">{{ o[1] }}</option>
 			{% endfor %}
 
 		</select>
 		
     </div>	
 	
-	<p><span style = "font-weight:bold">{{ location_selected }}</span></p>
-	
 	<div id = "discussions">
 	
 		{% block discuss_pops %}  	 {% endblock %}
 		{% block wind_chill   %}  	 {% endblock %}	
 		{% block handle_error %}  	 {% endblock %}
-		{% block discuss_changes %}  {% endblock %}
-		
-		{{ forecast_text }}
-				
-	</div>
-		
-<!-- 	for use with new site when NWS API comes online
-
-	<b>{{ err_msg }}</b>
+		{% block discuss_changes %}  {% endblock %}				
 	
-	{% if location_to_display %}
-		<h3>National Weather Service forecast for: {{ location_to_display }}</h3>
-	{% endif %}
+		<!-- {{ forecast_text }} -->
+			
+		<!-- for use with new site when NWS API comes online -->
 
--->
-	
+		<b>{{ err_msg }}</b>
+		
+		{% if location_to_display %}
+			<h4>National Weather Service forecast for: {{ location_to_display }}</h4>
+		{% endif %}
+
+		<!-- for use with new NWS API -->
+
+		{% if forecast %}
+			<!-- <div id = "forecast_text"> -->
+				{% for f in forecast %}
+					<p><b>{{ f.name }}</b>: {{ f.detailedForecast }}</p>
+				{% endfor %}
+			<!-- </div> -->
+		{% endif %}
+		
+	</div>	
+
 <!-- 	soon to be deprecated -->
 <!-- 	<div id = "forecast">
 		{{ forecast_text }}
 	</div>
  -->
-<!-- 	for use with new NWS API -->
-
-<!-- 	<div id = "forecast">
-		{% for f in forecast %}
-			<p><b>{{ f.name }}</b>: {{ f.detailedForecast }}</p>
-		{% endfor %}
-	</div>
- -->	
-    <br>
-    <br>
-    <br>
-    <br>
 
     <div id = "footerContainer">
 
 	    <div id = "footer">
-		    <footer>Powered by Python 3.4 and Flask 0.10.1. Questions? Comments? <a href = "mailto:patjones80@gmail.com">patjones80@gmail.com</a> ("Zen" 2015)</footer>
+		    <footer>Powered by Python 3.4 and Flask 0.10.1 | Questions? Comments? <a href = "mailto:patjones80@gmail.com">patjones80@gmail.com</a> | &#169 Pat Jones 2014-2017 | <a href = "http://127.0.0.1:5000/disclaimer">Disclaimer</a></footer>
 	    </div> 	
 
     </div>
