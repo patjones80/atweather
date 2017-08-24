@@ -1,0 +1,80 @@
+{% extends "atwx1/index.html" %}
+
+{% block home %}
+
+	<form action = "/forecast" method = "GET">
+	
+		<div style = "padding-top: 10px;" class = "row">
+		
+			<div style = "padding-top:5px;" class = "col-sm-2">
+
+				<select style = "width:175px" class = "form-control" id = "myTrail" name = "myTrail">
+			
+					<option selected = "selected" value = "">Select trail...</option>
+		
+					{% for t in trails %}
+						<option value = "{{ t.0 }}" {{ t.2 }}>{{ t.1 }}</option>
+					{% endfor %}
+			
+				</select>
+				
+			</div>
+			
+			<div style = "padding-top:5px;" class = "col-sm-2">					
+
+				<select style = "width:175px;" class = "form-control" id = "myState" name = "myState">
+			
+					<option selected = "selected" value = "">Select state...</option>
+		
+					{% for s in states %}
+						<option value = "{{ s.0 }}" {{ s.2 }}>{{ s.1 }}</option>
+					{% endfor %}
+			
+				</select>
+
+			</div>
+			
+			<div style = "padding-top:5px;" class = "col-sm-2">					
+
+				<select style = "width:290px;" class = "form-control" id = "myLocation" name = "myLocation" onchange = "this.form.submit()">
+
+					<option selected = "selected" value = "" class = "labelText">Select location...</option>
+
+					{% for k, v in locations.items %}								
+						<option value = {{ k }} class = "{{ v.State }}">{{ v.Name }}</option>
+					{% endfor %}
+
+				</select>
+				
+			</div>					
+		</div>
+		
+	</form>
+
+	{% block forecast %} 	{% endblock %}			
+	{% block about %} 		{% endblock %}
+	{% block learn_menu %}	{% endblock %}
+	{% block disclaimer %}	{% endblock %}
+	{% block error_500 %}	{% endblock %}
+
+	<select hidden id = "myStateHidden" name = "myStateHidden">
+
+		<option selected = "selected" value = "" class = "labelText">Select state...</option>
+
+		{% for s in state_list_full %}
+			<option value = "{{ s.0 }}" class = "{{ s.0 }}" {{ s.2 }}>{{ s.1 }}</option>
+		{% endfor %}
+				
+	</select>
+	
+	<select hidden id = "myShelterHidden" name = "myShelterHidden">
+
+		<option selected = "selected" value = "" class = "labelText">Select location...</option>
+
+			{% for k, v in locations_full.items %}								
+				<option value = {{ k }} class = "{{ v.State }}">{{ v.Name }}</option>
+			{% endfor %}
+
+	</select>
+		
+{% endblock %}			

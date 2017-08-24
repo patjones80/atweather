@@ -1,0 +1,4 @@
+2017-07-29 16:45:14	469	OR - Timberline Lodge	45.33	-121.71
+2017-07-29 16:45:51	469	OR - Timberline Lodge	45.33	-121.71
+2017-07-29 16:46:16	183	CT - Pine Swamp Brook Shelter (1075')	41.88	-73.39
+2017-07-30 12:31:15	183	CT - Pine Swamp Brook Shelter (1075')	41.88	-73.39

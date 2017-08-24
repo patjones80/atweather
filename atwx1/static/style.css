@@ -1,0 +1,22 @@
+
+.light-blue .active a,
+.light-blue .active a:hover {
+								background-color: #9bbbef;
+							}
+								
+body { font-family: 'Karla', sans-serif; height: 100%;}
+
+.well { text-align: justify;
+		font-family: 'Karla', sans-serif; }
+		
+.form-control { font-family: 'Karla', sans-serif; }	
+
+#footerContainer { bottom: 0; 
+				   height: 60px; 
+				   position: fixed;  
+				   background-color: #fff; 
+				   font-family: 'Karla', sans-serif;
+				   padding-top: 10px;
+				   width:100%}
+				   
+#footer { line-height:40px; width:100%; padding-left:0.5cm; }				   

@@ -1,0 +1,16 @@
+{% extends "atwx1/learn_menu.html" %}
+
+{% block learn_lapse_rate %}
+
+<div class = "well">
+
+	<p>One question that has come up a lot since AT Weather was introduced is whether or not the forecasts take elevation into account. The motivation for this question usually derives from temperature considerations. Most outdoors enthusiasts are aware that temperature generally changes with height in the atmosphere, but there tends to be some misunderstanding as to the specifics.</p>
+	<p>In what we call the <i><a href = "https://en.wikipedia.org/wiki/International_Standard_Atmosphere">standard atmosphere</a></i>, that is - an atmosphere not influenced by wind, humidity, pollution or any number of other factors associated with weather - the air temperature does decrease at a well-defined rate with altitude. It is often quoted as 5 degrees Fahrenheit for every 1,000 feet of elevation gain, up to about 30,000 feet of altitude above sea level.</p>
+	<p>Generally, this rule of thumb cannot be relied upon to produce reliable results. The weather models that produce our forecasts calculate a <i>lapse rate</i>, as the change in temperature with height is called in scientific terms.</p>
+	<p>Sometimes it is steep - meaning that the temperature drops much faster than the standard rate. This kind of lapse rate is associated with instability in the atmosphere, conditions ripe for thunderstorms in the summer and heavy snow in the winter.</p>	
+	<p>Sometimes the temperature even increases with increasing height - a situation known as an <i>inversion</i>. This is common in clear, calm nighttime weather conditions that allow air near the ground to cool off without mixing in with air above it. By sunrise, the result is a thick layer of relatively cool air near the surface overlayed by warmer air at higher levels.</p>
+	<p>The takeaway is to realize that the 5 degree rule really is just a rule of thumb subject to many other considerations.</p>
+	
+</div>
+	
+{% endblock %}
