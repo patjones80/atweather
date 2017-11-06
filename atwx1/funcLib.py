@@ -46,27 +46,61 @@ def getLocationList():
 
 #####
 
+# def GetForecast(lat, lon):
+
+    # try:
+
+		# # NWS API formalism
+
+		# # TODO: insert proper header(s)
+		# # TODO: need to pass along proper SSL certification!
+
 def GetForecast(lat, lon):
-    
-    try:
 
-        # NWS API formalism
-        
-        # TODO: insert proper header(s)
-        # TODO: need to pass along proper SSL certification!
-        
-        response = requests.get('https://api.weather.gov/points/{},{}/forecast'.format.(lat, lon), headers = { "User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" }, verify = True)
-        forecast = response.json()
-        
-    except Exception as e:
+	try:
+		response = requests.get('https://api.weather.gov/points/{},{}/forecast'.format(lat, lon),
+								headers = { "User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" },
+								verify = True)
 
-        # check first for general exceptions
-        return 'There was a error retrieving the forecast from the National Weather Service: {}'.format(repr(e))
+		forecast = response.json()
+		
+		if 'status' in forecast.keys() and forecast['status'] == 503:
+			s = GetForecastByScraping(lat, lon)
+		else:
+			s = ''
+			
+			for d in forecast['properties']['periods']:
+				s += '<p><b>{}</b>: {}</p>'.format(d['name'], d['detailedForecast'])
 
-    # otherwise, we're good to go
-    
-    return forecast
+			if 'Columbus Day' in s:
+				# this is to fix a problem with the site somehow caching old forecasts; eventually this has
+				# to be fixed but for now here is the override
+				
+				s = GetForecastByScraping(lat, lon)
+
+		s = s.replace('<b>', '<p><b>').replace('<br>\n<br>', '</p>')
+		
+		return {'forecast': s}
+			
+	except Exception as e:
+
+		# check for general exceptions
+		return {'error': '<p>There was an error retrieving the forecast for this location from the National Weather Service. Please try again later.</p>'.format(repr(e))}
+
+def GetForecastByScraping(lat, lon):
+
+	''' Pulls the forecast by scraping the HTML of the text-only NWS page; this is a fallback for
+	    when the API is not functioning properly for a gridpoint'''
 	
+	forecast_html = requests.get('http://forecast.weather.gov/MapClick.php?lat={}&lon={}&unit=0&lg=english&FcstType=text&TextType=1'.format(lat, lon)).text
+	s = ''
+	
+	for t in forecast_html.split('<b>')[3:]:
+		s += '<b>' + t.split('<hr>')[0]
+		# print('<b>' + t.split('<hr>')[0])
+		
+	return s
+
 def GetZone(lat, lon, zoneType):
 
 	''' NOAA uses identifiers for areas ("MOZ077", "ORZ011", etc) to issue watches and warnings to specific locales.
@@ -74,34 +108,46 @@ def GetZone(lat, lon, zoneType):
 		obtain information from other API extensions that require the zone
 		
 		zoneType can be: 'forecastZone', 'fireWeatherZone', 'county'
+		
+		See for example: https://api.weather.gov/points/39.63,-77.56
 	'''
-	
-	response = requests.get('https://api.weather.gov/points/{},{}'.format(lat, lon), headers = { "User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" }, verify = True)
 
+	response = requests.get('https://api.weather.gov/points/{},{}'.format(lat, lon), headers = { "User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" }, verify = True)
+	
 	metadata = response.json()
-	zone = metadata['properties'][zoneType].split('/')[5]
+	s = metadata['properties'][zoneType].split('/')
+	zone = s[len(s)-1]
 
 	return zone
 
 def GetAlerts(lat, lon):
 
-	''' Obtain any alerts for a given location 
+	''' Obtain any alerts for a given location. There are three types of zones for a given forecast point:
+		forecast, fire weather and county. See for example: https://api.weather.gov/points/39.63,-77.56
 	'''
 
-	Alerts = []
+	Alerts = []	# we will loop over this in the HTML template to display the alerts
+	Params = ''
 
-	for zType in ['forecastZone', 'fireWeatherZone', 'county']:
+	for zType in [('forecastZone', 'warnzone'), ('fireWeatherZone', 'firewxzone'), ('county', 'warncounty')]:
 	
-		response = requests.get('https://api.weather.gov/alerts/active/zone/{}'.format(GetZone(lat, lon, zType)),
+		zoneCode = GetZone(lat, lon, zType[0])
+		
+		response = requests.get('https://api.weather.gov/alerts/active/zone/{}'.format(zoneCode),
 								 headers = { "User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" },
 								 verify  = True)
 
-		alerts   = response.json()
-
 		try:
-			Alerts.append(alerts['features'][0]['properties']['headline'])
-			
+			alerts   = response.json()
+			if zoneCode not in Params:
+
+				# if the zone code is for the fire weather zone or county zone is the same as the 
+				# forecast zone, then the hazard headline will duplicate; let's avoid that
+				Alerts.append(alerts['features'][0]['properties']['headline'])
+
 		except IndexError:
 			pass
 	
-	return Alerts
+		Params   += '{}={}&'.format(zType[1], zoneCode)		# builds up the URL parameters that will redirect to the NWS warning page
+
+	return (Alerts, Params)

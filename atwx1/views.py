@@ -3,6 +3,7 @@ import datetime
 
 from django.http import HttpResponse, Http404
 from django.template import loader
+from django.utils.safestring import mark_safe
 
 from .dropdown_items import *
 from .funcLib import *
@@ -88,18 +89,21 @@ def forecast(request):
 	locationID = int(request.GET.get('myShelter', ''))
 	location   = getLocationList()[locationID]
 	
+	d = GetForecast(location.Latitude, location.Longitude)
+	
 	try:
-		context = {'forecast':   	GetForecast(location.Latitude, location.Longitude)['properties']['periods'],
-				   'alerts': 		GetAlerts(location.Latitude, location.Longitude),
+		# we need to use mark_safe because GetForecast is basically just returning an HTML snippet, and it has to be escaped
+
+		context = {'forecast':   	mark_safe(d['forecast']),
+				   'alerts': 		GetAlerts(location.Latitude, location.Longitude), 
 				   'locationName': 	location.Name}
 
 	except KeyError:
 	
-		# if the API has no forecast for the location in questio (an unlikely occurence but it does happen on the order of once or twice a day)
-		# then the returned JSON dict will be empty, so a KeyError catches this
+		# if GetForecast encountered an exception, then it will return an error message; also use mark_safe here
 		
-		write_api_error(location, locationID)
-		context = {'err_msg' : 'The forecast data for this location has expired. Please check again later for an updated forecast.', 'locationName': location.Name}
+		write_error(location, locationID)
+		context = {'err_msg' : mark_safe(d['error'])}
 	
 	actives  = {**active,  **{'active_home':'active'}}
 	context  = {**context, **menus, **actives}
@@ -121,9 +125,9 @@ def forecast(request):
 	
 	return HttpResponse(template.render(context, request))
 	
-def write_api_error(location, locationID):
+def write_error(location, locationID):
 
-	# if the API fails to return a forecast for the selected location, then log the failure occurence
+	# if GetForecast fails to return a forecast for the selected location, then log the failure occurence
 	
 	if os.name == 'posix':
 		strfile = r'{}/api_error_log.txt'.format(CURR_DIR)

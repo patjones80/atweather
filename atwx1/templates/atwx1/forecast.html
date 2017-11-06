@@ -6,27 +6,25 @@
 	
 	<span class="label label-info">{{ locationName }}</span>
 	
-	<br>
-	<br>
-	
 	{% if forecast %}
-
-			{% for a in alerts %} 
-				<div class = "alert alert-warning" role = "alert">
-					{{ a }}
-				</div>
-			{% endfor %}
-			
-			<div class = "well">
-				{% for f in forecast %}
-					<p style = "font-family: 'Karla', sans-serif;" class = "text-justify"><b>{{ f.name }}</b>: {{ f.detailedForecast }}</p>
-				{% endfor %}
-			</div>
-			
-	{% endif %}
 	
-	{% if err_msg %}
-		<div class = "alert alert-warning">{{ err_msg }}</div>
+		<br>
+		<br>
+
+		{% for a in alerts.0 %} 
+			<div class = "alert alert-warning" role = "alert">
+				<a href = "http://forecast.weather.gov/showsigwx.php?{{ alerts.1 }}">{{ a }}</a>
+			</div>
+		{% endfor %}
+		
+		{% if forecast %}
+			<div class = "well">{{ forecast }}</div>
+		{% endif %}
+	
+		{% if err_msg %}
+			<div class = "alert alert-warning">{{ err_msg }}</div>
+		{% endif %}
+
 	{% endif %}
 	
 {% endblock %}	

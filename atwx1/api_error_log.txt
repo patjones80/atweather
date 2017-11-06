@@ -2,3 +2,22 @@
 2017-07-29 16:45:51	469	OR - Timberline Lodge	45.33	-121.71
 2017-07-29 16:46:16	183	CT - Pine Swamp Brook Shelter (1075')	41.88	-73.39
 2017-07-30 12:31:15	183	CT - Pine Swamp Brook Shelter (1075')	41.88	-73.39
+2017-10-16 23:14:55	23	NC - Wayah Bald Shelter (4759')	35.19	-83.56
+2017-10-16 23:15:11	24	NC - Cold Spring Shelter (4920')	35.23	-83.56
+2017-10-16 23:15:16	14	GA - Tray Mountain Shelter (4200')	34.8	-83.68
+2017-10-16 23:17:04	25	NC - Wesser Bald Shelter (4115')	35.28	-83.58
+2017-10-16 23:17:30	27	NC - Sassafras Gap Shelter (4330')	35.33	-83.67
+2017-10-16 23:17:57	27	NC - Sassafras Gap Shelter (4330')	35.33	-83.67
+2017-10-16 23:19:45	24	NC - Cold Spring Shelter (4920')	35.23	-83.56
+2017-10-16 23:20:19	33	NC - Spence Field Shelter (4915')	35.56	-83.73
+2017-10-16 23:21:27	59	NC - Overmountain Shelter (4550')	36.12	-82.05
+2017-10-16 23:26:35	59	NC - Overmountain Shelter (4550')	36.12	-82.05
+2017-10-22 21:40:34	18	NC - Standing Indian Shelter (4760')	35.04	-83.55
+2017-10-26 22:21:34	37	TN - Mt. Collins Shelter (5870')	35.59	-83.47
+2017-10-26 22:30:32	37	TN - Mt. Collins Shelter (5870')	35.59	-83.47
+2017-10-26 22:31:15	37	TN - Mt. Collins Shelter (5870')	35.59	-83.47
+2017-10-27 21:26:46	6	GA - Stover Creek Shelter (2870')	34.65	-84.2
+2017-10-27 21:31:02	6	GA - Stover Creek Shelter (2870')	34.65	-84.2
+2017-10-27 21:32:45	6	GA - Stover Creek Shelter (2870')	34.65	-84.2
+2017-10-27 21:32:56	6	GA - Stover Creek Shelter (2870')	34.65	-84.2
+2017-10-27 21:33:27	8	GA - Gooch Mountain Shelter (3000')	34.65	-84.03
