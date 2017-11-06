@@ -26,6 +26,7 @@ def index(request):
 
 	actives  = {**active, **{'active_home':'active'}}
 	context  = {**menus, **actives}
+	
 	return HttpResponse(template.render(context, request))
 
 def about(request):
