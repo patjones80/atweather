@@ -1,9 +1,6 @@
 
-from django.conf.urls import url, handler500
+from django.conf.urls import url
 from . import views
-
-# overrides the default 500 handler django.views.defaults.server_error
-handler500 = 'views.server_error'
 
 urlpatterns = [
 				 url(r'^$', views.index, name = 'index'),

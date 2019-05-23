@@ -21,3 +21,43 @@
 2017-10-27 21:32:45	6	GA - Stover Creek Shelter (2870')	34.65	-84.2
 2017-10-27 21:32:56	6	GA - Stover Creek Shelter (2870')	34.65	-84.2
 2017-10-27 21:33:27	8	GA - Gooch Mountain Shelter (3000')	34.65	-84.03
+2018-03-11 13:53:43	8	GA - Gooch Mountain Shelter (3000')	34.65	-84.03
+2018-03-11 14:02:03	4	GA - Springer Mountain	34.63	-84.19
+2018-03-15 23:41:59	285	CA - Mexican Border, Southern Terminus of the PCT	32.59	-116.47
+2018-06-18 18:55:46	146	PA - Toms Run Shelters (1300')	40.03	-77.36
+2018-06-18 19:04:34	151	PA - Clarks Ferry Shelter (1180')	40.39	-76.99
+2019-04-09 00:14:00	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-09 00:14:09	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-09 00:16:21	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-09 23:19:36	435	OR - Oregon/California Border	42	-122.91
+2019-04-09 23:20:24	435	OR - Oregon/California Border	42	-122.91
+2019-04-09 23:21:41	435	OR - Oregon/California Border	42	-122.91
+2019-04-09 23:22:58	435	OR - Oregon/California Border	42	-122.91
+2019-04-09 23:23:04	435	OR - Oregon/California Border	42	-122.91
+2019-04-09 23:23:36	435	OR - Oregon/California Border	42	-122.91
+2019-04-09 23:23:53	435	OR - Oregon/California Border	42	-122.91
+2019-04-09 23:24:24	469	OR - Timberline Lodge	45.33	-121.71
+2019-04-09 23:53:47	4	GA - Springer Mountain	34.63	-84.19
+2019-04-09 23:54:23	4	GA - Springer Mountain	34.63	-84.19
+2019-04-09 23:56:19	4	GA - Springer Mountain	34.63	-84.19
+2019-04-09 23:57:54	4	GA - Springer Mountain	34.63	-84.19
+2019-04-09 23:58:16	6	GA - Stover Creek Shelter (2870')	34.65	-84.2
+2019-04-09 23:58:59	6	GA - Stover Creek Shelter (2870')	34.65	-84.2
+2019-04-10 00:00:04	10	GA - Blood Mountain Shelter (4450')	34.74	-83.94
+2019-04-10 00:10:49	65	TN - Iron Mountain Shelter (4125')	36.44	-81.99
+2019-04-10 01:09:16	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-10 01:12:00	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-10 01:13:48	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-10 08:42:05	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 21:41:00	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 21:41:46	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 21:42:50	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 21:43:15	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 21:44:00	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 21:44:16	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 22:34:57	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 22:49:41	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 23:32:45	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-16 23:35:31	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-04-25 23:31:57	285	CA - Mexican Border, PCT Southern Terminus	32.59	-116.47
+2019-05-06 21:37:15	155	PA - 501 Shelter (1460')	40.51	-76.35

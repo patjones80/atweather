@@ -282,7 +282,7 @@
 282	ME - Hurd Brook Lean-to (715')	-69.02	45.82	ME	AT
 283	ME - The Birches Lean-tos & Campsite (1080')	-69	45.88	ME	AT
 284	ME - KATAHDIN (Baxter Peak) (5268')	-68.92	45.9	ME	AT
-285	CA - Mexican Border, Southern Terminus of the PCT	-116.47	32.59	CA	PCT
+285	CA - Mexican Border, PCT Southern Terminus	-116.47	32.59	CA	PCT
 286	CA - Campo Post Office 	-116.47	32.61	CA	PCT
 287	CA - Hauser Creek	-116.55	32.66	CA	PCT
 288	CA - Boulder Oaks Campground	-116.48	32.73	CA	PCT
@@ -437,7 +437,7 @@
 437	OR - Mount Ashland Road	-122.7	42.07	OR	PCT
 438	OR - Interstate Highway 5	-122.6	42.06	OR	PCT
 439	OR - Soda Mountain Wilderness	-122.52	42.04	OR	PCT
-440	OR - Highway 66 - Green Springs Mountain Summit	-122.48	42.13	OR	PCT
+440	OR - Highway 66 - Green Springs Mountain	-122.48	42.13	OR	PCT
 441	OR - Hyatt Lake Campground	-122.46	42.17	OR	PCT
 442	OR - Klum Landing Park	-122.37	42.21	OR	PCT
 443	OR - Vulture Rock Trail	-122.3	42.24	OR	PCT
@@ -446,7 +446,7 @@
 446	OR - Seven Mile Trail	-122.17	42.68	OR	PCT
 447	OR - Crater Lake National Park (south end)	-122.18	42.8	OR	PCT
 448	OR - Grouse Hill Camp Trail	-122.13	42.99	OR	PCT
-449	OR - Highway 138 - Crater Lake National Park (north end)	-122.09	43.09	OR	PCT
+449	OR - Highway 138	-122.09	43.09	OR	PCT
 450	OR - Oregon/Washington High Point	-122.04	43.21	OR	PCT
 451	OR - Crescent Lake Campground	-122.02	43.46	OR	PCT
 452	OR - Summit Lake	-122.13	43.45	OR	PCT
@@ -472,9 +472,9 @@
 472	OR - Lolo Pass Road	-121.8	45.43	OR	PCT
 473	OR - Indian Springs Campground	-121.83	45.56	OR	PCT
 474	OR - Benson Way Trail	-121.84	45.65	OR	PCT
-475	WA - Bridge of the Gods - Oregon/Washington Border	-121.9	45.66	WA	PCT
+475	WA - Bridge of the Gods - OR/WA Border	-121.9	45.66	WA	PCT
 476	WA - Gillette Lake	-121.95	45.67	WA	PCT
-477	WA - Table Mountain National Resource Conservation Area	-121.98	45.68	WA	PCT
+477	WA - Table Mountain Conservation Area	-121.98	45.68	WA	PCT
 478	WA - Trout Creek	-121.96	45.81	WA	PCT
 479	WA - Wind River Road	-121.91	45.82	WA	PCT
 480	WA - Grassy Knoll Trail #149	-121.79	45.85	WA	PCT

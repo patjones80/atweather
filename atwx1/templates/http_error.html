@@ -1,0 +1,14 @@
+{% extends "atwx1/index.html" %}
+
+{% block http_error %}
+
+	<br>
+	
+	<div class = "jumbotron">
+		<h1 class = "display-4">Yikes!</h1>
+		<p class = "lead">{{ err_msg_top }}</p>
+		<hr class = "my-4">
+		<p>{{ err_msg_btm }}</p>
+	</div>
+	
+{% endblock %}	

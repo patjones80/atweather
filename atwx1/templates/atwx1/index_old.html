@@ -1,180 +1,172 @@
 <!DOCTYPE html>
 
 <html lang = "en">
+		
+<!-- <script>
 
-<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	<!-- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ -->
-	<!-- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), -->
-	<!-- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) -->
-	<!-- })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); -->
+	ga('create', 'UA-57389593-1', 'auto');
+	ga('send', 'pageview');
 
-	<!-- ga('create', 'UA-57389593-1', 'auto'); -->
-	<!-- ga('send', 'pageview'); -->
-
-</script>
+</script> -->
 
 	<head>
-
+		
 		{% load static %}
 		<link rel = "stylesheet" type = "text/css" href = "{% static 'style.css' %}" >
-
+		
 		<title>Appalachian and Pacific Crest Trail Weather</title>
 
 		<meta charset = "utf-8">
 		<meta name = "viewport" content = "width=device-width, initial-scale=1">
-
-		<link rel   = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<link rel   = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			
+		<link href  = "https://fonts.googleapis.com/css?family=Karla|Roboto+Condensed|Sacramento" rel="stylesheet">
 
-		<link href = "https://fonts.googleapis.com/css?family=Karla|Roboto+Condensed|Sacramento" rel = "stylesheet">
-
-		<link rel = "shortcut icon" href = "{% static 'favicon.ico' %}" type = "image/x-icon">
-		<link rel = "icon" href = "{% static 'favicon.ico' %}" type = "image/x-icon">
-
+		<link rel = "shortcut icon" href = "/atwx1/static/favicon.ico" type = "image/x-icon">
+		<link rel = "icon" href = "/atwx1/static/favicon.ico" type = "image/x-icon">
+		
 		<script>
-
+	
 		$(document).ready(function()
-			{
-
-				$('.pagination .disabled a, .pagination .active a').on('click', function(e) {
-					e.preventDefault();
-				});
+			{ 
 				
 				var allStatesGlobal = $('#myStateHidden option');
 				var allLocationsGlobal = $('#myShelterHidden option');
-
+				
 				$(myTrail).change(function()
 				{
 					<!-- a selection was made from the trail list -->
-
+					
 					var currTrail = document.getElementById("myTrail").value;
 					if (currTrail == 'AT') {
 						<!-- define the state list for the AT -->
 						var currTrailStates = allStatesGlobal.filter('.labelText,.GA,.NC,.TN,.VA,.MD,.PA,.NJ,.NY,.CT,.MA,.VT,.NH,.ME');
 						var currStateLocations = allLocationsGlobal.filter('.labelText,.GA,.NC,.TN,.VA,.MD,.PA,.NJ,.NY,.CT,.MA,.VT,.NH,.ME');
 					};
-					if (currTrail == 'PCT'){
+					if (currTrail == 'PCT'){					
 						<!-- define the state list for the PCT -->
 						var currTrailStates = allStatesGlobal.filter('.labelText,.CA,.OR,.WA');
-						var currStateLocations = allLocationsGlobal.filter('.labelText,.CA,.OR,.WA');
-					};
-
+						var currStateLocations = allLocationsGlobal.filter('.labelText,.CA,.OR,.WA');						
+					};						
+						
 					<!-- remove everything from the state list and repopulate only with the filtered list -->
 					$('#myState option').remove();
-
-					$.each(currTrailStates, function (i, j)
+					
+					$.each(currTrailStates, function (i, j) 
 					{
 						$(j).appendTo('#myState');
 					});
 					document.getElementById('myState').selectedIndex = "0";
-
+					
 					<!-- remove everything from the shelter list and repopulate only with the filtered list -->
 					$('#myShelter option').remove();
-					$.each(currStateLocations, function (i, j)
+					$.each(currStateLocations, function (i, j) 
 					{
 						$(j).appendTo('#myShelter');
 					});
 					document.getElementById('myShelter').selectedIndex = "0";
-
+					
 				});
-				$(myState).change(function()
-				{
-
+				$(myState).change(function() 
+				{ 
+				
 					<!-- a selection was made from the state list -->
-
-					var currState = document.getElementById("myState").value;
+					
+					var currState = document.getElementById("myState").value;										
 					var currStateLocations = allLocationsGlobal.filter('.labelText,.' + currState);
 					<!-- remove everything from the shelter list and repopulate only with the filtered list -->
 					$('#myShelter option').remove();
-					$.each(currStateLocations, function (i, j)
+					$.each(currStateLocations, function (i, j) 
 					{
 						$(j).appendTo('#myShelter');
 					});
-
+					
 					document.getElementById('myShelter').selectedIndex = "0";
-
-				});
-
+				
+				}); 
+				
 			});
-
+			
 		</script>
-
+		
 	</head>
 
-	<body>
-
+	<body style = "height:100%">
+	
 		<div class = "container">
-
+		
 			<h3 style = "font-family: 'Karla', sans-serif;">Appalachian and Pacific Crest Trail Weather</h3>
 			<p style = "text-align:justify; font-family: 'Karla', sans-serif;">The purpose of this website is simple: to provide AT and PCT hikers with a reliable and easy way to obtain weather for their location. Simply pick your trail, state and location from the lists below and the National Weather Service (NOAA) forecast for that location will appear.</p>
 
 			<ul style = "padding-top:5px;" class = "nav nav-pills light-blue">
-				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_home }}"><a href = "http://192.168.0.206:80">Home</a></li>
-				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_about }}"><a href = "http://192.168.0.206:80/about">About</a></li>
+				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_home }}"><a href = "http://127.0.0.1:8000">Home</a></li>
+				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_about }}"><a href = "http://127.0.0.1:8000/about">About</a></li>
 				<li style = "padding-right:0px;" role = "presentation"><a href = "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=patjones80%40gmail%2ecom&lc=US&item_name=Appalachian%20Trail%20Weather&item_number=atwx&amount=0%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted" target = "_blank">Donate</a></li>
-				<li role  = "presentation" class = "{{ active_learn }}"><a href = "http://192.168.0.206:80/learn">Learn</a></li>
+				<li role  = "presentation" class = "{{ active_learn }}"><a href = "http://127.0.0.1:8000/learn/">Learn</a></li>				
 			</ul>
-
+			
 			<form action = "/forecast" method = "GET">
+			
 				<div style = "padding-top: 10px;" class = "row">
+				
 					<div style = "padding-top:5px;" class = "col-sm-2">
-						<select style = "width:175px" class = "form-control" id = "myTrail" name = "myTrail">
-							<option selected = "selected" value = "">Select trail...</option>
 
+						<select style = "width:175px" class = "form-control" id = "myTrail" name = "myTrail">
+					
+							<option selected = "selected" value = "">Select trail...</option>
+				
 							{% for t in trails %}
 								<option value = "{{ t.0 }}" {{ t.2 }}>{{ t.1 }}</option>
 							{% endfor %}
-
+					
 						</select>
+						
 					</div>
+					
+					<div style = "padding-top:5px;" class = "col-sm-2">					
 
-					<div style = "padding-top:5px;" class = "col-sm-2">
 						<select style = "width:175px;" class = "form-control" id = "myState" name = "myState">
+					
 							<option selected = "selected" value = "">Select state...</option>
-
+				
 							{% for s in states %}
 								<option value = "{{ s.0 }}" {{ s.2 }}>{{ s.1 }}</option>
 							{% endfor %}
-
+					
 						</select>
-					</div>
 
-					<div style = "padding-top:5px;" class = "col-sm-2">
+					</div>
+					
+					<div style = "padding-top:5px;" class = "col-sm-2">					
+
 						<select style = "width:290px;" class = "form-control" id = "myShelter" name = "myShelter" onchange = "this.form.submit()">
+
 							<option selected = "selected" value = "" class = "labelText">Select location...</option>
 
-							{% for k, v in locations.items %}
-								<option value = {{ k }} class = "{{ v.state }}">{{ v.name }}</option>
+							{% for k, v in locations.items %}								
+								<option value = {{ k }} class = "{{ v.State }}">{{ v.Name }}</option>
 							{% endfor %}
 
 						</select>
+						
 					</div>
 				</div>
+				
 			</form>
 
-            <br>
-<!--
-            <div id = "update message" style = "padding-top:0px; text-align:justify;">
-                <div class="alert alert-info" role="info">
-                    <p>3/25/19 8:10 PM EST - AT Weather has been experiencing problems returning forecasts this afternoon, and may continue to have intermittent errors and blank pages upon location selection. This is tied to an issue with the National Weather Service API, which I expect is temporary. Please visit <a href = "nws.noaa.gov">nws.noaa.gov</a> for locations that don't return a forecast. I will continue updating this message with the latest information. Thanks as always for using AT Weather!</p>
-                </div>
-            </div>
--->
-
-            <div id = "update message" style = "padding-top:0px; text-align:justify;">
-                <div class = "alert alert-info" style = "margin-bottom:10px; font-family: 'Karla', sans-serif;" role = "info">
-                    <p><b>New!</b> Use the previous and next buttons on either side of the location label to easily navigate to the location before or after the currently displayed forecast!</p>
-                </div>
-            </div>
-
-			{% block forecast %} 	{% endblock %}
+			{% block forecast %} 	{% endblock %}			
 			{% block about %} 		{% endblock %}
 			{% block learn_menu %}	{% endblock %}
 			{% block disclaimer %}	{% endblock %}
-			{% block http_error %}	{% endblock %}
-			{% block no_forecast %}	{% endblock %}
+			{% block error_500 %}	{% endblock %}
 
 			<select hidden id = "myStateHidden" name = "myStateHidden">
 
@@ -187,21 +179,21 @@
 			</select>
 
 			<select hidden id = "myShelterHidden" name = "myShelterHidden">
+
 				<option selected = "selected" value = "" class = "labelText">Select location...</option>
 
-					{% for k, v in locations_full.items %}
-						<option value = {{ k }} class = "{{ v.state }}">{{ v.name }}</option>
+					{% for k, v in locations_full.items %}								
+						<option value = {{ k }} class = "{{ v.State }}">{{ v.Name }}</option>
 					{% endfor %}
 
 			</select>
 
 			<div id = "footerContainer">
 				<div id = "footer">
-					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2019 <br> <a href = "https://www.atweather.org/disclaimer">Disclaimer</a></footer>
+						<footer>Powered by Django 1.10 | © Pat Jones 2014-2017 | <br> <a href = "http://127.0.0.1:8000/disclaimer">Disclaimer</a></footer>
 				</div>
 			</div>
-			
 		</div>
 	</body>
-
+		
 </html>

@@ -18,15 +18,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 
-from django.conf.urls import url, include, handler500
+from django.conf.urls import url, include, handler404, handler500
 from django.contrib import admin
 
 from atwx1 import views
 
-# overrides the default 500 handler django.views.defaults.server_error
-# not sure this works or has to be here
-
-handler500 = 'atwx1.views.server_error'
+# overrides default error handlers
+handler404 = 'atwx1.views.http_404'
+handler500 = 'atwx1.views.http_500'
 
 urlpatterns = [
 				url(r'^admin/', admin.site.urls),  

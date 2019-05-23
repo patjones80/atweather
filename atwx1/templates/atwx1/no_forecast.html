@@ -1,0 +1,17 @@
+{% extends "atwx1/index.html" %}
+
+{% block no_forecast %}
+	
+	<br>
+	
+	<div class = "jumbotron">
+		<h1 class = "display-4">Yikes!</h1>
+		<p class = "lead">{{ err_msg }}</p>
+		<hr class = "my-4">
+		<p>Please try this again later. Thank you for using AT Weather!</p>
+		<p class = "lead" style = "padding-top: 10px;">
+			<a class = "btn btn-primary btn-lg" href = "http://192.168.0.206/learn/no_forecast" role = "button">Why?</a>
+		</p>
+	</div>
+	
+{% endblock %}
