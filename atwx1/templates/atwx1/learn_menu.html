@@ -4,13 +4,15 @@
 
 <br>
 
-<div class = "list-group" style = "width: 350px;">
-	<a href = "http://192.168.0.206:80/learn/precip_discussion" class = "list-group-item">How to interpret weather forecasts</a>
-	<a href = "http://192.168.0.206:80/learn/wind_chill" class = "list-group-item">Cold weather and wind chill</a>
-	<a href = "http://192.168.0.206:80/learn/weather_prediction" class = "list-group-item">How forecasts are made</a>
-	<a href = "http://192.168.0.206:80/learn/lapse_rate" class = "list-group-item">Temperature and elevation</a>
-	<a href = "http://192.168.0.206:80/learn/no_forecast" class = "list-group-item">Why is no forecast available?</a>
+<div class = "list-group" style = "width: 350px; margin-bottom:0px;">
+	<a href = "http://192.168.0.206:8080/learn/precip_discussion" class = "list-group-item" onclick = "javascript: $(wellOfLearning).show()">How to interpret weather forecasts</a>
+	<a href = "http://192.168.0.206:8080/learn/wind_chill" class = "list-group-item">Cold weather and wind chill</a>
+	<a href = "http://192.168.0.206:8080/learn/weather_prediction" class = "list-group-item">How forecasts are made</a>
+	<a href = "http://192.168.0.206:8080/learn/lapse_rate" class = "list-group-item">Temperature and elevation</a>
+	<a href = "http://192.168.0.206:8080/learn/no_forecast" class = "list-group-item">Why is no forecast available?</a>
 </div>
+
+<br>
 
 {% block learn_wind_chill %}	{% endblock %}
 {% block learn_interpret %}		{% endblock %}

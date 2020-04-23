@@ -34,7 +34,7 @@
 		<link rel = "icon" href = "{% static 'favicon.ico' %}" type = "image/x-icon">
 
 		<script>
-
+			
 		$(document).ready(function()
 			{
 
@@ -79,6 +79,7 @@
 					document.getElementById('myShelter').selectedIndex = "0";
 
 				});
+				
 				$(myState).change(function()
 				{
 
@@ -86,19 +87,18 @@
 
 					var currState = document.getElementById("myState").value;
 					var currStateLocations = allLocationsGlobal.filter('.labelText,.' + currState);
+					
 					<!-- remove everything from the shelter list and repopulate only with the filtered list -->
 					$('#myShelter option').remove();
 					$.each(currStateLocations, function (i, j)
 					{
 						$(j).appendTo('#myShelter');
 					});
-
 					document.getElementById('myShelter').selectedIndex = "0";
 
-				});
-
+				});	
 			});
-
+			
 		</script>
 
 	</head>
@@ -111,10 +111,10 @@
 			<p style = "text-align:justify; font-family: 'Karla', sans-serif;">The purpose of this website is simple: to provide AT and PCT hikers with a reliable and easy way to obtain weather for their location. Simply pick your trail, state and location from the lists below and the National Weather Service (NOAA) forecast for that location will appear.</p>
 
 			<ul style = "padding-top:5px;" class = "nav nav-pills light-blue">
-				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_home }}"><a href = "http://192.168.0.206:80">Home</a></li>
-				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_about }}"><a href = "http://192.168.0.206:80/about">About</a></li>
+				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_home }}"><a href = "http://192.168.0.206:8080">Home</a></li>
+				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_about }}"><a href = "http://192.168.0.206:8080/about">About</a></li>
 				<li style = "padding-right:0px;" role = "presentation"><a href = "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=patjones80%40gmail%2ecom&lc=US&item_name=Appalachian%20Trail%20Weather&item_number=atwx&amount=0%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted" target = "_blank">Donate</a></li>
-				<li role  = "presentation" class = "{{ active_learn }}"><a href = "http://192.168.0.206:80/learn">Learn</a></li>
+				<li role  = "presentation" class = "{{ active_learn }}"><a href = "http://192.168.0.206:8080/learn">Learn</a></li>
 			</ul>
 
 			<form action = "/forecast" method = "GET">
@@ -153,21 +153,22 @@
 					</div>
 				</div>
 			</form>
-
-            <br>
+			
 <!--
+            <br>
+
             <div id = "update message" style = "padding-top:0px; text-align:justify;">
                 <div class="alert alert-info" role="info">
                     <p>3/25/19 8:10 PM EST - AT Weather has been experiencing problems returning forecasts this afternoon, and may continue to have intermittent errors and blank pages upon location selection. This is tied to an issue with the National Weather Service API, which I expect is temporary. Please visit <a href = "nws.noaa.gov">nws.noaa.gov</a> for locations that don't return a forecast. I will continue updating this message with the latest information. Thanks as always for using AT Weather!</p>
                 </div>
             </div>
--->
 
             <div id = "update message" style = "padding-top:0px; text-align:justify;">
                 <div class = "alert alert-info" style = "margin-bottom:10px; font-family: 'Karla', sans-serif;" role = "info">
                     <p><b>New!</b> Use the previous and next buttons on either side of the location label to easily navigate to the location before or after the currently displayed forecast!</p>
                 </div>
             </div>
+-->
 
 			{% block forecast %} 	{% endblock %}
 			{% block about %} 		{% endblock %}
@@ -177,12 +178,11 @@
 			{% block no_forecast %}	{% endblock %}
 
 			<select hidden id = "myStateHidden" name = "myStateHidden">
+				<option selected = "selected" value = "" class = "labelText">Select state...</option>
 
-			<option selected = "selected" value = "" class = "labelText">Select state...</option>
-
-			{% for s in state_list_full %}
-				<option value = "{{ s.0 }}" class = "{{ s.0 }}" {{ s.2 }}>{{ s.1 }}</option>
-			{% endfor %}
+				{% for s in state_list_full %}
+					<option value = "{{ s.0 }}" class = "{{ s.0 }}" {{ s.2 }}>{{ s.1 }}</option>
+				{% endfor %}
 
 			</select>
 
@@ -197,11 +197,10 @@
 
 			<div id = "footerContainer">
 				<div id = "footer">
-					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2019 <br> <a href = "https://www.atweather.org/disclaimer">Disclaimer</a></footer>
+					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2020 <br> <a href = "http://192.168.0.206:8080/disclaimer">Disclaimer</a></footer>
 				</div>
 			</div>
 			
 		</div>
 	</body>
-
 </html>

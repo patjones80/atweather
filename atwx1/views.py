@@ -1,5 +1,4 @@
 
-import datetime
 import django
 
 from django.http import HttpResponse, HttpResponseNotFound
@@ -8,6 +7,7 @@ from django.utils.safestring import mark_safe
 
 from .dropdown_items import *
 from .function_library import *
+from datetime import datetime
 
 # both menus and active are dicts that get passed into the HTML context argument
 
@@ -23,7 +23,6 @@ menus  = {'trails': trails, 'states': all_states, 'state_list_full': all_states,
 active = {'active_home': '', 'active_about': '', 'active_learn': '', 'active_disclaimer': ''}
 
 def index(request):
-
 	# home page
 	
 	template = loader.get_template('atwx1/index.html')
@@ -34,7 +33,6 @@ def index(request):
 	return HttpResponse(template.render(context, request))
 
 def about(request):
-
 	# about page
 	
 	template = loader.get_template('atwx1/about.html')
@@ -45,7 +43,6 @@ def about(request):
 	return HttpResponse(template.render(context, request))
 
 def disclaimer(request):
-
 	# disclaimer
 	
 	template = loader.get_template('atwx1/disclaimer.html')
@@ -56,7 +53,6 @@ def disclaimer(request):
 	return HttpResponse(template.render(context, request))
 	
 def learn(request, learn_topic = None):
-
 	# render the learning topics menu
 	# we pick out the correct topic template to render based on the URL parameter
 	
@@ -80,7 +76,7 @@ def http_500(request, *args, **kwargs):
 	# handle http 500 errors
 	
 	err_msg_top = 'AT Weather seems to be having a case of the Mondays. We aren\'t sure what\'s going on.'
-	err_msg_btm = 'Please try your request again later!'
+	err_msg_btm = 'Please check the URL that you\'re using, and try your request again later!'
 
 	template = loader.get_template('http_error.html')
 
@@ -103,30 +99,32 @@ def http_404(request, *args, **kwargs):
 	return HttpResponse(template.render(context, request))
 
 def forecast(request):
-
 	# main forecast display view 
 	
-	location_id = int(request.GET.get('myShelter', ''))
-	location    = get_location_list()[location_id]
-	
-	d = get_forecast(location.latitude, location.longitude)
-	
 	try:
+		location_id = int(request.GET.get('myShelter', ''))
+		location    = get_location_list()[location_id]
+
+	except KeyError:
+		return http_404(request)	
+		
+	try:
+		d = get_forecast(location.latitude, location.longitude)
+		
 		# we need to use mark_safe because GetForecast is basically just returning an HTML snippet, and it has to be escaped
 		context = {'forecast': mark_safe(d['forecast']),
 				   'alerts'  : get_alerts(location.latitude, location.longitude), 
 				   'location_name': location.name, 'location_state': location.state, 'location_trail': location.trail, 'prev_location': location_id - 1, 'next_location': location_id + 1}
 		
 		template = loader.get_template('atwx1/forecast.html')
-
+		
 	except KeyError:
-	
-		# if GetForecast encountered an exception, then it will return an error message
+		# if get_forecast encountered an exception, then it will return an error message
 		
 		write_error(location, location_id)
 		context = {'err_msg': 'There is no forecast available right now for the location you selected.'}
 		template = loader.get_template('atwx1/no_forecast.html')	
-		
+	
 	actives  = {**active,  **{'active_home':'active'}}
 	context  = {**context, **menus, **actives}
 	
@@ -143,20 +141,22 @@ def forecast(request):
 	if request.GET.get('myState', ''):
 		context['locations'] = {k:v for (k,v) in get_location_list().items() if v.state == request.GET.get('myState', '')}
 	
-	return HttpResponse(template.render(context, request))
+	return HttpResponse(template.render(context, request))			
 	
 def write_error(location, location_id):
-
-	# if GetForecast fails to return a forecast for the selected location, then log the failure occurence
+	''' if GetForecast fails to return a forecast for the selected location, 
+	    then log the failure occurence
+	'''
 	
 	if os.name == 'posix':
 		strfile = r'{}/api_error_log.txt'.format(CURR_DIR)
 	else:
 		strfile = r'{}\api_error_log.txt'.format(CURR_DIR)
 	
-	curtime = '{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now())
+	curtime = '{:%Y-%m-%d %H:%M:%S}'.format(datetime.now())
 	
 	with open(strfile, 'a') as f:
 		f.write('{}\t{}\t{}\t{}\t{}\n'.format(curtime, location_id, location.name, location.latitude, location.longitude))
 		
 	f.close()
+
