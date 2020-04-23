@@ -103,7 +103,7 @@ def forecast(request):
 	
 	try:
 		location_id = int(request.GET.get('myShelter', ''))
-		location    = get_location_list()[location_id]
+		location	= get_location_list()[location_id]
 
 	except KeyError:
 		return http_404(request)	
@@ -141,7 +141,7 @@ def forecast(request):
 	if request.GET.get('myState', ''):
 		context['locations'] = {k:v for (k,v) in get_location_list().items() if v.state == request.GET.get('myState', '')}
 	
-	return HttpResponse(template.render(context, request))			
+	return HttpResponse(template.render(context, request))
 	
 def write_error(location, location_id):
 	''' if GetForecast fails to return a forecast for the selected location, 
