@@ -8,7 +8,7 @@ Appalachian Trail Weather is a simple Django front end for the National Weather 
 
 Example API calls:
 
-* [https://api.weather.gov/points/34.63,-84.19/forecast](https://api.weather.gov/points/34.63,-84.19/forecast) - Call forecast endpoint on latitude = 34.63N, longitude = 84.19W
+* [https://api.weather.gov/points/34.63,-84.19/forecast](https://api.weather.gov/points/34.63,-84.19/forecast) - Call forecast endpoint on lat = 34.63N, lon = 84.19W
 * [https://api.weather.gov/alerts/active/zone/NCZ033](https://api.weather.gov/alerts/active/zone/NCZ033) - Call weather alerts endpoint on forecast zone NCZ033
 * [https://api.weather.gov/points/36.12,-82.05](https://api.weather.gov/points/36.12,-82.05) - Metadata endpoint for latitude = 36.12N, longitude = 82.05W
 
