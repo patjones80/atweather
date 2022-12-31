@@ -12,15 +12,17 @@ TEST_HTTP_500 = False
 TEST_HTTP_404 = False
 TEST_DATA_ERR = False
 
-# both menus and active are dicts that get passed into the HTML context argument
+# Both menus and active are dicts that get passed into the HTML context argument
 
-# the menus dict controls the content of the dropdown menus. in order to make the cascading work properly via the javascript that is in index.html,
-# there need to be two hidden dropdowns that always contain complete state and complete location lists, respectively
+# The menus dict controls the content of the dropdown menus. in order to make the cascading work properly via the 
+# javascript that is in index.html, there need to be two hidden dropdowns that always contain complete state and 
+# complete location lists, respectively
 
-# the active dict is present in order to tell the template which button (home, about, donate, learn) to highlight blue (assign a setting of 'active')
+# The active dict is present in order to tell the template which button (home, about, donate, learn) to highlight blue 
+# (assign a setting of 'active')
 
 v = django.VERSION
-ver = '{}.{}.{}'.format(v[0], v[1], v[2])
+ver = f'{v[0]}.{v[1]}.{v[2]}'
 
 TRAILS = [['AT' ,'Appalachian Trail',''], ['PCT','Pacific Crest Trail','']]
 ALL_STATES = [['GA','AT - Georgia',       '','AT'],
@@ -39,13 +41,18 @@ ALL_STATES = [['GA','AT - Georgia',       '','AT'],
               ['CA','PCT - California',  '','PCT'],
               ['OR','PCT - Oregon',      '','PCT'],
               ['WA','PCT - Washington',  '','PCT']]
-
-menus  = {'trails': TRAILS, 'states': ALL_STATES, 'state_list_full': ALL_STATES, 'locations': get_location_list(), 'locations_full': get_location_list(), 'django_version': ver}
+  
+menus  = {'trails': TRAILS, \
+          'states': ALL_STATES, \
+          'state_list_full': ALL_STATES, \
+          'locations': get_location_list(), \
+          'locations_full': get_location_list(), \
+          'django_version': ver}
+          
 active = {'active_home': '', 'active_about': '', 'active_learn': '', 'active_disclaimer': ''}
 
 def index(request):
-    # home page
-    
+    # Home page   
     template = loader.get_template('atwx1/index.html')
 
     actives  = {**active, **{'active_home':'active'}}
@@ -54,8 +61,7 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 def about(request):
-    # about page
-    
+    # About page   
     template = loader.get_template('atwx1/about.html')
     
     actives  = {**active, **{'active_about':'active'}}
@@ -64,8 +70,7 @@ def about(request):
     return HttpResponse(template.render(context, request))
 
 def disclaimer(request):
-    # disclaimer
-    
+    # Disclaimer  
     template = loader.get_template('atwx1/disclaimer.html')
     
     actives  = {**active, **{'active_home':'active'}}
@@ -74,19 +79,19 @@ def disclaimer(request):
     return HttpResponse(template.render(context, request))
     
 def learn(request, learn_topic = None):
-    # render the learning topics menu
-    # we pick out the correct topic template to render based on the URL parameter
+    # Render the learning topics menu
+    # We pick out the correct topic template to render based on the URL parameter
     
-    topics = {'precip_discussion': 'learn_interpret.html',
-              'wind_chill': 'learn_wind_chill.html',
-              'lapse_rate': 'learn_lapse_rate.html',
-              'weather_prediction': 'learn_nwp.html',
+    topics = {'precip_discussion': 'learn_interpret.html', \
+              'wind_chill': 'learn_wind_chill.html', \
+              'lapse_rate': 'learn_lapse_rate.html', \
+              'weather_prediction': 'learn_nwp.html', \
               'no_forecast': 'learn_no_forecast.html'}
 
     if not learn_topic:
         template = loader.get_template('atwx1/learn_menu.html')
     else:
-        template = loader.get_template('atwx1/{}'.format(topics[learn_topic]))
+        template = loader.get_template(f'atwx1/{topics[learn_topic]}')
     
     actives  = {**active, **{'active_learn':'active'}}
     context  = {**menus, **actives}
@@ -113,7 +118,8 @@ def http_404(request, *args, **kwargs):
     # Handle HTTP 404 errors
     err_msg_header = 'No weather here!'
     err_msg_top = 'That page isn\'t a thing.'
-    err_msg_btm = 'Try selecting from the drop-down menus to find your forecast. If that doesn\'t work, please send me a quick note at <b>patjones80@gmail.com</b> and I\'ll get right on it.'
+    err_msg_btm = 'Try selecting from the drop-down menus to find your forecast. If that doesn\'t work, \
+                   please send me a quick note at <b>patjones80@gmail.com</b> and I\'ll get right on it.'
 
     template = loader.get_template('http_error.html')
 
@@ -121,12 +127,12 @@ def http_404(request, *args, **kwargs):
                              'err_msg_header': mark_safe(err_msg_header), \
                              'err_msg_top': mark_safe(err_msg_top), \
                              'err_msg_btm': mark_safe(err_msg_btm)}}    
-                             
+
     context  = {**menus, **actives}
     return HttpResponse(template.render(context, request))
 
 def forecast(request):
-    # main forecast display view 
+    # Main forecast display view 
     try:
         location_id = int(request.GET.get('myShelter', ''))
         location    = get_location_list()[location_id]
@@ -139,17 +145,24 @@ def forecast(request):
         return http_404(request)    
 
     try:
-        # api option
+        # API option
         # d = get_forecast(location.latitude, location.longitude)
         
-        # html scraping option
+        # HTML scraping option
         forecast = get_forecast_by_scraping(location.latitude, location.longitude)
         
-        # we need to use mark_safe because GetForecast is basically just returning an HTML snippet, and it has to be escaped
-        # context = {'forecast': mark_safe(d['forecast']),        
-        context = {'forecast': mark_safe(forecast),
-                   'alerts'  : get_alerts(location.latitude, location.longitude), 
-                   'location_name': location.name, 'location_state': location.state, 'location_trail': location.trail, 'prev_location': location_id - 1, 'next_location': location_id + 1}
+        # We need to use mark_safe because GetForecast is basically just returning an HTML snippet, 
+        # and it has to be escaped
+        
+        # context = {'forecast': mark_safe(d['forecast']),  
+        
+        context = {'forecast': mark_safe(forecast), \
+                   'alerts'  : get_alerts(location.latitude, location.longitude), \
+                   'location_name': location.name, \
+                   'location_state': location.state, \
+                   'location_trail': location.trail, \
+                   'prev_location': location_id - 1, \
+                   'next_location': location_id + 1}
 
         template = loader.get_template('atwx1/forecast.html')
         
@@ -157,41 +170,43 @@ def forecast(request):
             raise Exception("Here's a test data retrieval exception")
         
     except Exception as e:
-        # if get_forecast encountered an exception, then it will return an error message        
+        # If get_forecast encountered an exception, then it will return an error message        
         write_error(location, location_id, e)
-        context = {'err_msg': 'It looks like we\'re having trouble getting data from the National Weather Service. These things usually clear up faster than a passing rain shower.'}
+
+        context = {'err_msg': "It looks like we\'re having trouble getting data from the National Weather \
+                               Service. These things usually clear up faster than a passing rain shower."}
+
         template = loader.get_template('atwx1/no_forecast.html')    
 
     actives  = {**active,  **{'active_home':'active'}}
     context  = {**context, **menus, **actives}
     
-    # keep state and location dropdowns filtered if the user selected a trail    
+    # Keep state and location dropdowns filtered if the user selected a trail    
     myTrail = request.GET.get('myTrail', '')
     
     if myTrail:
-        context['states']      = [L for L in ALL_STATES if L[3] == myTrail]
+        context['states'] = [L for L in ALL_STATES if L[3] == myTrail]
         context['locations'] = {k:v for (k,v) in get_location_list().items() if v.trail == myTrail}
         
-    # keep location dropdown filtered if the user selected a state
+    # Keep location dropdown filtered if the user selected a state
     if request.GET.get('myState', ''):
         context['locations'] = {k:v for (k,v) in get_location_list().items() if v.state == request.GET.get('myState', '')}
-    
+
     return HttpResponse(template.render(context, request))
-    
+
 def write_error(location, location_id, msg):
-    ''' if GetForecast fails to return a forecast for the selected location, 
+    ''' If GetForecast fails to return a forecast for the selected location, 
         then log the failure occurence
     '''
-    
     if os.name == 'posix':
-        strfile = r'{}/api_error_log.txt'.format(CURR_DIR)
+        strfile = f'{CURR_DIR}/api_error_log.txt'
     else:
-        strfile = r'{}\api_error_log.txt'.format(CURR_DIR)
+        strfile = f'{CURR_DIR}\api_error_log.txt'
     
-    curtime = '{:%Y-%m-%d %H:%M:%S}'.format(datetime.now())
+    curtime = f'{datetime.now():%Y-%m-%d %H:%M:%S}'
     
     with open(strfile, 'a') as f:
-        f.write('{}\t{}\t{}\t{}\t{}\t{}\n'.format(curtime, location_id, location.name, location.latitude, location.longitude, msg))
+        f.write(f'{curtime}\t{location_id}\t{location.name}\t{location.latitude}\t{location.longitude}\t{msg}\n')
         
     f.close()
 
