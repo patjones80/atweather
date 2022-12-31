@@ -5,7 +5,7 @@ This repo contains the codebase for the website www.atweather.org
 
 ### About
 
-Appalachian Trail Weather is a simple Django front-end for the National Weather Service (NOAA) weather forecast API. It enables users to select a location from a pre-defined list and obtain the NWS weather forecast for that location by mapping each location to a pair of lat/lon coordinates, and passing those to the relevant API endpoint. See [api.weather.gov].(https://api.weather.gov)
+Appalachian Trail Weather is a simple Django front-end for the National Weather Service (NOAA) weather forecast API. It enables users to select a location from a pre-defined list and obtain the NWS weather forecast for that location by mapping each location to a pair of lat/lon coordinates, and passing those to the relevant API endpoint. See [api.weather.gov](https://api.weather.gov).
 
 Example API calls:
 
