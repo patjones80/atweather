@@ -18,8 +18,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 
-from django.conf.urls import url, include, handler404, handler500
+from django.urls import re_path, include
+from django.conf.urls import handler404, handler500
 from django.contrib import admin
+from django.views.generic import TemplateView
 
 from atwx1 import views
 
@@ -28,5 +30,6 @@ handler404 = 'atwx1.views.http_404'
 handler500 = 'atwx1.views.http_500'
 
 urlpatterns = [
-				url(r'^admin/', admin.site.urls),  
-				url(r'^', include('atwx1.urls')), ]
+				re_path(r'^admin/', admin.site.urls),  
+				re_path(r'^', include('atwx1.urls')), 
+				re_path(r'^robots.txt$', TemplateView.as_view(template_name="robots.txt", content_type="text/plain")), ]

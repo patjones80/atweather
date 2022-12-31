@@ -12,7 +12,8 @@ body { font-family: 'Karla', sans-serif; height: 100%;}
 
 .nav { font-family: 'Karla', sans-serif; }		
 .form-control { font-family: 'Karla', sans-serif; }	
-.list-group { font-family: 'Karla', sans-serif; }	
+.list-group { font-family: 'Karla', sans-serif; }
+.alert { font-family: 'Karla', sans-serif; }	
 
 .navigate_location .pagination>li>a,
 .navigate_location .pagination>li>span { border: 1px solid #2a5eb2;
