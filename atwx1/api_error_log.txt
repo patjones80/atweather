@@ -1,0 +1,81 @@
+7/29/2017 16:45	469	OR - Timberline Lodge	45.33	-121.71	
+7/29/2017 16:45	469	OR - Timberline Lodge	45.33	-121.71	
+7/29/2017 16:46	183	CT - Pine Swamp Brook Shelter (1075')	41.88	-73.39	
+7/30/2017 12:31	183	CT - Pine Swamp Brook Shelter (1075')	41.88	-73.39	
+10/16/2017 23:14	23	NC - Wayah Bald Shelter (4759')	35.19	-83.56	
+10/16/2017 23:15	24	NC - Cold Spring Shelter (4920')	35.23	-83.56	
+10/16/2017 23:15	14	GA - Tray Mountain Shelter (4200')	34.8	-83.68	
+10/16/2017 23:17	25	NC - Wesser Bald Shelter (4115')	35.28	-83.58	
+10/16/2017 23:17	27	NC - Sassafras Gap Shelter (4330')	35.33	-83.67	
+10/16/2017 23:17	27	NC - Sassafras Gap Shelter (4330')	35.33	-83.67	
+10/16/2017 23:19	24	NC - Cold Spring Shelter (4920')	35.23	-83.56	
+10/16/2017 23:20	33	NC - Spence Field Shelter (4915')	35.56	-83.73	
+10/16/2017 23:21	59	NC - Overmountain Shelter (4550')	36.12	-82.05	
+10/16/2017 23:26	59	NC - Overmountain Shelter (4550')	36.12	-82.05	
+10/22/2017 21:40	18	NC - Standing Indian Shelter (4760')	35.04	-83.55	
+10/26/2017 22:21	37	TN - Mt. Collins Shelter (5870')	35.59	-83.47	
+10/26/2017 22:30	37	TN - Mt. Collins Shelter (5870')	35.59	-83.47	
+10/26/2017 22:31	37	TN - Mt. Collins Shelter (5870')	35.59	-83.47	
+10/27/2017 21:26	6	GA - Stover Creek Shelter (2870')	34.65	-84.2	
+10/27/2017 21:31	6	GA - Stover Creek Shelter (2870')	34.65	-84.2	
+10/27/2017 21:32	6	GA - Stover Creek Shelter (2870')	34.65	-84.2	
+10/27/2017 21:32	6	GA - Stover Creek Shelter (2870')	34.65	-84.2	
+10/27/2017 21:33	8	GA - Gooch Mountain Shelter (3000')	34.65	-84.03	
+3/11/2018 13:53	8	GA - Gooch Mountain Shelter (3000')	34.65	-84.03	
+3/11/2018 14:02	4	GA - Springer Mountain	34.63	-84.19	
+3/15/2018 23:41	285	"CA - Mexican Border, Southern Terminus of the PCT"	32.59	-116.47	
+6/18/2018 18:55	146	PA - Toms Run Shelters (1300')	40.03	-77.36	
+6/18/2018 19:04	151	PA - Clarks Ferry Shelter (1180')	40.39	-76.99	
+4/9/2019 0:14	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/9/2019 0:14	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/9/2019 0:16	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/9/2019 23:19	435	OR - Oregon/California Border	42	-122.91	
+4/9/2019 23:20	435	OR - Oregon/California Border	42	-122.91	
+4/9/2019 23:21	435	OR - Oregon/California Border	42	-122.91	
+4/9/2019 23:22	435	OR - Oregon/California Border	42	-122.91	
+4/9/2019 23:23	435	OR - Oregon/California Border	42	-122.91	
+4/9/2019 23:23	435	OR - Oregon/California Border	42	-122.91	
+4/9/2019 23:23	435	OR - Oregon/California Border	42	-122.91	
+4/9/2019 23:24	469	OR - Timberline Lodge	45.33	-121.71	
+4/9/2019 23:53	4	GA - Springer Mountain	34.63	-84.19	
+4/9/2019 23:54	4	GA - Springer Mountain	34.63	-84.19	
+4/9/2019 23:56	4	GA - Springer Mountain	34.63	-84.19	
+4/9/2019 23:57	4	GA - Springer Mountain	34.63	-84.19	
+4/9/2019 23:58	6	GA - Stover Creek Shelter (2870')	34.65	-84.2	
+4/9/2019 23:58	6	GA - Stover Creek Shelter (2870')	34.65	-84.2	
+4/10/2019 0:00	10	GA - Blood Mountain Shelter (4450')	34.74	-83.94	
+4/10/2019 0:10	65	TN - Iron Mountain Shelter (4125')	36.44	-81.99	
+4/10/2019 1:09	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/10/2019 1:12	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/10/2019 1:13	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/10/2019 8:42	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 21:41	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 21:41	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 21:42	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 21:43	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 21:44	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 21:44	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 22:34	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 22:49	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 23:32	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/16/2019 23:35	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+4/25/2019 23:31	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+5/6/2019 21:37	155	PA - 501 Shelter (1460')	40.51	-76.35	
+5/22/2019 23:04	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+5/22/2019 23:43	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+1/5/2020 15:31	285	"CA - Mexican Border, PCT Southern Terminus"	32.59	-116.47	
+2/6/2020 23:26	4	GA - Springer Mountain	34.63	-84.19	
+2/6/2020 23:27	4	GA - Springer Mountain	34.63	-84.19	
+2/6/2020 23:45	4	GA - Springer Mountain	34.63	-84.19	
+2/6/2020 23:48	4	GA - Springer Mountain	34.63	-84.19	
+2/6/2020 23:49	4	GA - Springer Mountain	34.63	-84.19	
+2/24/2020 22:29	243	NH - Lake of the Clouds Hut (5012')	44.26	-71.32	
+2/24/2020 22:30	13	GA - Blue Mountain Shelter (3900')	34.82	-83.77	
+2/24/2020 22:52	243	NH - Lake of the Clouds Hut (5012')	44.26	-71.32	
+2/24/2020 23:10	243	NH - Lake of the Clouds Hut (5012')	44.26	-71.32	
+12/26/2022 14:26	19	NC - Carter Gap Shelter (4540')	35	-83.49	Here's the exact problem
+12/26/2022 14:51	4	GA - Springer Mountain	34.63	-84.19	Here's the exact problem
+12/26/2022 15:07	21	NC - Rock Gap Shelter (3760')	35.09	-83.52	Here's the exact problem
+12/26/2022 15:27	12	GA - Low Gap Shelter (3050')	34.78	-83.82	Here's the exact problem
+12/26/2022 15:34	1	GA - Amicalola Falls State Park	34.56	-84.25	Here's the exact problem
+12/26/2022 17:18	15	GA - Deep Gap Shelter (3550')	34.88	-83.65	Here's the exact problem

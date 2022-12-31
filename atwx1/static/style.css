@@ -1,0 +1,30 @@
+
+
+body { font-family: 'Karla', sans-serif; height: 100%;}
+
+.light-blue .active a,
+.light-blue .active a:hover {
+								background-color: #9bbbef;
+							}
+
+.well { text-align: justify;
+		font-family: 'Karla', sans-serif; }
+
+.nav { font-family: 'Karla', sans-serif; }		
+.form-control { font-family: 'Karla', sans-serif; }	
+.list-group { font-family: 'Karla', sans-serif; }
+.alert { font-family: 'Karla', sans-serif; }	
+
+.navigate_location .pagination>li>a,
+.navigate_location .pagination>li>span { border: 1px solid #2a5eb2;
+										 color: #2a5eb2;
+										 font-family: 'Karla';}
+
+#footerContainer { bottom: 0; 
+				   height: 60px; 
+				   background-color: #fff; 
+				   font-family: 'Karla', sans-serif;
+				   padding-top: 15px;
+				   width:100%}
+				   
+#footer { line-height:20px; width:100%; }				   

@@ -1,0 +1,23 @@
+{% extends "atwx1/index.html" %}
+
+{% block learn_menu %}
+
+<br>
+
+<div class = "list-group" style = "width: 350px; margin-bottom:0px;">
+	<a href = "http://www.atweather.org/learn/precip_discussion" class = "list-group-item" onclick = "javascript: $(wellOfLearning).show()">How to interpret weather forecasts</a>
+	<a href = "http://www.atweather.org/learn/wind_chill" class = "list-group-item">Cold weather and wind chill</a>
+	<a href = "http://www.atweather.org/learn/weather_prediction" class = "list-group-item">How forecasts are made</a>
+	<a href = "http://www.atweather.org/learn/lapse_rate" class = "list-group-item">Temperature and elevation</a>
+	<a href = "http://www.atweather.org/learn/no_forecast" class = "list-group-item">Why is no forecast available?</a>
+</div>
+
+<br>
+
+{% block learn_wind_chill %}	{% endblock %}
+{% block learn_interpret %}		{% endblock %}
+{% block learn_lapse_rate %}	{% endblock %}
+{% block learn_nwp %}			{% endblock %}
+{% block learn_no_forecast %}	{% endblock %}
+
+{% endblock %}
