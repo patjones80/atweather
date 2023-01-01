@@ -2,15 +2,11 @@
 
 {% block http_error %}
 
-	<br>
-	
-	<div class = "jumbotron" style = "margin-bottom:0px;">
-		<h1 class = "display-4" style = "margin-top:10px;">{{ err_msg_header }}</h1>
-		<p class = "lead">{{ err_msg_top }}</p>
-		<hr class = "my-4">
+	<div class="jumbotron" style="margin-bottom:0px; margin-top:20px;">
+		<h1 class="display-4" style="margin-top:10px;">{{ err_msg_header }}</h1>
+		<p class="lead">{{ err_msg_top }}</p>
+		<hr class="my-4">
 		<p>{{ err_msg_btm }}</p>
 	</div>
-	
-	<br>
 
 {% endblock %}	

@@ -8,7 +8,7 @@ from django.utils.safestring import mark_safe
 from .function_library import *
 from datetime import datetime
 
-TEST_HTTP_500 = False
+TEST_HTTP_500 = True
 TEST_HTTP_404 = False
 TEST_DATA_ERR = False
 
@@ -195,14 +195,14 @@ def forecast(request):
     return HttpResponse(template.render(context, request))
 
 def write_error(location, location_id, msg):
-    ''' If GetForecast fails to return a forecast for the selected location, 
+    ''' If get_forecast fails to return a forecast for the selected location, 
         then log the failure occurence
     '''
     if os.name == 'posix':
         strfile = f'{CURR_DIR}/api_error_log.txt'
     else:
-        strfile = f'{CURR_DIR}\api_error_log.txt'
-    
+        strfile = f'{CURR_DIR}\\api_error_log.txt'
+
     curtime = f'{datetime.now():%Y-%m-%d %H:%M:%S}'
     
     with open(strfile, 'a') as f:
