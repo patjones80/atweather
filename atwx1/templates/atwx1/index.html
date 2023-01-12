@@ -4,18 +4,16 @@
 
 <script>
 
-	<!-- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ -->
-	<!-- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), -->
-	<!-- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) -->
-	<!-- })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); -->
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	<!-- ga('create', 'UA-57389593-1', 'auto'); -->
-	<!-- ga('send', 'pageview'); -->
+	ga('create', 'UA-57389593-1', 'auto');
+	ga('send', 'pageview');
 
 </script>
-
 	<head>
-
 		{% load static %}
 		<link rel = "stylesheet" type = "text/css" href = "{% static 'style.css' %}" >
 
@@ -37,7 +35,6 @@
 			
 		$(document).ready(function()
 			{
-
 				$('.pagination .disabled a, .pagination .active a').on('click', function(e) {
 					e.preventDefault();
 				});
@@ -110,10 +107,10 @@
 			<p style = "text-align:justify; font-family: 'Karla', sans-serif;">The purpose of this website is simple: to provide AT and PCT hikers with a reliable and easy way to obtain weather for their location. Simply pick your trail, state and location from the lists below and the National Weather Service (NOAA) forecast for that location will appear.</p>
 
 			<ul style = "padding-top:5px;" class = "nav nav-pills light-blue">
-				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_home }}"><a href = "http://192.168.0.206:8080/">Home</a></li>
-				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_about }}"><a href = "http://192.168.0.206:8080/about">About</a></li>
+				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_home }}"><a href = "https://www.atweather.org/">Home</a></li>
+				<li style = "padding-right:0px;" role = "presentation" class = "{{ active_about }}"><a href = "https://www.atweather.org/about">About</a></li>
 				<li style = "padding-right:0px;" role = "presentation"><a href = "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=patjones80%40gmail%2ecom&lc=US&item_name=Appalachian%20Trail%20Weather&item_number=atwx&amount=0%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted" target = "_blank">Donate</a></li>
-				<li role  = "presentation" class = "{{ active_learn }}"><a href = "http://192.168.0.206:8080/learn">Learn</a></li>
+				<li role  = "presentation" class = "{{ active_learn }}"><a href = "https://www.atweather.org/learn">Learn</a></li>
 			</ul>
 
 			<form action = "/forecast" method = "GET">
@@ -188,7 +185,7 @@
 
 			<div id = "footerContainer">
 				<div id = "footer">
-					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2023 <br> <a href = "http://192.168.0.206:8080/disclaimer">Disclaimer</a></footer>
+					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2023 <br> <a href = "https://www.atweather.org/disclaimer">Disclaimer</a></footer>
 				</div>
 			</div>
 			

@@ -4,145 +4,158 @@ Functions available to views.py for obtaining the weather forecast as a function
 
 Three different API calls are used:
 
-(1) pull alerts based on forecast zone - 	https://api.weather.gov/alerts/active/zone/{}
-(2) get metadata about a lat/lon point -	https://api.weather.gov/points/{},{}
-(3) get the forecast for lat/lon point -	https://api.weather.gov/points/{},{}/forecast
+(1) pull alerts based on forecast zone -    https://api.weather.gov/alerts/active/zone/{}
+(2) get metadata about a lat/lon point -    https://api.weather.gov/points/{},{}
+
+The metadata endpoint above contains the forecast endpoint under "properties" --> "forecast". This is 
+the URL that should be called in order to obtain the forecast text for the location in question.
 
 '''
 
 import collections
+import json
 import os
 import requests
+import time
 
-# define named tuple structure that will make up the locations dictionary
+# The headers dict that we'll use in our api calls
+HEADERS = { "User-Agent": "https://www.atweather.org; Python 3.10.5/Django 4.1.4" }
+
+# Define named tuple structure that will make up the locations dictionary
 location = collections.namedtuple('location', 'name longitude latitude state trail')
 
-# these are the column numbers in the source file
+# These are the column numbers in the source file
 (LOC_ID, LOC, LON, LAT, STATE, TRAIL) = (0, 1, 2, 3, 4, 5)
 
-# project's root directory
+# Project's root directory
 CURR_DIR = os.path.dirname(os.path.abspath( __file__ ))
-        
+
+def call_url(url, headers=HEADERS, verify=True, attempt=1):
+    # We use this logic repeatedly so let's make it a function
+    r = requests.get(url, headers=headers, verify=verify)
+    status_code = r.status_code
+    
+    if status_code == 200:
+        try:
+            return r.json()
+			
+        except json.decoder.JSONDecodeError:
+            # If the fall back HTML scraper is the caller, we will need
+            # to return text, not a dict
+            return r.text
+    else:
+        # Let's try twice more
+        attempt += 1
+
+        if attempt > 3:
+            raise Exception(f'{url} returned status code {status_code}')
+
+        time.sleep(attempt)
+        return call_url(url, attempt=attempt)
+
 def get_location_list():
-	locations = dict()
+    locations = dict()
+    f_locations = f'{CURR_DIR}\\at_shelter_list.txt'
 
-	# use forward slashes in unix/linux
-	if os.name == 'posix':
-		f_locations = r'{}/at_shelter_list.txt'.format(CURR_DIR)
-	else:
-		f_locations = r'{}\at_shelter_list.txt'.format(CURR_DIR)
+    # Use forward slashes in unix/linux
+    if os.name == 'posix':
+        f_locations = f'{CURR_DIR}/at_shelter_list.txt'
 
-	# proceed with reading the location list in
-	with open(f_locations, mode = 'r', encoding = 'UTF-8') as location_file:
-		for line in location_file:
-			line = list(line.strip('\n').split('\t'))
-			cols = location(name = line[LOC], longitude = line[LON], latitude = line[LAT], state = line[STATE], trail = line[TRAIL])
+    # Proceed with reading the location list in
+    with open(f_locations, mode='r', encoding='UTF-8') as location_file:
+        for line in location_file:
+            line = list(line.strip('\n').split('\t'))
+            cols = location(name=line[LOC], longitude=line[LON], latitude=line[LAT], state=line[STATE], trail=line[TRAIL])
 
-			locations[int(line[LOC_ID])] = cols
-	
-	return locations
-
-#####
-
-# def GetForecast(lat, lon):
-    # try:
-		# # NWS API formalism
-
-		# # TODO: insert proper header(s)
-		# # TODO: need to pass along proper SSL certification!
+            locations[int(line[LOC_ID])] = cols
+    
+    return locations
 
 def get_forecast(lat, lon):
+    ''' Call the NWS REST API
+        # TODO: need to pass along proper SSL certification!
+    '''
+    try:
+        r = call_url(f'https://api.weather.gov/points/{lat},{lon}')
 
-	try:
-		response = requests.get('https://api.weather.gov/points/{},{}/forecast'.format(lat, lon),
-								headers={ "User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" },
-								verify=True)
+        # Obtain the URL for the forecast endpoint
+        forecast_url = r['properties']['forecast']
+        print(forecast_url)
+        
+        # Now call the forecast endpoint
+        r = call_url(forecast_url)
+ 
+        s = ''
+        for d in r['properties']['periods']:
+            s += f"<p><b>{d['name']}</b>: {d['detailedForecast']}</p>"
 
-		forecast = response.json()
-		
-		if 'status' in forecast.keys() and forecast['status'] == 503:
-			s = get_forecast_by_scraping(lat, lon)
-		else:
-			s = ''
+        s = s.replace('<b>', '<p><b>').replace('<br>\n<br>', '</p>')                
 
-			for d in forecast['properties']['periods']:
-				s += '<p><b>{}</b>: {}</p>'.format(d['name'], d['detailedForecast'])
-
-			if 'Columbus Day' in s:
-				# this is to fix a problem with the site somehow caching old forecasts; eventually this has
-				# to be fixed but for now here is the override
-				s = get_forecast_by_scraping(lat, lon)
-
-		s = s.replace('<b>', '<p><b>').replace('<br>\n<br>', '</p>')
-		
-		return {'forecast': s}
-			
-	except Exception as e:
-		# check for general exceptions
-		return {'error': 'There is no forecast available right now for the location you selected.'}
+        if not s:
+            raise Exception('Empty forecast string')
+       
+        return s
+                
+    except Exception as e:
+        # In the event that there's a problem fall back to HTML scraping
+        return get_forecast_by_scraping(lat, lon)
 
 def get_forecast_by_scraping(lat, lon):
+    ''' Pulls the forecast by scraping the HTML of the text-only NWS page; this is a fallback for
+        when the API is not functioning properly for a gridpoint
+    '''
+    forecast_html = call_url(f'http://forecast.weather.gov/MapClick.php?lat={lat}&lon={lon}&unit=0&lg=english&FcstType=text&TextType=1')
+    s = ''
 
-	''' Pulls the forecast by scraping the HTML of the text-only NWS page; this is a fallback for
-	    when the API is not functioning properly for a gridpoint'''
-	
-	forecast_html = requests.get('http://forecast.weather.gov/MapClick.php?lat={}&lon={}&unit=0&lg=english&FcstType=text&TextType=1'.format(lat, lon)).text
-	s = ''
-	
-	for t in forecast_html.split('<b>')[3:]:
-		s += '<b>' + t.split('<hr>')[0]
-		
-	s = s.replace('<b>', '<p><b>').replace('<br>\n<br>', '</p>')
-	
-	return s
+    for t in forecast_html.split('<b>')[3:]:
+        s += f"<b>{t.split('<hr>')[0]}"
+
+    s = s.replace('<b>', '<p><b>').replace('<br>\n<br>', '</p>')
+    
+    if not s:
+        raise Exception(f'Empty forecast string or bad request in get_forecast_by_scraping: {url}')
+
+    return s
 
 def get_zone(lat, lon, zone_type):
+    ''' NOAA uses identifiers for areas ("MOZ077", "ORZ011", etc) to issue watches and warnings to specific locales.
+        This function can pull the zone assignment for a particular point given lat/lon, and with that we can then 
+        obtain information from other API extensions that require the zone
+        
+        zoneType can be: 'forecastZone', 'fireWeatherZone', 'county'
+        
+        See for example: https://api.weather.gov/points/39.63,-77.56
+    '''
+    r = call_url(f'https://api.weather.gov/points/{lat},{lon}')
 
-	''' NOAA uses identifiers for areas ("MOZ077", "ORZ011", etc) to issue watches and warnings to specific locales.
-		This function can pull the zone assignment for a particular point given lat/lon, and with that we can then 
-		obtain information from other API extensions that require the zone
-		
-		zoneType can be: 'forecastZone', 'fireWeatherZone', 'county'
-		
-		See for example: https://api.weather.gov/points/39.63,-77.56
-	'''
+    s = r['properties'][zone_type].split('/')
+    zone = s[len(s)-1]
 
-	response = requests.get('https://api.weather.gov/points/{},{}'.format(lat, lon), headers = { "User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" }, verify = True)
-	
-	metadata = response.json()
-	s = metadata['properties'][zone_type].split('/')
-	zone = s[len(s)-1]
-
-	return zone
+    return zone
 
 def get_alerts(lat, lon):
+    ''' Obtain any alerts for a given location. There are three types of zones for a given forecast point:
+        forecast, fire weather and county. See for example: https://api.weather.gov/points/39.63,-77.56
+    '''
+    all_alerts = []  # we will loop over this in the HTML template to display the alerts
 
-	''' Obtain any alerts for a given location. There are three types of zones for a given forecast point:
-		forecast, fire weather and county. See for example: https://api.weather.gov/points/39.63,-77.56
-	'''
+    forecast_zone = get_zone(lat, lon, 'forecastZone')
+    fire_zone     = get_zone(lat, lon, 'fireWeatherZone')
+    county_zone   = get_zone(lat, lon, 'county')
 
-	all_alerts = []	# we will loop over this in the HTML template to display the alerts
+    r = call_url(f'https://api.weather.gov/alerts/active/zone/{county_zone}')
 
-	forecast_zone = get_zone(lat, lon, 'forecastZone')
-	fire_zone     = get_zone(lat, lon, 'fireWeatherZone')
-	county_zone   = get_zone(lat, lon, 'county')
-	
-	response = requests.get('https://api.weather.gov/alerts/active/zone/{}'.format(county_zone),
-							 headers={ "User-Agent": "https://www.atweather.org; Python 3.6/Django 1.11" },
-							 verify=True)
+    try:
+        for alerts in r['features']:
+            p = alerts['properties']
+            if ("https://api.weather.gov/zones/forecast/" + forecast_zone in p['affectedZones'] or 
+                "https://api.weather.gov/zones/fire/"     + fire_zone     in p['affectedZones'] or 
+                "https://api.weather.gov/zones/county/"   + county_zone   in p['affectedZones']):
+               
+                alert = collections.namedtuple('alert', 'warnzone warncounty headline event')
+                all_alerts.append(alert(warnzone = forecast_zone, warncounty = county_zone, headline = p['headline'], event = p['event'].replace(' ', '+')))
 
-	try:
-		results = response.json()
-		for alerts in results['features']:
-			p = alerts['properties']
-			if ("https://api.weather.gov/zones/forecast/" + forecast_zone in p['affectedZones'] or 
-			    "https://api.weather.gov/zones/fire/"     + fire_zone     in p['affectedZones'] or 
-			    "https://api.weather.gov/zones/county/"   + county_zone   in p['affectedZones']):
-			   
-				alert = collections.namedtuple('alert', 'warnzone warncounty headline event')
-				all_alerts.append(alert(warnzone = forecast_zone, warncounty = county_zone, headline = p['headline'], event = p['event'].replace(' ', '+')))
+    except IndexError:
+        pass
 
-	except IndexError:
-		pass
-
-	return all_alerts
+    return all_alerts

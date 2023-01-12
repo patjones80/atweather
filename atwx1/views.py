@@ -1,16 +1,19 @@
 
-import django
+from .function_library import *
 
+from datetime import datetime
+import django
 from django.http import HttpResponse, HttpResponseNotFound
 from django.template import loader
 from django.utils.safestring import mark_safe
+import os
 
-from .function_library import *
-from datetime import datetime
-
-TEST_HTTP_500 = True
+TEST_HTTP_500 = False
 TEST_HTTP_404 = False
 TEST_DATA_ERR = False
+
+USE_NWS_API = True
+CURR_DIR = os.path.dirname(os.path.abspath( __file__ ))
 
 # Both menus and active are dicts that get passed into the HTML context argument
 
@@ -145,20 +148,18 @@ def forecast(request):
         return http_404(request)    
 
     try:
-        # API option
-        # d = get_forecast(location.latitude, location.longitude)
-        
-        # HTML scraping option
-        forecast = get_forecast_by_scraping(location.latitude, location.longitude)
+        if USE_NWS_API:
+            # API option
+            forecast = get_forecast(location.latitude, location.longitude)
+        else:        
+            # HTML scraping option
+            forecast = get_forecast_by_scraping(location.latitude, location.longitude)
         
         # We need to use mark_safe because GetForecast is basically just returning an HTML snippet, 
-        # and it has to be escaped
-        
-        # context = {'forecast': mark_safe(d['forecast']),  
-        
-        context = {'forecast': mark_safe(forecast), \
+        # and it has to be escaped                
+        context = {'forecast': mark_safe(forecast),  \
                    'alerts'  : get_alerts(location.latitude, location.longitude), \
-                   'location_name': location.name, \
+                   'location_name': location.name,   \
                    'location_state': location.state, \
                    'location_trail': location.trail, \
                    'prev_location': location_id - 1, \
@@ -168,11 +169,13 @@ def forecast(request):
         
         if TEST_DATA_ERR:
             raise Exception("Here's a test data retrieval exception")
-        
+
     except Exception as e:
-        # If get_forecast encountered an exception, then it will return an error message        
+        # If get_forecast encountered an exception, then it will return an error message
+        # that we can write to the log        
         write_error(location, location_id, e)
 
+        # Use a prettier message for the site though
         context = {'err_msg': "It looks like we\'re having trouble getting data from the National Weather \
                                Service. These things usually clear up faster than a passing rain shower."}
 
@@ -180,17 +183,17 @@ def forecast(request):
 
     actives  = {**active,  **{'active_home':'active'}}
     context  = {**context, **menus, **actives}
-    
+
     # Keep state and location dropdowns filtered if the user selected a trail    
     myTrail = request.GET.get('myTrail', '')
-    
+
     if myTrail:
         context['states'] = [L for L in ALL_STATES if L[3] == myTrail]
-        context['locations'] = {k:v for (k,v) in get_location_list().items() if v.trail == myTrail}
-        
+        context['locations'] = {k: v for (k, v) in get_location_list().items() if v.trail == myTrail}
+
     # Keep location dropdown filtered if the user selected a state
     if request.GET.get('myState', ''):
-        context['locations'] = {k:v for (k,v) in get_location_list().items() if v.state == request.GET.get('myState', '')}
+        context['locations'] = {k: v for (k, v) in get_location_list().items() if v.state == request.GET.get('myState', '')}
 
     return HttpResponse(template.render(context, request))
 
@@ -198,10 +201,10 @@ def write_error(location, location_id, msg):
     ''' If get_forecast fails to return a forecast for the selected location, 
         then log the failure occurence
     '''
+    strfile = f'{CURR_DIR}\\api_error_log.txt'
+    
     if os.name == 'posix':
         strfile = f'{CURR_DIR}/api_error_log.txt'
-    else:
-        strfile = f'{CURR_DIR}\\api_error_log.txt'
 
     curtime = f'{datetime.now():%Y-%m-%d %H:%M:%S}'
     
