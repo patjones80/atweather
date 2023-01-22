@@ -103,9 +103,9 @@ def learn(request, learn_topic = None):
 
 def http_500(request, *args, **kwargs):
     # Handle HTTP 500 errors
-    err_msg_header = 'Blerg!'
-    err_msg_top = 'We can\'t get what you\'re looking for right now. Sorry about that.'
-    err_msg_btm = 'The weather\'s always changing around here, so try again later.'
+    err_msg_header = 'No weather here!'
+    err_msg_top = 'Sorry about that. Like the weather, technology can be unpredictable.'
+    err_msg_btm = 'This is a good excuse to have a trail snack and try again later.'
 
     template = loader.get_template('http_error.html')
 
@@ -119,7 +119,7 @@ def http_500(request, *args, **kwargs):
 
 def http_404(request, *args, **kwargs):
     # Handle HTTP 404 errors
-    err_msg_header = 'No weather here!'
+    err_msg_header = 'Blerg!'
     err_msg_top = 'That page isn\'t a thing.'
     err_msg_btm = 'Try selecting from the drop-down menus to find your forecast. If that doesn\'t work, \
                    please send me a quick note at <b>patjones80@gmail.com</b> and I\'ll get right on it.'
