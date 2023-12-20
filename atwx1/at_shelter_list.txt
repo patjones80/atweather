@@ -304,7 +304,7 @@
 304	CA - Interstate Highway 15	-117.47	34.3	CA	PCT
 305	CA - Mount Baldy	-117.65	34.29	CA	PCT
 306	CA - Grassy Hollow Visitor Center	-117.72	34.38	CA	PCT
-307	CA - Devils Punchbowl County Park	-117.86	34.41	CA	PCT
+307	CA - Mount Baden-Powell	-117.76	34.36	CA	PCT
 308	CA - Eagles Roost Picnic Area	-117.88	34.35	CA	PCT
 309	CA - Messenger Flats	-118.19	34.38	CA	PCT
 310	CA - Vasquez Rocks Picnic Area	-118.31	34.49	CA	PCT

@@ -52,7 +52,7 @@ menus  = {'trails': TRAILS, \
           'locations_full': get_location_list(), \
           'django_version': ver}
           
-active = {'active_home': '', 'active_about': '', 'active_learn': '', 'active_disclaimer': ''}
+active = {'active_home': '', 'active_about': '', 'active_other': '', 'active_learn': '', 'active_disclaimer': ''}
 
 def index(request):
     # Home page   
@@ -72,6 +72,15 @@ def about(request):
     
     return HttpResponse(template.render(context, request))
 
+def other(request):
+    # Other resources page   
+    template = loader.get_template('atwx1/other_resources.html')
+    
+    actives  = {**active, **{'active_other':'active'}}
+    context  = {**menus, **actives}
+
+    return HttpResponse(template.render(context, request))
+	
 def disclaimer(request):
     # Disclaimer  
     template = loader.get_template('atwx1/disclaimer.html')
@@ -84,7 +93,7 @@ def disclaimer(request):
 def learn(request, learn_topic = None):
     # Render the learning topics menu
     # We pick out the correct topic template to render based on the URL parameter
-    
+
     topics = {'precip_discussion': 'learn_interpret.html', \
               'wind_chill': 'learn_wind_chill.html', \
               'lapse_rate': 'learn_lapse_rate.html', \
@@ -154,9 +163,9 @@ def forecast(request):
         else:        
             # HTML scraping option
             forecast = get_forecast_by_scraping(location.latitude, location.longitude)
-        
-        # We need to use mark_safe because GetForecast is basically just returning an HTML snippet, 
-        # and it has to be escaped                
+
+        # We need to use mark_safe because the HTML scraping option is basically 
+        # just returning an HTML snippet, and it has to be escaped                
         context = {'forecast': mark_safe(forecast),  \
                    'alerts'  : get_alerts(location.latitude, location.longitude), \
                    'location_name': location.name,   \
@@ -166,7 +175,7 @@ def forecast(request):
                    'next_location': location_id + 1}
 
         template = loader.get_template('atwx1/forecast.html')
-        
+
         if TEST_DATA_ERR:
             raise Exception("Here's a test data retrieval exception")
 
