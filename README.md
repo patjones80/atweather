@@ -11,7 +11,7 @@ Example API calls:
 
  - [https://api.weather.gov/points/45.1753,-121.0816](https://api.weather.gov/points/45.1753,-121.0816) - Call metadata endpoint on latitude = 45.1753N, longitude = 121.0816W
 
- - [https://api.weather.gov/gridpoints/PDT/39,41/forecast](https://api.weather.gov/points/45.1753,-121.0816) - Call forecast endpoint on latitude = 45.1753N, longitude = 121.0816W (obtained in the JSON resulting from the metadata endpoint call.
+ - [https://api.weather.gov/gridpoints/PDT/53,91/forecast](https://api.weather.gov/gridpoints/PDT/53,91/forecast) - Call forecast endpoint on latitude = 45.1753N, longitude = 121.0816W (obtained in the JSON resulting from the metadata endpoint call.
 
 - [https://api.weather.gov/alerts/active/zone/NCZ033](https://api.weather.gov/alerts/active/zone/NCZ033) - Call weather alerts endpoint on forecast zone NCZ033
 
