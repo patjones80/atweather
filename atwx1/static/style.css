@@ -7,6 +7,11 @@ body { font-family: 'Karla', sans-serif; height: 100%;}
 								background-color: #9bbbef;
 							}
 
+.nav.nav-pills.light-blue li a {
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+
 .well { text-align: justify;
 		font-family: 'Karla', sans-serif; }
 
