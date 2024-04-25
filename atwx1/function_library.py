@@ -90,7 +90,6 @@ def get_forecast(lat, lon):
             s += f"<p><b>{d['name']}</b>: {d['detailedForecast']}</p>"
 
         s = s.replace('<b>', '<p><b>').replace('<br>\n<br>', '</p>')
-        print(f'This is the string s: {s}')
 
         #if not s:
         #    raise Exception('Empty forecast string')
