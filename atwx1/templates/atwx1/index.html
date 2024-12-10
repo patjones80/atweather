@@ -177,15 +177,15 @@
 			<select hidden id="myShelterHidden" name="myShelterHidden">
 				<option selected="selected" value="" class="labelText">Select location...</option>
 
-					{% for k, v in locations_full.items %}
-						<option value={{ k }} class="{{ v.state }}">{{ v.name }}</option>
-					{% endfor %}
+				{% for k, v in locations_full.items %}
+					<option value={{ k }} class="{{ v.state }}">{{ v.name }}</option>
+				{% endfor %}
 
 			</select>
 
 			<div id="footerContainer">
 				<div id="footer">
-					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2023 <br> <a href="/disclaimer">Disclaimer</a></footer>
+					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2025 <br> <a href="/disclaimer">Disclaimer</a></footer>
 				</div>
 			</div>
 			
