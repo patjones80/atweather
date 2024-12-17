@@ -6,7 +6,7 @@ from django.http import HttpResponse
 from django.template import loader
 from django.utils.safestring import mark_safe
 
-from .function_library import get_location_list, get_forecast, get_forecast_by_scraping, get_alerts
+from .function_library import get_location_list, move, get_forecast, get_forecast_by_scraping, get_alerts
 
 TEST_HTTP_500 = False
 TEST_HTTP_404 = False
@@ -27,23 +27,23 @@ CURR_DIR = os.path.dirname(os.path.abspath( __file__ ))
 v = django.VERSION
 ver = f'{v[0]}.{v[1]}.{v[2]}'
 
-TRAILS = [['AT' ,'Appalachian Trail',''], ['PCT','Pacific Crest Trail','']]
-ALL_STATES = [['GA','AT - Georgia',       '','AT'],
-              ['NC','AT - North Carolina','','AT'],
-              ['TN','AT - Tennessee',     '','AT'],
-              ['VA','AT - Virginia',      '','AT'],
-              ['MD','AT - Maryland',      '','AT'],
-              ['PA','AT - Pennsylvania',  '','AT'],
-              ['NJ','AT - New Jersey',    '','AT'],
-              ['NY','AT - New York',      '','AT'],
-              ['CT','AT - Connecticut',   '','AT'],
-              ['MA','AT - Massachusetts', '','AT'],
-              ['VT','AT - Vermont',       '','AT'],
-              ['NH','AT - New Hampshire', '','AT'],
-              ['ME','AT - Maine',         '','AT'],
-              ['CA','PCT - California',  '','PCT'],
-              ['OR','PCT - Oregon',      '','PCT'],
-              ['WA','PCT - Washington',  '','PCT']]
+TRAILS = [['AT' ,'Appalachian Trail', ''], ['PCT','Pacific Crest Trail', '']]
+ALL_STATES = [['GA', 'AT - Georgia',        '', 'AT'], 
+              ['NC', 'AT - North Carolina', '', 'AT'], 
+              ['TN', 'AT - Tennessee',      '', 'AT'], 
+              ['VA', 'AT - Virginia',       '', 'AT'], 
+              ['MD', 'AT - Maryland',       '', 'AT'], 
+              ['PA', 'AT - Pennsylvania',   '', 'AT'], 
+              ['NJ', 'AT - New Jersey',     '', 'AT'], 
+              ['NY', 'AT - New York',       '', 'AT'], 
+              ['CT', 'AT - Connecticut',    '', 'AT'], 
+              ['MA', 'AT - Massachusetts',  '', 'AT'], 
+              ['VT', 'AT - Vermont',        '', 'AT'], 
+              ['NH', 'AT - New Hampshire',  '', 'AT'], 
+              ['ME', 'AT - Maine',          '', 'AT'], 
+              ['CA', 'PCT - California',   '', 'PCT'], 
+              ['OR', 'PCT - Oregon',       '', 'PCT'], 
+              ['WA', 'PCT - Washington',   '', 'PCT']]
 
 menus  = {'trails': TRAILS, \
           'states': ALL_STATES, \
@@ -146,7 +146,7 @@ def http_404(request, *args, **kwargs):
 def forecast(request):
     # Main forecast display view
     try:
-        location_id = int(request.GET.get('myShelter', ''))
+        location_id = request.GET.get('location_id', '')
         location    = get_location_list()[location_id]
 
         # HTTP 500 error testing
@@ -157,26 +157,17 @@ def forecast(request):
         return http_404(request)
 
     context = {
-               'location_name': location.name,
-               'location_state': location.state,
-               'location_trail': location.trail,
-               'prev_location': location_id - 1,
-               'next_location': location_id + 1
+               'location_name'  : location.name,
+               'location_state' : location.state,
+               'location_trail' : location.trail,
+               'prev_location'  : move(get_location_list(), location_id, dir=-1),
+               'next_location'  : move(get_location_list(), location_id, dir=1)
               }
 
     actives  = {**active,  **{'active_home':'active'}}
     context  = {**context, **menus, **actives}
 
-    # Keep state and location dropdowns filtered if the user selected a trail
-    myTrail = request.GET.get('myTrail', '')
-
-    if myTrail:
-        context['states'] = [L for L in ALL_STATES if L[3] == myTrail]
-        context['locations'] = {k: v for (k, v) in get_location_list().items() if v.trail == myTrail}
-
-    # Keep location dropdown filtered if the user selected a state
-    if request.GET.get('myState', ''):
-        context['locations'] = {k: v for (k, v) in get_location_list().items() if v.state == request.GET.get('myState', '')}
+    context['locations'] = {k: v for (k, v) in get_location_list().items() if v.state == context['location_state']}
 
     try:
         if USE_NWS_API:

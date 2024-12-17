@@ -22,10 +22,10 @@ import time
 HEADERS = { "User-Agent": "https://www.atweather.org; Python 3.10.5/Django 4.1.4" }
 
 # Define named tuple structure that will make up the locations dictionary
-location = collections.namedtuple('location', 'name longitude latitude state trail')
+location = collections.namedtuple('location', 'seq name longitude latitude state trail')
 
 # These are the column numbers in the source file
-(LOC_ID, LOC, LON, LAT, STATE, TRAIL) = (0, 1, 2, 3, 4, 5)
+(LOC_ID, LOC, LON, LAT, STATE, TRAIL) = (1, 2, 3, 4, 5, 6)
 
 # Project's root directory
 CURR_DIR = os.path.dirname(os.path.abspath( __file__ ))
@@ -40,7 +40,7 @@ def call_url(url, headers=HEADERS, verify=True, attempt=1):
             return r.json()
 
         except json.decoder.JSONDecodeError:
-            # If the fall back HTML scraper is the caller, we will need
+            # If the fall back HTML scraper is the caller, we need
             # to return text, not a dict
             return r.text
     else:
@@ -54,7 +54,8 @@ def call_url(url, headers=HEADERS, verify=True, attempt=1):
         return call_url(url, attempt=attempt)
 
 def get_location_list():
-    locations = dict()
+    locations = collections.OrderedDict()
+    seq = 0
     f_locations = f'{CURR_DIR}\\at_shelter_list.txt'
 
     # Use forward slashes in unix/linux
@@ -65,11 +66,34 @@ def get_location_list():
     with open(f_locations, mode='r', encoding='UTF-8') as location_file:
         for line in location_file:
             line = list(line.strip('\n').split('\t'))
-            cols = location(name=line[LOC], longitude=line[LON], latitude=line[LAT], state=line[STATE], trail=line[TRAIL])
+            cols = location(seq, name=line[LOC], longitude=line[LON], latitude=line[LAT], state=line[STATE], trail=line[TRAIL])
 
-            locations[int(line[LOC_ID])] = cols
+            locations[line[LOC_ID]] = cols
+            seq += 1
 
     return locations
+
+def move(locations, id, dir=1):
+    ''' Get previous or next entry given current location id 
+        and value of the dir argument
+        
+        Arguments:
+            - locations: dict containing all locations
+            - id: id of the current location
+            - dir: 1 = get next location, -1 = get previous location
+    '''
+    l = list(locations.keys())
+    
+    seq = locations[id].seq
+    seq += dir
+    
+    try:
+        result = l[seq]
+    except IndexError:
+        if seq != -1:
+            result = l[0]
+    
+    return result
 
 def get_forecast(lat, lon):
     ''' Call the NWS REST API

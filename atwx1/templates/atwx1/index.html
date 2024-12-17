@@ -38,59 +38,22 @@
 				$('.pagination .disabled a, .pagination .active a').on('click', function(e) {
 					e.preventDefault();
 				});
-				
-				var allStatesGlobal=$('#myStateHidden option');
-				var allLocationsGlobal=$('#myShelterHidden option');
 
-				$(myTrail).change(function()
-				{
-					<!-- a selection was made from the trail list -->
-
-					var currTrail=document.getElementById("myTrail").value;
-					if (currTrail == 'AT') {
-						<!-- define the state list for the AT -->
-						var currTrailStates=allStatesGlobal.filter('.labelText,.GA,.NC,.TN,.VA,.MD,.PA,.NJ,.NY,.CT,.MA,.VT,.NH,.ME');
-						var currStateLocations=allLocationsGlobal.filter('.labelText,.GA,.NC,.TN,.VA,.MD,.PA,.NJ,.NY,.CT,.MA,.VT,.NH,.ME');
-					};
-					if (currTrail == 'PCT'){
-						<!-- define the state list for the PCT -->
-						var currTrailStates=allStatesGlobal.filter('.labelText,.CA,.OR,.WA');
-						var currStateLocations=allLocationsGlobal.filter('.labelText,.CA,.OR,.WA');
-					};
-
-					<!-- remove everything from the state list and repopulate only with the filtered list -->
-					$('#myState option').remove();
-
-					$.each(currTrailStates, function (i, j)
-					{
-						$(j).appendTo('#myState');
-					});
-					document.getElementById('myState').selectedIndex="0";
-
-					<!-- remove everything from the shelter list and repopulate only with the filtered list -->
-					$('#myShelter option').remove();
-					$.each(currStateLocations, function (i, j)
-					{
-						$(j).appendTo('#myShelter');
-					});
-					document.getElementById('myShelter').selectedIndex="0";
-
-				});
+				var allLocationsGlobal=$('#locationHidden option');
 				
 				$(myState).change(function()
 				{
 					<!-- a selection was made from the state list -->
-				
      				var currState=document.getElementById("myState").value;
 					var currStateLocations=allLocationsGlobal.filter('.labelText,.' + currState);
 					
 					<!-- remove everything from the shelter list and repopulate only with the filtered list -->
-					$('#myShelter option').remove();
+					$('#location_id option').remove();
 					$.each(currStateLocations, function (i, j)
 					{
-						$(j).appendTo('#myShelter');
+						$(j).appendTo('#location_id');
 					});
-					document.getElementById('myShelter').selectedIndex="0";
+					document.getElementById('location_id').selectedIndex="0";
 
 				});	
 			});
@@ -113,33 +76,23 @@
 				<li style="padding-right:0px;" role="presentation"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=patjones80%40gmail%2ecom&lc=US&item_name=Appalachian%20Trail%20Weather&item_number=atwx&amount=0%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted" target="_blank">Donate</a></li>
 				<li role ="presentation" class="{{ active_learn }}"><a href="/learn">Learn</a></li>
 			</ul>
+	
+			<div style="padding-top: 10px;" class="row">
 
-			<form action="/forecast" method="GET">
-				<div style="padding-top: 10px;" class="row">
+				<div style="padding-top:5px;" class="col-sm-2">
+					<select style="width:175px;" class="form-control" id="myState" name="myState">
+						<option selected="selected" value="">Select state...</option>
+
+						{% for s in states %}
+							<option value="{{ s.0 }}" {{ s.2 }}>{{ s.1 }}</option>
+						{% endfor %}
+
+					</select>
+				</div>
+
+				<form action="/forecast" method="GET">
 					<div style="padding-top:5px;" class="col-sm-2">
-						<select style="width:175px" class="form-control" id="myTrail" name="myTrail">
-							<option selected="selected" value="">Select trail...</option>
-
-							{% for t in trails %}
-								<option value="{{ t.0 }}" {{ t.2 }}>{{ t.1 }}</option>
-							{% endfor %}
-
-						</select>
-					</div>
-
-					<div style="padding-top:5px;" class="col-sm-2">
-						<select style="width:175px;" class="form-control" id="myState" name="myState">
-							<option selected="selected" value="">Select state...</option>
-
-							{% for s in states %}
-								<option value="{{ s.0 }}" {{ s.2 }}>{{ s.1 }}</option>
-							{% endfor %}
-
-						</select>
-					</div>
-
-					<div style="padding-top:5px;" class="col-sm-2">
-						<select style="width:290px;" class="form-control" id="myShelter" name="myShelter" onchange="this.form.submit()">
+						<select style="width:290px;" class="form-control" id="location_id" name="location_id" onchange="this.form.submit()">
 							<option selected="selected" value="" class="labelText">Select location...</option>
 
 							{% for k, v in locations.items %}
@@ -148,8 +101,8 @@
 
 						</select>
 					</div>
-				</div>
-			</form>
+			    </form>
+			</div>
 			
             <div id="update message" style="padding-top:20px; text-align:justify;">
                 <div class="alert alert-info" style="margin-bottom:0px;" role="info">
@@ -165,27 +118,18 @@
 			{% block http_error %}	{% endblock %}
 			{% block no_forecast %}	{% endblock %}
 
-			<select hidden id="myStateHidden" name="myStateHidden">
-				<option selected="selected" value="" class="labelText">Select state...</option>
-
-				{% for s in state_list_full %}
-					<option value="{{ s.0 }}" class="{{ s.0 }}" {{ s.2 }}>{{ s.1 }}</option>
-				{% endfor %}
-
-			</select>
-
-			<select hidden id="myShelterHidden" name="myShelterHidden">
+			<select hidden id="locationHidden" name="locationHidden">
 				<option selected="selected" value="" class="labelText">Select location...</option>
 
 				{% for k, v in locations_full.items %}
 					<option value={{ k }} class="{{ v.state }}">{{ v.name }}</option>
 				{% endfor %}
-
 			</select>
 
 			<div id="footerContainer">
 				<div id="footer">
-					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2025 <br> <a href="/disclaimer">Disclaimer</a></footer>
+					<footer>Powered by Django {{ django_version }} | © Pat Jones 2014-2025
+					<br> <a href="/disclaimer">Disclaimer</a></footer>
 				</div>
 			</div>
 			
