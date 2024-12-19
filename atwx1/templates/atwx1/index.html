@@ -24,7 +24,7 @@
 
 		<link rel  ="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 		<link href="https://fonts.googleapis.com/css?family=Karla|Roboto+Condensed|Sacramento" rel="stylesheet">
 
@@ -103,10 +103,22 @@
 					</div>
 			    </form>
 			</div>
-			
-            <div id="update message" style="padding-top:20px; text-align:justify;">
-                <div class="alert alert-info" style="margin-bottom:0px;" role="info">
-                    <p><b>New!</b> Check out the <b>Resources</b> tab above for a list of other trail weather resources.</p>
+
+            <div id="update_message_1" style="padding-top:20px; text-align:justify;">
+                <div class="alert alert-warning" style="margin-bottom:0px;" role="alert">
+                    Change to AT Weather’s URLs. Read more <a href="/url_changes">here</a>.
+                </div>
+			</div>
+
+            <div id="update_message_2" style="padding-top:20px; text-align:justify;">
+                <div class="alert alert-warning" style="margin-bottom:0px;" role="alert">
+					See the Appalachian Trail Conservancy's page on everything Hurricane Helene related <a href="https://appalachiantrail.org/helene-recovery-resources-updates/">here</a>.	
+                </div>
+            </div>
+
+            <div id="update_message_2" style="padding-top:20px; text-align:justify;">
+                <div class="alert alert-info" style="margin-bottom:0px;" role="alert">
+					Check out the <b>Resources</b> tab above for a list of other trail weather resources.	
                 </div>
             </div>
 
@@ -114,6 +126,7 @@
 			{% block about %} 		{% endblock %}
 			{% block other %} 		{% endblock %}			
 			{% block learn_menu %}	{% endblock %}
+			{% block url_changes %}	{% endblock %}			
 			{% block disclaimer %}	{% endblock %}
 			{% block http_error %}	{% endblock %}
 			{% block no_forecast %}	{% endblock %}

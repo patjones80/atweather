@@ -81,6 +81,15 @@ def other(request):
 
     return HttpResponse(template.render(context, request))
 
+def url_changes(request):
+    # D
+    template = loader.get_template('atwx1/url_changes.html')
+
+    actives  = {**active, **{'active_other':'active'}}
+    context  = {**menus, **actives}
+
+    return HttpResponse(template.render(context, request))
+
 def disclaimer(request):
     # Disclaimer
     template = loader.get_template('atwx1/disclaimer.html')
@@ -90,7 +99,7 @@ def disclaimer(request):
 
     return HttpResponse(template.render(context, request))
 
-def learn(request, learn_topic = None):
+def learn(request, learn_topic=None):
     # Render the learning topics menu
     # We pick out the correct topic template to render based on the URL parameter
 
@@ -130,7 +139,7 @@ def http_404(request, *args, **kwargs):
     # Handle HTTP 404 errors
     err_msg_header = 'Blerg!'
     err_msg_top = 'That page isn\'t a thing.'
-    err_msg_btm = 'Try selecting from the drop-down menus to find your forecast. If that doesn\'t work, \
+    err_msg_btm = 'Please note that the URLs for forecasts have changed. Try selecting from the drop-down menus to find your forecast. If that doesn\'t work, \
                    please send me a quick note at <b>patjones80@gmail.com</b> and I\'ll get right on it.'
 
     template = loader.get_template('http_error.html')
