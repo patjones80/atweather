@@ -2,16 +2,17 @@
 
 {% block url_changes %}
 
-<br>
+	<br>
 
-<div class="well" style="margin-bottom:0px; padding-left:30px; padding-right:30px;">
-	<p>December 2024</p>
-
-	<p>Effective <b>January 1, 2025</b> – there will be minor changes to AT Weather in terms of functionality. Past users of the site know that we had a dropdown box to select either the AT or PCT. Selecting one or the other filtered the other two lists. This dropdown box is now removed. The functionality of the dropdown box for selecting trail/state remains the same; making a selection will continue to filter the main location dropdown list.</p>
-	<p>Related to this is that the URL structure for the site has changed. The URLs for forecast pages used to have parameters called “myTrail”, “myState”, and “myShelter” which determined how all of the dropdown boxes behaved. The last part of the URL now looks, for example, like this:</p>
-	<p><b>/forecast?location_id=c738681b-aaa6-47f1-96f1-6ca85cdce033</b></p>
-	<p>This means that if you had previously bookmarked an old URL, it will no longer function. If you wish to bookmark certain pages for the future, please select them from the main location dropdown and re-bookmark them. These changes were made in order for the URL to be simpler, and for the code that comprises AT Weather’s behind the scenes (or “back end”) functionality to be more concise.</p>
-	<p>Please feel free to ask me about any of these changes. I look forward to providing an updated version of AT Weather for the 2025 thru-hiking season, its eleventh year in service. Thank you.</p>
-</div>
+	<div id="site_changes" class="card text-bg-light p-3" style="text-align:justify;">
+		<div class="card-body">
+			<h5 class="card-title">Changes to AT Weather</h5>
+			
+			<p class="card-text">Effective <b>January 1, 2025</b> – there will be minor changes to AT Weather in terms of functionality. Past users of the site know that we had a dropdown box to select either the AT or PCT. Selecting one or the other filtered the other two lists. This dropdown box is now removed. The functionality of the dropdown box for selecting trail/state remains the same; making a selection will continue to filter the main location dropdown list.</p>
+			<p class="card-text">Related to this is that the URL structure for forecasts has changed. This means that if you had previously bookmarked a URL for a location's forecast, it will no longer function. If you wish to bookmark certain pages for the future, please select them from the main location dropdown and re-bookmark them. These changes were made in order for the URL to be simpler, and for the code that comprises AT Weather to be simpler.</p>
+			<p class="card-text">I've also introduced a light/dark mode feature to the site. This is experimental. If you have your device set to dark mode in its settings, that might override how the toggle switch in AT Weather is set.</p>			
+			<p class="card-text">Please feel free to ask me about any of these changes. Thank you for using AT Weather!</p>
+		</div>
+	</div>
 
 {% endblock %}

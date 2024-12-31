@@ -150,7 +150,7 @@ def http_500(request):
     context  = {**menus, **actives}
     return HttpResponse(template.render(context, request))
 
-def http_404(request, exception):
+def http_404(request, *args, **kwargs):
     ''' Handle HTTP 404 errors
     '''
     err_msg_header = 'Blerg!'

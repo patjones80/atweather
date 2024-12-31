@@ -2,14 +2,15 @@
 
 {% block no_forecast %}
 	
-	<div class="jumbotron" style="margin-bottom:0px; margin-top:20px;">
-		<h1 class="display-4">Hey, where's my forecast?</h1>
-		<p class="lead">{{ err_msg }}</p>
-		<hr class="my-4">
-		<p>For now, try <a href="https://www.nws.noaa.gov">nws.noaa.gov</a> and feel free to report this error by emailing <b>patjones80@gmail.com</b>.</p>
-		<p class="lead" style="padding-top: 10px;">
-			<a class="btn btn-primary btn-lg" href="/learn/no_forecast" role="button">Why?</a>
-		</p>
+	<br>
+	
+	<div id="no_forecast_error_box" class="card text-bg-light p-3" style="text-align:justify;">
+		<div class="card-body">
+			<h5 class="card-title">Hey, where's my forecast?</h5>
+			<h6 class="card-subtitle mb-2 text-body-secondary">{{ err_msg }}</h6>			
+			<p class="card-text">For now, try <a href="https://www.nws.noaa.gov">nws.noaa.gov</a> and feel free to report this error by emailing <b>patjones80@gmail.com</b>.</p>
+			<a href="/learn/no_forecast" class="btn btn-primary">Why?</a>
+		</div>
 	</div>
 
 {% endblock %}

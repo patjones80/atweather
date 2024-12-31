@@ -1,19 +1,21 @@
 
+body { 
+       font-family: 'Karla', sans-serif; 
+       height: 100%;
+	   background-color: white;
+	   color: black;
+	   }
 
-body { font-family: 'Karla', sans-serif; height: 100%;}
+.container { text-align:justify; font-family: 'Karla', sans-serif; }
 
-.light-blue .active a,
-.light-blue .active a:hover {
-								background-color: #9bbbef;
-							}
-
-.nav.nav-pills.light-blue li a {
-    border-radius: 4px;
-    padding: 10px 10px;
+.nav-pills .nav-link {
+	transition: background-color 0.3s, color 0.3s;
 }
 
-.well { text-align: justify;
-		font-family: 'Karla', sans-serif; }
+.nav-pills .nav-link:hover {
+	background-color: #9bbbef; 	/* Change to desired hover color */
+	color: white; 				/* Change to desired text color */
+}
 
 .nav { font-family: 'Karla', sans-serif; }		
 .form-control { font-family: 'Karla', sans-serif; }	
@@ -25,11 +27,4 @@ body { font-family: 'Karla', sans-serif; height: 100%;}
 										 color: #2a5eb2;
 										 font-family: 'Karla';}
 
-#footerContainer { bottom: 0; 
-				   height: 60px; 
-				   background-color: #fff; 
-				   font-family: 'Karla', sans-serif;
-				   padding-top: 15px;
-				   width:100%}
-				   
-#footer { line-height:20px; width:100%; }				   
+#footer { padding-top:15px; }

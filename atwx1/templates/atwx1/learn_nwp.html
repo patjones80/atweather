@@ -2,24 +2,28 @@
 
 {% block learn_nwp %}
 
-<br>
+	<br>
 
-<div class="well" style="margin-bottom:0px; padding-left:30px; padding-right:30px;">
-	<p style="text-align:justify; margin-top:10px;">The weather forecasts presented on AT Weather are what I have been calling "location-based" forecasts. This is to differentiate these forecasts from those that tie to some location far off the trail.</p>
-	<p>If you're hiking through the Smokies, you want to know what the weather is going to do where you are, not in Gatlinburg. The difference can be significant not just because the elevation is different, but Gatlinburg is a pretty long way from say Icewater Springs shelter!</p>
-	<p>How are we able to forecast weather with such granularity?</p>
-	<p>The atmosphere adheres to complex mathematical constructs called <b><i>partial differential equations</i></b> that describe physical processes such as heat transfer, fluid motion, elevation change, and the Earth's rotation to name just a few.</p>
-	<p>These equations pretty much require a powerful supercomputer in order to be solved. Computers work around the clock crunching the observations coming in from all over the world by feeding them into the complex weather equations (see NOAA's <a href = "http://www.noaa.gov/stories/weather-prediction-its-math">informational page</a> on this).</p>
-	<p>The end result is a weather forecast for each 5 km square area in the country. Shown below in green on the map is the forecast gridpoint for Clingman's Dome and the area immediately surrounding it:</p>
+	<div id="learn_nwp_box" class="card text-bg-light p-3" style="text-align:justify;">
+		<div class="card-body">
+			<h5 class="card-title">How forecasts are made</h5>
+			
+			<p class="card-text">The weather forecasts presented on AT Weather are what I have been calling "location-based" forecasts. This is to differentiate these forecasts from those that tie to some location far off the trail.</p>
+			<p class="card-text">If you're hiking through the Smokies, you want to know what the weather is going to do where you are, not in Gatlinburg. The difference can be significant not just because the elevation is different, but Gatlinburg is a pretty long way from say Icewater Springs shelter!</p>
+			<p class="card-text">How are we able to forecast weather with such granularity?</p>
+			<p class="card-text">The atmosphere adheres to complex mathematical constructs called <b><i>partial differential equations</i></b> that describe physical processes such as heat transfer, fluid motion, elevation change, and the Earth's rotation to name just a few.</p>
+			<p class="card-text">These equations pretty much require a powerful supercomputer in order to be solved. Computers work around the clock crunching the observations coming in from all over the world by feeding them into the complex weather equations (see NOAA's <a href = "http://www.noaa.gov/stories/weather-prediction-its-math">informational page</a> on this).</p>
+			<p class="card-text">The end result is a weather forecast for each 5 km square area in the country. Shown below in green on the map is the forecast gridpoint for Clingman's Dome and the area immediately surrounding it:</p>
 
-	<p><img src="/static/forecast_gridpoint_1.png"></p>
+			<p class="card-text"><img src="/static/forecast_gridpoint_1.png"></p>
 
-	<p>Now if we zoom out from that point a little, we can start to see how tiny that green square is:</p>
+			<p class="card-text">Now if we zoom out from that point a little, we can start to see how tiny that green square is:</p>
 
-	<p><img src="/static/forecast_gridpoint_2.png"></p>
+			<p class="card-text"><img src="/static/forecast_gridpoint_2.png"></p>
 
-	<p>Every bit of land (and the immediate coastal waters) in the lower 48 states, Alaska, Hawaii and Guam tie to one of these small forecast gridpoints.</p>
-	<p>AT Weather stores the latitude/longitude coordinates for each location on the trail. When a request is made for a particular location, AT Weather submits the coordinates to NOAA, which returns the forecast for the gridpoint tying to those coordinates.</p>
-</div>
+			<p class="card-text">Every bit of land (and the immediate coastal waters) in the lower 48 states, Alaska, Hawaii and Guam tie to one of these small forecast gridpoints.</p>
+			<p class="card-text">AT Weather stores the latitude/longitude coordinates for each location on the trail. When a request is made for a particular location, AT Weather submits the coordinates to NOAA, which returns the forecast for the gridpoint tying to those coordinates.</p>
+		</div>
+	</div>
 	
 {% endblock %}

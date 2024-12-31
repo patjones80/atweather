@@ -2,11 +2,11 @@
 
 {% block http_error %}
 
-	<div class="jumbotron" style="margin-bottom:0px; margin-top:20px;">
-		<h1 class="display-4" style="margin-top:10px;">{{ err_msg_header }}</h1>
-		<p class="lead">{{ err_msg_top }}</p>
-		<hr class="my-4">
-		<p>{{ err_msg_btm }}</p>
+	<div id="error_box" class="card text-bg-light p-3" style="text-align:justify; margin-top:20px;">
+		<div class="card-body">
+			<h5 class="card-title">{{ err_msg_top }}</h5>
+			<p class="card-text">{{ err_msg_btm }}</p>			
+		</div>
 	</div>
 
 {% endblock %}	

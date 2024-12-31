@@ -1,23 +1,22 @@
 {% extends "atwx1/index.html" %}
-
 {% block forecast %}
 
-	<div class = "navigate_location">
-		<nav aria-label = "navigate_location">
-			<ul class = "pagination pagination-sm" style = "margin-bottom:15px;">
-				<li class = "page-item">
-					<a class = "page-link" href = "/forecast?location_id={{ prev_location }}" aria-label = "Previous">
-						<span aria-hidden = "true">&laquo;</span>
-						<span class = "sr-only">Previous</span>
+	<div class="navigate_location" style="padding-top:20px;">
+		<nav aria-label="navigate_location">
+			<ul class="pagination pagination-sm" style="margin-bottom:20px;">
+				<li class="page-item">
+					<a class="page-link" href="/forecast?location_id={{ prev_location }}" aria-label="Previous">
+						<span aria-hidden="true">&laquo;</span>
+						<span class="sr-only">Previous</span>
 					</a>
 				</li>
 
-				<li class = "page-item"><a class = "page-link" href = "#">{{ location_name }}</a></li>
+				<li class="page-item"><a class="page-link" href="#">{{ location_name }}</a></li>
 	
-				<li class = "page-item">
-					<a class = "page-link" href = "/forecast?location_id={{ next_location }}" aria-label = "Next">
-						<span aria-hidden = "true">&raquo;</span>
-						<span class = "sr-only">Next</span>
+				<li class="page-item">
+					<a class="page-link" href="/forecast?location_id={{ next_location }}" aria-label="Next">
+						<span aria-hidden="true">&raquo;</span>
+						<span class="sr-only">Next</span>
 					</a>
 				</li>
 			</ul>
@@ -27,17 +26,23 @@
 	{% if forecast %}
 
 		{% for a in alerts %}
-			<div class = "alert alert-warning" role = "alert">
-				<a href = "https://forecast.weather.gov/showsigwx.php?warnzone={{ a.warnzone }}&warncounty={{ a.warncounty }}&product1={{ a.event }}">{{ a.headline }}</a>
+			<div class="alert alert-warning" role="alert">
+				<a href="https://forecast.weather.gov/showsigwx.php?warnzone={{ a.warnzone }}&warncounty={{ a.warncounty }}&product1={{ a.event }}">{{ a.headline }}</a>
 			</div>
 		{% endfor %}
 
 		{% if forecast %}
-			<div class = "well" style = "margin-bottom:0px;">{{ forecast }}</div>
+			<div id="forecast_box" class="card text-bg-light p-3">
+				<div class="card-body" style="padding-left:30px; padding-right:30px;">
+					<p class="card-text">
+						{{ forecast }}
+					</p>
+				</div>			
+			</div>			
 		{% endif %}
 
 		{% if err_msg %}
-			<div class = "alert alert-warning">{{ err_msg }}</div>
+			<div class="alert alert-warning">{{ err_msg }}</div>
 		{% endif %}
 
 	{% endif %}

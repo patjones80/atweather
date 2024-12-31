@@ -79,3 +79,8 @@
 12/26/2022 15:27	12	GA - Low Gap Shelter (3050')	34.78	-83.82	Here's the exact problem
 12/26/2022 15:34	1	GA - Amicalola Falls State Park	34.56	-84.25	Here's the exact problem
 12/26/2022 17:18	15	GA - Deep Gap Shelter (3550')	34.88	-83.65	Here's the exact problem
+2024-12-30 22:54:03	5217746f-03e1-4f17-81b8-80f3e0f14b05	GA - Max Epperson Shelter	34.63	-84.19	Here's a test data retrieval exception
+2024-12-30 22:54:34	5217746f-03e1-4f17-81b8-80f3e0f14b05	GA - Max Epperson Shelter	34.63	-84.19	Here's a test data retrieval exception
+2024-12-30 22:55:55	5217746f-03e1-4f17-81b8-80f3e0f14b05	GA - Max Epperson Shelter	34.63	-84.19	Here's a test data retrieval exception
+2024-12-30 22:58:57	410a676c-4ecc-48e3-871f-f573d77c283b	GA - Springer Mountain Shelter (3730')	34.63	-84.19	Here's a test data retrieval exception
+2024-12-30 22:59:41	410a676c-4ecc-48e3-871f-f573d77c283b	GA - Springer Mountain Shelter (3730')	34.63	-84.19	Here's a test data retrieval exception

@@ -1,21 +1,18 @@
 {% extends "atwx1/index.html" %}
 
 {% block about %}
-	
 	<br>
-	
-	<div class="well" style="margin-bottom:0px; padding-left:30px; padding-right:30px;">
-		<h4><b>When?</b></h4>
-		<p style="text-align:justify">AT Weather was conceptualized in November and December of 2014, with actual development taking place throughout the following January and February. The first version of AT Weather went online in March of 2015 at the start of the thru hiking season.</p>
 
-		<h4><b>Why?</b></h4>
-		<p style="text-align:justify">The weather is one of the key factors influencing the experience of both long-distance hikers and weekend enthusiasts alike. Because the weather forecast can vary significantly over short distances in mountainous terrain, having forecasts that are tailored to the very small area around a specific point, rather than tied to a distant location - becomes important.</p>
+	<div id="about_box" class="card text-bg-light p-3" style="text-align:justify;">
+		<div class="card-body">
+			<h5 class="card-title">About AT Weather</h5>
 
-		<h4><b>How?</b></h4>
-		<p style="text-align:justify">The website stores a list of locations (shelters for the AT, prominent locations for the PCT) and corresponding latitude/longitude coordinates for each location. When a user selects a location, the coordinates are submitted to NOAA, which returns a forecast specifically for the location in question. See the <a href="/learn">Learn</a> section for more information on how forecasts are constructed.</p>
-
-		<h4><b>Who?</b></h4>
-		<p style="text-align:justify">Pat Jones has a master's degree in meteorology from Penn State University and lived in New York City for thirteen years prior to successfully thru-hiking the AT in 2015 (trail name 'Zen'). Backpacking extensively in the Adirondack mountains of upstate New York and Whites of New Hampshire yielded first-hand insight as to the impacts of topography on weather. Pat now lives in Bend, OR and can be reached at <a href="mailto:patjones80@gmail.com">patjones80@gmail.com</a>.</p>
+			<p class="card-text">This website was initially developed during the winter of 2015, and its first version went online in March of that year at the start of the thru hiking season. It was motivated by the fact that weather is a key factor influening hikers' experiences on the trail. As a result, having forecasts tied to specific points rather than distant locations becomes important - especially in mountainous terrain.</p>			
+			<p class="card-text">The website stores a list of locations (shelters for the AT, prominent locations for the PCT) and corresponding latitude/longitude coordinates for each location. When a user selects a location, the coordinates are submitted to NOAA, which returns a forecast specifically for the location in question. See the <a href="/learn">Learn</a> section for more information on how forecasts are constructed.</p>
+			<p class="card-text">Pat Jones has a master's degree in meteorology, and successfully thru-hiked the AT in 2015 (trail name 'Zen'). He now lives in Bend, OR and can be reached at <a href="mailto:patjones80@gmail.com">patjones80@gmail.com</a>
+			<!-- <a href="#" class="card-link">Card link</a> -->
+			<!-- <a href="#" class="card-link">Another link</a> -->
+	  </div>
 	</div>
 
 {% endblock %}
