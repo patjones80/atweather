@@ -22,9 +22,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEBUG = False
 ALLOWED_HOSTS = ['192.168.0.48', '127.0.0.1']
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'piekr$g_2i08+v&ey*7xc$ovbtr1cw%hm5unda#1fbf!91#z7)'
-
 # Application definition
 
 INSTALLED_APPS = [
