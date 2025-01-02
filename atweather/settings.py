@@ -22,6 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEBUG = False
 ALLOWED_HOSTS = ['www.atweather.org', '127.0.0.1']
 
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'piekr$g_2i08+v&ey*7xc$ovbtr1cw%hm5unda#1fbf!91#z7)'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -112,5 +115,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_ROOT = '/home/pjones/atweather/atwx1/static'	
+STATIC_ROOT = '/home/pjones/atweather/atwx1/static'
 STATIC_URL  = '/static/'
