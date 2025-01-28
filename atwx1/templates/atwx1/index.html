@@ -93,7 +93,7 @@
 				  setTheme(theme)
 				  showActiveTheme(theme, true)
 				  
-					for (var i=0; i < boxes.length; i++) {
+				    for (var i=0; i < boxes.length; i++) {
 						if (boxes[i]) {
 							console.log(boxes[i]);
 							if (document.querySelector(boxes[i])) {
@@ -192,7 +192,7 @@
 					<div class="ms-2 form-check form-switch">
 						<input class="form-check-input me-2" type="checkbox" role="switch" id="toggle-mode" />
 					</div>
-					<i class="bi bi-moon-fill"></i>
+					<i class="bi bi-moon-fill" style="font-size: smaller;"></i>
 					</li>	
 				</form>
 			</div>
@@ -204,9 +204,9 @@
 				</div>
 			</div>
 
-            {% block forecast %} 	{% endblock %}
-			{% block about %} 		{% endblock %}
-			{% block other %} 		{% endblock %}			
+                        {% block forecast %} 	{% endblock %}
+			{% block about %} 	{% endblock %}
+			{% block other %} 	{% endblock %}			
 			{% block learn_menu %}	{% endblock %}
 			{% block url_changes %}	{% endblock %}			
 			{% block disclaimer %}	{% endblock %}
