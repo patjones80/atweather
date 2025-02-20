@@ -4,22 +4,22 @@
 	<head>
 
         <!-- Google Tag Manager -->
-        <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': -->
-        <!-- new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], -->
-        <!-- j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= -->
-        <!-- 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); -->
-        <!-- })(window,document,'script','dataLayer','GTM-W4N9WM52');</script> -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-W4N9WM52');</script>
 
         <!-- End Google Tag Manager -->
         <!-- Google tag (gtag.js) -->
 
-        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-K56C7S78PM"></script> -->
-        <!-- <script> -->
-			<!-- window.dataLayer = window.dataLayer || []; -->
-			<!-- function gtag(){dataLayer.push(arguments);} -->
-			<!-- gtag('js', new Date()); -->
-			<!-- gtag('config', 'G-K56C7S78PM'); -->
-        <!-- </script> -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K56C7S78PM"></script>
+        <script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-K56C7S78PM');
+        </script>
 
 		<script>
 
@@ -141,23 +141,33 @@
 				<p>The purpose of this website is simple: to provide AT and PCT hikers with a reliable and easy way to obtain weather for their location. Simply pick your trail, state and location from the lists below and the National Weather Service (NOAA) forecast for that location will appear.</p>
 			</div>
 
-			<ul class="nav nav-pills">
-			  <li class="nav-item">
-				<a class="nav-link {{ active_home }}" aria-current="page" href="/">Home</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link {{ active_about }}" href="/about">About</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link {{ active_other }}" href="/other">Resources</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=patjones80%40gmail%2ecom&lc=US&item_name=Appalachian%20Trail%20Weather&item_number=atwx&amount=0%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted">Donate</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link {{ active_learn }}" href="/learn">Learn</a>
-			  </li>
-			</ul>
+			<nav class="navbar navbar-expand bg-body-tertiary">
+			  <div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				  <div class="navbar-nav">
+					<a class="nav-link active" aria-current="page" href="/">Home</a>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Resources
+					  </a>
+					  <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/about">About AT Weather</a></li>
+						<li><a class="dropdown-item" href="/other">Other weather resources</a></li>
+						<li><a class="dropdown-item" href="/learn">Learn weather basics</a></li>
+						
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="/url_changes">Changes to AT Weather URLs</a></li>
+						<li><a class="dropdown-item" href="https://appalachiantrail.org/helene-recovery-resources-updates/">Hurricane Helene (AT Conservancy)</a></li>			
+					  </ul>
+					</li>
+					<a class="nav-link active" aria-current="page" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=patjones80%40gmail%2ecom&lc=US&item_name=Appalachian%20Trail%20Weather&item_number=atwx&amount=0%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted">Donate</a>
+				  </div>
+				</div>
+			  </div>
+			</nav>
 
 			<div style="padding-top: 20px;" class="row">
 				<div style="padding-top:5px;" class="col-sm-3">
@@ -183,7 +193,7 @@
 				</div>
 			</div>
 
-			<div style="padding-top:20px; padding-bottom:20px;">
+			<div style="padding-top:20px;">
 				<form class="d-flex" role="search">
 					<li class="nav-item align-items-center d-flex" >
 					<i class="bi bi-sun-fill"></i>
@@ -195,16 +205,9 @@
 				</form>
 			</div>
 
-			<div id="update_box" class="card text-bg-light p-3" style="text-align:left;">
-				<div class="card-body">
-					<h5 class="card-title">Updates <span class="badge text-bg-info">New</span></h5>
-					<p class="card-text">Read about changes to AT Weather's URLs <a href="/url_changes">here</a>, see the AT Conservancy's page on everything <a href="https://appalachiantrail.org/helene-recovery-resources-updates/">Hurricane Helene related</a>, and check out the <b>Resources</b> tab above for a list of other trail weather resources.</p>
-				</div>
-			</div>
-
-            		{% block forecast %} 	{% endblock %}
-			{% block about %} 	{% endblock %}
-			{% block other %} 	{% endblock %}
+            {% block forecast %} 	{% endblock %}
+			{% block about %} 		{% endblock %}
+			{% block other %} 		{% endblock %}
 			{% block learn_menu %}	{% endblock %}
 			{% block url_changes %}	{% endblock %}
 			{% block disclaimer %}	{% endblock %}
