@@ -104,7 +104,7 @@ def url_changes(request):
     return HttpResponse(template.render(context, request))
 
 def disclaimer(request):
-    ''' Disclaimer to protect my ass
+    ''' Basic disclaimer
     '''
     template = loader.get_template('atwx1/disclaimer.html')
 
